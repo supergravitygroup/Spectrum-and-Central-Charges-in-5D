@@ -38,7 +38,10 @@ for n in range(1,12):
             if n==11 and label=='chi2':factor=F(1,2)
         expected=tuple(factor*c for c in source)
         assert tuple(map(F,row['coefficient']))==expected,(n,label,row['rank'],expected)
-        assert row['latex'] in part,(n,label,row['latex'])
+        # The algebra ledger writes the squared T^2 contraction as T^2^2;
+        # the displayed TeX groups its base to avoid a double superscript.
+        displayed_latex=row['latex'].replace('T^2^2','{T^2}^2')
+        assert displayed_latex in part,(n,label,row['latex'])
         assert row['latex'].endswith(r'\epsilon^i')
         assert r'\epsilon^j' not in row['latex']
         # The i of the final parameter must not be a curvature dummy index.

@@ -171,7 +171,8 @@ total={k:v for k,v in total.items() if any(v)}
 actual={r['latex']:tuple(map(F,r['coefficient'])) for r in j['summation']['rows']}
 assert total==actual and before==602 and len(total)==586
 final=text.split('## 28. Final Result:',1)[1].split('## 29.',1)[0]
-for r in j['summation']['rows']:assert r['latex'] in final
+# Match the displayed grouping without changing the algebra-ledger keys.
+for r in j['summation']['rows']:assert r['latex'].replace('T^2^2','{T^2}^2') in final
 # A printed coefficient and its physical expression must be together, not just separately present.
 def coeff(c):
  r,i=map(F,c);v=r or i;sgn='-' if v<0 else '+';v=abs(v)
@@ -182,7 +183,7 @@ def coeff(c):
  elif n=='1':n=''
  return sgn+n
 for row in j['summation']['rows']:
- expected=coeff(row['coefficient'])+row['latex']
+ expected=coeff(row['coefficient'])+row['latex'].replace('T^2^2','{T^2}^2')
  assert expected in final or (expected.startswith('+') and expected[1:] in final)
 checks['complete_explicit_addition']={'status':'PASS','before_literal_collection':before,'after_literal_collection':len(total),'original_origins':94,'zero_trace_origins':22}
 
