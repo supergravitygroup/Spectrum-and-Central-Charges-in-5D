@@ -1,0 +1,103 @@
+
+\begin{tikzpicture}[x=1cm,y=1cm,font=\footnotesize]
+\definecolor{okc}{RGB}{140,200,140}
+\definecolor{ghc}{RGB}{245,190,110}
+\definecolor{unc}{RGB}{232,120,120}
+\definecolor{noc}{RGB}{200,200,200}
+\newcommand{\tx}[1]{2.6+(#1+1)*3.55}
+\newcommand{\qx}[1]{2.6+(#1+4.5)*0.985}
+\tikzset{bar/.style={line width=7pt,line cap=butt},
+         pt/.style={circle,fill=black,inner sep=0pt,minimum size=4.5pt},
+         opt/.style={circle,fill=white,draw=black,inner sep=0pt,minimum size=4.5pt},
+         seg/.style={anchor=south,inner sep=1pt,align=center,fill=white},
+         blw/.style={anchor=north,inner sep=1.5pt,align=center,fill=white},
+         rowlab/.style={anchor=east,inner sep=1pt,align=right}}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% C^2 + R^2/6  (alpha g^2 axis)
+\def\yW{7.6}
+\node[rowlab] at (2.4,\yW) {$C^2+\tfrac16R^2$\\[-2pt]{\scriptsize $\alpha g^2$}};
+\draw[bar,ghc] ({\qx{-4.5}},\yW) -- ({\qx{-2}},\yW);
+\draw[bar,ghc] ({\qx{-2}},\yW) -- ({\qx{0}},\yW);
+\draw[bar,unc] ({\qx{0}},\yW) -- ({\qx{6}},\yW);
+\draw[bar,ghc] ({\qx{6}},\yW) -- ({\qx{8.5}},\yW);
+\draw[->,thin] ({\qx{8.5}},\yW) -- ({\qx{8.8}},\yW);
+\draw[<-,thin] ({\qx{-4.8}},\yW) -- ({\qx{-4.5}},\yW);
+\node[pt] at ({\qx{-2}},\yW) {};
+\node[opt] at ({\qx{0}},\yW) {};
+\node[pt] at ({\qx{6}},\yW) {};
+\node[seg] at ({(\qx{-4.5}+\qx{-2})/2},\yW+0.14) {$\mathcal G$ ghost,\\[-2pt] $\mathcal L_2$ non-unitary};
+\node[seg] at ({(\qx{-2}+\qx{0})/2},\yW+0.14) {$\mathcal L_2$ ghost};
+\node[seg] at ({(\qx{0}+\qx{6})/2},\yW+0.14) {unstable};
+\node[seg] at ({(\qx{6}+\qx{8.5})/2},\yW+0.14) {$16+16$ ghosts};
+\node[blw] at ({\qx{-2}},\yW-0.14) {$-2$\\[-3pt] $c=0$, log};
+\node[blw] at ({\qx{0}},\yW-0.14) {$0$};
+\node[blw] at ({\qx{6}},\yW-0.14) {$6$\\[-3pt] $\rho=0$};
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% tau rows
+\def\yR{5.3}
+\def\yG{3.7}
+\def\yL{2.1}
+\foreach \t in {0,1.5,2} {\draw[dashed,gray!70] ({\tx{\t}},\yL-0.55) -- ({\tx{\t}},\yR+0.5);}
+\node[blw] at ({\tx{0}},\yL-0.55) {$0$};
+\node[blw] at ({\tx{1.5}},\yL-0.55) {$\tfrac32$};
+\node[blw] at ({\tx{2}},\yL-0.55) {$2$};
+\node[anchor=west] at ({\tx{2.6}},\yL-0.8) {$\tau$};
+%
+% R^2
+\node[rowlab] at (2.4,\yR) {R$^2$\\[-2pt]{\scriptsize $\tau=6\zeta g^2$}};
+\draw[bar,unc] ({\tx{-1}},\yR) -- ({\tx{0}},\yR);
+\draw[bar,okc] ({\tx{0}},\yR) -- ({\tx{1.5}},\yR);
+\draw[bar,ghc] ({\tx{1.5}},\yR) -- ({\tx{2}},\yR);
+\draw[bar,noc] ({\tx{2}},\yR) -- ({\tx{2.6}},\yR);
+\draw[->,thin] ({\tx{2.6}},\yR) -- ({\tx{2.7}},\yR);
+\draw[<-,thin] ({\tx{-1.1}},\yR) -- ({\tx{-1}},\yR);
+\node[pt] at ({\tx{1.5}},\yR) {};
+\node[opt] at ({\tx{0}},\yR) {};
+\node[pt] at ({\tx{2}},\yR) {};
+\node[seg] at ({(\tx{-1}+\tx{0})/2},\yR+0.14) {unstable};
+\node[seg] at ({(\tx{0}+\tx{1.5})/2},\yR+0.14) {positive norm};
+\node[seg] at ({(\tx{1.5}+\tx{2})/2},\yR+0.14) {$\mathcal G$, $\mathcal V_L$\\[-2pt] ghosts};
+\node[blw] at ({\tx{1.5}},\yR-0.14) {$c=0$};
+\node[blw] at ({\tx{2}},\yR-0.14) {$C_F=0$, log};
+%
+% Gauss-Bonnet
+\node[rowlab] at (2.4,\yG) {Gauss-Bonnet\\[-2pt]{\scriptsize $\tau=2\lambda g^2$}};
+\draw[bar,okc] ({\tx{-1}},\yG) -- ({\tx{2}},\yG);
+\draw[bar,noc] ({\tx{2}},\yG) -- ({\tx{2.6}},\yG);
+\draw[->,thin] ({\tx{2.6}},\yG) -- ({\tx{2.7}},\yG);
+\draw[<-,thin] ({\tx{-1.1}},\yG) -- ({\tx{-1}},\yG);
+\node[pt] at ({\tx{2}},\yG) {};
+\node[opt] at ({\tx{0}},\yG) {};
+\node[opt] at ({\tx{1.5}},\yG) {};
+\node[seg] at ({(\tx{-1}+\tx{2})/2},\yG+0.14) {positive norm, no additional modes};
+\node[blw] at ({\tx{1.5}},\yG-0.14) {$a=0$};
+\node[blw] at ({\tx{2}},\yG-0.14) {$c=C_F=0$};
+% Hofman-Maldacena window
+\draw[thin,<-] ({\tx{-1.1}},\yG-0.42) -- ({\tx{1.111}},\yG-0.42);
+\draw[thin] ({\tx{1.111}},\yG-0.34) -- ({\tx{1.111}},\yG-0.5);
+\node[blw] at ({\tx{0.4}},\yG-0.46) {$\tfrac12\leq a/c\leq\tfrac32$};
+%
+% LOG
+\node[rowlab] at (2.4,\yL) {LOG\\[-2pt]{\scriptsize $\tau=\beta g^2$}};
+\draw[bar,unc] ({\tx{-1}},\yL) -- ({\tx{0}},\yL);
+\draw[bar,ghc] ({\tx{0}},\yL) -- ({\tx{1.5}},\yL);
+\draw[bar,ghc] ({\tx{1.5}},\yL) -- ({\tx{2}},\yL);
+\draw[bar,noc] ({\tx{2}},\yL) -- ({\tx{2.6}},\yL);
+\draw[->,thin] ({\tx{2.6}},\yL) -- ({\tx{2.7}},\yL);
+\draw[<-,thin] ({\tx{-1.1}},\yL) -- ({\tx{-1}},\yL);
+\node[pt] at ({\tx{1.5}},\yL) {};
+\node[opt] at ({\tx{0}},\yL) {};
+\node[pt] at ({\tx{2}},\yL) {};
+\node[seg] at ({(\tx{-1}+\tx{0})/2},\yL+0.14) {unstable};
+\node[seg] at ({(\tx{0}+\tx{1.5})/2},\yL+0.14) {$\mathcal L_2$ ghost};
+\node[seg] at ({(\tx{1.5}+\tx{2})/2},\yL+0.14) {$\mathcal G$ ghost,\\[-2pt] $\mathcal L_2$ non-unitary};
+\node[blw] at ({\tx{1.5}},\yL-0.14) {$c=0$, log};
+\node[blw] at ({\tx{2}},\yL-0.14) {$C_F=0$};
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% legend
+\def\yK{0.3}
+\draw[bar,okc] (2.6,\yK) -- (3.2,\yK); \node[anchor=west] at (3.25,\yK) {positive norm};
+\draw[bar,ghc] (5.6,\yK) -- (6.2,\yK); \node[anchor=west] at (6.25,\yK) {ghosts};
+\draw[bar,unc] (8.0,\yK) -- (8.6,\yK); \node[anchor=west] at (8.65,\yK) {unstable};
+\draw[bar,noc] (10.8,\yK) -- (11.4,\yK); \node[anchor=west] at (11.45,\yK) {no supersymmetric vacuum};
+\end{tikzpicture}

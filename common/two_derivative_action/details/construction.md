@@ -769,7 +769,7 @@ The remaining compensators are
 ```math
 \begin{aligned}
 \lambda^{ij}
-&=-\frac1{\sqrt2L}
+&=-\frac{i}{\sqrt2L}
 S^{k(i}\delta^{j)\ell}\varepsilon_{k\ell},\\
 S^{ij}
 &=\bar\epsilon^{(i}\varphi^{j)}

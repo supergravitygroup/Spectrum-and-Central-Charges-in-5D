@@ -20,13 +20,13 @@
   ],
   "repository_inputs": {
     "r2/ads5/background.md": "06affa8da6f299ea29fadba03b06a418c6516a336118fcdd185375032a65ea78",
-    "r2/ads5/quadratic_action.md": "f4c54d3a68b90d48ac476d29278129836497459078887df90d7e049178e7b361",
+    "r2/ads5/quadratic_action.md": "7df5550c87edd6adaae9f0407d6871e49cdd4e5cf79ee5c63fc11d51157822cc",
     "r2/ads5/details/gauge_constraints.md": "42ea011da6cd63f0adea97ac51456b83c09d8ea2551037de250f6d2ee778dd1c",
     "r2/ads5/details/fermionic_density.md": "c59377a1954f50199d781553e91fd32c0af64c228bfb0714452695df17f6487d",
     "r2/ads5/details/fermionic_operator_reduction.md": "1556665f05c871b4758c893578aaed6ed1946e07934f6adb186271a6a6819ce5",
     "r2/ads5/details/masses_and_eigenfields.md": "73809ca31b123d815952e0d5a3468871f8d408c07646e033f986af211d3528fb",
     "r2/ads5/details/kinetic_norms.md": "d8546e51ed920579acd1abdd473011e2a067a62f939c5a4edeae7e27e67dcb4f",
-    "r2/ads5/details/critical_branches.md": "42ca1c7957fa42ff6db02e90d76ee82acfd4fccb82fe8e93e1a20047e66ad4c3"
+    "r2/ads5/details/critical_branches.md": "e79a4a3369758bd4374d609beaecd4a82396861dc4d60c2623253524ed55be5e"
   },
   "implementation_hashes": {
     "checks.py": "33db831c5e90aa88db5a41535796fbd83c99cba47a317809fd1e5c2ec42b40b3",

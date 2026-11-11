@@ -19,9 +19,10 @@ fermions implicit in supercovariant objects. The analytic reductions keep the co
 
 ## Follow the paper
 
-Start with the [citation index](references/paper_citation_map.md) for a specific
-paper equation, table or repository citation. It links each result to its
-analytic derivation, executable calculation and saved output.
+Follow the topic table below through the model/background chapters. For a
+specific equation or table, the [citation index](references/paper_citation_map.md)
+enters the relevant step in those same chapters, with its derivation,
+executable calculation and saved output.
 
 | Paper topic | Start here | Continue to |
 |---|---|---|
@@ -60,7 +61,7 @@ are part of the result.
 ## Reproduction
 
 From the repository root, create an external environment, install the pinned
-requirements, and run the nine paper check packages:
+requirements, and run the paper checks and Section 4 figures:
 
 ```bash
 python3.14 -m venv /tmp/sugra-paper-env
@@ -75,9 +76,28 @@ SciPy **1.18.1**. Matplotlib **3.11.2** is included for the figure scripts.
 The runner uses the active interpreter, prints one PASS or FAIL line for each
 package, and exits unsuccessfully if any package fails. It runs the bosonic
 norms and the full fermionic spectrum checks, including fresh action evaluations.
-It reads inputs and stored outputs without regenerating them. Allow roughly
-25 minutes on one core; timings depend on the machine. Use `--verbose` to see
-the individual check output as well.
+The normal run includes the nine main packages, the exceptional-background,
+tower-norm and first-order Gold checks, and Figures 2–3. It reads retained
+scientific outputs and writes the figures outside the repository. Allow tens
+of minutes; timings depend on the machine. Use `--verbose` to see all check
+output, or an external `--output-dir` to keep individual logs and figures.
+
+For the complete verification pass, including component suites, failure
+controls, the adopted LOG replay and all three figures, run:
+
+```bash
+python -B reproduce.py --all --output-dir /tmp/sugra-reproduction
+```
+
+Figure 1 additionally needs Tectonic or pdflatex with standalone/amsmath/TikZ;
+see the [figure build instructions](figures/README.md#figure-1-ads5-parameter-ranges).
+An unavailable check is reported as NOT RUN and gives an unsuccessful exit
+status. Failed checks never produce an overall successful exit. LOG replay
+runs in a temporary package copy; its fresh summary can be retained in the
+external output directory. `--all` also recomputes Figure 3's 150 entries.
+These options use the same scientific chapters; they do not define separate
+reader routes. Explicit full-regeneration commands below remain available
+for rebuilding the stored matrix data, in a disposable checkout.
 
 The independent repository integrity check is:
 
@@ -337,8 +357,9 @@ commands and their write behavior.
 The [calculation index](computations/README.md) connects each construction to its
 component maps, coefficient ledgers and analytic derivation.
 
-`python -B reproduce.py` runs the nine paper packages above. The four auxiliary
-identities are available separately through `tools/check_symbolic_identities.py`.
+`python -B reproduce.py` runs the nine paper packages and the additional
+checks and two Section 4 figure builds below. `--all` includes the component
+suites, four auxiliary identities, separate-model checks and regression tests.
 
 </details>
 
@@ -348,7 +369,7 @@ The [exceptional-background and tower-norm checks](computations/paper_extra_chec
 cover the exceptional family in Section 4.1, the two isolated points in
 Section 4.3 and the large-level spin-2 criterion in Section 4.5.
 [Figures 2 and 3](figures/README.md) are generated from the existing formulas
-and saved bosonic results. Run these separately from the nine-package suite:
+and saved bosonic results. These commands are also included in the normal reproduction run:
 
 ```bash
 python -B computations/paper_extra_checks/exceptional_points.py

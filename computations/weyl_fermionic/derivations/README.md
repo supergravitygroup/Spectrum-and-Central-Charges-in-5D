@@ -1,7 +1,7 @@
 # Weyl² component derivations
 
 - [Component conventions](component_conventions.md).
-- [Fermionic map](fermionic-map.md), [scalar coefficient](scalar-coefficient.md)
+- [Fermionic map: S variation](fermionic-map.md#s-invariance-derivation), [Q descendant](fermionic-map.md#q-descendant-result), [spinor variation](fermionic-map.md#complete-spinor-variation), [scalar coefficient](scalar-coefficient.md)
   and [vector coefficient](vector-coefficient.md).
 - [Bivector cancellation](bivector-cancellation.md).
 - [Full Weyl² action](full-fermionic-weyl2-action.md).

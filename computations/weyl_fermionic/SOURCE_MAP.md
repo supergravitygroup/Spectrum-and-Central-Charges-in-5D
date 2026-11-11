@@ -5,7 +5,7 @@
 | Stage | Local source |
 |---|---|
 | OP (5.8), working M08 and source discrepancy | [Master](derivations/component_conventions.md) |
-| Q/S/Fierz/Clifford details | [Full calculation](derivations/fermionic-map.md) |
+| Q/S/Fierz/Clifford details | [S-invariance derivation](derivations/fermionic-map.md#s-invariance-derivation), [Q descendant](derivations/fermionic-map.md#q-descendant-result), [complete spinor variation](derivations/fermionic-map.md#complete-spinor-variation) |
 | Four components FM01–04 | [Weyl-linear map](inputs/reference/notes/04_full_fermionic_weyl_linear_map.md) |
 | Ungauged WA01–24 | [Full fermionic action](derivations/full-fermionic-weyl2-action.md) |
 | Gauged GA01–24, GG/GC definitions | [Gauged action](../../weyl2/action/details/construction.md) |
@@ -16,3 +16,8 @@ coefficient construction. Source-specific normalizations are not silently
 identified with one another. The [current action chapter](../../weyl2/action/README.md)
 and [validation scope](VALIDATION.md) distinguish the chosen component input
 from the subsequent physical spectrum reduction.
+
+The first linked section proves the cancellation in the lowest component's
+S variation; the second collects its Q descendant; the third adds the eleven
+spinor-variation terms. Follow the component ledgers and the stated equality
+scope at each step, rather than inferring complete closure from one check.

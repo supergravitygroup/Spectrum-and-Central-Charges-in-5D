@@ -77,3 +77,14 @@ scripts by Erol Aksoy, Cagatay Okyay, Mehmet Ozkan and Cemal Berfu Senisik
 (2026), provided under MIT for code and CC BY 4.0 for documentation and
 data. They are arranged around this repository's existing inputs; no
 external checkout, stored pickle, or manuscript file is needed to run them.
+
+## First-order central charges
+
+Run `python -B computations/paper_extra_checks/first_order_vs_PRL.py` to
+compare the current action-derived a and c with Gold et al.,
+arXiv:2309.07637v2, Eq. (19), using the action-normalization check against
+Gold et al. (2025), Eqs. (32)–(34). The
+[central-charge guide](../../references/central_charge_guide.md#first-order-literature-check)
+states the coupling conversion and first-order scope. The read-only command
+prints exact residual checks and detection of an intentionally wrong
+conversion; it runs in the normal reproduction suite.

@@ -1,6 +1,6 @@
 # Bibliography and usage map
 
-The core entries identify the cited arXiv versions and their journal or proceedings publications. Their citation keys correspond to the [BibTeX entries](bibliography.bib), which also include the additional references cited in the detailed derivations and source extracts. Equation locators refer to the version specified at the point of use.
+The core entries identify the cited arXiv versions and their journal or proceedings publications. Their citation keys correspond to the [BibTeX entries](bibliography.bib), which also include the additional references cited in the detailed component derivations. Equation locators refer to the version specified at the point of use.
 
 These references support established constructions and general methods. Coefficients in local spectrum tables are not attributed as if computed directly in these publications. Local results are traced through the [claim map](source_map.md).
 
@@ -117,9 +117,9 @@ Mehmet Ozkan. **Off-Shell N=2 Linear Multiplets in Five Dimensions**. [JHEP 11 (
 | A. Van Proeyen | *Tools for supersymmetry*, [arXiv:hep-th/9910030](https://arxiv.org/abs/hep-th/9910030) | Spinor conventions in the shared component sources. |
 | D. Butter, J. Novak, M. Ozkan, Y. Pang and G. Tartaglino-Mazzucchelli | *Curvature squared invariants in six-dimensional N=(1,0) supergravity*, JHEP 04 (2019) 013, [arXiv:1808.00459](https://arxiv.org/abs/1808.00459) | Cited in the retained Gold et al. component-source extract. |
 
-## References within the source extracts
+## Additional references in the component-source literature
 
-The verbatim component-source extracts also cite the following works. These entries identify those citations without assigning the local spectrum results to them.
+The component-source literature also cites the following works. These entries identify that context without assigning the local spectrum results to those sources; full-text extracts are not distributed in this repository.
 
 - S. J. Gates Jr., M. T. Grisaru, M. Roček and W. Siegel, *Superspace, or One thousand and one lessons in supersymmetry*, Frontiers in Physics 58 (1983) 1–548, [arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200).
 - S. M. Kuzenko, E. S. N. Raptakis and G. Tartaglino-Mazzucchelli, *Superspace approaches to N=1 supergravity*, [arXiv:2210.17088](https://arxiv.org/abs/2210.17088).

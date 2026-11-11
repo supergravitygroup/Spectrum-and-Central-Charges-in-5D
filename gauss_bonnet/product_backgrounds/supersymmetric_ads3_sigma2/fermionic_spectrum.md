@@ -39,6 +39,28 @@ In the saved two-probe comparisons, the kernel intersection has dimension zero i
 
 Numerically, four square projections of the rank-eight polynomial matrix generate candidate roots. A candidate must lower the rank of the full unprojected matrix, have a localized singular-value minimum, survive independent projections and energy scalings, and pass a fresh direct-action evaluation. The retained gap must exceed by a factor of twenty a budget incorporating coefficient roundoff, action/interpolant disagreement and finite polynomial-root residual. This resolves rank in the numerical backward-error sense; multiplicity is retained only when supported by extra nullity. The code records rather than hides unresolved homogeneous pencil pairs and large-energy conditioning diagnostics. This procedure supplies a numerical common-root census at the tested points; it is not an exact calculation of the gcd of every maximal minor.
 
+## Reading one sector record
+
+The [sample record](../../../computations/gb_ads3_sigma2_fermionic_spectrum/outputs/H2_3_2_s13_np3_q+1.json)
+uses `(L,k,g,S)=(3,2,1,1/3)`, boost `n=3/2` and `q_R=+1`.
+Here D is the exponent in the frame-mode ansatz, not the auxiliary scalar D;
+k is the dimensionless coupling `lambda*g^2`, not the curvature denoted by
+k in the generic AdS5 code. S specifies the surface-mode ansatz and enters
+M² through (F25.1).
+
+| Record entry | How to read it |
+|---|---|
+| `basis_a`, `basis_b`, `coefficients` | Ordered column and row amplitudes and C₀, C₁, … in K(D); this sector is 2×2, with generic rank two. |
+| First `roots` entry | D = `-0.538092344655 -3.634e-15i`, multiplicity 1; retain its complex part in the calculation. |
+| Corresponding `direct_root_checks` entry | `resolved_extra_nullity=1` and retained-gap/error-budget ratio `9.1737e+12`; these test numerical rank loss at that root. |
+| `local_rank_drop` and independent-seed record | Check that the small singular value is localized and the extraction is stable under a different projection. |
+| Sample-level `direct_modes` and matching | Apply the shadow rule (F25.4), retaining its spin and charge reversal, then compare the complete multisets. |
+
+The values above quote an existing saved record; they are not replacements
+for fresh verification. A certificate is not a norm calculation. Continue
+with the prediction below only after the direct operator's root test; the
+bosonic prediction is not an input to that test.
+
 ## Independent supersymmetry prediction
 
 The bosonic prediction comes from the previously checked cubic $`C(d)`$, quintic $`F(d)`$ and flat-multiplet parameter $`\nu_f`$ in the [bosonic spectrum package](../../../computations/gb_ads3_sigma2/README.md). None of those roots enters construction, interpolation, candidate selection or rank testing of (F25.1).

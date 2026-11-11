@@ -120,6 +120,8 @@ The conventions listed above are sufficient for this local classical identity. N
 The v3 master extraction of R05 had $`T^c{}_{[a}`$ in its middle S-term.
 The inspected W(3.23) page actually has **$`T_{[a}{}^c`$**. Their relation is
 
+<a id="eq-s02"></a>
+
 ```math
 T^c{}_a=\eta^{cd}T_{da}=-\eta^{cd}T_{ad}=-T_a{}^c.
 \tag{S02}
@@ -284,6 +286,8 @@ from $`\mathsf C_{uv}=-\mathsf C_{vu}`$. They cancel. Therefore
 
 No suppressed-index flip is used: the symmetric pair i,j remains explicit
 throughout. No Fierz rearrangement is needed in this calculation.
+
+<a id="s-invariance-derivation"></a>
 
 ## 4. Detailed Derivation
 
@@ -768,6 +772,8 @@ remaining map components.
 With $`T^c{}_{[a}=-T_{[a}{}^c`$, the middle contraction in the barred variation
 has the opposite sign. Equations (S20)/(S27) would give
 
+<a id="eq-s44"></a>
+
 ```math
 \widetilde A^{\rm old}_{ab}\mathscr R^{ab\,i}
 =-8X^i+\frac{16}{3}X^i+\frac43(-2X^i)
@@ -778,6 +784,8 @@ has the opposite sign. Equations (S20)/(S27) would give
 Its first summand would therefore vary as $`-8i\bar\eta^{(i}X^{j)}/3`$,
 while the correct $`VT`$ variation still contributes $`+8i\bar\eta^{(i}X^{j)}`$.
 The chi terms still cancel, leaving
+
+<a id="eq-s45"></a>
 
 ```math
 \delta_S L^{ij}\big|_{\text{old extraction}}
@@ -1896,6 +1904,8 @@ No integration by parts, EOM, derivative commutator or boundary term is
 hidden in these checks. A constant value at a point is not being confused
 with an identically zero covariant derivative; the first two rows state
 both restrictions explicitly.
+
+<a id="q-descendant-result"></a>
 
 ## 13. Final Result
 
@@ -6265,6 +6275,8 @@ $`(128/3)(D/4)D\epsilon^i=(32/3)D^2\epsilon^i`$.
 Setting $`D=0`$ as well gives zero. The independent $`\widehat C^2`$ and
 $`\widehat R(V)^2`$ reductions remain H49 and H48. Their scalar coefficients
 are $`1/16`$ and $`-1/6`$, respectively.
+
+<a id="complete-spinor-variation"></a>
 
 ## 28. Final Result: Add All Eleven Terms
 

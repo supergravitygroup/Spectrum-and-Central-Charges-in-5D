@@ -61,6 +61,19 @@ compare these expressions with that action projection. The on-shell value
 alone is insufficient for c: the Weyl invariant has zero value on this vacuum
 but contributes to the metric quadratic action.
 
+### First-order literature check
+
+The [Gold comparison](../computations/paper_extra_checks/first_order_vs_PRL.py)
+expands the current vacuum and action-derived charges about L0 = 1 and
+compares with Gold et al., arXiv:2309.07637v2, Eq. (19). The action
+normalizations are checked against Gold et al. (2025), Eqs. (32)–(34):
+`lambda1=alpha/8`, `lambda2=beta/24`, `lambda3=zeta/4`,
+`g_Gold=g/sqrt(2)`, `G=kappa^2/(8*pi)`. Run
+`python -B computations/paper_extra_checks/first_order_vs_PRL.py`.
+The original g and kappa are held fixed while all higher-derivative couplings
+are expanded together. This checks first-order agreement, not an all-orders
+minimal truncation or a novelty claim. A wrong coupling conversion must fail.
+
 ## 3. Identify the R-current and flavor-current directions
 
 Equation (3.64) diagonalizes the two massless vectors by

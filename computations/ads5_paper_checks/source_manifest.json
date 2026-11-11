@@ -1,11 +1,11 @@
 {
-  "scope": "Bounded exact Weyl AdS5 vector/norm/convention/critical checks and LOG displayed-equation factorization, citation-map items 11–19 and 21–22.",
+  "scope": "Bounded exact Weyl AdS5 vector/norm/convention/critical checks and LOG displayed-equation factorization, citation-map items 11\u201319 and 21\u201322.",
   "current_inputs": {
     "weyl2/ads5/quadratic_action.md": "bb925ae834ccab42fcf58889dfebd3c9128886a65ae9ebd1eadcb5462785759c",
     "weyl2/ads5/details/gauge_constraints.md": "2f6d34c2a64aa523eeaf426e9c18a27c0698425ba535bf9169a98d28acb9e50e",
     "weyl2/ads5/details/physical_operators.md": "352a6299fff8a0eb96853c71d234535315aba4c47b96123fea789aba8d43f411",
     "weyl2/ads5/details/kinetic_norms.md": "3b34c3590ecd5db46e12ee01bc7cc2363f874f10d9ae1f24d08732b86acfa81a",
-    "weyl2/ads5/details/critical_branches.md": "108618b10f54283dabb83b909a94e3c2047caeea7adb447e9500c77cb020e9a7",
+    "weyl2/ads5/details/critical_branches.md": "1d14ef6b6ba5d01cc0fe54cc5f59eaba8bc85ee3637482a97178874235239c98",
     "log/ads5/quadratic_action.md": "674f75df8dff180b09531f28d8a887524517fff9c3deb5cb0953d946564e26ee",
     "log/ads5/details/physical_operators.md": "729e0a266b9f8405af49a5d901dd2059da72c5ded7bc58fb56897595e447f5b9",
     "log/ads5/fermionic_spectrum.md": "2d09f454ac3af40494e227b2cb5db36de4e2eb7c1c315f78ddbe82400f20d65a"

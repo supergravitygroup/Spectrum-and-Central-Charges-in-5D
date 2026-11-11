@@ -4,6 +4,20 @@
 
 [Reading guide](README.md). The equation labels and local symbols below follow the action conventions specified for this theory.
 
+This page determines the unreduced second-order action on the selected
+[AdS5 background](background.md). It is the common input to the bosonic and
+fermionic equations, before separating physical fields. The metric–scalar,
+vector–form and gravitino–spinor couplings are retained because their
+constraints and kinetic mixing must be solved together; the two-derivative
+auxiliary-field classification cannot be imposed on this higher-derivative
+action. The output is the pair of quadratic densities below, with the stated
+surface terms. Continue to [gauge constraints](details/gauge_constraints.md),
+then [eigenfields](details/masses_and_eigenfields.md) and
+[norms](details/kinetic_norms.md). The
+[paper-check package](../../computations/r2_ads5_paper_checks/README.md)
+replays the regular and critical reduction identities; it does not replace
+the source-to-density derivation.
+
 <a id="7-quadratic-expansion-of-all-fields"></a>
 
 ## Quadratic expansion of all fields
@@ -55,6 +69,9 @@ K_\mu{}^{ab}=\frac12\bar\Psi^{[a}\gamma^{b]}\Psi_\mu
 ```
 is retained at second order.
 
+The geometric expansion fixes which second-order metric and contorsion terms
+enter. Next expand the form and composite fields before solving any form
+constraint: a vanishing background field still has an independent fluctuation.
 The linearized forms and composites are defined by
 ```math
 \mathsf G=dc,\quad\mathsf H=db+\frac g2a,\quad Q=*\mathsf H,
@@ -82,6 +99,13 @@ Y'_{1ij}=\nu_{ij}\left(-\frac12r_1+4gn+5g^2Ls+\frac{\Box s}{L}\right)
 ```
 also retains the traceless triplet fluctuation.
 
+Substitution into the action gives the bosonic density below. Its mixed
+terms and derivatives of n are retained in the coupled Euler equations;
+eliminating n using its two-derivative equation would change this kernel.
+The subsequent [constraint reduction](details/gauge_constraints.md) states
+where each elimination or division is valid. Critical values are treated in
+the [undivided actions](details/critical_branches.md).
+
 The bosonic quadratic density is
 ```math
 \begin{aligned}
@@ -99,6 +123,12 @@ The bosonic quadratic density is
 -\frac{9g^2L^2}{4}\mathsf G^2-\frac{9g^2L^2}{2}\mathsf G\cdot Q\right].
 \end{aligned}
 ```
+
+For the fermionic block, the
+[component-to-Hessian reduction](details/fermionic_operator_reduction.md#from-the-component-density-to-the-hessian)
+explains the cancellations leading to these operators. Vary the coupled
+expression with respect to the independent gravitino and spinor; the
+composite Lambda is not a new independent field.
 
 For fermions, with
 ```math

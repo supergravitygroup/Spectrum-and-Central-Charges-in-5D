@@ -75,6 +75,8 @@ The additional term $`\tfrac12L^{-3}\bar\varphi^m(\mathord{\not{\mathcal D}}L_{i
 
 The quartic terms of $`Y_1`$ are already printed in the composite map and agree with the paper's three scalar-bilinear structures. The two literal-2013 vector-bilinear structures are not adopted. No new quartic-action calculation is asserted here.
 
+<a id="composite-field-strength"></a>
+
 ### Ordered derivative expansion in $`\widehat F_1`$
 
 Using $`\mathcal D_\mu L=L^{-1}L^{kl}\mathcal D_\mu L_{kl}`$, the compact paper expression expands as
