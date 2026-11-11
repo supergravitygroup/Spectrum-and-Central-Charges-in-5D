@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the accompanying paper when using these calculations."
+type: software
+version: "1.0"
+title: "Spectra and Central Charges of Gauged Curvature Squared Supergravities in Five Dimensions"
+authors:
+  - family-names: Aksoy
+    given-names: Erol
+  - family-names: Okyay
+    given-names: Cagatay
+  - family-names: Ozkan
+    given-names: Mehmet
+  - family-names: Senisik
+    given-names: Cemal Berfu
+repository-code: "https://github.com/cemalberfu/Spectra-and-Central-Charges-of-Gauged-Curvature-Squared-Supergravities-in-Five-Dimensions"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "Companion component actions, quadratic fluctuation calculations, spectra and central charges for the paper with the same title."

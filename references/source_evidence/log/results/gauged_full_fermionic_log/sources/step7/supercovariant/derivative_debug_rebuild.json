@@ -1,0 +1,54 @@
+{
+  "scope": "all-slot source rebuild after removing invalid full f/Ricci symmetry",
+  "slots": {
+    "L": {
+      "verdict": "pass",
+      "exact_coefficient_residual": 0,
+      "canonical_terms": 13,
+      "fermion_degrees": {
+        "0": 8,
+        "2": 5
+      },
+      "pre_audit_and_current_sha256": "4c6ef0eea7177c4341c8c92550debe288c80f750c9d5b999019fcddba70bf5dc",
+      "source_sha256": "836cfdb9e2c5d712dbbe1dce276f928c5b0012186cf29b5982446f745216f11d"
+    },
+    "phi": {
+      "verdict": "pass",
+      "exact_coefficient_residual": 0,
+      "canonical_terms": 94,
+      "fermion_degrees": {
+        "1": 94
+      },
+      "pre_audit_and_current_sha256": "83ed08f199ccb07759ccf9be81837c59d20be394fed1ea7be2f8bad3d1472715",
+      "source_sha256": "f29f068d905350e05006adcdeaabfd0dff49215960261acb4705a1a26bef78d4"
+    },
+    "N": {
+      "verdict": "pass",
+      "exact_coefficient_residual": 0,
+      "canonical_terms": 141,
+      "fermion_degrees": {
+        "0": 80,
+        "2": 61
+      },
+      "pre_audit_and_current_sha256": "ff550d9514319f04d40196873cdd5c023d0afab6c79f1becdf532c98aa481b46",
+      "source_sha256": "6cec085d67c6f3ff79e9e28004c05951f98fd48ff96d983c52b89a2176afa5bc"
+    },
+    "E": {
+      "verdict": "pass",
+      "exact_coefficient_residual": 0,
+      "canonical_terms": 373,
+      "fermion_degrees": {
+        "0": 216,
+        "2": 157
+      },
+      "pre_audit_and_current_sha256": "179b015c652027e75ca193aa1f53f80f04dafb78cdf69c169a4f2a3db3b8745d",
+      "source_sha256": "c669fc8ab8a055d5045d1b78952c4697d5c31db7ce5541b1089ce6422fec90ff"
+    }
+  },
+  "ordered_f_regression": "PASS: f_ab-f_ba remains a two-term tensor",
+  "production_scripts_sha256": {
+    "log_step7_gauge.py": "64d662c3f8d7a6026edd4eb52c5fb1a7f21c1c6a8243c01f8bd51395ca9fdc5f",
+    "canonicalize_log_step7_composites.py": "d74559ec32dc7d6ff65c05f2a7a33e3540d3cb6901dcf72dd30011a47eba5ef2",
+    "log_step7_supercovariant.py": "3904862cf79fcbb2ee2df65284dc8eff62d2597182b464c468ef6918ea3d3f6f"
+  }
+}

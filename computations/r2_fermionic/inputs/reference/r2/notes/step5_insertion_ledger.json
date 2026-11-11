@@ -1,0 +1,505 @@
+{
+  "parent": "notes/06_step4_Gold_unprimed_vector_and_gauge.md",
+  "parent_sha256": "cd21e62c9b970ad439e67e1279fef409ad3d2c95f28dc6420ac595dcf23c252e",
+  "component_lock": "OZKAN1608-SINGLE-LINEAR-TO-VECTOR-MAP-v2",
+  "status": "complete_scoped_insertion",
+  "groups": [
+    {
+      "group": 1,
+      "source_tex": "Y'^{ij}Y'_{ij}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "Y'^{ij}",
+        "Y'_{ij}"
+      ],
+      "output_tex": "\\begin{aligned}\n&\\varepsilon^{ir_{1}}\\varepsilon^{js_{1}}\\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{r_{1}s_{1}}\\\\\n&-L^{-3}L^{k_{2}m_{2}}\\mathcal D_{c_{2}}L_{k_{2}(r_{1}}\\mathcal D^{c_{2}}L_{s_{1})m_{2}}\\\\\n&-L^{-3}L_{r_{1}s_{1}}N^{2}\\\\\n&-L^{-3}L_{r_{1}s_{1}}E_{c_{2}}E^{c_{2}}\\\\\n&+2L^{-3}E_{c_{2}}L_{k_{2}(r_{1}}\\mathcal D^{c_{2}}L_{s_{1})}{}^{k_{2}}\\\\\n&+\\frac83L^{-1}L_{r_{1}s_{1}}T^{2}\\\\\n&+4L^{-1}L_{r_{1}s_{1}}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(r_{1}}\\varphi_{s_{1})}\\\\\n&-3iNL^{-5}L_{r_{1}s_{1}}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}\\\\\n&+3L^{-5}L_{r_{1}s_{1}}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\not E\\varphi_{l_{2}}\\\\\n&-L^{-3}\\bar\\varphi_{(r_{1}}\\not E\\varphi_{s_{1})}\\\\\n&-16iL^{-1}\\bar\\chi_{(r_{1}}\\varphi_{s_{1})}\\\\\n&+16iL^{-3}L_{r_{1}s_{1}}L_{k_{2}l_{2}}\\bar\\chi^{k_{2}}\\varphi^{l_{2}}\\\\\n&+2L^{-3}L_{k_{2}(r_{1}}\\bar\\varphi^{k_{2}}\\not{\\mathcal D}\\varphi_{s_{1})}\\\\\n&-3L^{-5}L_{k_{2}(r_{1}}L^{l_{2}m_{2}}\\bar\\varphi^{k_{2}}(\\not{\\mathcal D}L_{s_{1})l_{2}})\\varphi_{m_{2}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{2}}(\\not{\\mathcal D}L_{l_{2}(r_{1}})\\varphi_{s_{1})}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{2}}(\\not{\\mathcal D}L_{r_{1}s_{1}})\\varphi_{m_{2}}\\\\\n&+2iL^{-3}L_{r_{1}s_{1}}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{r_{1}s_{1}}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})^{2}\\\\\n&-3L^{-5}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})\\bar\\varphi_{(r_{1}}\\varphi_{s_{1})}\\\\\n&-\\frac32L^{-5}L_{r_{1}s_{1}}(\\bar\\varphi_{m_{2}}\\varphi_{n_{2}})(\\bar\\varphi^{m_{2}}\\varphi^{n_{2}})\n\\end{aligned}\\right]\\\\\n&{}\\times \\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{ij}\\\\\n&-L^{-3}L^{k_{3}m_{3}}\\mathcal D_{c_{3}}L_{k_{3}(i}\\mathcal D^{c_{3}}L_{j)m_{3}}\\\\\n&-L^{-3}L_{ij}N^{2}\\\\\n&-L^{-3}L_{ij}E_{c_{3}}E^{c_{3}}\\\\\n&+2L^{-3}E_{c_{3}}L_{k_{3}(i}\\mathcal D^{c_{3}}L_{j)}{}^{k_{3}}\\\\\n&+\\frac83L^{-1}L_{ij}T^{2}\\\\\n&+4L^{-1}L_{ij}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-3iNL^{-5}L_{ij}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}\\\\\n&+3L^{-5}L_{ij}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\not E\\varphi_{l_{3}}\\\\\n&-L^{-3}\\bar\\varphi_{(i}\\not E\\varphi_{j)}\\\\\n&-16iL^{-1}\\bar\\chi_{(i}\\varphi_{j)}\\\\\n&+16iL^{-3}L_{ij}L_{k_{3}l_{3}}\\bar\\chi^{k_{3}}\\varphi^{l_{3}}\\\\\n&+2L^{-3}L_{k_{3}(i}\\bar\\varphi^{k_{3}}\\not{\\mathcal D}\\varphi_{j)}\\\\\n&-3L^{-5}L_{k_{3}(i}L^{l_{3}m_{3}}\\bar\\varphi^{k_{3}}(\\not{\\mathcal D}L_{j)l_{3}})\\varphi_{m_{3}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{3}}(\\not{\\mathcal D}L_{l_{3}(i})\\varphi_{j)}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{3}}(\\not{\\mathcal D}L_{ij})\\varphi_{m_{3}}\\\\\n&+2iL^{-3}L_{ij}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{ij}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})^{2}\\\\\n&-3L^{-5}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-\\frac32L^{-5}L_{ij}(\\bar\\varphi_{m_{3}}\\varphi_{n_{3}})(\\bar\\varphi^{m_{3}}\\varphi^{n_{3}})\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 67,
+      "unformatted_output_tex": "\\varepsilon^{ir_{1}}\\varepsilon^{js_{1}}\\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{r_{1}s_{1}}\\\\\n&-L^{-3}L^{k_{2}m_{2}}\\mathcal D_{c_{2}}L_{k_{2}(r_{1}}\\mathcal D^{c_{2}}L_{s_{1})m_{2}}\\\\\n&-L^{-3}L_{r_{1}s_{1}}N^{2}\\\\\n&-L^{-3}L_{r_{1}s_{1}}E_{c_{2}}E^{c_{2}}\\\\\n&+2L^{-3}E_{c_{2}}L_{k_{2}(r_{1}}\\mathcal D^{c_{2}}L_{s_{1})}{}^{k_{2}}\\\\\n&+\\frac83L^{-1}L_{r_{1}s_{1}}T^{2}\\\\\n&+4L^{-1}L_{r_{1}s_{1}}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(r_{1}}\\varphi_{s_{1})}\\\\\n&-3iNL^{-5}L_{r_{1}s_{1}}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}\\\\\n&+3L^{-5}L_{r_{1}s_{1}}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\not E\\varphi_{l_{2}}\\\\\n&-L^{-3}\\bar\\varphi_{(r_{1}}\\not E\\varphi_{s_{1})}\\\\\n&-16iL^{-1}\\bar\\chi_{(r_{1}}\\varphi_{s_{1})}\\\\\n&+16iL^{-3}L_{r_{1}s_{1}}L_{k_{2}l_{2}}\\bar\\chi^{k_{2}}\\varphi^{l_{2}}\\\\\n&+2L^{-3}L_{k_{2}(r_{1}}\\bar\\varphi^{k_{2}}\\not{\\mathcal D}\\varphi_{s_{1})}\\\\\n&-3L^{-5}L_{k_{2}(r_{1}}L^{l_{2}m_{2}}\\bar\\varphi^{k_{2}}(\\not{\\mathcal D}L_{s_{1})l_{2}})\\varphi_{m_{2}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{2}}(\\not{\\mathcal D}L_{l_{2}(r_{1}})\\varphi_{s_{1})}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{2}}(\\not{\\mathcal D}L_{r_{1}s_{1}})\\varphi_{m_{2}}\\\\\n&+2iL^{-3}L_{r_{1}s_{1}}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{r_{1}s_{1}}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})^{2}\\\\\n&-3L^{-5}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})\\bar\\varphi_{(r_{1}}\\varphi_{s_{1})}\\\\\n&-\\frac32L^{-5}L_{r_{1}s_{1}}(\\bar\\varphi_{m_{2}}\\varphi_{n_{2}})(\\bar\\varphi^{m_{2}}\\varphi^{n_{2}})\n\\end{aligned}\\right]\\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{ij}\\\\\n&-L^{-3}L^{k_{3}m_{3}}\\mathcal D_{c_{3}}L_{k_{3}(i}\\mathcal D^{c_{3}}L_{j)m_{3}}\\\\\n&-L^{-3}L_{ij}N^{2}\\\\\n&-L^{-3}L_{ij}E_{c_{3}}E^{c_{3}}\\\\\n&+2L^{-3}E_{c_{3}}L_{k_{3}(i}\\mathcal D^{c_{3}}L_{j)}{}^{k_{3}}\\\\\n&+\\frac83L^{-1}L_{ij}T^{2}\\\\\n&+4L^{-1}L_{ij}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-3iNL^{-5}L_{ij}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}\\\\\n&+3L^{-5}L_{ij}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\not E\\varphi_{l_{3}}\\\\\n&-L^{-3}\\bar\\varphi_{(i}\\not E\\varphi_{j)}\\\\\n&-16iL^{-1}\\bar\\chi_{(i}\\varphi_{j)}\\\\\n&+16iL^{-3}L_{ij}L_{k_{3}l_{3}}\\bar\\chi^{k_{3}}\\varphi^{l_{3}}\\\\\n&+2L^{-3}L_{k_{3}(i}\\bar\\varphi^{k_{3}}\\not{\\mathcal D}\\varphi_{j)}\\\\\n&-3L^{-5}L_{k_{3}(i}L^{l_{3}m_{3}}\\bar\\varphi^{k_{3}}(\\not{\\mathcal D}L_{j)l_{3}})\\varphi_{m_{3}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{3}}(\\not{\\mathcal D}L_{l_{3}(i})\\varphi_{j)}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{3}}(\\not{\\mathcal D}L_{ij})\\varphi_{m_{3}}\\\\\n&+2iL^{-3}L_{ij}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{ij}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})^{2}\\\\\n&-3L^{-5}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-\\frac32L^{-5}L_{ij}(\\bar\\varphi_{m_{3}}\\varphi_{n_{3}})(\\bar\\varphi^{m_{3}}\\varphi^{n_{3}})\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 2,
+      "source_tex": "-g\\rho'Y'^{ij}L_{ij}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "Y'^{ij}"
+      ],
+      "output_tex": "\\begin{aligned}\n&-g\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\varepsilon^{ir_{2}}\\varepsilon^{js_{2}}\\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{r_{2}s_{2}}\\\\\n&-L^{-3}L^{k_{3}m_{3}}\\mathcal D_{c_{3}}L_{k_{3}(r_{2}}\\mathcal D^{c_{3}}L_{s_{2})m_{3}}\\\\\n&-L^{-3}L_{r_{2}s_{2}}N^{2}\\\\\n&-L^{-3}L_{r_{2}s_{2}}E_{c_{3}}E^{c_{3}}\\\\\n&+2L^{-3}E_{c_{3}}L_{k_{3}(r_{2}}\\mathcal D^{c_{3}}L_{s_{2})}{}^{k_{3}}\\\\\n&+\\frac83L^{-1}L_{r_{2}s_{2}}T^{2}\\\\\n&+4L^{-1}L_{r_{2}s_{2}}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(r_{2}}\\varphi_{s_{2})}\\\\\n&-3iNL^{-5}L_{r_{2}s_{2}}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}\\\\\n&+3L^{-5}L_{r_{2}s_{2}}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\not E\\varphi_{l_{3}}\\\\\n&-L^{-3}\\bar\\varphi_{(r_{2}}\\not E\\varphi_{s_{2})}\\\\\n&-16iL^{-1}\\bar\\chi_{(r_{2}}\\varphi_{s_{2})}\\\\\n&+16iL^{-3}L_{r_{2}s_{2}}L_{k_{3}l_{3}}\\bar\\chi^{k_{3}}\\varphi^{l_{3}}\\\\\n&+2L^{-3}L_{k_{3}(r_{2}}\\bar\\varphi^{k_{3}}\\not{\\mathcal D}\\varphi_{s_{2})}\\\\\n&-3L^{-5}L_{k_{3}(r_{2}}L^{l_{3}m_{3}}\\bar\\varphi^{k_{3}}(\\not{\\mathcal D}L_{s_{2})l_{3}})\\varphi_{m_{3}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{3}}(\\not{\\mathcal D}L_{l_{3}(r_{2}})\\varphi_{s_{2})}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{3}}(\\not{\\mathcal D}L_{r_{2}s_{2}})\\varphi_{m_{3}}\\\\\n&+2iL^{-3}L_{r_{2}s_{2}}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{r_{2}s_{2}}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})^{2}\\\\\n&-3L^{-5}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})\\bar\\varphi_{(r_{2}}\\varphi_{s_{2})}\\\\\n&-\\frac32L^{-5}L_{r_{2}s_{2}}(\\bar\\varphi_{m_{3}}\\varphi_{n_{3}})(\\bar\\varphi^{m_{3}}\\varphi^{n_{3}})\n\\end{aligned}\\right]\\\\\n&{}\\times L_{ij}\n\\end{aligned}",
+      "equation_tag": 68,
+      "unformatted_output_tex": "-g\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\varepsilon^{ir_{2}}\\varepsilon^{js_{2}}\\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{r_{2}s_{2}}\\\\\n&-L^{-3}L^{k_{3}m_{3}}\\mathcal D_{c_{3}}L_{k_{3}(r_{2}}\\mathcal D^{c_{3}}L_{s_{2})m_{3}}\\\\\n&-L^{-3}L_{r_{2}s_{2}}N^{2}\\\\\n&-L^{-3}L_{r_{2}s_{2}}E_{c_{3}}E^{c_{3}}\\\\\n&+2L^{-3}E_{c_{3}}L_{k_{3}(r_{2}}\\mathcal D^{c_{3}}L_{s_{2})}{}^{k_{3}}\\\\\n&+\\frac83L^{-1}L_{r_{2}s_{2}}T^{2}\\\\\n&+4L^{-1}L_{r_{2}s_{2}}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(r_{2}}\\varphi_{s_{2})}\\\\\n&-3iNL^{-5}L_{r_{2}s_{2}}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}\\\\\n&+3L^{-5}L_{r_{2}s_{2}}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\not E\\varphi_{l_{3}}\\\\\n&-L^{-3}\\bar\\varphi_{(r_{2}}\\not E\\varphi_{s_{2})}\\\\\n&-16iL^{-1}\\bar\\chi_{(r_{2}}\\varphi_{s_{2})}\\\\\n&+16iL^{-3}L_{r_{2}s_{2}}L_{k_{3}l_{3}}\\bar\\chi^{k_{3}}\\varphi^{l_{3}}\\\\\n&+2L^{-3}L_{k_{3}(r_{2}}\\bar\\varphi^{k_{3}}\\not{\\mathcal D}\\varphi_{s_{2})}\\\\\n&-3L^{-5}L_{k_{3}(r_{2}}L^{l_{3}m_{3}}\\bar\\varphi^{k_{3}}(\\not{\\mathcal D}L_{s_{2})l_{3}})\\varphi_{m_{3}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{3}}(\\not{\\mathcal D}L_{l_{3}(r_{2}})\\varphi_{s_{2})}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{3}}(\\not{\\mathcal D}L_{r_{2}s_{2}})\\varphi_{m_{3}}\\\\\n&+2iL^{-3}L_{r_{2}s_{2}}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{r_{2}s_{2}}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})^{2}\\\\\n&-3L^{-5}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})\\bar\\varphi_{(r_{2}}\\varphi_{s_{2})}\\\\\n&-\\frac32L^{-5}L_{r_{2}s_{2}}(\\bar\\varphi_{m_{3}}\\varphi_{n_{3}})(\\bar\\varphi^{m_{3}}\\varphi^{n_{3}})\n\\end{aligned}\\right]L_{ij}"
+    },
+    {
+      "group": 3,
+      "source_tex": "-\\frac12\\bar\\lambda'{}^i\\not{\\mathcal D}\\lambda'_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\bar\\lambda'{}^i",
+        "\\lambda'_i"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac12\\varepsilon^{ir_{1}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{2}}\\bar\\varphi_{r_{1}})\\gamma^{c_{2}}\\\\\n&+16L^{-1}L_{r_{1}j_{2}}\\bar\\chi^{j_{2}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{1}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\\\\n&+2iL^{-3}L^{j_{2}k_{2}}\\bar\\varphi_{k_{2}}(\\not{\\mathcal D}L_{r_{1}j_{2}})\\\\\n&-2iL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{r_{1}}\\varphi_{j_{2}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})L^{k_{2}l_{2}}L_{r_{1}j_{2}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\not{\\mathcal D}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{i}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{ij_{3}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 69,
+      "unformatted_output_tex": "-\\frac12\\varepsilon^{ir_{1}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{2}}\\bar\\varphi_{r_{1}})\\gamma^{c_{2}}\\\\\n&+16L^{-1}L_{r_{1}j_{2}}\\bar\\chi^{j_{2}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{1}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\\\\n&+2iL^{-3}L^{j_{2}k_{2}}\\bar\\varphi_{k_{2}}(\\not{\\mathcal D}L_{r_{1}j_{2}})\\\\\n&-2iL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{r_{1}}\\varphi_{j_{2}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})L^{k_{2}l_{2}}L_{r_{1}j_{2}}\n\\end{aligned}\\right]\\not{\\mathcal D}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{i}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{ij_{3}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 4,
+      "source_tex": "+i\\bar\\lambda'{}^i\\gamma\\!\\cdot\\!T\\lambda'_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\bar\\lambda'{}^i",
+        "\\lambda'_i"
+      ],
+      "output_tex": "\\begin{aligned}\n&+i\\varepsilon^{ir_{1}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{2}}\\bar\\varphi_{r_{1}})\\gamma^{c_{2}}\\\\\n&+16L^{-1}L_{r_{1}j_{2}}\\bar\\chi^{j_{2}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{1}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\\\\n&+2iL^{-3}L^{j_{2}k_{2}}\\bar\\varphi_{k_{2}}(\\not{\\mathcal D}L_{r_{1}j_{2}})\\\\\n&-2iL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{r_{1}}\\varphi_{j_{2}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})L^{k_{2}l_{2}}L_{r_{1}j_{2}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\gamma\\!\\cdot\\!T\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{i}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{ij_{3}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 70,
+      "unformatted_output_tex": "+i\\varepsilon^{ir_{1}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{2}}\\bar\\varphi_{r_{1}})\\gamma^{c_{2}}\\\\\n&+16L^{-1}L_{r_{1}j_{2}}\\bar\\chi^{j_{2}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{1}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\\\\n&+2iL^{-3}L^{j_{2}k_{2}}\\bar\\varphi_{k_{2}}(\\not{\\mathcal D}L_{r_{1}j_{2}})\\\\\n&-2iL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{r_{1}}\\varphi_{j_{2}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})L^{k_{2}l_{2}}L_{r_{1}j_{2}}\n\\end{aligned}\\right]\\gamma\\!\\cdot\\!T\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{i}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{ij_{3}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 5,
+      "source_tex": "-8i\\rho'\\bar\\lambda'{}^i\\chi_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "\\bar\\lambda'{}^i"
+      ],
+      "output_tex": "\\begin{aligned}\n&-8i\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\varepsilon^{ir_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{3}}\\bar\\varphi_{r_{2}})\\gamma^{c_{3}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\bar\\chi^{j_{3}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{2}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\\\\n&+2iL^{-3}L^{j_{3}k_{3}}\\bar\\varphi_{k_{3}}(\\not{\\mathcal D}L_{r_{2}j_{3}})\\\\\n&-2iL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{r_{2}}\\varphi_{j_{3}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\chi_i\n\\end{aligned}",
+      "equation_tag": 71,
+      "unformatted_output_tex": "-8i\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\varepsilon^{ir_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{3}}\\bar\\varphi_{r_{2}})\\gamma^{c_{3}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\bar\\chi^{j_{3}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{2}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\\\\n&+2iL^{-3}L^{j_{3}k_{3}}\\bar\\varphi_{k_{3}}(\\not{\\mathcal D}L_{r_{2}j_{3}})\\\\\n&-2iL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{r_{2}}\\varphi_{j_{3}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]\\chi_i"
+    },
+    {
+      "group": 6,
+      "source_tex": "-\\frac i8\\bar\\lambda'{}^i\\gamma\\!\\cdot\\!\\widehat G\\lambda'_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\bar\\lambda'{}^i",
+        "\\lambda'_i"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac i8\\varepsilon^{ir_{1}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{2}}\\bar\\varphi_{r_{1}})\\gamma^{c_{2}}\\\\\n&+16L^{-1}L_{r_{1}j_{2}}\\bar\\chi^{j_{2}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{1}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\\\\n&+2iL^{-3}L^{j_{2}k_{2}}\\bar\\varphi_{k_{2}}(\\not{\\mathcal D}L_{r_{1}j_{2}})\\\\\n&-2iL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{r_{1}}\\varphi_{j_{2}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})L^{k_{2}l_{2}}L_{r_{1}j_{2}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\gamma\\!\\cdot\\!\\widehat G\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{i}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{ij_{3}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 72,
+      "unformatted_output_tex": "-\\frac i8\\varepsilon^{ir_{1}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{2}}\\bar\\varphi_{r_{1}})\\gamma^{c_{2}}\\\\\n&+16L^{-1}L_{r_{1}j_{2}}\\bar\\chi^{j_{2}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{1}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\\\\n&+2iL^{-3}L^{j_{2}k_{2}}\\bar\\varphi_{k_{2}}(\\not{\\mathcal D}L_{r_{1}j_{2}})\\\\\n&-2iL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{r_{1}}\\varphi_{j_{2}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})L^{k_{2}l_{2}}L_{r_{1}j_{2}}\n\\end{aligned}\\right]\\gamma\\!\\cdot\\!\\widehat G\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{ij_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{i}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{ij_{3}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 7,
+      "source_tex": "+\\frac{ig}4\\bar\\lambda'{}^iL_{ij}\\lambda'{}^j",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\bar\\lambda'{}^i",
+        "\\lambda'{}^j"
+      ],
+      "output_tex": "\\begin{aligned}\n&+\\frac{ig}4\\varepsilon^{ir_{1}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{2}}\\bar\\varphi_{r_{1}})\\gamma^{c_{2}}\\\\\n&+16L^{-1}L_{r_{1}j_{2}}\\bar\\chi^{j_{2}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{1}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\\\\n&+2iL^{-3}L^{j_{2}k_{2}}\\bar\\varphi_{k_{2}}(\\not{\\mathcal D}L_{r_{1}j_{2}})\\\\\n&-2iL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{r_{1}}\\varphi_{j_{2}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})L^{k_{2}l_{2}}L_{r_{1}j_{2}}\n\\end{aligned}\\right]\\\\\n&{}\\times L_{ij}\\varepsilon^{jr_{3}}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{r_{3}}\\\\\n&+16L^{-1}L_{r_{3}j_{4}}\\chi^{j_{4}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{r_{3}}\\\\\n&-2NL^{-3}L_{r_{3}j_{4}}\\varphi^{j_{4}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{r_{3}j_{4}})L^{j_{4}k_{4}}\\varphi_{k_{4}}\\\\\n&-2iL^{-3}\\not E L_{r_{3}j_{4}}\\varphi^{j_{4}}\\\\\n&+2iL^{-3}\\varphi^{j_{4}}\\bar\\varphi_{r_{3}}\\varphi_{j_{4}}\\\\\n&-6iL^{-5}\\varphi^{j_{4}}\\bar\\varphi_{k_{4}}\\varphi_{l_{4}}L^{k_{4}l_{4}}L_{r_{3}j_{4}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 73,
+      "unformatted_output_tex": "+\\frac{ig}4\\varepsilon^{ir_{1}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{2}}\\bar\\varphi_{r_{1}})\\gamma^{c_{2}}\\\\\n&+16L^{-1}L_{r_{1}j_{2}}\\bar\\chi^{j_{2}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{1}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\\\\n&+2iL^{-3}L^{j_{2}k_{2}}\\bar\\varphi_{k_{2}}(\\not{\\mathcal D}L_{r_{1}j_{2}})\\\\\n&-2iL^{-3}L_{r_{1}j_{2}}\\bar\\varphi^{j_{2}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{r_{1}}\\varphi_{j_{2}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{2}}(\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})L^{k_{2}l_{2}}L_{r_{1}j_{2}}\n\\end{aligned}\\right]L_{ij}\\varepsilon^{jr_{3}}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{r_{3}}\\\\\n&+16L^{-1}L_{r_{3}j_{4}}\\chi^{j_{4}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{r_{3}}\\\\\n&-2NL^{-3}L_{r_{3}j_{4}}\\varphi^{j_{4}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{r_{3}j_{4}})L^{j_{4}k_{4}}\\varphi_{k_{4}}\\\\\n&-2iL^{-3}\\not E L_{r_{3}j_{4}}\\varphi^{j_{4}}\\\\\n&+2iL^{-3}\\varphi^{j_{4}}\\bar\\varphi_{r_{3}}\\varphi_{j_{4}}\\\\\n&-6iL^{-5}\\varphi^{j_{4}}\\bar\\varphi_{k_{4}}\\varphi_{l_{4}}L^{k_{4}l_{4}}L_{r_{3}j_{4}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 8,
+      "source_tex": "+\\frac g4\\rho'\\bar\\psi_a{}^i\\gamma^a\\lambda'{}^jL_{ij}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "\\lambda'{}^j"
+      ],
+      "output_tex": "\\begin{aligned}\n&+\\frac g4\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_a{}^i\\gamma^a\\varepsilon^{jr_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{r_{2}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{r_{2}}\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{r_{2}j_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{r_{2}}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]\\\\\n&{}\\times L_{ij}\n\\end{aligned}",
+      "equation_tag": 74,
+      "unformatted_output_tex": "+\\frac g4\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\bar\\psi_a{}^i\\gamma^a\\varepsilon^{jr_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{r_{2}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{r_{2}}\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{r_{2}j_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{r_{2}}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]L_{ij}"
+    },
+    {
+      "group": 9,
+      "source_tex": "-\\frac12\\bar\\psi_a{}^i\\gamma^a\\lambda'{}^jY'_{ij}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\lambda'{}^j",
+        "Y'_{ij}"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac12\\bar\\psi_a{}^i\\gamma^a\\varepsilon^{jr_{1}}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{r_{1}}\\\\\n&+16L^{-1}L_{r_{1}j_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{r_{1}}\\\\\n&-2NL^{-3}L_{r_{1}j_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{r_{1}j_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{r_{1}j_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{r_{1}}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{r_{1}j_{2}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{ij}\\\\\n&-L^{-3}L^{k_{3}m_{3}}\\mathcal D_{c_{3}}L_{k_{3}(i}\\mathcal D^{c_{3}}L_{j)m_{3}}\\\\\n&-L^{-3}L_{ij}N^{2}\\\\\n&-L^{-3}L_{ij}E_{c_{3}}E^{c_{3}}\\\\\n&+2L^{-3}E_{c_{3}}L_{k_{3}(i}\\mathcal D^{c_{3}}L_{j)}{}^{k_{3}}\\\\\n&+\\frac83L^{-1}L_{ij}T^{2}\\\\\n&+4L^{-1}L_{ij}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-3iNL^{-5}L_{ij}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}\\\\\n&+3L^{-5}L_{ij}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\not E\\varphi_{l_{3}}\\\\\n&-L^{-3}\\bar\\varphi_{(i}\\not E\\varphi_{j)}\\\\\n&-16iL^{-1}\\bar\\chi_{(i}\\varphi_{j)}\\\\\n&+16iL^{-3}L_{ij}L_{k_{3}l_{3}}\\bar\\chi^{k_{3}}\\varphi^{l_{3}}\\\\\n&+2L^{-3}L_{k_{3}(i}\\bar\\varphi^{k_{3}}\\not{\\mathcal D}\\varphi_{j)}\\\\\n&-3L^{-5}L_{k_{3}(i}L^{l_{3}m_{3}}\\bar\\varphi^{k_{3}}(\\not{\\mathcal D}L_{j)l_{3}})\\varphi_{m_{3}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{3}}(\\not{\\mathcal D}L_{l_{3}(i})\\varphi_{j)}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{3}}(\\not{\\mathcal D}L_{ij})\\varphi_{m_{3}}\\\\\n&+2iL^{-3}L_{ij}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{ij}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})^{2}\\\\\n&-3L^{-5}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-\\frac32L^{-5}L_{ij}(\\bar\\varphi_{m_{3}}\\varphi_{n_{3}})(\\bar\\varphi^{m_{3}}\\varphi^{n_{3}})\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 75,
+      "unformatted_output_tex": "-\\frac12\\bar\\psi_a{}^i\\gamma^a\\varepsilon^{jr_{1}}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{r_{1}}\\\\\n&+16L^{-1}L_{r_{1}j_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{r_{1}}\\\\\n&-2NL^{-3}L_{r_{1}j_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{r_{1}j_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{r_{1}j_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{r_{1}}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{r_{1}j_{2}}\n\\end{aligned}\\right]\\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{ij}\\\\\n&-L^{-3}L^{k_{3}m_{3}}\\mathcal D_{c_{3}}L_{k_{3}(i}\\mathcal D^{c_{3}}L_{j)m_{3}}\\\\\n&-L^{-3}L_{ij}N^{2}\\\\\n&-L^{-3}L_{ij}E_{c_{3}}E^{c_{3}}\\\\\n&+2L^{-3}E_{c_{3}}L_{k_{3}(i}\\mathcal D^{c_{3}}L_{j)}{}^{k_{3}}\\\\\n&+\\frac83L^{-1}L_{ij}T^{2}\\\\\n&+4L^{-1}L_{ij}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-3iNL^{-5}L_{ij}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}\\\\\n&+3L^{-5}L_{ij}L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\not E\\varphi_{l_{3}}\\\\\n&-L^{-3}\\bar\\varphi_{(i}\\not E\\varphi_{j)}\\\\\n&-16iL^{-1}\\bar\\chi_{(i}\\varphi_{j)}\\\\\n&+16iL^{-3}L_{ij}L_{k_{3}l_{3}}\\bar\\chi^{k_{3}}\\varphi^{l_{3}}\\\\\n&+2L^{-3}L_{k_{3}(i}\\bar\\varphi^{k_{3}}\\not{\\mathcal D}\\varphi_{j)}\\\\\n&-3L^{-5}L_{k_{3}(i}L^{l_{3}m_{3}}\\bar\\varphi^{k_{3}}(\\not{\\mathcal D}L_{j)l_{3}})\\varphi_{m_{3}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{3}}(\\not{\\mathcal D}L_{l_{3}(i})\\varphi_{j)}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{3}}(\\not{\\mathcal D}L_{ij})\\varphi_{m_{3}}\\\\\n&+2iL^{-3}L_{ij}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{ij}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})^{2}\\\\\n&-3L^{-5}(L^{k_{3}l_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-\\frac32L^{-5}L_{ij}(\\bar\\varphi_{m_{3}}\\varphi_{n_{3}})(\\bar\\varphi^{m_{3}}\\varphi^{n_{3}})\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 10,
+      "source_tex": "-\\frac{3\\rho'}4\\bar\\lambda'{}^i\\gamma^a [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{ai} -\\gamma\\!\\cdot\\!T\\psi_{ai}+\\frac g2L_{ij}\\psi_a{}^j-\\phi_{ai}]",
+      "input_distributed_rows": 4,
+      "primed_occurrences": [
+        "\\rho'",
+        "\\bar\\lambda'{}^i"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac34\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\varepsilon^{ir_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{3}}\\bar\\varphi_{r_{2}})\\gamma^{c_{3}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\bar\\chi^{j_{3}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{2}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\\\\n&+2iL^{-3}L^{j_{3}k_{3}}\\bar\\varphi_{k_{3}}(\\not{\\mathcal D}L_{r_{2}j_{3}})\\\\\n&-2iL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{r_{2}}\\varphi_{j_{3}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\gamma^a [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{ai} -\\gamma\\!\\cdot\\!T\\psi_{ai}+\\frac g2L_{ij}\\psi_a{}^j-\\phi_{ai}]\n\\end{aligned}",
+      "equation_tag": 76,
+      "unformatted_output_tex": "-\\frac34\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\varepsilon^{ir_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{3}}\\bar\\varphi_{r_{2}})\\gamma^{c_{3}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\bar\\chi^{j_{3}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{2}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\\\\n&+2iL^{-3}L^{j_{3}k_{3}}\\bar\\varphi_{k_{3}}(\\not{\\mathcal D}L_{r_{2}j_{3}})\\\\\n&-2iL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{r_{2}}\\varphi_{j_{3}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]\\gamma^a [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{ai} -\\gamma\\!\\cdot\\!T\\psi_{ai}+\\frac g2L_{ij}\\psi_a{}^j-\\phi_{ai}]"
+    },
+    {
+      "group": 11,
+      "source_tex": "-\\frac12A'_a(\\mathcal D_b\\rho')\\widehat G^{ab}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac12\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times (\\mathcal D_b\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right])\\\\\n&{}\\times \\widehat G^{ab}\n\\end{aligned}",
+      "equation_tag": 77,
+      "unformatted_output_tex": "-\\frac12\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right](\\mathcal D_b\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right])\\widehat G^{ab}"
+    },
+    {
+      "group": 12,
+      "source_tex": "-\\frac12A'_a\\rho'\\mathcal D_b\\widehat G^{ab}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac12\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\mathcal D_b\\widehat G^{ab}\n\\end{aligned}",
+      "equation_tag": 78,
+      "unformatted_output_tex": "-\\frac12\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]\\mathcal D_b\\widehat G^{ab}"
+    },
+    {
+      "group": 13,
+      "source_tex": "-\\frac12A'_a\\mathcal D_b\\widehat F'^{ab}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\mathcal D_b\\widehat F'^{ab}"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac12\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\mathcal D_b\\left(e^{a\\mu_{2}}e^{b\\nu_{2}}\\left[\\begin{aligned}\n&4L^{-1}\\mathcal D_{[\\mu_{2}}E_{\\nu_{2}]}\\\\\n&-4L^{-2}(\\mathcal D_{[\\mu_{2}}L)E_{\\nu_{2}]}\\\\\n&+2L^{-1}\\widehat R_{\\mu_{2}\\nu_{2}}^{i_{3}j_{3}}(V)L_{i_{3}j_{3}}\\\\\n&-2L^{-3}L_{k_{3}}{}^{l_{3}}\\mathcal D_{[\\mu_{2}}L^{k_{3}p_{3}}\\mathcal D_{\\nu_{2}]}L_{l_{3}p_{3}}\\\\\n&+6L^{-4}(\\mathcal D_{[\\mu_{2}}L)L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}(\\mathcal D_{[\\mu_{2}}L_{i_{3}j_{3}})\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}(\\mathcal D_{[\\mu_{2}}\\bar\\varphi^{i_{3}})\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{[\\nu_{2}}\\mathcal D_{\\mu_{2}]}\\varphi^{j_{3}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{3}}\\widehat R_{\\mu_{2}\\nu_{2} i_{3}}(Q)\n\\end{aligned}\\right]\\right)\n\\end{aligned}",
+      "equation_tag": 79,
+      "unformatted_output_tex": "-\\frac12\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\mathcal D_b\\left(e^{a\\mu_{2}}e^{b\\nu_{2}}\\left[\\begin{aligned}\n&4L^{-1}\\mathcal D_{[\\mu_{2}}E_{\\nu_{2}]}\\\\\n&-4L^{-2}(\\mathcal D_{[\\mu_{2}}L)E_{\\nu_{2}]}\\\\\n&+2L^{-1}\\widehat R_{\\mu_{2}\\nu_{2}}^{i_{3}j_{3}}(V)L_{i_{3}j_{3}}\\\\\n&-2L^{-3}L_{k_{3}}{}^{l_{3}}\\mathcal D_{[\\mu_{2}}L^{k_{3}p_{3}}\\mathcal D_{\\nu_{2}]}L_{l_{3}p_{3}}\\\\\n&+6L^{-4}(\\mathcal D_{[\\mu_{2}}L)L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}(\\mathcal D_{[\\mu_{2}}L_{i_{3}j_{3}})\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}(\\mathcal D_{[\\mu_{2}}\\bar\\varphi^{i_{3}})\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{[\\nu_{2}}\\mathcal D_{\\mu_{2}]}\\varphi^{j_{3}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{3}}\\widehat R_{\\mu_{2}\\nu_{2} i_{3}}(Q)\n\\end{aligned}\\right]\\right)"
+    },
+    {
+      "group": 14,
+      "source_tex": "+8A'_a(\\mathcal D_b\\rho')T^{ab}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&+8\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times (\\mathcal D_b\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right])\\\\\n&{}\\times T^{ab}\n\\end{aligned}",
+      "equation_tag": 80,
+      "unformatted_output_tex": "+8\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right](\\mathcal D_b\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right])T^{ab}"
+    },
+    {
+      "group": 15,
+      "source_tex": "+8A'_a\\rho'\\mathcal D_bT^{ab}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&+8\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\mathcal D_bT^{ab}\n\\end{aligned}",
+      "equation_tag": 81,
+      "unformatted_output_tex": "+8\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]\\mathcal D_bT^{ab}"
+    },
+    {
+      "group": 16,
+      "source_tex": "-\\frac18A'_a\\varepsilon^{abcde}\\widehat F'_{bc}\\widehat G_{de}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\widehat F'_{bc}"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac18\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\varepsilon^{abcde}e_{b}{}^{\\mu_{2}}e_{c}{}^{\\nu_{2}}\\left[\\begin{aligned}\n&4L^{-1}\\mathcal D_{[\\mu_{2}}E_{\\nu_{2}]}\\\\\n&-4L^{-2}(\\mathcal D_{[\\mu_{2}}L)E_{\\nu_{2}]}\\\\\n&+2L^{-1}\\widehat R_{\\mu_{2}\\nu_{2}}^{i_{3}j_{3}}(V)L_{i_{3}j_{3}}\\\\\n&-2L^{-3}L_{k_{3}}{}^{l_{3}}\\mathcal D_{[\\mu_{2}}L^{k_{3}p_{3}}\\mathcal D_{\\nu_{2}]}L_{l_{3}p_{3}}\\\\\n&+6L^{-4}(\\mathcal D_{[\\mu_{2}}L)L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}(\\mathcal D_{[\\mu_{2}}L_{i_{3}j_{3}})\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}(\\mathcal D_{[\\mu_{2}}\\bar\\varphi^{i_{3}})\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{[\\nu_{2}}\\mathcal D_{\\mu_{2}]}\\varphi^{j_{3}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{3}}\\widehat R_{\\mu_{2}\\nu_{2} i_{3}}(Q)\n\\end{aligned}\\right]\\\\\n&{}\\times \\widehat G_{de}\n\\end{aligned}",
+      "equation_tag": 82,
+      "unformatted_output_tex": "-\\frac18\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\varepsilon^{abcde}e_{b}{}^{\\mu_{2}}e_{c}{}^{\\nu_{2}}\\left[\\begin{aligned}\n&4L^{-1}\\mathcal D_{[\\mu_{2}}E_{\\nu_{2}]}\\\\\n&-4L^{-2}(\\mathcal D_{[\\mu_{2}}L)E_{\\nu_{2}]}\\\\\n&+2L^{-1}\\widehat R_{\\mu_{2}\\nu_{2}}^{i_{3}j_{3}}(V)L_{i_{3}j_{3}}\\\\\n&-2L^{-3}L_{k_{3}}{}^{l_{3}}\\mathcal D_{[\\mu_{2}}L^{k_{3}p_{3}}\\mathcal D_{\\nu_{2}]}L_{l_{3}p_{3}}\\\\\n&+6L^{-4}(\\mathcal D_{[\\mu_{2}}L)L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}(\\mathcal D_{[\\mu_{2}}L_{i_{3}j_{3}})\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}(\\mathcal D_{[\\mu_{2}}\\bar\\varphi^{i_{3}})\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{[\\nu_{2}}\\mathcal D_{\\mu_{2}]}\\varphi^{j_{3}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{3}}\\widehat R_{\\mu_{2}\\nu_{2} i_{3}}(Q)\n\\end{aligned}\\right]\\widehat G_{de}"
+    },
+    {
+      "group": 17,
+      "source_tex": "-\\frac i4A'_a\\bar\\lambda'{}^i\\gamma^{ab} [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{bi} -\\gamma\\!\\cdot\\!T\\psi_{bi}+\\frac g2L_{ij}\\psi_b{}^j-\\phi_{bi}]",
+      "input_distributed_rows": 4,
+      "primed_occurrences": [
+        "A'_a",
+        "\\bar\\lambda'{}^i"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac i4\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\varepsilon^{ir_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{3}}\\bar\\varphi_{r_{2}})\\gamma^{c_{3}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\bar\\chi^{j_{3}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{2}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\\\\n&+2iL^{-3}L^{j_{3}k_{3}}\\bar\\varphi_{k_{3}}(\\not{\\mathcal D}L_{r_{2}j_{3}})\\\\\n&-2iL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{r_{2}}\\varphi_{j_{3}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\gamma^{ab} [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{bi} -\\gamma\\!\\cdot\\!T\\psi_{bi}+\\frac g2L_{ij}\\psi_b{}^j-\\phi_{bi}]\n\\end{aligned}",
+      "equation_tag": 83,
+      "unformatted_output_tex": "-\\frac i4\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\varepsilon^{ir_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}(\\mathcal D_{c_{3}}\\bar\\varphi_{r_{2}})\\gamma^{c_{3}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\bar\\chi^{j_{3}}\\\\\n&-4L^{-1}\\bar\\varphi_{r_{2}}\\gamma\\!\\cdot\\!T\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\\\\n&+2iL^{-3}L^{j_{3}k_{3}}\\bar\\varphi_{k_{3}}(\\not{\\mathcal D}L_{r_{2}j_{3}})\\\\\n&-2iL^{-3}L_{r_{2}j_{3}}\\bar\\varphi^{j_{3}}\\not E\\\\\n&+2iL^{-3}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{r_{2}}\\varphi_{j_{3}})\\\\\n&-6iL^{-5}\\bar\\varphi^{j_{3}}(\\bar\\varphi_{k_{3}}\\varphi_{l_{3}})L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]\\gamma^{ab} [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{bi} -\\gamma\\!\\cdot\\!T\\psi_{bi}+\\frac g2L_{ij}\\psi_b{}^j-\\phi_{bi}]"
+    },
+    {
+      "group": 18,
+      "source_tex": "-\\frac14A'_a\\rho'\\bar\\psi_b{}^i\\gamma^{ba}\\gamma^c [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{ci} -\\gamma\\!\\cdot\\!T\\psi_{ci}+\\frac g2L_{ij}\\psi_c{}^j-\\phi_{ci}]",
+      "input_distributed_rows": 4,
+      "primed_occurrences": [
+        "A'_a",
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac14\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_b{}^i\\gamma^{ba}\\gamma^c [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{ci} -\\gamma\\!\\cdot\\!T\\psi_{ci}+\\frac g2L_{ij}\\psi_c{}^j-\\phi_{ci}]\n\\end{aligned}",
+      "equation_tag": 84,
+      "unformatted_output_tex": "-\\frac14\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]\\bar\\psi_b{}^i\\gamma^{ba}\\gamma^c [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{ci} -\\gamma\\!\\cdot\\!T\\psi_{ci}+\\frac g2L_{ij}\\psi_c{}^j-\\phi_{ci}]"
+    },
+    {
+      "group": 19,
+      "source_tex": "-\\frac14A'_a\\bar\\psi_b{}^i\\gamma^{ba}\\not{\\mathcal D}\\lambda'_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\lambda'_i"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac14\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_b{}^i\\gamma^{ba}\\not{\\mathcal D}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 85,
+      "unformatted_output_tex": "-\\frac14\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\bar\\psi_b{}^i\\gamma^{ba}\\not{\\mathcal D}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 20,
+      "source_tex": "+\\frac i2A'_a\\bar\\psi_b{}^i\\gamma^{ba}\\gamma\\!\\cdot\\!T\\lambda'_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\lambda'_i"
+      ],
+      "output_tex": "\\begin{aligned}\n&+\\frac i2\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_b{}^i\\gamma^{ba}\\gamma\\!\\cdot\\!T\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 86,
+      "unformatted_output_tex": "+\\frac i2\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\bar\\psi_b{}^i\\gamma^{ba}\\gamma\\!\\cdot\\!T\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 21,
+      "source_tex": "-4iA'_a\\rho'\\bar\\psi_b{}^i\\gamma^{ba}\\chi_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&-4i\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_b{}^i\\gamma^{ba}\\chi_i\n\\end{aligned}",
+      "equation_tag": 87,
+      "unformatted_output_tex": "-4i\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]\\bar\\psi_b{}^i\\gamma^{ba}\\chi_i"
+    },
+    {
+      "group": 22,
+      "source_tex": "-\\frac i{16}A'_a\\bar\\psi_b{}^i\\gamma^{ba}\\gamma\\!\\cdot\\!\\widehat G\\lambda'_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\lambda'_i"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac i{16}\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_b{}^i\\gamma^{ba}\\gamma\\!\\cdot\\!\\widehat G\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 88,
+      "unformatted_output_tex": "-\\frac i{16}\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\bar\\psi_b{}^i\\gamma^{ba}\\gamma\\!\\cdot\\!\\widehat G\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 23,
+      "source_tex": "+\\frac{ig}8A'_a\\bar\\psi_b{}^i\\gamma^{ba}L_{ij}\\lambda'{}^j",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\lambda'{}^j"
+      ],
+      "output_tex": "\\begin{aligned}\n&+\\frac{ig}8\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_b{}^i\\gamma^{ba}L_{ij}\\varepsilon^{jr_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{r_{2}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{r_{2}}\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{r_{2}j_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{r_{2}}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 89,
+      "unformatted_output_tex": "+\\frac{ig}8\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\bar\\psi_b{}^i\\gamma^{ba}L_{ij}\\varepsilon^{jr_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{r_{2}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{r_{2}}\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{r_{2}j_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{r_{2}}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 24,
+      "source_tex": "-\\frac g8A'_a\\rho'\\bar\\psi_b{}^i\\gamma^{abc}\\psi_c{}^jL_{ij}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac g8\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_b{}^i\\gamma^{abc}\\psi_c{}^jL_{ij}\n\\end{aligned}",
+      "equation_tag": 90,
+      "unformatted_output_tex": "-\\frac g8\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]\\bar\\psi_b{}^i\\gamma^{abc}\\psi_c{}^jL_{ij}"
+    },
+    {
+      "group": 25,
+      "source_tex": "+\\frac14A'_a\\bar\\psi_b{}^i\\gamma^{abc}\\psi_c{}^jY'_{ij}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "A'_a",
+        "Y'_{ij}"
+      ],
+      "output_tex": "\\begin{aligned}\n&+\\frac14\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_b{}^i\\gamma^{abc}\\psi_c{}^j\\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{ij}\\\\\n&-L^{-3}L^{k_{2}m_{2}}\\mathcal D_{c_{2}}L_{k_{2}(i}\\mathcal D^{c_{2}}L_{j)m_{2}}\\\\\n&-L^{-3}L_{ij}N^{2}\\\\\n&-L^{-3}L_{ij}E_{c_{2}}E^{c_{2}}\\\\\n&+2L^{-3}E_{c_{2}}L_{k_{2}(i}\\mathcal D^{c_{2}}L_{j)}{}^{k_{2}}\\\\\n&+\\frac83L^{-1}L_{ij}T^{2}\\\\\n&+4L^{-1}L_{ij}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-3iNL^{-5}L_{ij}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}\\\\\n&+3L^{-5}L_{ij}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\not E\\varphi_{l_{2}}\\\\\n&-L^{-3}\\bar\\varphi_{(i}\\not E\\varphi_{j)}\\\\\n&-16iL^{-1}\\bar\\chi_{(i}\\varphi_{j)}\\\\\n&+16iL^{-3}L_{ij}L_{k_{2}l_{2}}\\bar\\chi^{k_{2}}\\varphi^{l_{2}}\\\\\n&+2L^{-3}L_{k_{2}(i}\\bar\\varphi^{k_{2}}\\not{\\mathcal D}\\varphi_{j)}\\\\\n&-3L^{-5}L_{k_{2}(i}L^{l_{2}m_{2}}\\bar\\varphi^{k_{2}}(\\not{\\mathcal D}L_{j)l_{2}})\\varphi_{m_{2}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{2}}(\\not{\\mathcal D}L_{l_{2}(i})\\varphi_{j)}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{2}}(\\not{\\mathcal D}L_{ij})\\varphi_{m_{2}}\\\\\n&+2iL^{-3}L_{ij}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{ij}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})^{2}\\\\\n&-3L^{-5}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-\\frac32L^{-5}L_{ij}(\\bar\\varphi_{m_{2}}\\varphi_{n_{2}})(\\bar\\varphi^{m_{2}}\\varphi^{n_{2}})\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 91,
+      "unformatted_output_tex": "+\\frac14\\left[\\begin{aligned}\n&2L^{-1}E_{a}\\\\\n&+\\sqrt2V_{a}\\\\\n&-L^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\gamma_{a}\\varphi^{j_{1}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{1}}\\psi_{ai_{1}}\n\\end{aligned}\\right]\\bar\\psi_b{}^i\\gamma^{abc}\\psi_c{}^j\\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{ij}\\\\\n&-L^{-3}L^{k_{2}m_{2}}\\mathcal D_{c_{2}}L_{k_{2}(i}\\mathcal D^{c_{2}}L_{j)m_{2}}\\\\\n&-L^{-3}L_{ij}N^{2}\\\\\n&-L^{-3}L_{ij}E_{c_{2}}E^{c_{2}}\\\\\n&+2L^{-3}E_{c_{2}}L_{k_{2}(i}\\mathcal D^{c_{2}}L_{j)}{}^{k_{2}}\\\\\n&+\\frac83L^{-1}L_{ij}T^{2}\\\\\n&+4L^{-1}L_{ij}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-3iNL^{-5}L_{ij}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}\\\\\n&+3L^{-5}L_{ij}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\not E\\varphi_{l_{2}}\\\\\n&-L^{-3}\\bar\\varphi_{(i}\\not E\\varphi_{j)}\\\\\n&-16iL^{-1}\\bar\\chi_{(i}\\varphi_{j)}\\\\\n&+16iL^{-3}L_{ij}L_{k_{2}l_{2}}\\bar\\chi^{k_{2}}\\varphi^{l_{2}}\\\\\n&+2L^{-3}L_{k_{2}(i}\\bar\\varphi^{k_{2}}\\not{\\mathcal D}\\varphi_{j)}\\\\\n&-3L^{-5}L_{k_{2}(i}L^{l_{2}m_{2}}\\bar\\varphi^{k_{2}}(\\not{\\mathcal D}L_{j)l_{2}})\\varphi_{m_{2}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{2}}(\\not{\\mathcal D}L_{l_{2}(i})\\varphi_{j)}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{2}}(\\not{\\mathcal D}L_{ij})\\varphi_{m_{2}}\\\\\n&+2iL^{-3}L_{ij}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{ij}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})^{2}\\\\\n&-3L^{-5}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-\\frac32L^{-5}L_{ij}(\\bar\\varphi_{m_{2}}\\varphi_{n_{2}})(\\bar\\varphi^{m_{2}}\\varphi^{n_{2}})\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 26,
+      "source_tex": "+\\frac12\\rho'\\Box_c\\rho'",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&+\\frac12\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\Box_c\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 92,
+      "unformatted_output_tex": "+\\frac12\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\Box_c\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{2}j_{2}}\\bar\\varphi^{i_{2}}\\varphi^{j_{2}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 27,
+      "source_tex": "+(\\rho')^2 f_a{}^a",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&+(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\\\\n&{}\\times f_a{}^a\n\\end{aligned}",
+      "equation_tag": 93,
+      "unformatted_output_tex": "+(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2 f_a{}^a"
+    },
+    {
+      "group": 28,
+      "source_tex": "-\\frac14\\rho'\\widehat F'_{ab}\\widehat G^{ab}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "\\widehat F'_{ab}"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac14\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times e_{a}{}^{\\mu_{2}}e_{b}{}^{\\nu_{2}}\\left[\\begin{aligned}\n&4L^{-1}\\mathcal D_{[\\mu_{2}}E_{\\nu_{2}]}\\\\\n&-4L^{-2}(\\mathcal D_{[\\mu_{2}}L)E_{\\nu_{2}]}\\\\\n&+2L^{-1}\\widehat R_{\\mu_{2}\\nu_{2}}^{i_{3}j_{3}}(V)L_{i_{3}j_{3}}\\\\\n&-2L^{-3}L_{k_{3}}{}^{l_{3}}\\mathcal D_{[\\mu_{2}}L^{k_{3}p_{3}}\\mathcal D_{\\nu_{2}]}L_{l_{3}p_{3}}\\\\\n&+6L^{-4}(\\mathcal D_{[\\mu_{2}}L)L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}(\\mathcal D_{[\\mu_{2}}L_{i_{3}j_{3}})\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}(\\mathcal D_{[\\mu_{2}}\\bar\\varphi^{i_{3}})\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{[\\nu_{2}}\\mathcal D_{\\mu_{2}]}\\varphi^{j_{3}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{3}}\\widehat R_{\\mu_{2}\\nu_{2} i_{3}}(Q)\n\\end{aligned}\\right]\\\\\n&{}\\times \\widehat G^{ab}\n\\end{aligned}",
+      "equation_tag": 94,
+      "unformatted_output_tex": "-\\frac14\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]e_{a}{}^{\\mu_{2}}e_{b}{}^{\\nu_{2}}\\left[\\begin{aligned}\n&4L^{-1}\\mathcal D_{[\\mu_{2}}E_{\\nu_{2}]}\\\\\n&-4L^{-2}(\\mathcal D_{[\\mu_{2}}L)E_{\\nu_{2}]}\\\\\n&+2L^{-1}\\widehat R_{\\mu_{2}\\nu_{2}}^{i_{3}j_{3}}(V)L_{i_{3}j_{3}}\\\\\n&-2L^{-3}L_{k_{3}}{}^{l_{3}}\\mathcal D_{[\\mu_{2}}L^{k_{3}p_{3}}\\mathcal D_{\\nu_{2}]}L_{l_{3}p_{3}}\\\\\n&+6L^{-4}(\\mathcal D_{[\\mu_{2}}L)L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}(\\mathcal D_{[\\mu_{2}}L_{i_{3}j_{3}})\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}(\\mathcal D_{[\\mu_{2}}\\bar\\varphi^{i_{3}})\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{[\\nu_{2}}\\mathcal D_{\\mu_{2}]}\\varphi^{j_{3}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{3}}\\widehat R_{\\mu_{2}\\nu_{2} i_{3}}(Q)\n\\end{aligned}\\right]\\widehat G^{ab}"
+    },
+    {
+      "group": 29,
+      "source_tex": "+4(\\rho')^2\\widehat G_{ab}T^{ab}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&+4(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\\\\n&{}\\times \\widehat G_{ab}T^{ab}\n\\end{aligned}",
+      "equation_tag": 95,
+      "unformatted_output_tex": "+4(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\widehat G_{ab}T^{ab}"
+    },
+    {
+      "group": 30,
+      "source_tex": "+4\\rho'\\widehat F'_{ab}T^{ab}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "\\widehat F'_{ab}"
+      ],
+      "output_tex": "\\begin{aligned}\n&+4\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times e_{a}{}^{\\mu_{2}}e_{b}{}^{\\nu_{2}}\\left[\\begin{aligned}\n&4L^{-1}\\mathcal D_{[\\mu_{2}}E_{\\nu_{2}]}\\\\\n&-4L^{-2}(\\mathcal D_{[\\mu_{2}}L)E_{\\nu_{2}]}\\\\\n&+2L^{-1}\\widehat R_{\\mu_{2}\\nu_{2}}^{i_{3}j_{3}}(V)L_{i_{3}j_{3}}\\\\\n&-2L^{-3}L_{k_{3}}{}^{l_{3}}\\mathcal D_{[\\mu_{2}}L^{k_{3}p_{3}}\\mathcal D_{\\nu_{2}]}L_{l_{3}p_{3}}\\\\\n&+6L^{-4}(\\mathcal D_{[\\mu_{2}}L)L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}(\\mathcal D_{[\\mu_{2}}L_{i_{3}j_{3}})\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}(\\mathcal D_{[\\mu_{2}}\\bar\\varphi^{i_{3}})\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{[\\nu_{2}}\\mathcal D_{\\mu_{2}]}\\varphi^{j_{3}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{3}}\\widehat R_{\\mu_{2}\\nu_{2} i_{3}}(Q)\n\\end{aligned}\\right]\\\\\n&{}\\times T^{ab}\n\\end{aligned}",
+      "equation_tag": 96,
+      "unformatted_output_tex": "+4\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]e_{a}{}^{\\mu_{2}}e_{b}{}^{\\nu_{2}}\\left[\\begin{aligned}\n&4L^{-1}\\mathcal D_{[\\mu_{2}}E_{\\nu_{2}]}\\\\\n&-4L^{-2}(\\mathcal D_{[\\mu_{2}}L)E_{\\nu_{2}]}\\\\\n&+2L^{-1}\\widehat R_{\\mu_{2}\\nu_{2}}^{i_{3}j_{3}}(V)L_{i_{3}j_{3}}\\\\\n&-2L^{-3}L_{k_{3}}{}^{l_{3}}\\mathcal D_{[\\mu_{2}}L^{k_{3}p_{3}}\\mathcal D_{\\nu_{2}]}L_{l_{3}p_{3}}\\\\\n&+6L^{-4}(\\mathcal D_{[\\mu_{2}}L)L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}(\\mathcal D_{[\\mu_{2}}L_{i_{3}j_{3}})\\bar\\varphi^{i_{3}}\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}(\\mathcal D_{[\\mu_{2}}\\bar\\varphi^{i_{3}})\\gamma_{\\nu_{2}]}\\varphi^{j_{3}}\\\\\n&-2L^{-3}L_{i_{3}j_{3}}\\bar\\varphi^{i_{3}}\\gamma_{[\\nu_{2}}\\mathcal D_{\\mu_{2}]}\\varphi^{j_{3}}\\\\\n&-iL^{-1}\\bar\\varphi^{i_{3}}\\widehat R_{\\mu_{2}\\nu_{2} i_{3}}(Q)\n\\end{aligned}\\right]T^{ab}"
+    },
+    {
+      "group": 31,
+      "source_tex": "-4(\\rho')^2D",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&-4(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\\\\n&{}\\times D\n\\end{aligned}",
+      "equation_tag": 97,
+      "unformatted_output_tex": "-4(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2D"
+    },
+    {
+      "group": 32,
+      "source_tex": "-\\frac{104}{3}(\\rho')^2T^2",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac{104}{3}(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\\\\n&{}\\times T^2\n\\end{aligned}",
+      "equation_tag": 98,
+      "unformatted_output_tex": "-\\frac{104}{3}(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2T^2"
+    },
+    {
+      "group": 33,
+      "source_tex": "+8i\\rho'\\bar\\chi\\lambda'",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "\\lambda'_i"
+      ],
+      "output_tex": "\\begin{aligned}\n&+8i\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\chi^i\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 99,
+      "unformatted_output_tex": "+8i\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\bar\\chi^i\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 34,
+      "source_tex": "-5(\\rho')^2\\bar\\psi_a{}^i\\gamma^a\\chi_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&-5(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\\\\n&{}\\times \\bar\\psi_a{}^i\\gamma^a\\chi_i\n\\end{aligned}",
+      "equation_tag": 100,
+      "unformatted_output_tex": "-5(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\bar\\psi_a{}^i\\gamma^a\\chi_i"
+    },
+    {
+      "group": 35,
+      "source_tex": "+\\frac i4\\rho'\\bar\\psi_a{}^i\\gamma^a\\not{\\mathcal D}\\lambda'_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "\\lambda'_i"
+      ],
+      "output_tex": "\\begin{aligned}\n&+\\frac i4\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_a{}^i\\gamma^a\\not{\\mathcal D}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 101,
+      "unformatted_output_tex": "+\\frac i4\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\bar\\psi_a{}^i\\gamma^a\\not{\\mathcal D}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 36,
+      "source_tex": "+\\frac12\\rho'\\bar\\psi_a{}^i\\gamma^a\\gamma\\!\\cdot\\!T\\lambda'_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "\\lambda'_i"
+      ],
+      "output_tex": "\\begin{aligned}\n&+\\frac12\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_a{}^i\\gamma^a\\gamma\\!\\cdot\\!T\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 102,
+      "unformatted_output_tex": "+\\frac12\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\bar\\psi_a{}^i\\gamma^a\\gamma\\!\\cdot\\!T\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 37,
+      "source_tex": "-\\frac1{16}\\rho'\\bar\\psi_a{}^i\\gamma^a\\gamma\\!\\cdot\\!\\widehat G\\lambda'_i",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "\\lambda'_i"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac1{16}\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_a{}^i\\gamma^a\\gamma\\!\\cdot\\!\\widehat G\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 103,
+      "unformatted_output_tex": "-\\frac1{16}\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\bar\\psi_a{}^i\\gamma^a\\gamma\\!\\cdot\\!\\widehat G\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{i}\\\\\n&+16L^{-1}L_{ij_{2}}\\chi^{j_{2}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{i}\\\\\n&-2NL^{-3}L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{ij_{2}})L^{j_{2}k_{2}}\\varphi_{k_{2}}\\\\\n&-2iL^{-3}\\not E L_{ij_{2}}\\varphi^{j_{2}}\\\\\n&+2iL^{-3}\\varphi^{j_{2}}\\bar\\varphi_{i}\\varphi_{j_{2}}\\\\\n&-6iL^{-5}\\varphi^{j_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}L^{k_{2}l_{2}}L_{ij_{2}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 38,
+      "source_tex": "+\\frac g8\\rho'\\bar\\psi_a{}^i\\gamma^aL_{ij}\\lambda'{}^j",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "\\lambda'{}^j"
+      ],
+      "output_tex": "\\begin{aligned}\n&+\\frac g8\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_a{}^i\\gamma^aL_{ij}\\varepsilon^{jr_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{r_{2}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{r_{2}}\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{r_{2}j_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{r_{2}}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 104,
+      "unformatted_output_tex": "+\\frac g8\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\bar\\psi_a{}^i\\gamma^aL_{ij}\\varepsilon^{jr_{2}}\\left[\\begin{aligned}\n&-2iL^{-1}\\not{\\mathcal D}\\varphi_{r_{2}}\\\\\n&+16L^{-1}L_{r_{2}j_{3}}\\chi^{j_{3}}\\\\\n&+4L^{-1}\\gamma\\!\\cdot\\!T\\varphi_{r_{2}}\\\\\n&-2NL^{-3}L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}(\\not{\\mathcal D}L_{r_{2}j_{3}})L^{j_{3}k_{3}}\\varphi_{k_{3}}\\\\\n&-2iL^{-3}\\not E L_{r_{2}j_{3}}\\varphi^{j_{3}}\\\\\n&+2iL^{-3}\\varphi^{j_{3}}\\bar\\varphi_{r_{2}}\\varphi_{j_{3}}\\\\\n&-6iL^{-5}\\varphi^{j_{3}}\\bar\\varphi_{k_{3}}\\varphi_{l_{3}}L^{k_{3}l_{3}}L_{r_{2}j_{3}}\n\\end{aligned}\\right]"
+    },
+    {
+      "group": 39,
+      "source_tex": "+\\frac i4(\\rho')^2\\bar\\psi_a{}^i\\gamma^a\\gamma^b [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{bi} -\\gamma\\!\\cdot\\!T\\psi_{bi}+\\frac g2L_{ij}\\psi_b{}^j-\\phi_{bi}]",
+      "input_distributed_rows": 4,
+      "primed_occurrences": [
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&+\\frac i4(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\\\\n&{}\\times \\bar\\psi_a{}^i\\gamma^a\\gamma^b [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{bi} -\\gamma\\!\\cdot\\!T\\psi_{bi}+\\frac g2L_{ij}\\psi_b{}^j-\\phi_{bi}]\n\\end{aligned}",
+      "equation_tag": 105,
+      "unformatted_output_tex": "+\\frac i4(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\bar\\psi_a{}^i\\gamma^a\\gamma^b [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{bi} -\\gamma\\!\\cdot\\!T\\psi_{bi}+\\frac g2L_{ij}\\psi_b{}^j-\\phi_{bi}]"
+    },
+    {
+      "group": 40,
+      "source_tex": "-\\frac i4(\\rho')^2\\bar\\psi_a{}^i [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi^a_i -\\gamma\\!\\cdot\\!T\\psi^a_i+\\frac g2L_{ij}\\psi^{aj}-\\phi^a_i]",
+      "input_distributed_rows": 4,
+      "primed_occurrences": [
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac i4(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\\\\n&{}\\times \\bar\\psi_a{}^i [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi^a_i -\\gamma\\!\\cdot\\!T\\psi^a_i+\\frac g2L_{ij}\\psi^{aj}-\\phi^a_i]\n\\end{aligned}",
+      "equation_tag": 106,
+      "unformatted_output_tex": "-\\frac i4(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\bar\\psi_a{}^i [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi^a_i -\\gamma\\!\\cdot\\!T\\psi^a_i+\\frac g2L_{ij}\\psi^{aj}-\\phi^a_i]"
+    },
+    {
+      "group": 41,
+      "source_tex": "-\\frac{ig}8(\\rho')^2\\bar\\psi_a{}^i\\gamma^{ab}\\psi_b{}^jL_{ij}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'"
+      ],
+      "output_tex": "\\begin{aligned}\n&-\\frac{ig}8(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\\\\n&{}\\times \\bar\\psi_a{}^i\\gamma^{ab}\\psi_b{}^jL_{ij}\n\\end{aligned}",
+      "equation_tag": 107,
+      "unformatted_output_tex": "-\\frac{ig}8(\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right])^2\\bar\\psi_a{}^i\\gamma^{ab}\\psi_b{}^jL_{ij}"
+    },
+    {
+      "group": 42,
+      "source_tex": "+\\frac i4\\rho'\\bar\\psi_a{}^i\\gamma^{ab}\\psi_b{}^jY'_{ij}",
+      "input_distributed_rows": 1,
+      "primed_occurrences": [
+        "\\rho'",
+        "Y'_{ij}"
+      ],
+      "output_tex": "\\begin{aligned}\n&+\\frac i4\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\\\\n&{}\\times \\bar\\psi_a{}^i\\gamma^{ab}\\psi_b{}^j\\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{ij}\\\\\n&-L^{-3}L^{k_{2}m_{2}}\\mathcal D_{c_{2}}L_{k_{2}(i}\\mathcal D^{c_{2}}L_{j)m_{2}}\\\\\n&-L^{-3}L_{ij}N^{2}\\\\\n&-L^{-3}L_{ij}E_{c_{2}}E^{c_{2}}\\\\\n&+2L^{-3}E_{c_{2}}L_{k_{2}(i}\\mathcal D^{c_{2}}L_{j)}{}^{k_{2}}\\\\\n&+\\frac83L^{-1}L_{ij}T^{2}\\\\\n&+4L^{-1}L_{ij}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-3iNL^{-5}L_{ij}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}\\\\\n&+3L^{-5}L_{ij}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\not E\\varphi_{l_{2}}\\\\\n&-L^{-3}\\bar\\varphi_{(i}\\not E\\varphi_{j)}\\\\\n&-16iL^{-1}\\bar\\chi_{(i}\\varphi_{j)}\\\\\n&+16iL^{-3}L_{ij}L_{k_{2}l_{2}}\\bar\\chi^{k_{2}}\\varphi^{l_{2}}\\\\\n&+2L^{-3}L_{k_{2}(i}\\bar\\varphi^{k_{2}}\\not{\\mathcal D}\\varphi_{j)}\\\\\n&-3L^{-5}L_{k_{2}(i}L^{l_{2}m_{2}}\\bar\\varphi^{k_{2}}(\\not{\\mathcal D}L_{j)l_{2}})\\varphi_{m_{2}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{2}}(\\not{\\mathcal D}L_{l_{2}(i})\\varphi_{j)}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{2}}(\\not{\\mathcal D}L_{ij})\\varphi_{m_{2}}\\\\\n&+2iL^{-3}L_{ij}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{ij}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})^{2}\\\\\n&-3L^{-5}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-\\frac32L^{-5}L_{ij}(\\bar\\varphi_{m_{2}}\\varphi_{n_{2}})(\\bar\\varphi^{m_{2}}\\varphi^{n_{2}})\n\\end{aligned}\\right]\n\\end{aligned}",
+      "equation_tag": 108,
+      "unformatted_output_tex": "+\\frac i4\\left[\\begin{aligned}\n&2L^{-1}N\\\\\n&+iL^{-3}L_{i_{1}j_{1}}\\bar\\varphi^{i_{1}}\\varphi^{j_{1}}\n\\end{aligned}\\right]\\bar\\psi_a{}^i\\gamma^{ab}\\psi_b{}^j\\left[\\begin{aligned}\n&L^{-1}\\square^{c} L_{ij}\\\\\n&-L^{-3}L^{k_{2}m_{2}}\\mathcal D_{c_{2}}L_{k_{2}(i}\\mathcal D^{c_{2}}L_{j)m_{2}}\\\\\n&-L^{-3}L_{ij}N^{2}\\\\\n&-L^{-3}L_{ij}E_{c_{2}}E^{c_{2}}\\\\\n&+2L^{-3}E_{c_{2}}L_{k_{2}(i}\\mathcal D^{c_{2}}L_{j)}{}^{k_{2}}\\\\\n&+\\frac83L^{-1}L_{ij}T^{2}\\\\\n&+4L^{-1}L_{ij}D\\\\\n&+iNL^{-3}\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-3iNL^{-5}L_{ij}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}}\\\\\n&+3L^{-5}L_{ij}L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\not E\\varphi_{l_{2}}\\\\\n&-L^{-3}\\bar\\varphi_{(i}\\not E\\varphi_{j)}\\\\\n&-16iL^{-1}\\bar\\chi_{(i}\\varphi_{j)}\\\\\n&+16iL^{-3}L_{ij}L_{k_{2}l_{2}}\\bar\\chi^{k_{2}}\\varphi^{l_{2}}\\\\\n&+2L^{-3}L_{k_{2}(i}\\bar\\varphi^{k_{2}}\\not{\\mathcal D}\\varphi_{j)}\\\\\n&-3L^{-5}L_{k_{2}(i}L^{l_{2}m_{2}}\\bar\\varphi^{k_{2}}(\\not{\\mathcal D}L_{j)l_{2}})\\varphi_{m_{2}}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{l_{2}}(\\not{\\mathcal D}L_{l_{2}(i})\\varphi_{j)}\\\\\n&+\\frac12L^{-3}\\bar\\varphi^{m_{2}}(\\not{\\mathcal D}L_{ij})\\varphi_{m_{2}}\\\\\n&+2iL^{-3}L_{ij}\\bar\\varphi\\gamma\\!\\cdot\\!T\\varphi\\\\\n&+\\frac{15}{2}L^{-7}L_{ij}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})^{2}\\\\\n&-3L^{-5}(L^{k_{2}l_{2}}\\bar\\varphi_{k_{2}}\\varphi_{l_{2}})\\bar\\varphi_{(i}\\varphi_{j)}\\\\\n&-\\frac32L^{-5}L_{ij}(\\bar\\varphi_{m_{2}}\\varphi_{n_{2}})(\\bar\\varphi^{m_{2}}\\varphi^{n_{2}})\n\\end{aligned}\\right]"
+    }
+  ],
+  "local_potential": "R2-COMPOSITE-POTENTIAL-GOLD25-v1"
+}

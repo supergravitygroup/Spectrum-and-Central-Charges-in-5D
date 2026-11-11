@@ -1,0 +1,183 @@
+{
+  "label": "torus_momentum_n2",
+  "rank": 1,
+  "shape": [
+    1,
+    1
+  ],
+  "blocks": [
+    {
+      "rank": 1,
+      "shape": [
+        1,
+        1
+      ],
+      "rows": [
+        0
+      ],
+      "cols": [
+        0
+      ],
+      "row_scales": [
+        "16*L - 48"
+      ],
+      "physical_divisor": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "18*L^2*D^2 - 36*L^2*D - 27*L*D^3 - 3*L*D*S^2 + 108*L*D + 8*L*S^2 + 108*D^3 - 216*D^2 + 12*D*S^2 - 24*S^2",
+            1
+          ]
+        ]
+      },
+      "chart_denominators": {
+        "coefficient": "1",
+        "factors": []
+      },
+      "minor_witnesses": [
+        {
+          "rows": [
+            0
+          ],
+          "cols": [
+            0
+          ]
+        }
+      ],
+      "rank_factorization_verified": true,
+      "denominators_coprime_to_divisor_in_D": true,
+      "proof_method": "coprime chart",
+      "gauge_right": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "gauge_left": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "probes": {
+        "h_pp": {
+          "numerator": {
+            "coefficient": "8/9",
+            "factors": [
+              [
+                "L - 3",
+                1
+              ]
+            ]
+          },
+          "denominator": {
+            "coefficient": "1/18",
+            "factors": [
+              [
+                "18*L^2*D^2 - 36*L^2*D - 27*L*D^3 - 3*L*D*S^2 + 108*L*D + 8*L*S^2 + 108*D^3 - 216*D^2 + 12*D*S^2 - 24*S^2",
+                1
+              ]
+            ]
+          }
+        }
+      },
+      "probe_names": [
+        "h_pp"
+      ],
+      "propagator": [
+        [
+          {
+            "numerator": {
+              "coefficient": "8/9",
+              "factors": [
+                [
+                  "L - 3",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/18",
+              "factors": [
+                [
+                  "18*L^2*D^2 - 36*L^2*D - 27*L*D^3 - 3*L*D*S^2 + 108*L*D + 8*L*S^2 + 108*D^3 - 216*D^2 + 12*D*S^2 - 24*S^2",
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "observables_a": {
+        "h_pp": {
+          "0": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "observables_b": {
+        "h_pp": {
+          "0": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "original_rows": [
+        0
+      ],
+      "original_cols": [
+        0
+      ],
+      "avars": [
+        "a_h_pp"
+      ],
+      "bvars": [
+        "b_h_mm"
+      ],
+      "K": [
+        [
+          "-(27*D**3*L - 108*D**3 - 18*D**2*L**2 + 216*D**2 + 36*D*L**2 + 3*D*L*S**2 - 108*D*L - 12*D*S**2 - 8*L*S**2 + 24*S**2)/(16*(L - 3))"
+        ]
+      ]
+    }
+  ],
+  "physical_divisor": {
+    "coefficient": "1",
+    "factors": [
+      [
+        "18*L^2*D^2 - 36*L^2*D - 27*L*D^3 - 3*L*D*S^2 + 108*L*D + 8*L*S^2 + 108*D^3 - 216*D^2 + 12*D*S^2 - 24*S^2",
+        1
+      ]
+    ]
+  }
+}

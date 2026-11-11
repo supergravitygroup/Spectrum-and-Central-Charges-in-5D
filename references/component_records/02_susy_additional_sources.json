@@ -1,0 +1,32 @@
+[
+  {
+    "path": "common/details/superconformal_definitions.md",
+    "sha256": "6480dd20ee8a0d432bbba00a6ebf4d2d5dccb4dbd36b75acf58aa5834be0fd42"
+  },
+  {
+    "path": "log/action/details/covariant_rules.md",
+    "sha256": "ed550b0f88437100793ffdfbb3bd09b8bcb2f6d9179334c4f52d251ae9011343",
+    "component_files": [
+      {
+        "path": "log/action/details/covariant_rules/convention_001.md",
+        "sha256": "2d5a78a0167847e5f55286c6378ea42a10b6297659769debc011633fa2419b23"
+      },
+      {
+        "path": "log/action/details/covariant_rules/derivation_002.md",
+        "sha256": "73eef7fcbe44e0bb7442b4e37bad4706a30a016f836e74ac8de2784eeaf8712f"
+      },
+      {
+        "path": "log/action/details/covariant_rules/derivation_003.md",
+        "sha256": "5fa8d396416aad5faae4202fa2dd2c799a054b7c104831d984276d2749bcab7a"
+      },
+      {
+        "path": "log/action/details/covariant_rules/derivation_004.md",
+        "sha256": "83a6319f16a02e2d343ca75d3138c873a6ba2946054937c0a8ccceb25a52659f"
+      },
+      {
+        "path": "log/action/details/covariant_rules/derivation_005.md",
+        "sha256": "7a1b703d505db6fe5061aee45ce3b39b4bb9718d6a704f3a5a9b8c9528213ede"
+      }
+    ]
+  }
+]

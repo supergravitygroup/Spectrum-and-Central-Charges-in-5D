@@ -1,0 +1,31 @@
+{
+  "spin": 2,
+  "charged": false,
+  "field_strength_variables": true,
+  "parameters": [
+    "L",
+    "N",
+    "p",
+    "h",
+    "r",
+    "l",
+    "w",
+    "g",
+    "lam",
+    "D",
+    "S"
+  ],
+  "linear_a": "0",
+  "linear_b": "0",
+  "avars": [
+    "a_h_pp"
+  ],
+  "bvars": [
+    "b_h_mm"
+  ],
+  "K": [
+    [
+      "-D**3*lam*p/(16*l**3) - D**2*L**2*g**2*lam/(32*l**2) + D**2*L/(8*l**2) + D**2*h*lam*p/(8*l**2) - D**2*lam*w**2/(16*l**2) + 3*D**2*lam*p/(16*l**3) + D*L**2*g**2*lam/(16*l**2) - D*L/(4*l**2) - D*S**2*lam*p*w**2/(16*l) + D*S*lam*p*w**2/(16*l) - D*h*lam*p/(4*l**2) + D*lam*w**2/(8*l**2) - D*lam*p/(8*l**3) - L**4*g**4*lam/16 + L**3*g**2/16 - L**2*N*g**3*lam/4 - L**2*S**2*g**2*lam*w**2/32 + L**2*S*g**2*lam*w**2/32 - 3*L**2*g**2*h**2*lam/4 - L**2*g**2*lam*p**2/16 - L**2*g**2*lam*w**2/16 - L**2*g**2/4 - L**2*g**2*lam/(16*l**2) + L*N*g/4 + L*S**2*w**2/8 - L*S*w**2/8 + L*h**2 + L*p**2/8 + L*w**2/4 + L/(4*l**2) - N**2*g**2*lam/8 + N*g/2 - S**2*h*lam*p*w**2/8 + S**2*lam*p*w**2/(16*l) + S*h*lam*p*w**2/8 - S*lam*p*w**2/(16*l) + 2*h**3*lam*p + h**2*lam*w**2/2 - h*lam*p/(2*l**2) - lam*w**2/(8*l**2) + N**2/(4*L)"
+    ]
+  ]
+}

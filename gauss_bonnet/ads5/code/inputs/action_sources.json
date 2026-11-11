@@ -1,0 +1,57 @@
+[
+  {
+    "original": "results/ungauged_full_fermionic_weyl2/.gpd/phases/03-full-ungauged-fermionic-invariant/GAUGED-ACTION-LEDGER.json",
+    "path": "inputs/action_sources/00_GAUGED-ACTION-LEDGER.json",
+    "sha256": "ffe1351d0d7ede4a4b8dfee3b269d524c8b3d2f76f03d1c36b488298d262c382"
+  },
+  {
+    "original": "results/ungauged_full_fermionic_weyl2/notes/05_gauged_full_fermionic_weyl2_calculation.md",
+    "path": "../../../weyl2/action/details/construction.md",
+    "sha256": "95c716c01b4631f1b5b301376e4f8924f80609becee859787428e7f3c5a6a086"
+  },
+  {
+    "original": "results/ungauged_full_fermionic_weyl2/notes/04_full_fermionic_weyl_linear_map.md",
+    "path": "../../../computations/weyl_fermionic/inputs/reference/notes/04_full_fermionic_weyl_linear_map.md",
+    "sha256": "a8ddbba1cc7d5ab7a053443e7d440653d289f6c8438b9d8d77740de78b01f7b4"
+  },
+  {
+    "original": "results/gauged_two_derivative_fermionic_action/05_gauged_two_derivative_full_fermionic_action_from_1608_map.md",
+    "path": "../../../common/two_derivative_action/details/construction.md",
+    "sha256": "bb85beaa33a8c06d26011af81cb8485d91cfc7a78260bc0d70e20694312f8c94"
+  },
+  {
+    "original": "results/twoder_plus_log_spectrum/02_fermionic_log_action.md",
+    "path": "inputs/action_sources/04_02_fermionic_log_action.md",
+    "sha256": "61bf335389465250886bd2f3bc466745582cc96036bcfc014c7045d4475db554"
+  },
+  {
+    "original": "results/twoder_plus_log_spectrum/fermionic_workings/covariant_seed.md",
+    "path": "inputs/action_sources/05_covariant_seed.md",
+    "sha256": "ac7c941dc7a3d18bedc011217f70450b90d349a7757f35b16b8cffef93325457"
+  },
+  {
+    "original": "results/twoder_plus_log_spectrum/fermionic_workings/explicit_sum.md",
+    "path": "inputs/action_sources/06_explicit_sum.md",
+    "sha256": "2157e379bc1bfcb37bcdc91aaa8820ad5bba8f7d4dfcf97c6da4900872a2ecd4"
+  },
+  {
+    "original": "results/twoder_plus_log_spectrum/fermionic_workings/assembly_checks.json",
+    "path": "inputs/action_sources/07_assembly_checks.json",
+    "sha256": "e066e730435ce673a116d17c800a2861042503c7e5cf1e50647c26fb4ee10914"
+  },
+  {
+    "original": "results/twoder_plus_log_spectrum/fermionic_workings/derivation_coverage.json",
+    "path": "inputs/action_sources/08_derivation_coverage.json",
+    "sha256": "24fe965087f3b5205f258ca7275a873789323aee7ddc36641346ad4ad519a3f7"
+  },
+  {
+    "original": "results/gauss_bonnet_from_weyl_log_action_lock.md",
+    "path": "inputs/action_sources/09_gauss_bonnet_from_weyl_log_action_lock.md",
+    "sha256": "144f3873165336f1dc8e8e885e53d0541bca04134cce97db608d7d2933c785cb"
+  },
+  {
+    "original": "results/latex/weyl_log_from_definitions/weyl_log_from_definitions.tex",
+    "path": "inputs/action_sources/10_weyl_log_from_definitions.tex",
+    "sha256": "3ce9928af4b6cc50366f6007ff86404efb883e1d9c5dec8ed9cf61d79b68f199"
+  }
+]

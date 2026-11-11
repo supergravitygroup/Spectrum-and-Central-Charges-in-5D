@@ -1,0 +1,26 @@
+{
+  "scope": "Exact MS5 vacuum and contorsion checks for the final paper.",
+  "current_inputs": {
+    "computations/generic_ads5_massless/action_inputs.py": "37b1a7bbffe7210f25d74ea9226e036018c0cf48a69dc71ec095d32fac6ca52c",
+    "computations/generic_ads5_massless/SOURCE_MAP.md": "2698628627bfeeac840a7d6fdc9b2f0c39a4d97cbcc8c0019d354a1e4d36d1d9",
+    "common/generic_action.md": "c644a25849bdb03fca838fd6a5d51d4d22999e87aa5bf984cdf86cb73ea23be3",
+    "common/conventions.md": "ee1fce39aa24393466c7374cb13f94f6200731aaf7cf5f0c1b21e2580f6321ae",
+    "common/fermion_order.md": "5c306c0404f203ae3552ba3b099eb3535fd3d85c2653d7ce90addfe808d300ed",
+    "common/details/composite_fields.md": "a96a864b4d82666a928bb3c8f5f45125205634af2048f7f1be515c25ca464fd6",
+    "common/details/source_conventions.md": "e32da263e9514b26744eaa545b0b50a48b8124664c6362a2518a55c14c85ceea",
+    "weyl2/action/bosonic.md": "5b38825224a44e79bb51e665c7b1bef240b7818b4500fd6ca9d3925dee878320",
+    "gauss_bonnet/ads5/code/references/COMPONENT_CONVENTIONS.md": "7044a798ec1e9cf837af8b676d472d86dc30339427f8e0d8f0fb1036b1f3b983"
+  },
+  "implementation_hashes": {
+    "checks.py": "7daabe25761a9ea13a47bec3b35df16755c5a6f894fd9f07193651c59d97386e",
+    "requirements.txt": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc"
+  },
+  "external_source_records": {
+    "draft_v109.tex": {
+      "sha256": "25be4ea0ef4c3d84032b9990945be1fc017a48de3c80c0f16c2bf4877091b06b",
+      "locator": "eq:vacuum, eq:LWvac, eq:susy, Conclusions, Acknowledgments, Conventions",
+      "status": "inspected source record; not a runtime dependency"
+    }
+  },
+  "construction": "New abstract-bilinear algebra and bounded differentiation checks; reuses the existing item-23 action projection by import, without copying donor programs or records."
+}

@@ -1,0 +1,574 @@
+[
+  {
+    "source_row": "L-01",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "1",
+    "slots": [
+      "rho",
+      "Y"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "L-01",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "1",
+    "slots": [
+      "rho",
+      "Y"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "L-02",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "-I/4",
+    "slots": [
+      "bar_lambda_i",
+      "lambda_j"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "L-02",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "-I/4",
+    "slots": [
+      "bar_lambda_i",
+      "lambda_j"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "P-01",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "I/2",
+    "slots": [
+      "rho",
+      "Dslash_lambda"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "P-01",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "I/2",
+    "slots": [
+      "rho",
+      "Dslash_lambda"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "P-02",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "1",
+    "slots": [
+      "rho",
+      "lambda"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "P-02",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "1",
+    "slots": [
+      "rho",
+      "lambda"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "P-03",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "-4",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "P-03",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "-4",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "P-04",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "-1/8",
+    "slots": [
+      "F",
+      "lambda"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "P-04",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "-1/8",
+    "slots": [
+      "F",
+      "lambda"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "P-05",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "I/4",
+    "slots": [
+      "Dslash_rho",
+      "lambda"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "P-05",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "I/4",
+    "slots": [
+      "Dslash_rho",
+      "lambda"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "P-06",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "-1/2",
+    "slots": [
+      "Y",
+      "lambda_j"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "P-06",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "-1/2",
+    "slots": [
+      "Y",
+      "lambda_j"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "E-01",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "-1/2",
+    "slots": [
+      "rho",
+      "F"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "E-01",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "-1/2",
+    "slots": [
+      "rho",
+      "F"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "E-02",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "4",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "E-02",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "4",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "E-03",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "-I/8",
+    "slots": [
+      "bar_lambda",
+      "lambda"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "E-03",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "-I/8",
+    "slots": [
+      "bar_lambda",
+      "lambda"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "E-04",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "-1/16",
+    "slots": [
+      "F",
+      "F"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "E-04",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "-1/16",
+    "slots": [
+      "F",
+      "F"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-01",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "1/2",
+    "slots": [
+      "rho",
+      "Box_rho"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "N-01",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "1/2",
+    "slots": [
+      "rho",
+      "Box_rho"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "N-02",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "1/4",
+    "slots": [
+      "Drho",
+      "Drho"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-02",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "1/4",
+    "slots": [
+      "Drho",
+      "Drho"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-03",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "-1/8",
+    "slots": [
+      "F",
+      "F"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-03",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "-1/8",
+    "slots": [
+      "F",
+      "F"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-04",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "1/2",
+    "slots": [
+      "Y",
+      "Y"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-04",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "1/2",
+    "slots": [
+      "Y",
+      "Y"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-05",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "4",
+    "slots": [
+      "rho",
+      "F"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "N-05",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "4",
+    "slots": [
+      "rho",
+      "F"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "N-06",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "-2",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-06",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "-2",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-07",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "-52/3",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-07",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "-52/3",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-08",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "-1/4",
+    "slots": [
+      "bar_lambda",
+      "Dslash_lambda"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "N-08",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "-1/4",
+    "slots": [
+      "bar_lambda",
+      "Dslash_lambda"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "N-09",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "I/2",
+    "slots": [
+      "bar_lambda",
+      "lambda"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-09",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "I/2",
+    "slots": [
+      "bar_lambda",
+      "lambda"
+    ],
+    "symmetric": true
+  },
+  {
+    "source_row": "N-10",
+    "vector_pair": [
+      1,
+      2
+    ],
+    "coefficient": "8*I",
+    "slots": [
+      "rho",
+      "lambda"
+    ],
+    "symmetric": false
+  },
+  {
+    "source_row": "N-10",
+    "vector_pair": [
+      2,
+      1
+    ],
+    "coefficient": "8*I",
+    "slots": [
+      "rho",
+      "lambda"
+    ],
+    "symmetric": false
+  }
+]

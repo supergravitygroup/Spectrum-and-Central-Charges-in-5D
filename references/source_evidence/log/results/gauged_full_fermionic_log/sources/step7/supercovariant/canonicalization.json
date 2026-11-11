@@ -1,0 +1,103 @@
+{
+  "L": {
+    "input_terms": 59,
+    "full_substituted_terms": 281,
+    "gauge_terms": 33,
+    "canonical_terms": 13,
+    "fermion_degrees": {
+      "0": 8,
+      "2": 5
+    },
+    "conformal_weights_before_gauge": "PASS",
+    "indices_dimensions_parity_after_gauge": "PASS",
+    "canonical_idempotence": "exact zero coefficient residual",
+    "tensor_terms": 13,
+    "tensor_zeros": 0,
+    "clifford_expansion_terms": 14,
+    "clifford_zeros": 0,
+    "constraint_reductions": [
+      {}
+    ],
+    "seconds": 0.05413174629211426,
+    "source_repair": "C24 A.1l phases; exact rebuilt canonical equality verified by derivative_debug_rebuild.json"
+  },
+  "phi": {
+    "input_terms": 278,
+    "full_substituted_terms": 1226,
+    "gauge_terms": 271,
+    "canonical_terms": 94,
+    "fermion_degrees": {
+      "1": 94
+    },
+    "conformal_weights_before_gauge": "PASS",
+    "indices_dimensions_parity_after_gauge": "PASS",
+    "canonical_idempotence": "exact zero coefficient residual",
+    "tensor_terms": 129,
+    "tensor_zeros": 3,
+    "clifford_expansion_terms": 162,
+    "clifford_zeros": 0,
+    "constraint_reductions": [
+      {
+        "R(Q) gamma trace": 10,
+        "R(Q) rank-two reduction": 6
+      },
+      {}
+    ],
+    "seconds": 0.5063471794128418,
+    "source_repair": "C24 A.1l phases; exact rebuilt canonical equality verified by derivative_debug_rebuild.json"
+  },
+  "N": {
+    "input_terms": 514,
+    "full_substituted_terms": 4128,
+    "gauge_terms": 663,
+    "canonical_terms": 141,
+    "fermion_degrees": {
+      "0": 80,
+      "2": 61
+    },
+    "conformal_weights_before_gauge": "PASS",
+    "indices_dimensions_parity_after_gauge": "PASS",
+    "canonical_idempotence": "exact zero coefficient residual",
+    "tensor_terms": 198,
+    "tensor_zeros": 3,
+    "clifford_expansion_terms": 267,
+    "clifford_zeros": 0,
+    "constraint_reductions": [
+      {
+        "R(Q) gamma trace": 12,
+        "R(Q) rank-two reduction": 11,
+        "R(M) trace": 6
+      },
+      {}
+    ],
+    "seconds": 1.1591429710388184,
+    "source_repair": "C24 A.1l phases; exact rebuilt canonical equality verified by derivative_debug_rebuild.json"
+  },
+  "E": {
+    "input_terms": 1332,
+    "full_substituted_terms": 6893,
+    "gauge_terms": 1259,
+    "canonical_terms": 373,
+    "fermion_degrees": {
+      "0": 216,
+      "2": 157
+    },
+    "conformal_weights_before_gauge": "PASS",
+    "indices_dimensions_parity_after_gauge": "PASS",
+    "canonical_idempotence": "exact zero coefficient residual",
+    "tensor_terms": 501,
+    "tensor_zeros": 42,
+    "clifford_expansion_terms": 628,
+    "clifford_zeros": 16,
+    "constraint_reductions": [
+      {
+        "R(Q) rank-two reduction": 30,
+        "R(Q) gamma trace": 23,
+        "R(M) trace": 14
+      },
+      {}
+    ],
+    "seconds": 2.484921932220459,
+    "source_repair": "C24 A.1l phases; exact rebuilt canonical equality verified by derivative_debug_rebuild.json"
+  }
+}

@@ -1,0 +1,1943 @@
+{
+  "scope": "Literal complete component transport of retained previous polynomials; no full curved invariant certificate.",
+  "slots": {
+    "L": {
+      "inputs": [
+        {
+          "primary_term": "H0.1",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "0": 1
+          }
+        },
+        {
+          "primary_term": "H0.2",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H1.1",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "0": 1
+          }
+        },
+        {
+          "primary_term": "H1.2",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "0": 1
+          }
+        },
+        {
+          "primary_term": "H1.3",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "0": 1
+          }
+        },
+        {
+          "primary_term": "H1.4",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "0": 1
+          }
+        },
+        {
+          "primary_term": "H1.5",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H1.6",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H1.7",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H2.1",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "0": 1
+          }
+        },
+        {
+          "primary_term": "H2.2",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "0": 1
+          }
+        },
+        {
+          "primary_term": "H2.3",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H2.4",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H2.5",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H2.6",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H2.7",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H2.8",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H2.9",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H2.10",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H2.11",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H2.12",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H3.1",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "0": 1
+          }
+        },
+        {
+          "primary_term": "H3.2",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "0": 1
+          }
+        },
+        {
+          "primary_term": "H3.3",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "0": 1
+          }
+        },
+        {
+          "primary_term": "H3.4",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H3.5",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H3.6",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H3.7",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H3.8",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H3.9",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H3.10",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H3.11",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H3.12",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H3.13",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H3.14",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H3.15",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H3.16",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H3.17",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H3.18",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.1",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H4.2",
+          "input_contributions": 2,
+          "projected_contributions": 2,
+          "explicit_degrees": {
+            "2": 2
+          }
+        },
+        {
+          "primary_term": "H4.3",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H4.4",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H4.5",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H4.6",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H4.7",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H4.8",
+          "input_contributions": 1,
+          "projected_contributions": 1,
+          "explicit_degrees": {
+            "2": 1
+          }
+        },
+        {
+          "primary_term": "H4.9",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.10",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.11",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.12",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.13",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.14",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H5.1",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H5.2",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H5.3",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H6.1",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H6.2",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        }
+      ],
+      "raw_projected_contributions": 59,
+      "displayed_monomials": 59,
+      "explicit_degrees": {
+        "0": 10,
+        "2": 49
+      },
+      "collection": "Even factors moved without signs; odd order unchanged; exact identical displayed monomials collected."
+    },
+    "phi": {
+      "inputs": [
+        {
+          "primary_term": "H0.1",
+          "input_contributions": 37,
+          "projected_contributions": 37,
+          "explicit_degrees": {
+            "1": 37
+          }
+        },
+        {
+          "primary_term": "H0.2",
+          "input_contributions": 12,
+          "projected_contributions": 12,
+          "explicit_degrees": {
+            "1": 12
+          }
+        },
+        {
+          "primary_term": "H1.1",
+          "input_contributions": 9,
+          "projected_contributions": 9,
+          "explicit_degrees": {
+            "1": 9
+          }
+        },
+        {
+          "primary_term": "H1.2",
+          "input_contributions": 45,
+          "projected_contributions": 45,
+          "explicit_degrees": {
+            "1": 45
+          }
+        },
+        {
+          "primary_term": "H1.3",
+          "input_contributions": 90,
+          "projected_contributions": 386,
+          "explicit_degrees": {
+            "1": 386
+          }
+        },
+        {
+          "primary_term": "H1.4",
+          "input_contributions": 13,
+          "projected_contributions": 13,
+          "explicit_degrees": {
+            "1": 13
+          }
+        },
+        {
+          "primary_term": "H1.5",
+          "input_contributions": 34,
+          "projected_contributions": 40,
+          "explicit_degrees": {
+            "1": 40
+          }
+        },
+        {
+          "primary_term": "H1.6",
+          "input_contributions": 32,
+          "projected_contributions": 62,
+          "explicit_degrees": {
+            "1": 62
+          }
+        },
+        {
+          "primary_term": "H1.7",
+          "input_contributions": 38,
+          "projected_contributions": 72,
+          "explicit_degrees": {
+            "1": 72
+          }
+        },
+        {
+          "primary_term": "H2.1",
+          "input_contributions": 20,
+          "projected_contributions": 57,
+          "explicit_degrees": {
+            "1": 57
+          }
+        },
+        {
+          "primary_term": "H2.2",
+          "input_contributions": 27,
+          "projected_contributions": 60,
+          "explicit_degrees": {
+            "1": 60
+          }
+        },
+        {
+          "primary_term": "H2.3",
+          "input_contributions": 34,
+          "projected_contributions": 40,
+          "explicit_degrees": {
+            "1": 40
+          }
+        },
+        {
+          "primary_term": "H2.4",
+          "input_contributions": 76,
+          "projected_contributions": 358,
+          "explicit_degrees": {
+            "1": 358
+          }
+        },
+        {
+          "primary_term": "H2.5",
+          "input_contributions": 20,
+          "projected_contributions": 50,
+          "explicit_degrees": {
+            "1": 50
+          }
+        },
+        {
+          "primary_term": "H2.6",
+          "input_contributions": 28,
+          "projected_contributions": 58,
+          "explicit_degrees": {
+            "1": 58
+          }
+        },
+        {
+          "primary_term": "H2.7",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H2.8",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H2.9",
+          "input_contributions": 20,
+          "projected_contributions": 20,
+          "explicit_degrees": {
+            "1": 20
+          }
+        },
+        {
+          "primary_term": "H2.10",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H2.11",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H2.12",
+          "input_contributions": 10,
+          "projected_contributions": 10,
+          "explicit_degrees": {
+            "1": 10
+          }
+        },
+        {
+          "primary_term": "H3.1",
+          "input_contributions": 27,
+          "projected_contributions": 27,
+          "explicit_degrees": {
+            "1": 27
+          }
+        },
+        {
+          "primary_term": "H3.2",
+          "input_contributions": 19,
+          "projected_contributions": 19,
+          "explicit_degrees": {
+            "1": 19
+          }
+        },
+        {
+          "primary_term": "H3.3",
+          "input_contributions": 13,
+          "projected_contributions": 15,
+          "explicit_degrees": {
+            "1": 15
+          }
+        },
+        {
+          "primary_term": "H3.4",
+          "input_contributions": 28,
+          "projected_contributions": 58,
+          "explicit_degrees": {
+            "1": 58
+          }
+        },
+        {
+          "primary_term": "H3.5",
+          "input_contributions": 28,
+          "projected_contributions": 58,
+          "explicit_degrees": {
+            "1": 58
+          }
+        },
+        {
+          "primary_term": "H3.6",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H3.7",
+          "input_contributions": 14,
+          "projected_contributions": 29,
+          "explicit_degrees": {
+            "1": 29
+          }
+        },
+        {
+          "primary_term": "H3.8",
+          "input_contributions": 28,
+          "projected_contributions": 58,
+          "explicit_degrees": {
+            "1": 58
+          }
+        },
+        {
+          "primary_term": "H3.9",
+          "input_contributions": 16,
+          "projected_contributions": 16,
+          "explicit_degrees": {
+            "1": 16
+          }
+        },
+        {
+          "primary_term": "H3.10",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H3.11",
+          "input_contributions": 28,
+          "projected_contributions": 58,
+          "explicit_degrees": {
+            "1": 58
+          }
+        },
+        {
+          "primary_term": "H3.12",
+          "input_contributions": 28,
+          "projected_contributions": 58,
+          "explicit_degrees": {
+            "1": 58
+          }
+        },
+        {
+          "primary_term": "H3.13",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H3.14",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H3.15",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H3.16",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H3.17",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H3.18",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.1",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H4.2",
+          "input_contributions": 16,
+          "projected_contributions": 16,
+          "explicit_degrees": {
+            "1": 16
+          }
+        },
+        {
+          "primary_term": "H4.3",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H4.4",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H4.5",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H4.6",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H4.7",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H4.8",
+          "input_contributions": 8,
+          "projected_contributions": 8,
+          "explicit_degrees": {
+            "1": 8
+          }
+        },
+        {
+          "primary_term": "H4.9",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.10",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.11",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.12",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.13",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H4.14",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H5.1",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H5.2",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H5.3",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H6.1",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H6.2",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        }
+      ],
+      "raw_projected_contributions": 1877,
+      "displayed_monomials": 1520,
+      "explicit_degrees": {
+        "1": 1877
+      },
+      "collection": "Even factors moved without signs; odd order unchanged; exact identical displayed monomials collected."
+    },
+    "N": {
+      "inputs": [
+        {
+          "primary_term": "H0.1",
+          "input_contributions": 841,
+          "projected_contributions": 1464,
+          "explicit_degrees": {
+            "0": 1026,
+            "2": 438
+          }
+        },
+        {
+          "primary_term": "H0.2",
+          "input_contributions": 204,
+          "projected_contributions": 240,
+          "explicit_degrees": {
+            "2": 168,
+            "0": 72
+          }
+        },
+        {
+          "primary_term": "H1.1",
+          "input_contributions": 129,
+          "projected_contributions": 191,
+          "explicit_degrees": {
+            "2": 79,
+            "0": 112
+          }
+        },
+        {
+          "primary_term": "H1.2",
+          "input_contributions": 1490,
+          "projected_contributions": 2193,
+          "explicit_degrees": {
+            "2": 1055,
+            "0": 1138
+          }
+        },
+        {
+          "primary_term": "H1.3",
+          "input_contributions": 6665,
+          "projected_contributions": 25116,
+          "explicit_degrees": {
+            "2": 15576,
+            "0": 9540
+          }
+        },
+        {
+          "primary_term": "H1.4",
+          "input_contributions": 225,
+          "projected_contributions": 271,
+          "explicit_degrees": {
+            "2": 141,
+            "0": 130
+          }
+        },
+        {
+          "primary_term": "H1.5",
+          "input_contributions": 1238,
+          "projected_contributions": 1504,
+          "explicit_degrees": {
+            "2": 1248,
+            "0": 256
+          }
+        },
+        {
+          "primary_term": "H1.6",
+          "input_contributions": 1286,
+          "projected_contributions": 2400,
+          "explicit_degrees": {
+            "2": 1800,
+            "0": 600
+          }
+        },
+        {
+          "primary_term": "H1.7",
+          "input_contributions": 1596,
+          "projected_contributions": 3374,
+          "explicit_degrees": {
+            "2": 2862,
+            "0": 512
+          }
+        },
+        {
+          "primary_term": "H2.1",
+          "input_contributions": 980,
+          "projected_contributions": 2453,
+          "explicit_degrees": {
+            "2": 1384,
+            "0": 1069
+          }
+        },
+        {
+          "primary_term": "H2.2",
+          "input_contributions": 952,
+          "projected_contributions": 2280,
+          "explicit_degrees": {
+            "2": 1463,
+            "0": 817
+          }
+        },
+        {
+          "primary_term": "H2.3",
+          "input_contributions": 1810,
+          "projected_contributions": 2280,
+          "explicit_degrees": {
+            "2": 2024,
+            "0": 256
+          }
+        },
+        {
+          "primary_term": "H2.4",
+          "input_contributions": 8418,
+          "projected_contributions": 25458,
+          "explicit_degrees": {
+            "2": 22658,
+            "0": 2800
+          }
+        },
+        {
+          "primary_term": "H2.5",
+          "input_contributions": 1150,
+          "projected_contributions": 3538,
+          "explicit_degrees": {
+            "2": 2288,
+            "0": 1250
+          }
+        },
+        {
+          "primary_term": "H2.6",
+          "input_contributions": 1298,
+          "projected_contributions": 2404,
+          "explicit_degrees": {
+            "2": 2004,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H2.7",
+          "input_contributions": 516,
+          "projected_contributions": 905,
+          "explicit_degrees": {
+            "2": 873,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H2.8",
+          "input_contributions": 151,
+          "projected_contributions": 170,
+          "explicit_degrees": {
+            "2": 138,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H2.9",
+          "input_contributions": 868,
+          "projected_contributions": 1032,
+          "explicit_degrees": {
+            "2": 936,
+            "0": 96
+          }
+        },
+        {
+          "primary_term": "H2.10",
+          "input_contributions": 244,
+          "projected_contributions": 252,
+          "explicit_degrees": {
+            "2": 220,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H2.11",
+          "input_contributions": 244,
+          "projected_contributions": 252,
+          "explicit_degrees": {
+            "2": 220,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H2.12",
+          "input_contributions": 321,
+          "projected_contributions": 370,
+          "explicit_degrees": {
+            "2": 322,
+            "0": 48
+          }
+        },
+        {
+          "primary_term": "H3.1",
+          "input_contributions": 763,
+          "projected_contributions": 969,
+          "explicit_degrees": {
+            "2": 623,
+            "0": 346
+          }
+        },
+        {
+          "primary_term": "H3.2",
+          "input_contributions": 425,
+          "projected_contributions": 545,
+          "explicit_degrees": {
+            "2": 331,
+            "0": 214
+          }
+        },
+        {
+          "primary_term": "H3.3",
+          "input_contributions": 237,
+          "projected_contributions": 367,
+          "explicit_degrees": {
+            "2": 215,
+            "0": 152
+          }
+        },
+        {
+          "primary_term": "H3.4",
+          "input_contributions": 1786,
+          "projected_contributions": 3432,
+          "explicit_degrees": {
+            "2": 3032,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H3.5",
+          "input_contributions": 1786,
+          "projected_contributions": 3432,
+          "explicit_degrees": {
+            "2": 3032,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H3.6",
+          "input_contributions": 1113,
+          "projected_contributions": 2830,
+          "explicit_degrees": {
+            "2": 2798,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.7",
+          "input_contributions": 748,
+          "projected_contributions": 1418,
+          "explicit_degrees": {
+            "2": 1218,
+            "0": 200
+          }
+        },
+        {
+          "primary_term": "H3.8",
+          "input_contributions": 1496,
+          "projected_contributions": 2836,
+          "explicit_degrees": {
+            "2": 2436,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H3.9",
+          "input_contributions": 1412,
+          "projected_contributions": 3508,
+          "explicit_degrees": {
+            "2": 3444,
+            "0": 64
+          }
+        },
+        {
+          "primary_term": "H3.10",
+          "input_contributions": 715,
+          "projected_contributions": 1895,
+          "explicit_degrees": {
+            "2": 1863,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.11",
+          "input_contributions": 1288,
+          "projected_contributions": 2542,
+          "explicit_degrees": {
+            "2": 2142,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H3.12",
+          "input_contributions": 1288,
+          "projected_contributions": 2542,
+          "explicit_degrees": {
+            "2": 2142,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H3.13",
+          "input_contributions": 239,
+          "projected_contributions": 279,
+          "explicit_degrees": {
+            "2": 247,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.14",
+          "input_contributions": 404,
+          "projected_contributions": 472,
+          "explicit_degrees": {
+            "2": 440,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.15",
+          "input_contributions": 404,
+          "projected_contributions": 472,
+          "explicit_degrees": {
+            "2": 440,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.16",
+          "input_contributions": 307,
+          "projected_contributions": 342,
+          "explicit_degrees": {
+            "2": 310,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.17",
+          "input_contributions": 480,
+          "projected_contributions": 480,
+          "explicit_degrees": {
+            "2": 480
+          }
+        },
+        {
+          "primary_term": "H3.18",
+          "input_contributions": 240,
+          "projected_contributions": 240,
+          "explicit_degrees": {
+            "2": 240
+          }
+        },
+        {
+          "primary_term": "H4.1",
+          "input_contributions": 234,
+          "projected_contributions": 306,
+          "explicit_degrees": {
+            "2": 274,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.2",
+          "input_contributions": 604,
+          "projected_contributions": 738,
+          "explicit_degrees": {
+            "2": 674,
+            "0": 64
+          }
+        },
+        {
+          "primary_term": "H4.3",
+          "input_contributions": 399,
+          "projected_contributions": 499,
+          "explicit_degrees": {
+            "2": 467,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.4",
+          "input_contributions": 564,
+          "projected_contributions": 692,
+          "explicit_degrees": {
+            "2": 660,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.5",
+          "input_contributions": 564,
+          "projected_contributions": 692,
+          "explicit_degrees": {
+            "2": 660,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.6",
+          "input_contributions": 467,
+          "projected_contributions": 562,
+          "explicit_degrees": {
+            "2": 530,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.7",
+          "input_contributions": 370,
+          "projected_contributions": 432,
+          "explicit_degrees": {
+            "2": 400,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.8",
+          "input_contributions": 370,
+          "projected_contributions": 432,
+          "explicit_degrees": {
+            "2": 400,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.9",
+          "input_contributions": 336,
+          "projected_contributions": 696,
+          "explicit_degrees": {
+            "2": 696
+          }
+        },
+        {
+          "primary_term": "H4.10",
+          "input_contributions": 672,
+          "projected_contributions": 1392,
+          "explicit_degrees": {
+            "2": 1392
+          }
+        },
+        {
+          "primary_term": "H4.11",
+          "input_contributions": 672,
+          "projected_contributions": 1392,
+          "explicit_degrees": {
+            "2": 1392
+          }
+        },
+        {
+          "primary_term": "H4.12",
+          "input_contributions": 336,
+          "projected_contributions": 696,
+          "explicit_degrees": {
+            "2": 696
+          }
+        },
+        {
+          "primary_term": "H4.13",
+          "input_contributions": 384,
+          "projected_contributions": 384,
+          "explicit_degrees": {
+            "2": 384
+          }
+        },
+        {
+          "primary_term": "H4.14",
+          "input_contributions": 192,
+          "projected_contributions": 192,
+          "explicit_degrees": {
+            "2": 192
+          }
+        },
+        {
+          "primary_term": "H5.1",
+          "input_contributions": 384,
+          "projected_contributions": 384,
+          "explicit_degrees": {
+            "2": 384
+          }
+        },
+        {
+          "primary_term": "H5.2",
+          "input_contributions": 192,
+          "projected_contributions": 192,
+          "explicit_degrees": {
+            "2": 192
+          }
+        },
+        {
+          "primary_term": "H5.3",
+          "input_contributions": 192,
+          "projected_contributions": 192,
+          "explicit_degrees": {
+            "2": 192
+          }
+        },
+        {
+          "primary_term": "H6.1",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H6.2",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        }
+      ],
+      "raw_projected_contributions": 116621,
+      "displayed_monomials": 87829,
+      "explicit_degrees": {
+        "0": 23706,
+        "2": 92915
+      },
+      "collection": "Even factors moved without signs; odd order unchanged; exact identical displayed monomials collected."
+    },
+    "E": {
+      "inputs": [
+        {
+          "primary_term": "H0.1",
+          "input_contributions": 841,
+          "projected_contributions": 1464,
+          "explicit_degrees": {
+            "0": 1026,
+            "2": 438
+          }
+        },
+        {
+          "primary_term": "H0.2",
+          "input_contributions": 204,
+          "projected_contributions": 240,
+          "explicit_degrees": {
+            "2": 168,
+            "0": 72
+          }
+        },
+        {
+          "primary_term": "H1.1",
+          "input_contributions": 129,
+          "projected_contributions": 191,
+          "explicit_degrees": {
+            "2": 79,
+            "0": 112
+          }
+        },
+        {
+          "primary_term": "H1.2",
+          "input_contributions": 1490,
+          "projected_contributions": 2193,
+          "explicit_degrees": {
+            "2": 1055,
+            "0": 1138
+          }
+        },
+        {
+          "primary_term": "H1.3",
+          "input_contributions": 6665,
+          "projected_contributions": 25116,
+          "explicit_degrees": {
+            "2": 15576,
+            "0": 9540
+          }
+        },
+        {
+          "primary_term": "H1.4",
+          "input_contributions": 225,
+          "projected_contributions": 271,
+          "explicit_degrees": {
+            "2": 141,
+            "0": 130
+          }
+        },
+        {
+          "primary_term": "H1.5",
+          "input_contributions": 1238,
+          "projected_contributions": 1504,
+          "explicit_degrees": {
+            "2": 1248,
+            "0": 256
+          }
+        },
+        {
+          "primary_term": "H1.6",
+          "input_contributions": 1286,
+          "projected_contributions": 2400,
+          "explicit_degrees": {
+            "2": 1800,
+            "0": 600
+          }
+        },
+        {
+          "primary_term": "H1.7",
+          "input_contributions": 1596,
+          "projected_contributions": 3374,
+          "explicit_degrees": {
+            "2": 2862,
+            "0": 512
+          }
+        },
+        {
+          "primary_term": "H2.1",
+          "input_contributions": 980,
+          "projected_contributions": 2453,
+          "explicit_degrees": {
+            "2": 1384,
+            "0": 1069
+          }
+        },
+        {
+          "primary_term": "H2.2",
+          "input_contributions": 952,
+          "projected_contributions": 2280,
+          "explicit_degrees": {
+            "2": 1463,
+            "0": 817
+          }
+        },
+        {
+          "primary_term": "H2.3",
+          "input_contributions": 1810,
+          "projected_contributions": 2280,
+          "explicit_degrees": {
+            "2": 2024,
+            "0": 256
+          }
+        },
+        {
+          "primary_term": "H2.4",
+          "input_contributions": 8418,
+          "projected_contributions": 25458,
+          "explicit_degrees": {
+            "2": 22658,
+            "0": 2800
+          }
+        },
+        {
+          "primary_term": "H2.5",
+          "input_contributions": 1150,
+          "projected_contributions": 3538,
+          "explicit_degrees": {
+            "2": 2288,
+            "0": 1250
+          }
+        },
+        {
+          "primary_term": "H2.6",
+          "input_contributions": 1298,
+          "projected_contributions": 2404,
+          "explicit_degrees": {
+            "2": 2004,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H2.7",
+          "input_contributions": 516,
+          "projected_contributions": 905,
+          "explicit_degrees": {
+            "2": 873,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H2.8",
+          "input_contributions": 151,
+          "projected_contributions": 170,
+          "explicit_degrees": {
+            "2": 138,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H2.9",
+          "input_contributions": 868,
+          "projected_contributions": 1032,
+          "explicit_degrees": {
+            "2": 936,
+            "0": 96
+          }
+        },
+        {
+          "primary_term": "H2.10",
+          "input_contributions": 244,
+          "projected_contributions": 252,
+          "explicit_degrees": {
+            "2": 220,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H2.11",
+          "input_contributions": 244,
+          "projected_contributions": 252,
+          "explicit_degrees": {
+            "2": 220,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H2.12",
+          "input_contributions": 321,
+          "projected_contributions": 370,
+          "explicit_degrees": {
+            "2": 322,
+            "0": 48
+          }
+        },
+        {
+          "primary_term": "H3.1",
+          "input_contributions": 763,
+          "projected_contributions": 969,
+          "explicit_degrees": {
+            "2": 623,
+            "0": 346
+          }
+        },
+        {
+          "primary_term": "H3.2",
+          "input_contributions": 425,
+          "projected_contributions": 545,
+          "explicit_degrees": {
+            "2": 331,
+            "0": 214
+          }
+        },
+        {
+          "primary_term": "H3.3",
+          "input_contributions": 237,
+          "projected_contributions": 367,
+          "explicit_degrees": {
+            "2": 215,
+            "0": 152
+          }
+        },
+        {
+          "primary_term": "H3.4",
+          "input_contributions": 1786,
+          "projected_contributions": 3432,
+          "explicit_degrees": {
+            "2": 3032,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H3.5",
+          "input_contributions": 1786,
+          "projected_contributions": 3432,
+          "explicit_degrees": {
+            "2": 3032,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H3.6",
+          "input_contributions": 1113,
+          "projected_contributions": 2830,
+          "explicit_degrees": {
+            "2": 2798,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.7",
+          "input_contributions": 748,
+          "projected_contributions": 1418,
+          "explicit_degrees": {
+            "2": 1218,
+            "0": 200
+          }
+        },
+        {
+          "primary_term": "H3.8",
+          "input_contributions": 1496,
+          "projected_contributions": 2836,
+          "explicit_degrees": {
+            "2": 2436,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H3.9",
+          "input_contributions": 1412,
+          "projected_contributions": 3508,
+          "explicit_degrees": {
+            "2": 3444,
+            "0": 64
+          }
+        },
+        {
+          "primary_term": "H3.10",
+          "input_contributions": 715,
+          "projected_contributions": 1895,
+          "explicit_degrees": {
+            "2": 1863,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.11",
+          "input_contributions": 1288,
+          "projected_contributions": 2542,
+          "explicit_degrees": {
+            "2": 2142,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H3.12",
+          "input_contributions": 1288,
+          "projected_contributions": 2542,
+          "explicit_degrees": {
+            "2": 2142,
+            "0": 400
+          }
+        },
+        {
+          "primary_term": "H3.13",
+          "input_contributions": 239,
+          "projected_contributions": 279,
+          "explicit_degrees": {
+            "2": 247,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.14",
+          "input_contributions": 404,
+          "projected_contributions": 472,
+          "explicit_degrees": {
+            "2": 440,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.15",
+          "input_contributions": 404,
+          "projected_contributions": 472,
+          "explicit_degrees": {
+            "2": 440,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.16",
+          "input_contributions": 307,
+          "projected_contributions": 342,
+          "explicit_degrees": {
+            "2": 310,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H3.17",
+          "input_contributions": 480,
+          "projected_contributions": 480,
+          "explicit_degrees": {
+            "2": 480
+          }
+        },
+        {
+          "primary_term": "H3.18",
+          "input_contributions": 240,
+          "projected_contributions": 240,
+          "explicit_degrees": {
+            "2": 240
+          }
+        },
+        {
+          "primary_term": "H4.1",
+          "input_contributions": 234,
+          "projected_contributions": 306,
+          "explicit_degrees": {
+            "2": 274,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.2",
+          "input_contributions": 604,
+          "projected_contributions": 738,
+          "explicit_degrees": {
+            "2": 674,
+            "0": 64
+          }
+        },
+        {
+          "primary_term": "H4.3",
+          "input_contributions": 399,
+          "projected_contributions": 499,
+          "explicit_degrees": {
+            "2": 467,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.4",
+          "input_contributions": 564,
+          "projected_contributions": 692,
+          "explicit_degrees": {
+            "2": 660,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.5",
+          "input_contributions": 564,
+          "projected_contributions": 692,
+          "explicit_degrees": {
+            "2": 660,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.6",
+          "input_contributions": 467,
+          "projected_contributions": 562,
+          "explicit_degrees": {
+            "2": 530,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.7",
+          "input_contributions": 370,
+          "projected_contributions": 432,
+          "explicit_degrees": {
+            "2": 400,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.8",
+          "input_contributions": 370,
+          "projected_contributions": 432,
+          "explicit_degrees": {
+            "2": 400,
+            "0": 32
+          }
+        },
+        {
+          "primary_term": "H4.9",
+          "input_contributions": 336,
+          "projected_contributions": 696,
+          "explicit_degrees": {
+            "2": 696
+          }
+        },
+        {
+          "primary_term": "H4.10",
+          "input_contributions": 672,
+          "projected_contributions": 1392,
+          "explicit_degrees": {
+            "2": 1392
+          }
+        },
+        {
+          "primary_term": "H4.11",
+          "input_contributions": 672,
+          "projected_contributions": 1392,
+          "explicit_degrees": {
+            "2": 1392
+          }
+        },
+        {
+          "primary_term": "H4.12",
+          "input_contributions": 336,
+          "projected_contributions": 696,
+          "explicit_degrees": {
+            "2": 696
+          }
+        },
+        {
+          "primary_term": "H4.13",
+          "input_contributions": 384,
+          "projected_contributions": 384,
+          "explicit_degrees": {
+            "2": 384
+          }
+        },
+        {
+          "primary_term": "H4.14",
+          "input_contributions": 192,
+          "projected_contributions": 192,
+          "explicit_degrees": {
+            "2": 192
+          }
+        },
+        {
+          "primary_term": "H5.1",
+          "input_contributions": 384,
+          "projected_contributions": 384,
+          "explicit_degrees": {
+            "2": 384
+          }
+        },
+        {
+          "primary_term": "H5.2",
+          "input_contributions": 192,
+          "projected_contributions": 192,
+          "explicit_degrees": {
+            "2": 192
+          }
+        },
+        {
+          "primary_term": "H5.3",
+          "input_contributions": 192,
+          "projected_contributions": 192,
+          "explicit_degrees": {
+            "2": 192
+          }
+        },
+        {
+          "primary_term": "H6.1",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        },
+        {
+          "primary_term": "H6.2",
+          "input_contributions": 0,
+          "projected_contributions": 0,
+          "explicit_degrees": {}
+        }
+      ],
+      "raw_projected_contributions": 116621,
+      "displayed_monomials": 89988,
+      "explicit_degrees": {
+        "0": 23706,
+        "2": 92915
+      },
+      "collection": "Even factors moved without signs; odd order unchanged; exact identical displayed monomials collected."
+    }
+  },
+  "input_hashes": {
+    "STEP_02_LOG_PRIMARY.md": "b2c2054c2357b21d3b8958d867f88c374a243ae86c78dbba103969963745bcfd",
+    "STEP_03_LOG_SPINOR.md": "bd2170e47bc8e5affad74ed205b9717266c0c2e0a1bc636aa1e755ba45cb87b1",
+    "STEP_04_LOG_SCALAR.md": "a0dfe7bbcc14f9a65bed7e0af2487249532caa0a540d6aaa776cea5be1b7c814",
+    "STEP_05_LOG_VECTOR.md": "b2bb4636e17a6f0c20336d8ac67891d6354472c4300fde0dcf2a9fd016429bba",
+    "LOG_CONVENTIONS.md": "9fcbdc3da5bb16555fe0a3ea92658052a80449a0050b3edbc1154ec8cfe66586",
+    "scripts/log_step6_projection.py": "d7f589a4f52b1a54a4c7b9eba7c2a691f4fbedbac996452a5c20ec035b76e4f4"
+  },
+  "output_sha256": "28ce740a863da6888c6d7dba03aa223a4e544d09d007859092a9b84e3e0b49e2"
+}

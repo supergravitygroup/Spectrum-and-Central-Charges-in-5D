@@ -1,0 +1,28 @@
+PASS current repository action-input fingerprints
+PASS source W, source LOG, GB=W+2LOG, potential/field-strength congruence: n=2, charged=False
+PASS source W, source LOG, GB=W+2LOG, potential/field-strength congruence: n=1, charged=False
+PASS source W, source LOG, GB=W+2LOG, potential/field-strength congruence: n=0, charged=False
+PASS source W, source LOG, GB=W+2LOG, potential/field-strength congruence: n=1, charged=True
+PASS source W, source LOG, GB=W+2LOG, potential/field-strength congruence: n=0, charged=True
+PASS source W, source LOG, GB=W+2LOG, potential/field-strength congruence: n=-1, charged=True
+PASS 662 entries compared with free off-shell background parameters
+PASS BPS equations, g-preserving normalization and both chirality matrices
+PASS generic n=1, chi=1: exact maximal-minor divisor and invariant propagators
+PASS generic n=0, chi=1: exact maximal-minor divisor and invariant propagators
+PASS generic n=1, chi=-1: exact maximal-minor divisor and invariant propagators
+PASS generic n=0, chi=-1: exact maximal-minor divisor and invariant propagators
+PASS generic 3 spin-2 + 10 neutral vector + 5 scalar + 2 charged modes; TT prefactor; flat identities
+PASS hqd, n=0: restricted Hessian, rank and physical divisor
+PASS h1f, n=0: restricted Hessian, rank and physical divisor
+PASS h1f, n=1: restricted Hessian, rank and physical divisor
+PASS j1, n=2: restricted Hessian, rank and physical divisor
+PASS j1, n=1: restricted Hessian, rank and physical divisor
+PASS j1, n=0: restricted Hessian, rank and physical divisor
+PASS constant fixed-flux reduction and T2: complete restricted matrices and divisors
+PASS nonzero T2 Fourier momentum: six independent matrices and generic physical divisors
+PASS exact flat, harmonic-vector/HQD, torus and j=1 current residues; TMG prefactor; k=0 degree degeneration
+PASS negative control: deleting E terms changes the vector Hessian while leaving TT unchanged
+PASS v109 upper-table norm samples: analytic residues, 80/140-digit agreement
+PASS v109 lower-table accumulation norms: 45 finite levels, 80/140-digit agreement
+PASS formal alternative branches, E-deletion roots and six standalone product comparisons
+PASS item 24 scientific checks complete; structural repository validation is separate

@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-23",
+  "status": "PASS",
+  "scope": "Both W^0 terms, each intermediate descendant and table; full S/K/reality certificate not claimed",
+  "source_agreement": "Both W^0 terms agree with S23 (3.25)",
+  "basis_probes": {
+    "zero even fields, all Weyl fermions": 1,
+    "W times Weyl two-form descendant": 100,
+    "uncontracted derivative of Weyl two-form descendant": 50,
+    "combined nonzero even fields": 1
+  },
+  "total_probes": 152,
+  "fixed_table_rows": 3192,
+  "additional_Box_lambda_and_WF_subrows": 912,
+  "bilinear_product_rows": 9,
+  "five_plus_derivative_words": 96,
+  "arithmetic": "Exactly representable Gaussian dyadic coefficients; equality is exact and no coefficients are fitted",
+  "elapsed_seconds": 58.11,
+  "script_sha256": "49e48e26713e283277f8b316509aa9c1714413e5ba86ea8819823faa46970b61"
+}

@@ -1,0 +1,159 @@
+{
+  "schema_version": 2,
+  "status": "steps_1_2_3_4_complete_steps_5_6_pending",
+  "procedure_lock": "R2-PRIMED-BF-CONSTRUCTION-FRAMEWORK-v1",
+  "framework": "notes/00_action_construction_framework.md",
+  "confirmed_date": "2026-09-09",
+  "output_A": 1,
+  "output_notation": "primed linear multiplet",
+  "sum_indices": [
+    "B",
+    "C"
+  ],
+  "index_values": [
+    1,
+    2
+  ],
+  "coefficients": {
+    "111": "0",
+    "112": "1/2",
+    "121": "1/2",
+    "122": "0"
+  },
+  "labels": {
+    "1": "primed composite vector",
+    "2": "unprimed defining vector"
+  },
+  "ordered_pairs": [
+    {
+      "B": 1,
+      "C": 2,
+      "B_role": "primed",
+      "C_role": "unprimed",
+      "coefficient": "1/2"
+    },
+    {
+      "B": 2,
+      "C": 1,
+      "B_role": "unprimed",
+      "C_role": "primed",
+      "coefficient": "1/2"
+    }
+  ],
+  "source_factor_two": "before_C1BC_weighting",
+  "unspecified_A2_entries": "not_assigned",
+  "component_dictionary": {
+    "1": {
+      "Y_ij": "Y'_ij",
+      "rho": "rho'",
+      "A_mu": "A'_mu",
+      "lambda_i": "lambda'_i",
+      "map": "earlier linear-to-vector map with output slots primed"
+    },
+    "2": {
+      "Y_ij": "Y_ij",
+      "rho": "rho",
+      "A_mu": "A_mu",
+      "lambda_i": "lambda_i",
+      "map": "Gold Eq. (4) after BF insertion"
+    }
+  },
+  "original_linear_input": [
+    "L_ij",
+    "varphi_i",
+    "E_a",
+    "N"
+  ],
+  "new_linear_output": [
+    "L'_ij",
+    "varphi'_i",
+    "E'_a",
+    "N'"
+  ],
+  "same_original_linear_input_in_both_vector_maps": true,
+  "componentwise_primed_unprimed_identification": false,
+  "bf_vector_argument": "primed composite vector, label 1",
+  "bf_linear_argument": "new primed mixed linear multiplet, output A=1",
+  "bf_overall_normalization": "retain full source density; later Gold R2 conversion to be documented",
+  "construction_order": [
+    "write_full_primed_BF",
+    "construct_mixed_primed_linear",
+    "insert_linear_into_primed_BF",
+    "substitute_unprimed_Gold4",
+    "substitute_primed_earlier_linear_to_vector_map",
+    "complete_gauged_background_and_validate"
+  ],
+  "gauged_background": {
+    "source": "Ref-Coomans-Ozkan-2013",
+    "chi": "5.3",
+    "D": "5.4",
+    "T": "5.6",
+    "H": "5.7",
+    "scope": "all explicit and implicit occurrences; shared gauged background, distinct vector composite roles",
+    "source_omissions": "retain stated higher-fermion limitations"
+  },
+  "primed_map_anchor": "inputs/two_derivative_map_2026-09-09/results/gauged_two_derivative_fermionic_action/03_single_linear_multiplet_linear_map_anchor.md",
+  "primed_map_lock": "OZKAN1608-SINGLE-LINEAR-TO-VECTOR-MAP-v2",
+  "fermion_order_target": "full_no_automatic_quadratic_truncation",
+  "calculations_started": true,
+  "accepted_calculation_results": [
+    "R2-PRIMED-BF-DENSITY-v1",
+    "R2-MIXED-PRIMED-LINEAR-v2",
+    "R2-MIXED-BF-INSERTION-v2",
+    "R2-GOLD4-UNPRIMED-SUBSTITUTION-v2",
+    "R2-PRIMED-COMPOSITE-INSERTION-v1"
+  ],
+  "superseded_archive": "archive/2026-09-09-pre-sketch-framework",
+  "user_sketch": "sources/user/2026-09-09-action-construction-sketch.png",
+  "completed_steps": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pending_steps": [
+    6
+  ],
+  "step_1_artifact": "notes/03_step1_full_primed_BF_density.md",
+  "step_2_artifact": "notes/04_step2_mixed_primed_linear_multiplet.md",
+  "step_3_artifact": "notes/05_step3_mixed_linear_inserted_in_BF.md",
+  "step_4_artifact": "notes/06_step4_Gold_unprimed_vector_and_gauge.md",
+  "step_4_gauge": {
+    "lock": "R2-GOLD7-GAUGE-v1",
+    "authorization": "User Step 4 request explicitly permits gauge simplification.",
+    "conditions": [
+      "sigma=1",
+      "b_mu=0",
+      "psi^i=0"
+    ],
+    "source": "Gold 2025 Eq. (7), PDF p. 6",
+    "original_triplet": "L_ij retained; Gold (25) not imposed",
+    "parent": "notes/05_step3_mixed_linear_inserted_in_BF.md",
+    "derivatives": "Restrict full source covariant definitions before simplifying; Dpsi and Boxsigma do not vanish from field values alone."
+  },
+  "gradient_phase_revision": {
+    "lock": "R2-VL-GRADIENT-PHASE-v1",
+    "date": "2026-09-10",
+    "printed_general_coefficient": "1/2",
+    "working_general_coefficient": "i/2",
+    "working_mixed_coefficients": [
+      "i/4",
+      "i/4"
+    ],
+    "artifact": "notes/07_gradient_phase_correction_and_regression.md",
+    "archive": "archive/2026-09-10-pre-gradient-phase-correction",
+    "gauge_endpoint_changed": false
+  },
+  "step_5_gauge": {
+    "lock": "R2-GOLD25-LOCAL-ALIGNMENT-v1",
+    "conditions": [
+      "L_ij=delta_ij L/sqrt(2)",
+      "L>0",
+      "inherit Gold (7)"
+    ],
+    "authorization": "User explicitly permits justified gauge simplification in Step 5.",
+    "unaligned_parent": "notes/06_step4_Gold_unprimed_vector_and_gauge.md",
+    "potential_lock": "R2-COMPOSITE-POTENTIAL-GOLD25-v1"
+  }
+}

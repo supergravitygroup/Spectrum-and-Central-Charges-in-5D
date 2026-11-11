@@ -1,0 +1,85 @@
+{
+  "branch": "GB-S+",
+  "domain": "a>-1/2, 0<x<2, real g!=0; local bulk",
+  "spectrum": [
+    {
+      "mode": "graviton",
+      "spin": "2",
+      "equation": "(Box-2k)H=0; massless",
+      "reconstruction": "h=H; ell=n=0",
+      "kinetic_weight": "2 - x",
+      "real_dof": 5
+    },
+    {
+      "mode": "scalar",
+      "spin": "0",
+      "equation": "(Box-4k)ell=0; M^2 L_AdS^2=-4",
+      "reconstruction": "h=-2*gbar*ell/(3x); n=-2gx*ell",
+      "kinetic_weight": "-2*(x - 2)/(3*x**2)",
+      "real_dof": 1
+    },
+    {
+      "mode": "vector_A",
+      "spin": "1",
+      "equation": "Maxwell; physical mass 0",
+      "reconstruction": "H2=0; v=-sqrt(2)gx*A",
+      "kinetic_weight": "-2*(x - 2)",
+      "real_dof": 3
+    },
+    {
+      "mode": "vector_Q",
+      "spin": "1 (dual two-form)",
+      "equation": "Maxwell; physical mass 0",
+      "reconstruction": "H2=dQ; db=2 star(dQ); v=2sqrt(2)gx*Q",
+      "kinetic_weight": "-16*(x - 2)",
+      "real_dof": 3
+    },
+    {
+      "mode": "gravitino",
+      "spin": "3/2",
+      "equation": "(slash_nabla+3imJ)Upsilon=0; gauge massless",
+      "reconstruction": "Psi=Upsilon; zeta=0; gamma.Upsilon=div.Upsilon=0",
+      "kinetic_weight": "2 - x",
+      "real_dof": 8
+    },
+    {
+      "mode": "spinor",
+      "spin": "1/2",
+      "equation": "(slash_nabla+imJ)zeta=0",
+      "reconstruction": "Psi=i*sqrt(2)*gamma*J*zeta/(3x); Upsilon=0",
+      "kinetic_weight": "-2*(x - 2)/(3*x**2)",
+      "real_dof": 4
+    }
+  ],
+  "bosonic_dof": 12,
+  "fermionic_dof": 12,
+  "positivity_proof_x_equals_2t_over_1_plus_t": {
+    "graviton": "2/(t + 1)",
+    "scalar": "(t + 1)/(3*t**2)",
+    "vector_A": "4/(t + 1)",
+    "vector_Q": "32/(t + 1)",
+    "gravitino": "2/(t + 1)",
+    "spinor": "(t + 1)/(3*t**2)"
+  },
+  "scalar_indicial_equation": "(Delta - 2)**2",
+  "scalar_falloffs": "z^2 and z^2 log(z); no second bulk scalar",
+  "small_a_expansion": "1 - a/2 + a**2/2 + O(a**3)",
+  "fixed_lambda_ungauged_limit": {
+    "x": "1",
+    "curvature": "0",
+    "fermion_parameter": "0"
+  },
+  "endpoint": "a=-1/2: x=2, every raw quadratic coefficient vanishes; generic constraints and DoF count not assigned",
+  "boundary_scope": "global boundary data, global frequencies, topology and renormalized boundary norms are not selected",
+  "residuals": {
+    "zero kinetic weight at endpoint: graviton": "0",
+    "zero kinetic weight at endpoint: scalar": "0",
+    "zero kinetic weight at endpoint: vector_A": "0",
+    "zero kinetic weight at endpoint: vector_Q": "0",
+    "zero kinetic weight at endpoint: gravitino": "0",
+    "zero kinetic weight at endpoint: spinor": "0",
+    "scalar BF saturation": "0",
+    "spinor AdS magnitude squared": "0",
+    "gravitino AdS gauge magnitude squared": "0"
+  }
+}

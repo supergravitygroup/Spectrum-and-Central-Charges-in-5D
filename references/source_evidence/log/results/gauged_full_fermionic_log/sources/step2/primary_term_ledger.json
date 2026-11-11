@@ -1,0 +1,272 @@
+{
+  "scope": "Literal S23(3.25) benchmark; not a claim of independent curved reduction",
+  "groups": [
+    {
+      "inverse_W_power": 0,
+      "terms": [
+        {
+          "id": "H0.1",
+          "latex": "-\\frac{3i}{8}W_{ab}X^{abij}"
+        },
+        {
+          "id": "H0.2",
+          "latex": "+\\frac{51i}{64}X^{\\alpha i}X_\\alpha^j"
+        }
+      ]
+    },
+    {
+      "inverse_W_power": 1,
+      "terms": [
+        {
+          "id": "H1.1",
+          "latex": "\\frac9{64}X^{ij}Y"
+        },
+        {
+          "id": "H1.2",
+          "latex": "-\\frac{3i}{8}F_{ab}X^{abij}"
+        },
+        {
+          "id": "H1.3",
+          "latex": "-\\frac12\\Box X^{ij}"
+        },
+        {
+          "id": "H1.4",
+          "latex": "-\\frac9{64}X^{ij}W^{ab}W_{ab}"
+        },
+        {
+          "id": "H1.5",
+          "latex": "+\\frac14W^{ab}W_{ab}^{\\alpha(i}\\lambda_\\alpha^{j)}"
+        },
+        {
+          "id": "H1.6",
+          "latex": "-\\frac34(\\Gamma^a)^{\\alpha\\beta}X_\\alpha^{(i}\\nabla_a\\lambda_\\beta^{j)}"
+        },
+        {
+          "id": "H1.7",
+          "latex": "+\\frac34(\\Gamma^a)^{\\alpha\\beta}\\lambda_\\alpha^{(i}\\nabla_aX_\\beta^{j)}."
+        }
+      ]
+    },
+    {
+      "inverse_W_power": 2,
+      "terms": [
+        {
+          "id": "H2.1",
+          "latex": "\\frac12X^{ij}\\Box W"
+        },
+        {
+          "id": "H2.2",
+          "latex": "+\\frac12(\\nabla^aW)\\nabla_aX^{ij}"
+        },
+        {
+          "id": "H2.3",
+          "latex": "+\\frac14F^{ab}W_{ab}^{\\alpha(i}\\lambda_\\alpha^{j)}"
+        },
+        {
+          "id": "H2.4",
+          "latex": "-\\frac i2\\lambda^{\\alpha(j}\\Box\\lambda_\\alpha^{i)}"
+        },
+        {
+          "id": "H2.5",
+          "latex": "-\\frac i4(\\nabla^a\\lambda^{\\alpha i})\\nabla_a\\lambda_\\alpha^j"
+        },
+        {
+          "id": "H2.6",
+          "latex": "-\\frac{3i}{16}\\varepsilon^{abcde}(\\Sigma_{ab})^{\\alpha\\beta}W_{de}\\lambda_\\alpha^{(i}\\nabla_c\\lambda_\\beta^{j)}"
+        },
+        {
+          "id": "H2.7",
+          "latex": "-\\frac{3i}{8}(\\Gamma^a)^{\\alpha\\beta}\\lambda_\\alpha^i\\lambda_\\beta^j\\nabla^cW_{ac}"
+        },
+        {
+          "id": "H2.8",
+          "latex": "+\\frac{3i}{64}Y\\lambda^{\\alpha i}\\lambda_\\alpha^j"
+        },
+        {
+          "id": "H2.9",
+          "latex": "+\\frac38(\\Sigma_{ab})^{\\alpha\\beta}F^{ab}X_\\alpha^{(i}\\lambda_\\beta^{j)}"
+        },
+        {
+          "id": "H2.10",
+          "latex": "+\\frac{3i}{128}W^{ab}W_{ab}\\lambda^{\\alpha i}\\lambda_\\alpha^j"
+        },
+        {
+          "id": "H2.11",
+          "latex": "+\\frac{9i}{256}\\varepsilon^{abcde}(\\Gamma_a)^{\\alpha\\beta}W_{bc}W_{de}\\lambda_\\alpha^i\\lambda_\\beta^j"
+        },
+        {
+          "id": "H2.12",
+          "latex": "-\\frac38X^{ij}X^{\\alpha k}\\lambda_{\\alpha k}."
+        }
+      ]
+    },
+    {
+      "inverse_W_power": 3,
+      "terms": [
+        {
+          "id": "H3.1",
+          "latex": "\\frac18X^{ij}F^{ab}F_{ab}"
+        },
+        {
+          "id": "H3.2",
+          "latex": "-\\frac18X^{ij}X^{kl}X_{kl}"
+        },
+        {
+          "id": "H3.3",
+          "latex": "-\\frac14X^{ij}(\\nabla^aW)\\nabla_aW"
+        },
+        {
+          "id": "H3.4",
+          "latex": "-\\frac i8\\varepsilon^{abcde}(\\Sigma_{ab})^{\\alpha\\beta}F_{de}\\lambda_\\alpha^{(i}\\nabla_c\\lambda_\\beta^{j)}"
+        },
+        {
+          "id": "H3.5",
+          "latex": "-\\frac i4(\\Gamma^a)^{\\alpha\\beta}F_{ab}\\lambda_\\alpha^{(i}\\nabla^b\\lambda_\\beta^{j)}"
+        },
+        {
+          "id": "H3.6",
+          "latex": "-\\frac i4(\\Gamma^a)^{\\alpha\\beta}\\lambda_\\alpha^i\\lambda_\\beta^j\\nabla^cF_{ac}"
+        },
+        {
+          "id": "H3.7",
+          "latex": "+\\frac i4(\\Gamma^a)^{\\alpha\\beta}X^{ij}\\lambda_\\alpha^k\\nabla_a\\lambda_{\\beta k}"
+        },
+        {
+          "id": "H3.8",
+          "latex": "+\\frac i4(\\Gamma^a)^{\\alpha\\beta}X^{k(i}\\lambda_\\alpha^{j)}\\nabla_a\\lambda_{\\beta k}"
+        },
+        {
+          "id": "H3.9",
+          "latex": "-\\frac i4(\\Gamma^a)^{\\alpha\\beta}\\lambda_\\alpha^{(i}(\\nabla_aX^{j)l})\\lambda_{\\beta l}"
+        },
+        {
+          "id": "H3.10",
+          "latex": "+\\frac i4\\lambda^{\\alpha i}\\lambda_\\alpha^j\\Box W"
+        },
+        {
+          "id": "H3.11",
+          "latex": "+\\frac{3i}{4}(\\nabla^aW)\\lambda^{\\alpha(i}\\nabla_a\\lambda_\\alpha^{j)}"
+        },
+        {
+          "id": "H3.12",
+          "latex": "-\\frac i2(\\Sigma_{ab})^{\\alpha\\beta}(\\nabla^aW)\\lambda_\\alpha^{(i}\\nabla^b\\lambda_\\beta^{j)}"
+        },
+        {
+          "id": "H3.13",
+          "latex": "-\\frac{3i}{16}(\\Gamma^a)^{\\alpha\\beta}W_{ab}\\lambda_\\alpha^i\\lambda_\\beta^j\\nabla^bW"
+        },
+        {
+          "id": "H3.14",
+          "latex": "+\\frac{3i}{32}W_{ab}F^{ab}\\lambda^{\\alpha i}\\lambda_\\alpha^j"
+        },
+        {
+          "id": "H3.15",
+          "latex": "+\\frac{9i}{64}\\varepsilon^{abcde}(\\Gamma_a)^{\\alpha\\beta}W_{bc}F_{de}\\lambda_\\alpha^i\\lambda_\\beta^j"
+        },
+        {
+          "id": "H3.16",
+          "latex": "-\\frac{3i}{32}(\\Sigma_{ab})^{\\alpha\\beta}X^{ij}W^{ab}\\lambda_\\alpha^k\\lambda_{\\beta k}"
+        },
+        {
+          "id": "H3.17",
+          "latex": "-\\frac{3i}{8}X^{\\alpha k}\\lambda_\\alpha^{(i}\\lambda^{\\beta j)}\\lambda_{\\beta k}"
+        },
+        {
+          "id": "H3.18",
+          "latex": "-\\frac{3i}{8}X^{\\alpha k}\\lambda^{\\beta i}\\lambda_\\beta^j\\lambda_{\\alpha k}."
+        }
+      ]
+    },
+    {
+      "inverse_W_power": 4,
+      "terms": [
+        {
+          "id": "H4.1",
+          "latex": "-\\frac{3i}{16}\\lambda^{\\alpha i}\\lambda_\\alpha^j(\\nabla^aW)\\nabla_aW"
+        },
+        {
+          "id": "H4.2",
+          "latex": "-\\frac{3i}{8}(\\Gamma^a)^{\\alpha\\beta}X^{k(i}\\lambda_\\alpha^{j)}\\lambda_{\\beta k}\\nabla_aW"
+        },
+        {
+          "id": "H4.3",
+          "latex": "+\\frac{3i}{8}(\\Gamma^a)^{\\alpha\\beta}F_{ab}\\lambda_\\alpha^i\\lambda_\\beta^j\\nabla^bW"
+        },
+        {
+          "id": "H4.4",
+          "latex": "+\\frac{3i}{32}F^{ab}F_{ab}\\lambda^{\\alpha i}\\lambda_\\alpha^j"
+        },
+        {
+          "id": "H4.5",
+          "latex": "+\\frac{3i}{64}\\varepsilon^{abcde}(\\Gamma_a)^{\\alpha\\beta}F_{bc}F_{de}\\lambda_\\alpha^i\\lambda_\\beta^j"
+        },
+        {
+          "id": "H4.6",
+          "latex": "-\\frac{3i}{16}(\\Sigma_{ab})^{\\alpha\\beta}X^{ij}F^{ab}\\lambda_\\alpha^k\\lambda_{\\beta k}"
+        },
+        {
+          "id": "H4.7",
+          "latex": "-\\frac{3i}{16}X^{ij}X^{kl}\\lambda_k^\\alpha\\lambda_{\\alpha l}"
+        },
+        {
+          "id": "H4.8",
+          "latex": "-\\frac{3i}{32}X^{kl}X_{kl}\\lambda^{\\alpha i}\\lambda_\\alpha^j"
+        },
+        {
+          "id": "H4.9",
+          "latex": "-\\frac{15}{64}(\\Gamma^a)^{\\alpha\\beta}\\lambda_\\alpha^i\\lambda_\\beta^j\\lambda^{\\gamma k}\\nabla_a\\lambda_{\\gamma k}"
+        },
+        {
+          "id": "H4.10",
+          "latex": "-\\frac9{32}(\\Gamma^a)^{\\alpha\\beta}\\lambda_\\alpha^{(i}\\lambda^{\\rho j)}\\lambda_\\beta^k\\nabla_a\\lambda_{\\rho k}"
+        },
+        {
+          "id": "H4.11",
+          "latex": "-\\frac{15}{32}(\\Gamma^a)^{\\alpha\\beta}\\lambda_\\alpha^{(i}\\lambda^{\\rho j)}\\lambda_\\rho^k\\nabla_a\\lambda_{\\beta k}"
+        },
+        {
+          "id": "H4.12",
+          "latex": "-\\frac{15}{64}(\\Gamma^a)^{\\alpha\\beta}\\lambda^{\\rho i}\\lambda_\\rho^j\\lambda_\\alpha^k\\nabla_a\\lambda_{\\beta k}"
+        },
+        {
+          "id": "H4.13",
+          "latex": "+\\frac9{32}(\\Sigma_{ab})^{\\alpha\\beta}W^{ab}\\lambda_\\alpha^{(i}\\lambda^{\\rho j)}\\lambda_\\beta^k\\lambda_{\\rho k}"
+        },
+        {
+          "id": "H4.14",
+          "latex": "+\\frac9{64}(\\Sigma_{ab})^{\\alpha\\beta}W^{ab}\\lambda^{\\rho i}\\lambda_\\rho^j\\lambda_\\alpha^k\\lambda_{\\beta k}."
+        }
+      ]
+    },
+    {
+      "inverse_W_power": 5,
+      "terms": [
+        {
+          "id": "H5.1",
+          "latex": "\\frac38(\\Gamma^a)^{\\alpha\\beta}\\lambda_\\alpha^{(i}\\lambda^{\\rho j)}\\lambda_\\beta^k\\lambda_{\\rho k}\\nabla_aW"
+        },
+        {
+          "id": "H5.2",
+          "latex": "+\\frac38(\\Sigma_{ab})^{\\alpha\\beta}F^{ab}\\lambda^{\\rho i}\\lambda_\\rho^j\\lambda_\\alpha^k\\lambda_{\\beta k}"
+        },
+        {
+          "id": "H5.3",
+          "latex": "+\\frac38X^{kl}\\lambda^{\\alpha i}\\lambda_\\alpha^j\\lambda_k^\\beta\\lambda_{\\beta l}"
+        }
+      ]
+    },
+    {
+      "inverse_W_power": 6,
+      "terms": [
+        {
+          "id": "H6.1",
+          "latex": "\\frac{3i}{32}\\lambda^{\\alpha i}\\lambda_\\alpha^j\\lambda^{\\beta k}\\lambda_\\beta^l\\lambda_k^\\gamma\\lambda_{\\gamma l}"
+        },
+        {
+          "id": "H6.2",
+          "latex": "+\\frac{3i}{16}\\lambda^{\\alpha i}\\lambda_\\alpha^k\\lambda^{\\beta j}\\lambda_\\beta^l\\lambda_k^\\gamma\\lambda_{\\gamma l}."
+        }
+      ]
+    }
+  ]
+}

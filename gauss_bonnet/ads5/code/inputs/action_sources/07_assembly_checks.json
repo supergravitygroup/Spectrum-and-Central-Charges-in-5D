@@ -1,0 +1,96 @@
+{
+  "status": "PASS_EXACT_ASSEMBLY",
+  "sector_counts": {
+    "F_N": {
+      "raw_terms": 61,
+      "terms": 61,
+      "explicit_fermion_degree": 2,
+      "dimension": 4,
+      "free_indices": 0
+    },
+    "F_L": {
+      "raw_terms": 5,
+      "terms": 4,
+      "explicit_fermion_degree": 2,
+      "dimension": 4,
+      "free_indices": 0
+    },
+    "F_E": {
+      "raw_terms": 157,
+      "terms": 157,
+      "explicit_fermion_degree": 2,
+      "dimension": 4,
+      "free_indices": 0
+    },
+    "F_psiphi": {
+      "raw_terms": 94,
+      "terms": 194,
+      "explicit_fermion_degree": 2,
+      "dimension": 4,
+      "free_indices": 0
+    },
+    "F_Cpsiphi": {
+      "raw_terms": 94,
+      "terms": 406,
+      "explicit_fermion_degree": 2,
+      "dimension": 4,
+      "free_indices": 0
+    },
+    "F_psipsiL": {
+      "raw_terms": 8,
+      "terms": 8,
+      "explicit_fermion_degree": 2,
+      "dimension": 4,
+      "free_indices": 0
+    },
+    "F_CpsipsiL": {
+      "raw_terms": 8,
+      "terms": 8,
+      "explicit_fermion_degree": 2,
+      "dimension": 4,
+      "free_indices": 0
+    },
+    "B_N": {
+      "raw_terms": 80,
+      "terms": 80,
+      "explicit_fermion_degree": 0,
+      "dimension": 4,
+      "free_indices": 0
+    },
+    "B_L": {
+      "raw_terms": 8,
+      "terms": 8,
+      "explicit_fermion_degree": 0,
+      "dimension": 4,
+      "free_indices": 0
+    },
+    "B_E": {
+      "raw_terms": 216,
+      "terms": 216,
+      "explicit_fermion_degree": 0,
+      "dimension": 4,
+      "free_indices": 0
+    }
+  },
+  "collected_explicit": {
+    "terms": 835,
+    "explicit_fermion_degree": 2,
+    "dimension": 4,
+    "free_indices": 0
+  },
+  "collected_covariant_seed": {
+    "terms": 297,
+    "explicit_fermion_degree": 0,
+    "dimension": 4,
+    "free_indices": 0
+  },
+  "sector_sum_minus_direct_assembly": "exact zero",
+  "scope": "Full supercovariant presentation; physical degree includes the separately displayed implicit completion",
+  "input_sha256": {
+    "results/gauged_full_fermionic_log/sources/step7/supercovariant/L-canonical.pkl": "4c6ef0eea7177c4341c8c92550debe288c80f750c9d5b999019fcddba70bf5dc",
+    "results/gauged_full_fermionic_log/sources/step7/supercovariant/phi-canonical.pkl": "83ed08f199ccb07759ccf9be81837c59d20be394fed1ea7be2f8bad3d1472715",
+    "results/gauged_full_fermionic_log/sources/step7/supercovariant/N-canonical.pkl": "ff550d9514319f04d40196873cdd5c023d0afab6c79f1becdf532c98aa481b46",
+    "results/gauged_full_fermionic_log/sources/step7/supercovariant/E-canonical.pkl": "179b015c652027e75ca193aa1f53f80f04dafb78cdf69c169a4f2a3db3b8745d"
+  },
+  "seconds": 2.3565568923950195
+}

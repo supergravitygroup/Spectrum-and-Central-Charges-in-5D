@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-23",
+  "status": "PASS",
+  "scope": "Complete W^-1 coefficient and intermediate Delta X-- at explicit scalar W^0; no full-primary certification",
+  "source_agreement": "All seven W^-1 terms agree with S23 (3.25)",
+  "arithmetic": "Exact Gaussian dyadic exterior polynomial equality, no tolerance or fitted coefficient",
+  "basis_probes": {
+    "all independent odd components": 1,
+    "Box X": 1,
+    "X Y": 3,
+    "W with all odd components": 10,
+    "X W squared polarization": 55,
+    "F times Weyl tensor descendant": 100,
+    "uncontracted derivative W cancellation": 50,
+    "scalar gradient cancellation": 5,
+    "auxiliary gradient cancellation": 15,
+    "combined nonzero fields": 1
+  },
+  "total_probes": 241,
+  "odd_components": "8 lambda, 40 nabla lambda, 8 Weyl X, 40 nabla Weyl X, 40 symmetric W3, 200 nabla W3",
+  "elapsed_seconds": 440.51,
+  "script_sha256": "5dfcf143573f8d3a9997c263e266ce583790a8198ce52c1bf846bf28632845cc"
+}

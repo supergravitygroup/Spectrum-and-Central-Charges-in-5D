@@ -1,0 +1,375 @@
+{
+  "date": "2026-09-23",
+  "status": "PASS",
+  "scope": "Unprojected superfield input/output coverage and exact weight/parity/index checks; projection and project-convention conversion deferred. Not full supersymmetry or reduced-basis equivalence.",
+  "input_terms": 58,
+  "evaluated_summands": 66386,
+  "power_counts": {
+    "0": 2879,
+    "1": 15942,
+    "2": 18974,
+    "3": 16574,
+    "4": 8575,
+    "5": 2440,
+    "6": 918,
+    "7": 82,
+    "8": 2
+  },
+  "coverage": [
+    {
+      "input": "H0.1",
+      "first_derivative_terms": 37,
+      "second_product_terms": 94,
+      "evaluated_scalar_terms": 841
+    },
+    {
+      "input": "H0.2",
+      "first_derivative_terms": 12,
+      "second_product_terms": 28,
+      "evaluated_scalar_terms": 204
+    },
+    {
+      "input": "H1.1",
+      "first_derivative_terms": 9,
+      "second_product_terms": 33,
+      "evaluated_scalar_terms": 129
+    },
+    {
+      "input": "H1.2",
+      "first_derivative_terms": 45,
+      "second_product_terms": 162,
+      "evaluated_scalar_terms": 1490
+    },
+    {
+      "input": "H1.3",
+      "first_derivative_terms": 90,
+      "second_product_terms": 311,
+      "evaluated_scalar_terms": 6665
+    },
+    {
+      "input": "H1.4",
+      "first_derivative_terms": 13,
+      "second_product_terms": 57,
+      "evaluated_scalar_terms": 225
+    },
+    {
+      "input": "H1.5",
+      "first_derivative_terms": 42,
+      "second_product_terms": 172,
+      "evaluated_scalar_terms": 1252
+    },
+    {
+      "input": "H1.6",
+      "first_derivative_terms": 42,
+      "second_product_terms": 156,
+      "evaluated_scalar_terms": 1304
+    },
+    {
+      "input": "H1.7",
+      "first_derivative_terms": 48,
+      "second_product_terms": 182,
+      "evaluated_scalar_terms": 1614
+    },
+    {
+      "input": "H2.1",
+      "first_derivative_terms": 20,
+      "second_product_terms": 79,
+      "evaluated_scalar_terms": 980
+    },
+    {
+      "input": "H2.2",
+      "first_derivative_terms": 27,
+      "second_product_terms": 109,
+      "evaluated_scalar_terms": 952
+    },
+    {
+      "input": "H2.3",
+      "first_derivative_terms": 56,
+      "second_product_terms": 240,
+      "evaluated_scalar_terms": 1916
+    },
+    {
+      "input": "H2.4",
+      "first_derivative_terms": 118,
+      "second_product_terms": 494,
+      "evaluated_scalar_terms": 8968
+    },
+    {
+      "input": "H2.5",
+      "first_derivative_terms": 29,
+      "second_product_terms": 112,
+      "evaluated_scalar_terms": 1199
+    },
+    {
+      "input": "H2.6",
+      "first_derivative_terms": 44,
+      "second_product_terms": 204,
+      "evaluated_scalar_terms": 1376
+    },
+    {
+      "input": "H2.7",
+      "first_derivative_terms": 20,
+      "second_product_terms": 91,
+      "evaluated_scalar_terms": 586
+    },
+    {
+      "input": "H2.8",
+      "first_derivative_terms": 11,
+      "second_product_terms": 48,
+      "evaluated_scalar_terms": 163
+    },
+    {
+      "input": "H2.9",
+      "first_derivative_terms": 42,
+      "second_product_terms": 188,
+      "evaluated_scalar_terms": 974
+    },
+    {
+      "input": "H2.10",
+      "first_derivative_terms": 15,
+      "second_product_terms": 78,
+      "evaluated_scalar_terms": 275
+    },
+    {
+      "input": "H2.11",
+      "first_derivative_terms": 15,
+      "second_product_terms": 78,
+      "evaluated_scalar_terms": 275
+    },
+    {
+      "input": "H2.12",
+      "first_derivative_terms": 17,
+      "second_product_terms": 76,
+      "evaluated_scalar_terms": 350
+    },
+    {
+      "input": "H3.1",
+      "first_derivative_terms": 27,
+      "second_product_terms": 125,
+      "evaluated_scalar_terms": 763
+    },
+    {
+      "input": "H3.2",
+      "first_derivative_terms": 19,
+      "second_product_terms": 89,
+      "evaluated_scalar_terms": 425
+    },
+    {
+      "input": "H3.3",
+      "first_derivative_terms": 13,
+      "second_product_terms": 61,
+      "evaluated_scalar_terms": 237
+    },
+    {
+      "input": "H3.4",
+      "first_derivative_terms": 58,
+      "second_product_terms": 272,
+      "evaluated_scalar_terms": 2068
+    },
+    {
+      "input": "H3.5",
+      "first_derivative_terms": 58,
+      "second_product_terms": 272,
+      "evaluated_scalar_terms": 2068
+    },
+    {
+      "input": "H3.6",
+      "first_derivative_terms": 42,
+      "second_product_terms": 206,
+      "evaluated_scalar_terms": 1808
+    },
+    {
+      "input": "H3.7",
+      "first_derivative_terms": 25,
+      "second_product_terms": 118,
+      "evaluated_scalar_terms": 833
+    },
+    {
+      "input": "H3.8",
+      "first_derivative_terms": 50,
+      "second_product_terms": 236,
+      "evaluated_scalar_terms": 1666
+    },
+    {
+      "input": "H3.9",
+      "first_derivative_terms": 64,
+      "second_product_terms": 312,
+      "evaluated_scalar_terms": 2478
+    },
+    {
+      "input": "H3.10",
+      "first_derivative_terms": 22,
+      "second_product_terms": 105,
+      "evaluated_scalar_terms": 1058
+    },
+    {
+      "input": "H3.11",
+      "first_derivative_terms": 44,
+      "second_product_terms": 208,
+      "evaluated_scalar_terms": 1388
+    },
+    {
+      "input": "H3.12",
+      "first_derivative_terms": 44,
+      "second_product_terms": 208,
+      "evaluated_scalar_terms": 1388
+    },
+    {
+      "input": "H3.13",
+      "first_derivative_terms": 15,
+      "second_product_terms": 80,
+      "evaluated_scalar_terms": 281
+    },
+    {
+      "input": "H3.14",
+      "first_derivative_terms": 22,
+      "second_product_terms": 119,
+      "evaluated_scalar_terms": 523
+    },
+    {
+      "input": "H3.15",
+      "first_derivative_terms": 22,
+      "second_product_terms": 119,
+      "evaluated_scalar_terms": 523
+    },
+    {
+      "input": "H3.16",
+      "first_derivative_terms": 18,
+      "second_product_terms": 97,
+      "evaluated_scalar_terms": 378
+    },
+    {
+      "input": "H3.17",
+      "first_derivative_terms": 38,
+      "second_product_terms": 202,
+      "evaluated_scalar_terms": 832
+    },
+    {
+      "input": "H3.18",
+      "first_derivative_terms": 19,
+      "second_product_terms": 101,
+      "evaluated_scalar_terms": 416
+    },
+    {
+      "input": "H4.1",
+      "first_derivative_terms": 15,
+      "second_product_terms": 82,
+      "evaluated_scalar_terms": 287
+    },
+    {
+      "input": "H4.2",
+      "first_derivative_terms": 36,
+      "second_product_terms": 198,
+      "evaluated_scalar_terms": 768
+    },
+    {
+      "input": "H4.3",
+      "first_derivative_terms": 22,
+      "second_product_terms": 121,
+      "evaluated_scalar_terms": 529
+    },
+    {
+      "input": "H4.4",
+      "first_derivative_terms": 29,
+      "second_product_terms": 160,
+      "evaluated_scalar_terms": 869
+    },
+    {
+      "input": "H4.5",
+      "first_derivative_terms": 29,
+      "second_product_terms": 160,
+      "evaluated_scalar_terms": 869
+    },
+    {
+      "input": "H4.6",
+      "first_derivative_terms": 25,
+      "second_product_terms": 138,
+      "evaluated_scalar_terms": 668
+    },
+    {
+      "input": "H4.7",
+      "first_derivative_terms": 21,
+      "second_product_terms": 116,
+      "evaluated_scalar_terms": 499
+    },
+    {
+      "input": "H4.8",
+      "first_derivative_terms": 21,
+      "second_product_terms": 116,
+      "evaluated_scalar_terms": 499
+    },
+    {
+      "input": "H4.9",
+      "first_derivative_terms": 27,
+      "second_product_terms": 151,
+      "evaluated_scalar_terms": 931
+    },
+    {
+      "input": "H4.10",
+      "first_derivative_terms": 54,
+      "second_product_terms": 302,
+      "evaluated_scalar_terms": 1862
+    },
+    {
+      "input": "H4.11",
+      "first_derivative_terms": 54,
+      "second_product_terms": 302,
+      "evaluated_scalar_terms": 1862
+    },
+    {
+      "input": "H4.12",
+      "first_derivative_terms": 27,
+      "second_product_terms": 151,
+      "evaluated_scalar_terms": 931
+    },
+    {
+      "input": "H4.13",
+      "first_derivative_terms": 40,
+      "second_product_terms": 250,
+      "evaluated_scalar_terms": 896
+    },
+    {
+      "input": "H4.14",
+      "first_derivative_terms": 20,
+      "second_product_terms": 125,
+      "evaluated_scalar_terms": 448
+    },
+    {
+      "input": "H5.1",
+      "first_derivative_terms": 40,
+      "second_product_terms": 254,
+      "evaluated_scalar_terms": 908
+    },
+    {
+      "input": "H5.2",
+      "first_derivative_terms": 27,
+      "second_product_terms": 173,
+      "evaluated_scalar_terms": 766
+    },
+    {
+      "input": "H5.3",
+      "first_derivative_terms": 23,
+      "second_product_terms": 147,
+      "evaluated_scalar_terms": 581
+    },
+    {
+      "input": "H6.1",
+      "first_derivative_terms": 25,
+      "second_product_terms": 182,
+      "evaluated_scalar_terms": 671
+    },
+    {
+      "input": "H6.2",
+      "first_derivative_terms": 25,
+      "second_product_terms": 182,
+      "evaluated_scalar_terms": 671
+    }
+  ],
+  "endpoint_tex_sha256": "bbfa4b583be67af1176527607e4876f6c953c25fdfe1235cb17f5910302a0f0d",
+  "sources": {
+    "STEP_02_LOG_PRIMARY.md": "b2c2054c2357b21d3b8958d867f88c374a243ae86c78dbba103969963745bcfd",
+    "STEP_03_LOG_SPINOR.md": "bd2170e47bc8e5affad74ed205b9717266c0c2e0a1bc636aa1e755ba45cb87b1",
+    "sources/step2/primary_derived_term_ledger.json": "d01ae7bf534d0a26be4a02513f17bb61d07addefc837d04a6ac54402c09de9c4"
+  },
+  "document_sha256": "a0dfe7bbcc14f9a65bed7e0af2487249532caa0a540d6aaa776cea5be1b7c814"
+}

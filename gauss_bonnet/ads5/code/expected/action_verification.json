@@ -1,0 +1,35 @@
+{
+  "status": "PASS_INHERITED_ACTION_ASSEMBLY",
+  "scope": "Independent source-to-rendered-action read-back, normalization arithmetic and polynomial coefficient transport; not full SUSY closure or a spectrum",
+  "frozen_live_inputs": 11,
+  "four_derivative_terms_read_back": 1184,
+  "two_derivative_tokens_compared": 2063,
+  "all_coefficient_phase_and_tensor_bodies_preserved": true,
+  "curvature_coefficients": [
+    "-1/4",
+    "1",
+    "-1/4"
+  ],
+  "coefficient_polynomial_probes": [
+    {
+      "probe": 7,
+      "real": "-20228675717/290304",
+      "i_part": "75503297/16128",
+      "match": true
+    },
+    {
+      "probe": 17,
+      "real": "-83275421/26112",
+      "i_part": "-299893955/39168",
+      "match": true
+    },
+    {
+      "probe": 31,
+      "real": "24448140335/1285632",
+      "i_part": "333703159/285696",
+      "match": true
+    }
+  ],
+  "failures": [],
+  "action_sha256": "23c79f1d03cf174352ce4dd836172983a39f7f5f8d91ee05f703726207860207"
+}

@@ -1,0 +1,215 @@
+{
+  "label": "torus_n2",
+  "rank": 1,
+  "shape": [
+    1,
+    1
+  ],
+  "blocks": [
+    {
+      "rank": 1,
+      "shape": [
+        1,
+        1
+      ],
+      "rows": [
+        0
+      ],
+      "cols": [
+        0
+      ],
+      "row_scales": [
+        "16*L/9 - 16/3"
+      ],
+      "physical_divisor": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "D",
+            1
+          ],
+          [
+            "D - 2",
+            1
+          ],
+          [
+            "2*L^2 - 3*L*D - 6*L + 12*D",
+            1
+          ]
+        ]
+      },
+      "chart_denominators": {
+        "coefficient": "1",
+        "factors": []
+      },
+      "minor_witnesses": [
+        {
+          "rows": [
+            0
+          ],
+          "cols": [
+            0
+          ]
+        }
+      ],
+      "rank_factorization_verified": true,
+      "denominators_coprime_to_divisor_in_D": true,
+      "proof_method": "coprime chart",
+      "gauge_right": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "gauge_left": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "probes": {
+        "h_pp": {
+          "numerator": {
+            "coefficient": "8/9",
+            "factors": [
+              [
+                "L - 3",
+                1
+              ]
+            ]
+          },
+          "denominator": {
+            "coefficient": "1/2",
+            "factors": [
+              [
+                "D",
+                1
+              ],
+              [
+                "D - 2",
+                1
+              ],
+              [
+                "2*L^2 - 3*L*D - 6*L + 12*D",
+                1
+              ]
+            ]
+          }
+        }
+      },
+      "probe_names": [
+        "h_pp"
+      ],
+      "propagator": [
+        [
+          {
+            "numerator": {
+              "coefficient": "8/9",
+              "factors": [
+                [
+                  "L - 3",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/2",
+              "factors": [
+                [
+                  "D",
+                  1
+                ],
+                [
+                  "D - 2",
+                  1
+                ],
+                [
+                  "2*L^2 - 3*L*D - 6*L + 12*D",
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "observables_a": {
+        "h_pp": {
+          "0": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "observables_b": {
+        "h_pp": {
+          "0": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "original_rows": [
+        0
+      ],
+      "original_cols": [
+        0
+      ],
+      "avars": [
+        "a_h_pp"
+      ],
+      "bvars": [
+        "b_h_mm"
+      ],
+      "K": [
+        [
+          "-9*D*(D - 2)*(3*D*L - 12*D - 2*L**2 + 6*L)/(16*(L - 3))"
+        ]
+      ]
+    }
+  ],
+  "physical_divisor": {
+    "coefficient": "1",
+    "factors": [
+      [
+        "D",
+        1
+      ],
+      [
+        "D - 2",
+        1
+      ],
+      [
+        "2*L^2 - 3*L*D - 6*L + 12*D",
+        1
+      ]
+    ]
+  }
+}

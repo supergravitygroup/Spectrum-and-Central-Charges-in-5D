@@ -1,0 +1,205 @@
+{
+  "status": "PASS_INHERITED_ACTION_ASSEMBLY",
+  "scope": "Exact linear combination of adopted input densities through two physical fermions; not independent Weyl multiplet certification",
+  "counts": {
+    "weyl_input": 73,
+    "weyl_retained": 52,
+    "weyl_gauge_zero": 17,
+    "weyl_explicit_four_fermi": 4,
+    "log_covariant_seed": 297,
+    "log_explicit_bilinears": 835,
+    "four_derivative_outer_terms": 1184
+  },
+  "normalizations": {
+    "Weyl_OP": "-2",
+    "LOG": "-4",
+    "two_derivative": "unchanged existing Gold-frame action"
+  },
+  "fermion_order": "0 and 2, with the physical-degree projection outside every full covariant",
+  "source_gauge": "sigma=1,b=0,dilatino=0,Lij=deltaij L/sqrt2 after ordered differentiation",
+  "removed_weyl_terms": [
+    {
+      "source": "dilatino",
+      "index": 1,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "-1/8",
+      "phase_i": 1,
+      "body": "\\bar\\psi\\gamma_{cd}\\widehat R_{ab}(Q)\\widehat C^{abcd}"
+    },
+    {
+      "source": "dilatino",
+      "index": 2,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "4",
+      "phase_i": 0,
+      "body": "\\bar\\psi\\gamma_c\\widehat R_{ab}(Q)\\mathcal D^aT^{bc}"
+    },
+    {
+      "source": "dilatino",
+      "index": 3,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "128/3",
+      "phase_i": 1,
+      "body": "\\bar\\psi\\chi D"
+    },
+    {
+      "source": "dilatino",
+      "index": 4,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "-8",
+      "phase_i": 0,
+      "body": "\\bar\\psi\\gamma_c\\mathcal D^c\\widehat R_{ab}(Q)T^{ab}"
+    },
+    {
+      "source": "dilatino",
+      "index": 5,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "-8",
+      "phase_i": 0,
+      "body": "\\bar\\psi\\gamma_a\\mathcal D^c\\widehat R_{bc}(Q)T^{ab}"
+    },
+    {
+      "source": "dilatino",
+      "index": 6,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "64/3",
+      "phase_i": 0,
+      "body": "\\bar\\psi\\gamma^{ab}\\gamma^c\\chi\\mathcal D_aT_{bc}"
+    },
+    {
+      "source": "dilatino",
+      "index": 7,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "1024/9",
+      "phase_i": 1,
+      "body": "\\bar\\psi\\chi T^2"
+    },
+    {
+      "source": "dilatino",
+      "index": 8,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "-128/3",
+      "phase_i": 0,
+      "body": "\\bar\\psi\\gamma_a\\mathcal D_b\\chi T^{ab}"
+    },
+    {
+      "source": "dilatino",
+      "index": 9,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "8/3",
+      "phase_i": 1,
+      "body": "\\bar\\psi\\gamma_{ab}\\widehat R_{cd}(Q)T^{ab}T^{cd}"
+    },
+    {
+      "source": "dilatino",
+      "index": 10,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "1/2",
+      "phase_i": 1,
+      "body": "\\bar\\psi^i\\widehat R^{ab}{}_{ij}(V)\\widehat R_{ab}{}^j(Q)"
+    },
+    {
+      "source": "dilatino",
+      "index": 11,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "-8/3",
+      "phase_i": 1,
+      "body": "\\bar\\psi^i\\widehat R^{ab}{}_{ij}(V)\\gamma_{ab}\\chi^j"
+    },
+    {
+      "source": "Y",
+      "index": 1,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "-1/16",
+      "phase_i": 0,
+      "body": "\\sigma^{-1}(\\bar\\psi^i\\psi^j)\\big(\\overline{\\widehat R}_{ab(i}(Q)\\widehat R_{j)}{}^{ab}(Q)\\big)"
+    },
+    {
+      "source": "Y",
+      "index": 2,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "-64/3",
+      "phase_i": 0,
+      "body": "\\sigma^{-1}(\\bar\\psi^i\\psi^j)\\big(\\bar\\chi_{(i}\\chi_{j)}\\big)"
+    },
+    {
+      "source": "Y",
+      "index": 3,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "4/3",
+      "phase_i": 1,
+      "body": "\\sigma^{-1}(\\bar\\psi^i\\psi^j)\\big(\\widehat R_{ab\\,ij}(V)T^{ab}\\big)"
+    },
+    {
+      "source": "gravitino_dilatino",
+      "index": 1,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "-1/8",
+      "phase_i": 1,
+      "body": "(\\bar\\psi_m^i\\gamma^m\\psi^j)\\big(\\overline{\\widehat R}_{ab(i}(Q)\\widehat R_{j)}{}^{ab}(Q)\\big)"
+    },
+    {
+      "source": "gravitino_dilatino",
+      "index": 2,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "-128/3",
+      "phase_i": 1,
+      "body": "(\\bar\\psi_m^i\\gamma^m\\psi^j)\\big(\\bar\\chi_{(i}\\chi_{j)}\\big)"
+    },
+    {
+      "source": "gravitino_dilatino",
+      "index": 3,
+      "reason": "undifferentiated gauge-fixed dilatino",
+      "input_coefficient": "-8/3",
+      "phase_i": 0,
+      "body": "(\\bar\\psi_m^i\\gamma^m\\psi^j)\\big(\\widehat R_{ab\\,ij}(V)T^{ab}\\big)"
+    },
+    {
+      "source": "two_gravitinos",
+      "index": 1,
+      "reason": "four explicit physical fermions",
+      "input_coefficient": "-1/16",
+      "phase_i": 0,
+      "body": "\\sigma(\\bar\\psi_m^i\\gamma^{mn}\\psi_n^j)\\big(\\overline{\\widehat R}_{ab(i}(Q)\\widehat R_{j)}{}^{ab}(Q)\\big)"
+    },
+    {
+      "source": "two_gravitinos",
+      "index": 2,
+      "reason": "four explicit physical fermions",
+      "input_coefficient": "-64/3",
+      "phase_i": 0,
+      "body": "\\sigma(\\bar\\psi_m^i\\gamma^{mn}\\psi_n^j)\\big(\\bar\\chi_{(i}\\chi_{j)}\\big)"
+    },
+    {
+      "source": "C_two_gravitinos",
+      "index": 1,
+      "reason": "four explicit physical fermions",
+      "input_coefficient": "1/16",
+      "phase_i": 1,
+      "body": "C_m(\\bar\\psi_n^i\\gamma^{mnp}\\psi_p^j)\\big(\\overline{\\widehat R}_{ab(i}(Q)\\widehat R_{j)}{}^{ab}(Q)\\big)"
+    },
+    {
+      "source": "C_two_gravitinos",
+      "index": 2,
+      "reason": "four explicit physical fermions",
+      "input_coefficient": "64/3",
+      "phase_i": 1,
+      "body": "C_m(\\bar\\psi_n^i\\gamma^{mnp}\\psi_p^j)\\big(\\bar\\chi_{(i}\\chi_{j)}\\big)"
+    }
+  ],
+  "source_blocks": {
+    "Weyl_sigma_N": 15,
+    "Weyl_C_E": 10,
+    "Weyl_gravitino": 11,
+    "Weyl_C_gravitino": 11,
+    "Weyl_Y": 3,
+    "Weyl_two_gravitinos": 1,
+    "Weyl_C_two_gravitinos": 1,
+    "LOG_seed": 297,
+    "LOG_explicit": 835
+  },
+  "action_sha256": "cc21069d7796e8d2782d43a0cb7401df916b26a3500fa05f2fc34825545f58cf",
+  "coefficients_sha256": "f6a36c9e5a679b9464b3339270390efde88e9a97eceec43598691a0ff2f1c13f",
+  "higher_fermions_certified": false,
+  "spectrum_certified": false
+}

@@ -1,0 +1,9 @@
+{
+  "spinor_summands_worked": 94,
+  "each_spinor_summand_has_two_BF_contractions": true,
+  "sum_of_each_transcript": "exact zero residual against independently assembled sector",
+  "explicit_collected_terms": 835,
+  "covariant_zero_explicit_terms": 297,
+  "document": "02_fermionic_log_action.md",
+  "characters": 563684
+}

@@ -1,0 +1,7 @@
+{
+  "source": "C24 (A.4a), (2.17); S6-13; conventional R(Q) gamma trace",
+  "basis_inputs": 40,
+  "gamma_trace_max_residual": 5.551115123125783e-17,
+  "full_three_spinor_symmetry_max_residual": 1.1102230246251565e-16,
+  "production_elementary_map_max_residual": 1.1102230246251565e-16
+}

@@ -1,0 +1,22 @@
+PASS source fingerprints; complete 1184 -> 1190 -> 1198 term census
+PASS exact background, Clifford, sector bases and Grassmann signs
+PASS exact free-background LR F block and k=0 checks (including constant T2 LR only)
+PASS full derivative identities and Majorana pairing: L=3, k=2, g=1
+PASS full derivative identities and Majorana pairing: L=5, k=-1, g=3/2
+PASS full derivative identities and Majorana pairing: L=7/2, k=1, g=1
+PASS dimensionful g variation: LR and total scale as g; raw GB as g^3
+PASS four negative controls detect incorrect rules / relative normalization
+PASS numerical D polynomial: two resolutions and two independent holdouts
+PASS H2_3_2_s13: all eight raw matrices, diagonal and SUSY residuals
+PASS H2_3_2_s14: all eight raw matrices, diagonal and SUSY residuals
+PASS H2_5_1_algebraic: all eight raw matrices, diagonal and SUSY residuals
+PASS H2_7o2_1o2: all eight raw matrices, diagonal and SUSY residuals
+PASS H2_3_1o10: all eight raw matrices, diagonal and SUSY residuals
+PASS H2_3_1o100: all eight raw matrices, diagonal and SUSY residuals
+PASS H2_3_1o1000: all eight raw matrices, diagonal and SUSY residuals
+PASS H2_3_1o10_principal: all eight raw matrices, diagonal and SUSY residuals
+PASS H2_7o2_1_principal: all eight raw matrices, diagonal and SUSY residuals
+PASS H2_7o4_12o5_principal: all eight raw matrices, diagonal and SUSY residuals
+PASS S2_10_1o10: all eight raw matrices, diagonal and SUSY residuals
+PASS S2_5_minus1: all eight raw matrices, diagonal and SUSY residuals
+PASS item 25 complete: 2025 checks, 265.9s; item 26 not evaluated

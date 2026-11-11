@@ -1,0 +1,3658 @@
+{
+  "label": "torus_n0",
+  "rank": 14,
+  "shape": [
+    23,
+    23
+  ],
+  "blocks": [
+    {
+      "rank": 6,
+      "shape": [
+        8,
+        8
+      ],
+      "rows": [
+        2,
+        4,
+        7,
+        3,
+        6,
+        1
+      ],
+      "cols": [
+        2,
+        5,
+        7,
+        1,
+        6,
+        3
+      ],
+      "row_scales": [
+        "8*L - 24",
+        "4*L - 12",
+        "4*L - 12",
+        "4*L - 12",
+        "4*L - 12",
+        "4*L - 12",
+        "L**2 - 3*L",
+        "L**2 - 3*L"
+      ],
+      "physical_divisor": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "D",
+            1
+          ],
+          [
+            "D - 2",
+            1
+          ],
+          [
+            "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+            1
+          ],
+          [
+            "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+            1
+          ]
+        ]
+      },
+      "chart_denominators": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "D",
+            1
+          ]
+        ]
+      },
+      "minor_witnesses": [
+        {
+          "rows": [
+            2,
+            4,
+            7,
+            3,
+            6,
+            1
+          ],
+          "cols": [
+            2,
+            5,
+            7,
+            1,
+            6,
+            3
+          ]
+        },
+        {
+          "rows": [
+            2,
+            5,
+            7,
+            3,
+            6,
+            1
+          ],
+          "cols": [
+            2,
+            5,
+            7,
+            1,
+            6,
+            3
+          ]
+        }
+      ],
+      "rank_factorization_verified": true,
+      "denominators_coprime_to_divisor_in_D": false,
+      "proof_method": "all factor Plucker minors",
+      "gauge_right": [
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "-1/2",
+              "factors": [
+                [
+                  "D - 2",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "3",
+              "factors": [
+                [
+                  "D - 2",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "-1/2",
+              "factors": [
+                [
+                  "D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "gauge_left": [
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "-1/3",
+              "factors": [
+                [
+                  "L - 3",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": [
+                [
+                  "D - 2",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "-1/3",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": [
+                [
+                  "D",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "probes": {
+        "h_33": {
+          "numerator": {
+            "coefficient": "1/72",
+            "factors": [
+              [
+                "L",
+                1
+              ],
+              [
+                "L - 3",
+                1
+              ],
+              [
+                "8*L^11 - 168*L^10 + 1116*L^9 + 45*L^8*D^2 - 90*L^8*D - 388*L^8 + 486*L^7*D^2 - 972*L^7*D - 24240*L^7 - 648*L^6*D^4 + 2592*L^6*D^3 - 26145*L^6*D^2 + 47106*L^6*D + 57936*L^6 + 11826*L^5*D^4 - 47304*L^5*D^3 + 303228*L^5*D^2 - 511848*L^5*D + 347904*L^5 - 88452*L^4*D^4 + 353808*L^4*D^3 - 1715976*L^4*D^2 + 2724336*L^4*D - 2220480*L^4 + 346356*L^3*D^4 - 1385424*L^3*D^3 + 5441904*L^3*D^2 - 8112960*L^3*D + 5080320*L^3 + 729*L^2*D^6 - 4374*L^2*D^5 - 736452*L^2*D^4 + 2974968*L^2*D^3 - 9830160*L^2*D^2 + 13698720*L^2*D - 5412096*L^2 - 5832*L*D^6 + 34992*L*D^5 + 758160*L*D^4 - 3265920*L*D^3 + 9424512*L*D^2 - 12223872*L*D + 2239488*L + 11664*D^6 - 69984*D^5 - 233280*D^4 + 1399680*D^3 - 3732480*D^2 + 4478976*D",
+                1
+              ]
+            ]
+          },
+          "denominator": {
+            "coefficient": "1/16",
+            "factors": [
+              [
+                "D",
+                1
+              ],
+              [
+                "D - 2",
+                1
+              ],
+              [
+                "L - 6",
+                1
+              ],
+              [
+                "L - 2",
+                1
+              ],
+              [
+                "L^2 - 6*L + 12",
+                1
+              ],
+              [
+                "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                1
+              ],
+              [
+                "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                1
+              ]
+            ]
+          }
+        },
+        "h_44": {
+          "numerator": {
+            "coefficient": "1/72",
+            "factors": [
+              [
+                "L",
+                1
+              ],
+              [
+                "L - 3",
+                1
+              ],
+              [
+                "8*L^11 - 168*L^10 + 1116*L^9 + 45*L^8*D^2 - 90*L^8*D - 388*L^8 + 486*L^7*D^2 - 972*L^7*D - 24240*L^7 - 648*L^6*D^4 + 2592*L^6*D^3 - 26145*L^6*D^2 + 47106*L^6*D + 57936*L^6 + 11826*L^5*D^4 - 47304*L^5*D^3 + 303228*L^5*D^2 - 511848*L^5*D + 347904*L^5 - 88452*L^4*D^4 + 353808*L^4*D^3 - 1715976*L^4*D^2 + 2724336*L^4*D - 2220480*L^4 + 346356*L^3*D^4 - 1385424*L^3*D^3 + 5441904*L^3*D^2 - 8112960*L^3*D + 5080320*L^3 + 729*L^2*D^6 - 4374*L^2*D^5 - 736452*L^2*D^4 + 2974968*L^2*D^3 - 9830160*L^2*D^2 + 13698720*L^2*D - 5412096*L^2 - 5832*L*D^6 + 34992*L*D^5 + 758160*L*D^4 - 3265920*L*D^3 + 9424512*L*D^2 - 12223872*L*D + 2239488*L + 11664*D^6 - 69984*D^5 - 233280*D^4 + 1399680*D^3 - 3732480*D^2 + 4478976*D",
+                1
+              ]
+            ]
+          },
+          "denominator": {
+            "coefficient": "1/16",
+            "factors": [
+              [
+                "D",
+                1
+              ],
+              [
+                "D - 2",
+                1
+              ],
+              [
+                "L - 6",
+                1
+              ],
+              [
+                "L - 2",
+                1
+              ],
+              [
+                "L^2 - 6*L + 12",
+                1
+              ],
+              [
+                "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                1
+              ],
+              [
+                "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                1
+              ]
+            ]
+          }
+        },
+        "L_0": {
+          "numerator": {
+            "coefficient": "1/32",
+            "factors": [
+              [
+                "L",
+                1
+              ],
+              [
+                "L - 3",
+                1
+              ],
+              [
+                "20*L^8 - 54*L^7*D^2 + 108*L^7*D - 282*L^7 + 855*L^6*D^2 - 1710*L^6*D + 1864*L^6 - 5724*L^5*D^2 + 11448*L^5*D - 8208*L^5 + 81*L^4*D^4 - 324*L^4*D^3 + 21996*L^4*D^2 - 43344*L^4*D + 25152*L^4 - 1134*L^3*D^4 + 4536*L^3*D^3 - 56520*L^3*D^2 + 103968*L^3*D - 44064*L^3 + 6156*L^2*D^4 - 24624*L^2*D^3 + 101088*L^2*D^2 - 152928*L^2*D + 31104*L^2 - 15552*L*D^4 + 62208*L*D^3 - 114048*L*D^2 + 103680*L*D + 15552*D^4 - 62208*D^3 + 62208*D^2",
+                1
+              ]
+            ]
+          },
+          "denominator": {
+            "coefficient": "1/16",
+            "factors": [
+              [
+                "L - 6",
+                1
+              ],
+              [
+                "L - 2",
+                1
+              ],
+              [
+                "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                1
+              ],
+              [
+                "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                1
+              ]
+            ]
+          }
+        },
+        "N_0": {
+          "numerator": {
+            "coefficient": "-1/128",
+            "factors": [
+              [
+                "L",
+                1
+              ],
+              [
+                "L - 3",
+                1
+              ],
+              [
+                "24*L^11 - 616*L^10 - 216*L^9*D^2 + 432*L^9*D + 5992*L^9 + 5409*L^8*D^2 - 10818*L^8*D - 23920*L^8 + 486*L^7*D^4 - 1944*L^7*D^3 - 56664*L^7*D^2 + 117216*L^7*D - 24312*L^7 - 8586*L^6*D^4 + 34344*L^6*D^3 + 345168*L^6*D^2 - 759024*L^6*D + 688224*L^6 + 54108*L^5*D^4 - 216432*L^5*D^3 - 1457136*L^5*D^2 + 3347136*L^5*D - 3163968*L^5 - 729*L^4*D^6 + 4374*L^4*D^5 - 127656*L^4*D^4 + 481464*L^4*D^3 + 4630176*L^4*D^2 - 10211616*L^4*D + 7029504*L^4 + 11664*L^3*D^6 - 69984*L^3*D^5 - 42120*L^3*D^4 + 635040*L^3*D^3 - 10738656*L^3*D^2 + 20020608*L^3*D - 7744896*L^3 - 67068*L^2*D^6 + 402408*L^2*D^5 + 622080*L^2*D^4 - 5171040*L^2*D^3 + 16718400*L^2*D^2 - 22021632*L^2*D + 3359232*L^2 + 163296*L*D^6 - 979776*L*D^5 - 699840*L*D^4 + 9331200*L*D^3 - 15676416*L*D^2 + 10077696*L*D - 139968*D^6 + 839808*D^5 - 5598720*D^3 + 6718464*D^2",
+                1
+              ]
+            ]
+          },
+          "denominator": {
+            "coefficient": "1/16",
+            "factors": [
+              [
+                "L - 6",
+                1
+              ],
+              [
+                "L - 2",
+                1
+              ],
+              [
+                "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                1
+              ],
+              [
+                "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                1
+              ]
+            ]
+          }
+        }
+      },
+      "probe_names": [
+        "h_33",
+        "h_44",
+        "L_0",
+        "N_0"
+      ],
+      "propagator": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1/72",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "8*L^11 - 168*L^10 + 1116*L^9 + 45*L^8*D^2 - 90*L^8*D - 388*L^8 + 486*L^7*D^2 - 972*L^7*D - 24240*L^7 - 648*L^6*D^4 + 2592*L^6*D^3 - 26145*L^6*D^2 + 47106*L^6*D + 57936*L^6 + 11826*L^5*D^4 - 47304*L^5*D^3 + 303228*L^5*D^2 - 511848*L^5*D + 347904*L^5 - 88452*L^4*D^4 + 353808*L^4*D^3 - 1715976*L^4*D^2 + 2724336*L^4*D - 2220480*L^4 + 346356*L^3*D^4 - 1385424*L^3*D^3 + 5441904*L^3*D^2 - 8112960*L^3*D + 5080320*L^3 + 729*L^2*D^6 - 4374*L^2*D^5 - 736452*L^2*D^4 + 2974968*L^2*D^3 - 9830160*L^2*D^2 + 13698720*L^2*D - 5412096*L^2 - 5832*L*D^6 + 34992*L*D^5 + 758160*L*D^4 - 3265920*L*D^3 + 9424512*L*D^2 - 12223872*L*D + 2239488*L + 11664*D^6 - 69984*D^5 - 233280*D^4 + 1399680*D^3 - 3732480*D^2 + 4478976*D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "D",
+                  1
+                ],
+                [
+                  "D - 2",
+                  1
+                ],
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "L^2 - 6*L + 12",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "-1/72",
+              "factors": [
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "8*L^12 - 168*L^11 - 108*L^10*D^2 + 216*L^10*D + 1116*L^10 + 2331*L^9*D^2 - 4662*L^9*D - 388*L^9 + 729*L^8*D^4 - 2916*L^8*D^3 - 14553*L^8*D^2 + 34938*L^8*D - 24240*L^8 - 18792*L^7*D^4 + 75168*L^7*D^3 - 53811*L^7*D^2 - 42714*L^7*D + 57936*L^7 + 210438*L^6*D^4 - 841752*L^6*D^3 + 1328472*L^6*D^2 - 973440*L^6*D + 347904*L^6 - 1336824*L^5*D^4 + 5347296*L^5*D^3 - 8917848*L^5*D^2 + 7141104*L^5*D - 2220480*L^5 - 729*L^4*D^6 + 4374*L^4*D^5 + 5257872*L^4*D^4 - 21060648*L^4*D^3 + 32990976*L^4*D^2 - 23848992*L^4*D + 5080320*L^4 + 10935*L^3*D^6 - 65610*L^3*D^5 - 13032252*L^3*D^4 + 52566408*L^3*D^3 - 74477232*L^3*D^2 + 43646688*L^3*D - 5412096*L^3 - 61236*L^2*D^6 + 367416*L^2*D^5 + 19618848*L^2*D^4 - 80924832*L^2*D^3 + 102503232*L^2*D^2 - 42177024*L^2*D + 2239488*L^2 + 151632*L*D^6 - 909792*L*D^5 - 15956352*L*D^4 + 69890688*L*D^3 - 79501824*L*D^2 + 16796160*L*D - 139968*D^6 + 839808*D^5 + 5038848*D^4 - 25754112*D^3 + 26873856*D^2",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "D",
+                  1
+                ],
+                [
+                  "D - 2",
+                  1
+                ],
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "L^2 - 6*L + 12",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "-1/16",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "4*L^8 - 48*L^7 - 54*L^6*D^2 + 108*L^6*D + 61*L^6 + 954*L^5*D^2 - 1908*L^5*D + 1796*L^5 - 6930*L^4*D^2 + 13860*L^4*D - 12360*L^4 + 26532*L^3*D^2 - 53064*L^3*D + 35616*L^3 + 81*L^2*D^4 - 324*L^2*D^3 - 56340*L^2*D^2 + 113328*L^2*D - 48816*L^2 - 648*L*D^4 + 2592*L*D^3 + 61776*L*D^2 - 128736*L*D + 25920*L + 1296*D^4 - 5184*D^3 - 25920*D^2 + 62208*D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1/32",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "8*L^9 - 162*L^8 + 27*L^7*D^2 - 54*L^7*D + 1452*L^7 - 927*L^6*D^2 + 1854*L^6*D - 7750*L^6 + 11196*L^5*D^2 - 22392*L^5*D + 28440*L^5 - 81*L^4*D^4 + 324*L^4*D^3 - 67860*L^4*D^2 + 135072*L^4*D - 77712*L^4 + 1296*L^3*D^4 - 5184*L^3*D^3 + 232920*L^3*D^2 - 455472*L^3*D + 153792*L^3 - 6966*L^2*D^4 + 27864*L^2*D^3 - 464616*L^2*D^2 + 873504*L^2*D - 184032*L^2 + 14256*L*D^4 - 57024*L*D^3 + 500256*L*D^2 - 886464*L*D + 93312*L - 7776*D^4 + 31104*D^3 - 217728*D^2 + 373248*D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "-1/72",
+              "factors": [
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "8*L^12 - 168*L^11 - 108*L^10*D^2 + 216*L^10*D + 1116*L^10 + 2331*L^9*D^2 - 4662*L^9*D - 388*L^9 + 729*L^8*D^4 - 2916*L^8*D^3 - 14553*L^8*D^2 + 34938*L^8*D - 24240*L^8 - 18792*L^7*D^4 + 75168*L^7*D^3 - 53811*L^7*D^2 - 42714*L^7*D + 57936*L^7 + 210438*L^6*D^4 - 841752*L^6*D^3 + 1328472*L^6*D^2 - 973440*L^6*D + 347904*L^6 - 1336824*L^5*D^4 + 5347296*L^5*D^3 - 8917848*L^5*D^2 + 7141104*L^5*D - 2220480*L^5 - 729*L^4*D^6 + 4374*L^4*D^5 + 5257872*L^4*D^4 - 21060648*L^4*D^3 + 32990976*L^4*D^2 - 23848992*L^4*D + 5080320*L^4 + 10935*L^3*D^6 - 65610*L^3*D^5 - 13032252*L^3*D^4 + 52566408*L^3*D^3 - 74477232*L^3*D^2 + 43646688*L^3*D - 5412096*L^3 - 61236*L^2*D^6 + 367416*L^2*D^5 + 19618848*L^2*D^4 - 80924832*L^2*D^3 + 102503232*L^2*D^2 - 42177024*L^2*D + 2239488*L^2 + 151632*L*D^6 - 909792*L*D^5 - 15956352*L*D^4 + 69890688*L*D^3 - 79501824*L*D^2 + 16796160*L*D - 139968*D^6 + 839808*D^5 + 5038848*D^4 - 25754112*D^3 + 26873856*D^2",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "D",
+                  1
+                ],
+                [
+                  "D - 2",
+                  1
+                ],
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "L^2 - 6*L + 12",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1/72",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "8*L^11 - 168*L^10 + 1116*L^9 + 45*L^8*D^2 - 90*L^8*D - 388*L^8 + 486*L^7*D^2 - 972*L^7*D - 24240*L^7 - 648*L^6*D^4 + 2592*L^6*D^3 - 26145*L^6*D^2 + 47106*L^6*D + 57936*L^6 + 11826*L^5*D^4 - 47304*L^5*D^3 + 303228*L^5*D^2 - 511848*L^5*D + 347904*L^5 - 88452*L^4*D^4 + 353808*L^4*D^3 - 1715976*L^4*D^2 + 2724336*L^4*D - 2220480*L^4 + 346356*L^3*D^4 - 1385424*L^3*D^3 + 5441904*L^3*D^2 - 8112960*L^3*D + 5080320*L^3 + 729*L^2*D^6 - 4374*L^2*D^5 - 736452*L^2*D^4 + 2974968*L^2*D^3 - 9830160*L^2*D^2 + 13698720*L^2*D - 5412096*L^2 - 5832*L*D^6 + 34992*L*D^5 + 758160*L*D^4 - 3265920*L*D^3 + 9424512*L*D^2 - 12223872*L*D + 2239488*L + 11664*D^6 - 69984*D^5 - 233280*D^4 + 1399680*D^3 - 3732480*D^2 + 4478976*D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "D",
+                  1
+                ],
+                [
+                  "D - 2",
+                  1
+                ],
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "L^2 - 6*L + 12",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "-1/16",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "4*L^8 - 48*L^7 - 54*L^6*D^2 + 108*L^6*D + 61*L^6 + 954*L^5*D^2 - 1908*L^5*D + 1796*L^5 - 6930*L^4*D^2 + 13860*L^4*D - 12360*L^4 + 26532*L^3*D^2 - 53064*L^3*D + 35616*L^3 + 81*L^2*D^4 - 324*L^2*D^3 - 56340*L^2*D^2 + 113328*L^2*D - 48816*L^2 - 648*L*D^4 + 2592*L*D^3 + 61776*L*D^2 - 128736*L*D + 25920*L + 1296*D^4 - 5184*D^3 - 25920*D^2 + 62208*D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1/32",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "8*L^9 - 162*L^8 + 27*L^7*D^2 - 54*L^7*D + 1452*L^7 - 927*L^6*D^2 + 1854*L^6*D - 7750*L^6 + 11196*L^5*D^2 - 22392*L^5*D + 28440*L^5 - 81*L^4*D^4 + 324*L^4*D^3 - 67860*L^4*D^2 + 135072*L^4*D - 77712*L^4 + 1296*L^3*D^4 - 5184*L^3*D^3 + 232920*L^3*D^2 - 455472*L^3*D + 153792*L^3 - 6966*L^2*D^4 + 27864*L^2*D^3 - 464616*L^2*D^2 + 873504*L^2*D - 184032*L^2 + 14256*L*D^4 - 57024*L*D^3 + 500256*L*D^2 - 886464*L*D + 93312*L - 7776*D^4 + 31104*D^3 - 217728*D^2 + 373248*D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "-1/16",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "4*L^8 - 48*L^7 - 54*L^6*D^2 + 108*L^6*D + 61*L^6 + 954*L^5*D^2 - 1908*L^5*D + 1796*L^5 - 6930*L^4*D^2 + 13860*L^4*D - 12360*L^4 + 26532*L^3*D^2 - 53064*L^3*D + 35616*L^3 + 81*L^2*D^4 - 324*L^2*D^3 - 56340*L^2*D^2 + 113328*L^2*D - 48816*L^2 - 648*L*D^4 + 2592*L*D^3 + 61776*L*D^2 - 128736*L*D + 25920*L + 1296*D^4 - 5184*D^3 - 25920*D^2 + 62208*D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "-1/16",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "4*L^8 - 48*L^7 - 54*L^6*D^2 + 108*L^6*D + 61*L^6 + 954*L^5*D^2 - 1908*L^5*D + 1796*L^5 - 6930*L^4*D^2 + 13860*L^4*D - 12360*L^4 + 26532*L^3*D^2 - 53064*L^3*D + 35616*L^3 + 81*L^2*D^4 - 324*L^2*D^3 - 56340*L^2*D^2 + 113328*L^2*D - 48816*L^2 - 648*L*D^4 + 2592*L*D^3 + 61776*L*D^2 - 128736*L*D + 25920*L + 1296*D^4 - 5184*D^3 - 25920*D^2 + 62208*D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1/32",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "20*L^8 - 54*L^7*D^2 + 108*L^7*D - 282*L^7 + 855*L^6*D^2 - 1710*L^6*D + 1864*L^6 - 5724*L^5*D^2 + 11448*L^5*D - 8208*L^5 + 81*L^4*D^4 - 324*L^4*D^3 + 21996*L^4*D^2 - 43344*L^4*D + 25152*L^4 - 1134*L^3*D^4 + 4536*L^3*D^3 - 56520*L^3*D^2 + 103968*L^3*D - 44064*L^3 + 6156*L^2*D^4 - 24624*L^2*D^3 + 101088*L^2*D^2 - 152928*L^2*D + 31104*L^2 - 15552*L*D^4 + 62208*L*D^3 - 114048*L*D^2 + 103680*L*D + 15552*D^4 - 62208*D^3 + 62208*D^2",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "-1/64",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "8*L^10 - 196*L^9 + 18*L^8*D^2 - 36*L^8*D + 2008*L^8 - 423*L^7*D^2 + 846*L^7*D - 9524*L^7 - 243*L^6*D^4 + 972*L^6*D^3 + 702*L^6*D^2 - 3348*L^6*D + 12336*L^6 + 5103*L^5*D^4 - 20412*L^5*D^3 + 36252*L^5*D^2 - 31680*L^5*D + 64608*L^5 - 43254*L^4*D^4 + 173016*L^4*D^3 - 328824*L^4*D^2 + 311616*L^4*D - 276480*L^4 + 190512*L^3*D^4 - 762048*L^3*D^3 + 1272240*L^3*D^2 - 1020384*L^3*D + 388800*L^3 - 460728*L^2*D^4 + 1842912*L^2*D^3 - 2571264*L^2*D^2 + 1456704*L^2*D - 186624*L^2 + 575424*L*D^4 - 2301696*L*D^3 + 2674944*L*D^2 - 746496*L*D - 279936*D^4 + 1119744*D^3 - 1119744*D^2",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "1/32",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "8*L^9 - 162*L^8 + 27*L^7*D^2 - 54*L^7*D + 1452*L^7 - 927*L^6*D^2 + 1854*L^6*D - 7750*L^6 + 11196*L^5*D^2 - 22392*L^5*D + 28440*L^5 - 81*L^4*D^4 + 324*L^4*D^3 - 67860*L^4*D^2 + 135072*L^4*D - 77712*L^4 + 1296*L^3*D^4 - 5184*L^3*D^3 + 232920*L^3*D^2 - 455472*L^3*D + 153792*L^3 - 6966*L^2*D^4 + 27864*L^2*D^3 - 464616*L^2*D^2 + 873504*L^2*D - 184032*L^2 + 14256*L*D^4 - 57024*L*D^3 + 500256*L*D^2 - 886464*L*D + 93312*L - 7776*D^4 + 31104*D^3 - 217728*D^2 + 373248*D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1/32",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "8*L^9 - 162*L^8 + 27*L^7*D^2 - 54*L^7*D + 1452*L^7 - 927*L^6*D^2 + 1854*L^6*D - 7750*L^6 + 11196*L^5*D^2 - 22392*L^5*D + 28440*L^5 - 81*L^4*D^4 + 324*L^4*D^3 - 67860*L^4*D^2 + 135072*L^4*D - 77712*L^4 + 1296*L^3*D^4 - 5184*L^3*D^3 + 232920*L^3*D^2 - 455472*L^3*D + 153792*L^3 - 6966*L^2*D^4 + 27864*L^2*D^3 - 464616*L^2*D^2 + 873504*L^2*D - 184032*L^2 + 14256*L*D^4 - 57024*L*D^3 + 500256*L*D^2 - 886464*L*D + 93312*L - 7776*D^4 + 31104*D^3 - 217728*D^2 + 373248*D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "-1/64",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "8*L^10 - 196*L^9 + 18*L^8*D^2 - 36*L^8*D + 2008*L^8 - 423*L^7*D^2 + 846*L^7*D - 9524*L^7 - 243*L^6*D^4 + 972*L^6*D^3 + 702*L^6*D^2 - 3348*L^6*D + 12336*L^6 + 5103*L^5*D^4 - 20412*L^5*D^3 + 36252*L^5*D^2 - 31680*L^5*D + 64608*L^5 - 43254*L^4*D^4 + 173016*L^4*D^3 - 328824*L^4*D^2 + 311616*L^4*D - 276480*L^4 + 190512*L^3*D^4 - 762048*L^3*D^3 + 1272240*L^3*D^2 - 1020384*L^3*D + 388800*L^3 - 460728*L^2*D^4 + 1842912*L^2*D^3 - 2571264*L^2*D^2 + 1456704*L^2*D - 186624*L^2 + 575424*L*D^4 - 2301696*L*D^3 + 2674944*L*D^2 - 746496*L*D - 279936*D^4 + 1119744*D^3 - 1119744*D^2",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "-1/128",
+              "factors": [
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ],
+                [
+                  "24*L^11 - 616*L^10 - 216*L^9*D^2 + 432*L^9*D + 5992*L^9 + 5409*L^8*D^2 - 10818*L^8*D - 23920*L^8 + 486*L^7*D^4 - 1944*L^7*D^3 - 56664*L^7*D^2 + 117216*L^7*D - 24312*L^7 - 8586*L^6*D^4 + 34344*L^6*D^3 + 345168*L^6*D^2 - 759024*L^6*D + 688224*L^6 + 54108*L^5*D^4 - 216432*L^5*D^3 - 1457136*L^5*D^2 + 3347136*L^5*D - 3163968*L^5 - 729*L^4*D^6 + 4374*L^4*D^5 - 127656*L^4*D^4 + 481464*L^4*D^3 + 4630176*L^4*D^2 - 10211616*L^4*D + 7029504*L^4 + 11664*L^3*D^6 - 69984*L^3*D^5 - 42120*L^3*D^4 + 635040*L^3*D^3 - 10738656*L^3*D^2 + 20020608*L^3*D - 7744896*L^3 - 67068*L^2*D^6 + 402408*L^2*D^5 + 622080*L^2*D^4 - 5171040*L^2*D^3 + 16718400*L^2*D^2 - 22021632*L^2*D + 3359232*L^2 + 163296*L*D^6 - 979776*L*D^5 - 699840*L*D^4 + 9331200*L*D^3 - 15676416*L*D^2 + 10077696*L*D - 139968*D^6 + 839808*D^5 - 5598720*D^3 + 6718464*D^2",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1/16",
+              "factors": [
+                [
+                  "L - 6",
+                  1
+                ],
+                [
+                  "L - 2",
+                  1
+                ],
+                [
+                  "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+                  1
+                ],
+                [
+                  "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "observables_a": {
+        "h_33": {
+          "2": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        },
+        "h_44": {
+          "3": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        },
+        "L_0": {
+          "6": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        },
+        "N_0": {
+          "7": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "observables_b": {
+        "h_33": {
+          "2": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        },
+        "h_44": {
+          "3": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        },
+        "L_0": {
+          "6": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        },
+        "N_0": {
+          "7": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "plucker_left_denominator": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "D",
+            1
+          ]
+        ]
+      },
+      "plucker_right_denominator": {
+        "coefficient": "1",
+        "factors": []
+      },
+      "maximal_factor_minors_enumerated": [
+        28,
+        28
+      ],
+      "original_rows": [
+        0,
+        1,
+        4,
+        6,
+        13,
+        17,
+        21,
+        22
+      ],
+      "original_cols": [
+        0,
+        1,
+        4,
+        6,
+        13,
+        17,
+        21,
+        22
+      ],
+      "avars": [
+        "a_h_pm",
+        "a_h_22",
+        "a_h_33",
+        "a_h_44",
+        "a_B_pm",
+        "a_E_pm2",
+        "a_L_0",
+        "a_N_0"
+      ],
+      "bvars": [
+        "b_h_pm",
+        "b_h_22",
+        "b_h_33",
+        "b_h_44",
+        "b_B_pm",
+        "b_E_pm2",
+        "b_L_0",
+        "b_N_0"
+      ],
+      "K": [
+        [
+          "(18*D**2*L**2 - 171*D**2*L + 324*D**2 - 36*D*L**2 + 342*D*L - 648*D + 8*L**4 - 108*L**3 + 540*L**2 - 1152*L + 864)/(8*(L - 3))",
+          "-(9*D**2*L**2 - 63*D**2*L + 108*D**2 - 9*D*L**2 + 18*D*L + 4*L**4 - 54*L**3 + 252*L**2 - 360*L)/(4*(L - 3))",
+          "L*(9*D**2*L - 18*D**2 - 9*D*L + 18*D - 2*L**3 + 24*L**2 - 108*L + 144)/(4*(L - 3))",
+          "L*(9*D**2*L - 18*D**2 - 9*D*L + 18*D - 2*L**3 + 24*L**2 - 108*L + 144)/(4*(L - 3))",
+          "3*(D - 2)*(9*D**2*L - 36*D**2 - 9*D*L + 36*D + 4*L**3 - 42*L**2 + 144*L - 144)/(4*(L - 3))",
+          "(9*D**2*L - 36*D**2 - 9*D*L + 36*D + 4*L**3 - 42*L**2 + 144*L - 144)/(4*(L - 3))",
+          "(9*D**2 - 9*D - 5*L**3 + 49*L**2 - 156*L + 144)/(L - 3)",
+          "-2*(L - 4)"
+        ],
+        [
+          "-(9*D**2*L**2 - 63*D**2*L + 108*D**2 - 27*D*L**2 + 234*D*L - 432*D + 4*L**4 - 54*L**3 + 270*L**2 - 576*L + 432)/(4*(L - 3))",
+          "L*(2*L**3 - 27*L**2 + 126*L - 180)/(2*(L - 3))",
+          "L*(9*D*L - 18*D + L**3 - 12*L**2 + 54*L - 72)/(2*(L - 3))",
+          "L*(9*D*L - 18*D + L**3 - 12*L**2 + 54*L - 72)/(2*(L - 3))",
+          "3*(D - 2)*(9*D*L - 36*D - 2*L**3 + 21*L**2 - 72*L + 72)/(2*(L - 3))",
+          "(9*D*L - 36*D - 2*L**3 + 21*L**2 - 72*L + 72)/(2*(L - 3))",
+          "(18*D + 5*L**3 - 49*L**2 + 156*L - 144)/(L - 3)",
+          "2*(L - 4)"
+        ],
+        [
+          "L*(9*D**2*L - 18*D**2 - 27*D*L + 54*D - 2*L**3 + 24*L**2 - 90*L + 108)/(4*(L - 3))",
+          "-L*(9*D*L - 18*D - L**3 + 12*L**2 - 72*L + 108)/(2*(L - 3))",
+          "-L**3/(2*(L - 3))",
+          "-(9*D**2*L**2 - 54*D**2*L + 108*D**2 - 18*D*L**2 + 108*D*L - 216*D + L**3)/(2*(L - 3))",
+          "-3*L*(D - 2)*(L - 6)/2",
+          "-L*(L - 6)/2",
+          "-(9*D**2 - 18*D + 2*L**2 - 12*L)/(L - 3)",
+          "2*(L - 4)"
+        ],
+        [
+          "L*(9*D**2*L - 18*D**2 - 27*D*L + 54*D - 2*L**3 + 24*L**2 - 90*L + 108)/(4*(L - 3))",
+          "-L*(9*D*L - 18*D - L**3 + 12*L**2 - 72*L + 108)/(2*(L - 3))",
+          "-(9*D**2*L**2 - 54*D**2*L + 108*D**2 - 18*D*L**2 + 108*D*L - 216*D + L**3)/(2*(L - 3))",
+          "-L**3/(2*(L - 3))",
+          "-3*L*(D - 2)*(L - 6)/2",
+          "-L*(L - 6)/2",
+          "-(9*D**2 - 18*D + 2*L**2 - 12*L)/(L - 3)",
+          "2*(L - 4)"
+        ],
+        [
+          "-3*D*(9*D**2*L - 36*D**2 - 27*D*L + 108*D + 4*L**3 - 42*L**2 + 162*L - 216)/(4*(L - 3))",
+          "3*D*(9*D*L - 36*D + 2*L**3 - 21*L**2 + 54*L)/(2*(L - 3))",
+          "3*D*L*(L - 6)/2",
+          "3*D*L*(L - 6)/2",
+          "-9*D*(D - 2)*(2*L**2 - 15*L + 36)/(2*(L - 3))",
+          "-3*D*(2*L**2 - 15*L + 36)/(2*(L - 3))",
+          "3*D*(5*L**2 - 34*L + 54)/(L - 3)",
+          "6*D*(L - 4)/(L - 3)"
+        ],
+        [
+          "(9*D**2*L - 36*D**2 - 27*D*L + 108*D + 4*L**3 - 42*L**2 + 162*L - 216)/(4*(L - 3))",
+          "-(9*D*L - 36*D + 2*L**3 - 21*L**2 + 54*L)/(2*(L - 3))",
+          "-L*(L - 6)/2",
+          "-L*(L - 6)/2",
+          "3*(D - 2)*(2*L**2 - 15*L + 36)/(2*(L - 3))",
+          "(2*L**2 - 15*L + 36)/(2*(L - 3))",
+          "-(5*L**2 - 34*L + 54)/(L - 3)",
+          "-2*(L - 4)/(L - 3)"
+        ],
+        [
+          "(9*D**2 - 27*D - 5*L**3 + 49*L**2 - 156*L + 162)/(L - 3)",
+          "-(18*D - 5*L**3 + 49*L**2 - 156*L + 108)/(L - 3)",
+          "-(9*D**2 - 18*D + 2*L**2 - 12*L)/(L - 3)",
+          "-(9*D**2 - 18*D + 2*L**2 - 12*L)/(L - 3)",
+          "-3*(D - 2)*(5*L**2 - 34*L + 54)/(L - 3)",
+          "-(5*L**2 - 34*L + 54)/(L - 3)",
+          "-2*(9*D**2 - 18*D - 6*L**3 + 26*L**2 + 36*L - 108)/(L*(L - 3))",
+          "4*(3*L**2 - 19*L + 18)/(L*(L - 3))"
+        ],
+        [
+          "-2*(L - 4)",
+          "2*(L - 4)",
+          "2*(L - 4)",
+          "2*(L - 4)",
+          "-6*(D - 2)*(L - 4)/(L - 3)",
+          "-2*(L - 4)/(L - 3)",
+          "4*(3*L**2 - 19*L + 18)/(L*(L - 3))",
+          "-8/(L*(L - 3))"
+        ]
+      ]
+    },
+    {
+      "rank": 3,
+      "shape": [
+        4,
+        4
+      ],
+      "rows": [
+        0,
+        3,
+        2
+      ],
+      "cols": [
+        0,
+        2,
+        3
+      ],
+      "row_scales": [
+        "(L - 3)/L",
+        "L - 3",
+        "1 - L/3",
+        "2*L**2 - 6*L"
+      ],
+      "physical_divisor": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "D",
+            1
+          ],
+          [
+            "D - 2",
+            1
+          ]
+        ]
+      },
+      "chart_denominators": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "L",
+            1
+          ]
+        ]
+      },
+      "minor_witnesses": [
+        {
+          "rows": [
+            0,
+            3,
+            2
+          ],
+          "cols": [
+            0,
+            2,
+            3
+          ]
+        }
+      ],
+      "rank_factorization_verified": true,
+      "denominators_coprime_to_divisor_in_D": true,
+      "proof_method": "coprime chart",
+      "gauge_right": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "-3",
+              "factors": [
+                [
+                  "D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": [
+                [
+                  "L",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "gauge_left": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "3",
+              "factors": [
+                [
+                  "D - 2",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "probes": {
+        "V_4": {
+          "numerator": {
+            "coefficient": "1/2",
+            "factors": [
+              [
+                "D^2 - 2*D + 4",
+                1
+              ],
+              [
+                "L - 3",
+                1
+              ]
+            ]
+          },
+          "denominator": {
+            "coefficient": "1",
+            "factors": [
+              [
+                "D",
+                1
+              ],
+              [
+                "D - 2",
+                1
+              ],
+              [
+                "L",
+                1
+              ]
+            ]
+          }
+        }
+      },
+      "probe_names": [
+        "V_4"
+      ],
+      "propagator": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1/2",
+              "factors": [
+                [
+                  "D^2 - 2*D + 4",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": [
+                [
+                  "D",
+                  1
+                ],
+                [
+                  "D - 2",
+                  1
+                ],
+                [
+                  "L",
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "observables_a": {
+        "V_4": {
+          "2": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "observables_b": {
+        "V_4": {
+          "2": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "original_rows": [
+        2,
+        9,
+        12,
+        18
+      ],
+      "original_cols": [
+        2,
+        9,
+        12,
+        18
+      ],
+      "avars": [
+        "a_h_23",
+        "a_C_4",
+        "a_V_4",
+        "a_E_pm3"
+      ],
+      "bvars": [
+        "b_h_23",
+        "b_C_4",
+        "b_V_4",
+        "b_E_pm3"
+      ],
+      "K": [
+        [
+          "-2*L**3/(L - 3)",
+          "6*D*L**2/(L - 3)",
+          "0",
+          "L*(L - 6)/(L - 3)"
+        ],
+        [
+          "-6*L**2*(D - 2)/(L - 3)",
+          "18*D*L*(D - 2)/(L - 3)",
+          "0",
+          "3*(D - 2)*(L - 6)/(L - 3)"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-3*(D - 2)/(L - 3)"
+        ],
+        [
+          "L*(L - 6)/(L - 3)",
+          "-3*D*(L - 6)/(L - 3)",
+          "3*D/(L - 3)",
+          "(9*D**2 - 18*D - L**2 + 12*L)/(2*L*(L - 3))"
+        ]
+      ]
+    },
+    {
+      "rank": 3,
+      "shape": [
+        4,
+        4
+      ],
+      "rows": [
+        0,
+        3,
+        2
+      ],
+      "cols": [
+        0,
+        2,
+        3
+      ],
+      "row_scales": [
+        "(L - 3)/L",
+        "L - 3",
+        "L/3 - 1",
+        "2*L**2 - 6*L"
+      ],
+      "physical_divisor": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "D",
+            1
+          ],
+          [
+            "D - 2",
+            1
+          ]
+        ]
+      },
+      "chart_denominators": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "L",
+            1
+          ]
+        ]
+      },
+      "minor_witnesses": [
+        {
+          "rows": [
+            0,
+            3,
+            2
+          ],
+          "cols": [
+            0,
+            2,
+            3
+          ]
+        }
+      ],
+      "rank_factorization_verified": true,
+      "denominators_coprime_to_divisor_in_D": true,
+      "proof_method": "coprime chart",
+      "gauge_right": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "3",
+              "factors": [
+                [
+                  "D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": [
+                [
+                  "L",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "gauge_left": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "-3",
+              "factors": [
+                [
+                  "D - 2",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "0",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "probes": {
+        "V_3": {
+          "numerator": {
+            "coefficient": "1/2",
+            "factors": [
+              [
+                "D^2 - 2*D + 4",
+                1
+              ],
+              [
+                "L - 3",
+                1
+              ]
+            ]
+          },
+          "denominator": {
+            "coefficient": "1",
+            "factors": [
+              [
+                "D",
+                1
+              ],
+              [
+                "D - 2",
+                1
+              ],
+              [
+                "L",
+                1
+              ]
+            ]
+          }
+        }
+      },
+      "probe_names": [
+        "V_3"
+      ],
+      "propagator": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1/2",
+              "factors": [
+                [
+                  "D^2 - 2*D + 4",
+                  1
+                ],
+                [
+                  "L - 3",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": [
+                [
+                  "D",
+                  1
+                ],
+                [
+                  "D - 2",
+                  1
+                ],
+                [
+                  "L",
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "observables_a": {
+        "V_3": {
+          "2": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "observables_b": {
+        "V_3": {
+          "2": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "original_rows": [
+        3,
+        8,
+        11,
+        19
+      ],
+      "original_cols": [
+        3,
+        8,
+        11,
+        19
+      ],
+      "avars": [
+        "a_h_24",
+        "a_C_3",
+        "a_V_3",
+        "a_E_pm4"
+      ],
+      "bvars": [
+        "b_h_24",
+        "b_C_3",
+        "b_V_3",
+        "b_E_pm4"
+      ],
+      "K": [
+        [
+          "-2*L**3/(L - 3)",
+          "-6*D*L**2/(L - 3)",
+          "0",
+          "L*(L - 6)/(L - 3)"
+        ],
+        [
+          "6*L**2*(D - 2)/(L - 3)",
+          "18*D*L*(D - 2)/(L - 3)",
+          "0",
+          "-3*(D - 2)*(L - 6)/(L - 3)"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "3*(D - 2)/(L - 3)"
+        ],
+        [
+          "L*(L - 6)/(L - 3)",
+          "3*D*(L - 6)/(L - 3)",
+          "-3*D/(L - 3)",
+          "(9*D**2 - 18*D - L**2 + 12*L)/(2*L*(L - 3))"
+        ]
+      ]
+    },
+    {
+      "rank": 1,
+      "shape": [
+        1,
+        1
+      ],
+      "rows": [
+        0
+      ],
+      "cols": [
+        0
+      ],
+      "row_scales": [
+        "(L - 3)/(9*L**2 - 54*L + 108)"
+      ],
+      "physical_divisor": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "D",
+            1
+          ],
+          [
+            "D - 2",
+            1
+          ]
+        ]
+      },
+      "chart_denominators": {
+        "coefficient": "1",
+        "factors": []
+      },
+      "minor_witnesses": [
+        {
+          "rows": [
+            0
+          ],
+          "cols": [
+            0
+          ]
+        }
+      ],
+      "rank_factorization_verified": true,
+      "denominators_coprime_to_divisor_in_D": true,
+      "proof_method": "coprime chart",
+      "gauge_right": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "gauge_left": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "probes": {
+        "h_34": {
+          "numerator": {
+            "coefficient": "1/9",
+            "factors": [
+              [
+                "L - 3",
+                1
+              ]
+            ]
+          },
+          "denominator": {
+            "coefficient": "1",
+            "factors": [
+              [
+                "D",
+                1
+              ],
+              [
+                "D - 2",
+                1
+              ],
+              [
+                "L^2 - 6*L + 12",
+                1
+              ]
+            ]
+          }
+        }
+      },
+      "probe_names": [
+        "h_34"
+      ],
+      "propagator": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1/9",
+              "factors": [
+                [
+                  "L - 3",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": [
+                [
+                  "D",
+                  1
+                ],
+                [
+                  "D - 2",
+                  1
+                ],
+                [
+                  "L^2 - 6*L + 12",
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "observables_a": {
+        "h_34": {
+          "0": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "observables_b": {
+        "h_34": {
+          "0": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "original_rows": [
+        5
+      ],
+      "original_cols": [
+        5
+      ],
+      "avars": [
+        "a_h_34"
+      ],
+      "bvars": [
+        "b_h_34"
+      ],
+      "K": [
+        [
+          "9*D*(D - 2)*(L**2 - 6*L + 12)/(L - 3)"
+        ]
+      ]
+    },
+    {
+      "rank": 1,
+      "shape": [
+        3,
+        3
+      ],
+      "rows": [
+        0
+      ],
+      "cols": [
+        0
+      ],
+      "row_scales": [
+        "(L - 3)/(L**3 - 8*L**2 + 12*L)",
+        "(L - 3)/(L**2 - 8*L + 12)",
+        "(L - 3)/(L**2 - 8*L + 12)"
+      ],
+      "physical_divisor": {
+        "coefficient": "1",
+        "factors": []
+      },
+      "chart_denominators": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "L",
+            1
+          ]
+        ]
+      },
+      "minor_witnesses": [
+        {
+          "rows": [
+            0
+          ],
+          "cols": [
+            0
+          ]
+        }
+      ],
+      "rank_factorization_verified": true,
+      "denominators_coprime_to_divisor_in_D": true,
+      "proof_method": "coprime chart",
+      "gauge_right": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "3",
+              "factors": [
+                [
+                  "D",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": [
+                [
+                  "L",
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": [
+                [
+                  "L",
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "gauge_left": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "-3",
+              "factors": [
+                [
+                  "D - 2",
+                  1
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ],
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "probes": {},
+      "probe_names": [],
+      "propagator": [],
+      "observables_a": {},
+      "observables_b": {},
+      "original_rows": [
+        7,
+        16,
+        20
+      ],
+      "original_cols": [
+        7,
+        16,
+        20
+      ],
+      "avars": [
+        "a_C_2",
+        "a_B_34",
+        "a_E_234"
+      ],
+      "bvars": [
+        "b_C_2",
+        "b_B_34",
+        "b_E_234"
+      ],
+      "K": [
+        [
+          "4*L**2*(L - 6)*(L - 2)/(L - 3)",
+          "12*D*L*(L - 6)*(L - 2)/(L - 3)",
+          "4*L*(L - 6)*(L - 2)/(L - 3)"
+        ],
+        [
+          "-12*L*(D - 2)*(L - 6)*(L - 2)/(L - 3)",
+          "-36*D*(D - 2)*(L - 6)*(L - 2)/(L - 3)",
+          "-12*(D - 2)*(L - 6)*(L - 2)/(L - 3)"
+        ],
+        [
+          "4*L*(L - 6)*(L - 2)/(L - 3)",
+          "12*D*(L - 6)*(L - 2)/(L - 3)",
+          "4*(L - 6)*(L - 2)/(L - 3)"
+        ]
+      ]
+    },
+    {
+      "original_rows": [
+        10
+      ],
+      "original_cols": [],
+      "rank": 0
+    },
+    {
+      "original_rows": [
+        14
+      ],
+      "original_cols": [],
+      "rank": 0
+    },
+    {
+      "original_rows": [
+        15
+      ],
+      "original_cols": [],
+      "rank": 0
+    },
+    {
+      "original_rows": [],
+      "original_cols": [
+        10
+      ],
+      "rank": 0
+    },
+    {
+      "original_rows": [],
+      "original_cols": [
+        14
+      ],
+      "rank": 0
+    },
+    {
+      "original_rows": [],
+      "original_cols": [
+        15
+      ],
+      "rank": 0
+    }
+  ],
+  "physical_divisor": {
+    "coefficient": "1",
+    "factors": [
+      [
+        "4*L^5 - 18*L^4*D - 8*L^4 + 27*L^3*D^2 + 87*L^3*D - 138*L^3 - 270*L^2*D^2 + 420*L^2*D + 96*L^2 + 27*L*D^3 + 720*L*D^2 - 2520*L*D + 1944*L - 108*D^3 - 216*D^2 + 2160*D - 2592",
+        1
+      ],
+      [
+        "4*L^5 + 18*L^4*D - 44*L^4 + 27*L^3*D^2 - 195*L^3*D + 144*L^3 - 270*L^2*D^2 + 660*L^2*D - 144*L^2 - 27*L*D^3 + 882*L*D^2 - 684*L*D + 108*D^3 - 864*D^2",
+        1
+      ],
+      [
+        "D",
+        4
+      ],
+      [
+        "D - 2",
+        4
+      ]
+    ]
+  }
+}

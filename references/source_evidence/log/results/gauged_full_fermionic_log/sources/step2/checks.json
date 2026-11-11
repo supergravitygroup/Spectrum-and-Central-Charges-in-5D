@@ -1,0 +1,83 @@
+{
+  "scope": "Flat constant F_ab, X_ij, nabla_a W and gaugino probe only. Weyl multiplet zero. Not a full curved proof.",
+  "matrix_conventions": "Gold Gamma=i gamma; source epsilon_down second-slot lowering; C_code=epsilon_down; Sigma=-[Gamma,Gamma]/4",
+  "arithmetic": "Gaussian integer sums with denominator 1280*24 cleared before comparison; exterior algebra on 8 gaugino generators",
+  "probes": [
+    {
+      "name": "X_only",
+      "status": "PASS",
+      "coefficients_checked": 67
+    },
+    {
+      "name": "F_only",
+      "status": "PASS",
+      "coefficients_checked": 56
+    },
+    {
+      "name": "gradient_only",
+      "status": "PASS",
+      "coefficients_checked": 58
+    },
+    {
+      "name": "F_X",
+      "status": "PASS",
+      "coefficients_checked": 131
+    },
+    {
+      "name": "F_gradient",
+      "status": "PASS",
+      "coefficients_checked": 90
+    },
+    {
+      "name": "X_gradient",
+      "status": "PASS",
+      "coefficients_checked": 133
+    },
+    {
+      "name": "all",
+      "status": "PASS",
+      "coefficients_checked": 169
+    },
+    {
+      "name": "integer_probe_1",
+      "status": "PASS",
+      "coefficients_checked": 169
+    },
+    {
+      "name": "integer_probe_2",
+      "status": "PASS",
+      "coefficients_checked": 159
+    },
+    {
+      "name": "integer_probe_3",
+      "status": "PASS",
+      "coefficients_checked": 162
+    },
+    {
+      "name": "integer_probe_4",
+      "status": "PASS",
+      "coefficients_checked": 167
+    },
+    {
+      "name": "integer_probe_5",
+      "status": "PASS",
+      "coefficients_checked": 169
+    },
+    {
+      "name": "integer_probe_6",
+      "status": "PASS",
+      "coefficients_checked": 169
+    }
+  ],
+  "full_curved_reduction": "OPEN",
+  "full_primary_S_K_linearity_reality_checks": "OPEN",
+  "W_inverse_5_coefficients": "PASS: all 18 independent F/X/gradient components and every four-generator Grassmann monomial; valid for this general inverse-power sector, but not a hand Fierz derivation",
+  "source_term_coverage": "PASS: 58 ordered summands in final display; benchmark only",
+  "source_weights": "PASS: all 58 summands weight three",
+  "inputs_sha256": {
+    "CONVENTIONS.md": "679bc54fdc6d27945c5b36e7fea45d70be1ad15920c80e6e28f70544f64f4ac8",
+    "LOG_CONVENTIONS.md": "7450e2c757996f17c113c6e8e3c852c2cb4be26e82872c92ee6046437e8a8f80",
+    "PROCEDURE_LOCK.md": "ec818171e3d7b026b365dcef60dfc5630c6dad0d265df1cb07ac15e8cc45ea9c",
+    "sources/reference_fragments/10_gold_source_equations_and_bridge.md": "7114a19543fc5b98ca533c82c84a95c23547725c214817ef3a1d364e509927ac"
+  }
+}

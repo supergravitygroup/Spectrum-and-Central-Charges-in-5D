@@ -1,0 +1,48 @@
+{
+  "scope": "Citation-map item 25 only: complete quadratic fermion action in the v109 primary-mode ansatz; numerical GB evaluation, exact LR algebra. No item-26 roots or multiplet claims.",
+  "manuscript_locators": [
+    "sec:GBprodferm",
+    "eq:prodbg",
+    "eq:prodsol",
+    "eq:Pdef",
+    "eq:Kform",
+    "tab:GBferm"
+  ],
+  "external_source_records": {
+    "manuscript_v109": {
+      "origin": "draft_v109.tex",
+      "sha256": "25be4ea0ef4c3d84032b9990945be1fc017a48de3c80c0f16c2bf4877091b06b",
+      "runtime_dependency": false
+    }
+  },
+  "repository_inputs": {
+    "gauss_bonnet/action/gb_splus_action.md": "1502262baee0235b7eca6e9aa99cdaf0aed81f51158311ffd7566efe8dd40e63",
+    "gauss_bonnet/ads5/code/references/COMPONENT_CONVENTIONS.md": "7044a798ec1e9cf837af8b676d472d86dc30339427f8e0d8f0fb1036b1f3b983",
+    "common/two_derivative_action/details/construction.md": "bb85beaa33a8c06d26011af81cb8485d91cfc7a78260bc0d70e20694312f8c94",
+    "computations/gb_ads3_sigma2/model.py": "881d6df7e3480e1dcf4f9a03f144d4bc7e6bde6354f1a72257179212bd9142ec",
+    "gauss_bonnet/product_backgrounds/supersymmetric_ads3_sigma2/details/compensator_fermion.md": "1c60498d8af03aa20a422ef1e4f755d079c55b44540c276fe99722773bae4f17",
+    "gauss_bonnet/product_backgrounds/supersymmetric_ads3_sigma2/fermionic_action_inputs.md": "d28dc952fa1a0c5e127ce0d5d08f1cf0c4c9ce795a99169c5d41a44814c7b55e"
+  },
+  "implementation_hashes": {
+    "action.py": "cb97fe02099eeb11f965f3a4c96807538b76875b505f1102cec431695f206ad2",
+    "action2.py": "5352659c524d2a43c1e222f4e3686914af8e4a14072951b50ef59e0428e8c786",
+    "background.py": "98387685e1ed3f0fdf1087eef198546cfed7e91cce1747e3b5f0be80b4dc2bc0",
+    "bderiv2.py": "f293a4ad13f0adc0335d4630f40876b7c6c43d1f62ca0d6a790d935dc983f177",
+    "bgfields.py": "3240391be7475565403bc34bc60995fd6f5759edf9b1cab57b843234c0b1da97",
+    "check_derivatives.py": "c5cf1cf27ad6997d14cb7dd6c41c06a7e61a8563b6c8f1966b9dd7c2140a8ec9",
+    "checks.py": "62eb676a6d2e9d5e631ab43e0acfafd0c77842d231ef6a93581fe1935846eab5",
+    "clifford.py": "f192824890b60b07f71b28c67714716c882cf12b87586714840ad8274324d3f2",
+    "deriv2.py": "7bc45998734ab17a9a0681d8b4c2ec365f2094147cbe00e747277be544ec153d",
+    "derive.py": "77cdb4e234aa931258adee80019f97cd2a77f7ca264870a404a4046d03646673",
+    "eval2.py": "f58083b98d960533f3657423a4e02431376598102913debd48047f55fafac56b",
+    "evalbg.py": "51fd47e498fd4c885896794e53b661133107be269f7b54d7254eed73b814d94b",
+    "fengine.py": "d9e42f1fd54fbb783bd52838dce3828d74803465043533174d80fb02e3d983d7",
+    "ferm2.py": "448250c7ab801a8753829fd69f860f4131ba99e4a7ec0ab5a3390bf072287bef",
+    "gauge_modes.py": "77f3e63476df5599ab153d0ef1495c5d2ba67d0bb8a032b9990ce8cc8ba9d313",
+    "objects2.py": "b254dbfdf5d9c9fa29149dae4f28a338d62f3663e4892d9e83605937e09d7b3a",
+    "parse_density.py": "c4c54d039fa4668ffa21f15895ddac9d22e9e4e82d5fdb1f5e55ce35b27086a4",
+    "second2.py": "6c035c58496ef770260a040b58da5b0ebe72e8671d370a9cf6d84ebd01830b46",
+    "sources.py": "2c051f610de8936a110d6ad27fd85a05a0fbf57b7d3daf153f3f9b63481fb702"
+  },
+  "dependency_file_sha256": "8a145a41acda1a2f6ac111aaebd7d805ec35bec0a5c3ec9c6cd44726bce88290"
+}

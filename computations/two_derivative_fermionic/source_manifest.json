@@ -1,0 +1,16 @@
+{
+  "scope": "Current component inputs and exact algebra for the final paper. Literature equations are listed in SOURCE_MAP.md.",
+  "current_inputs": {
+    "computations/two_derivative_fermionic/inputs/bf_density.json": "820016b136e167f833a2bfd8de24112e980aa6980ccd55b442c87a90f41dc291",
+    "computations/two_derivative_fermionic/inputs/model.json": "cec29b9236b13d70c4ede1d0db4412c04e2c509f0838fae533f638b3e48c5582",
+    "computations/two_derivative_fermionic/inputs/reference/results/gauged_two_derivative_fermionic_action/00_ozkan_1608_FAB_constraints_and_local_composite_source_anchor.md": "fea0a18912d7d9de5eaa04e035ce7ddae1649c65a1739e51d5fba1afea5c1d1c",
+    "computations/two_derivative_fermionic/inputs/reference/results/gauged_two_derivative_fermionic_action/01_single_linear_multiplet_choice_anchor.md": "347d012507244d04a77768e2f138772fa9068b41f4e03bf75755ce74c33a6204",
+    "computations/two_derivative_fermionic/inputs/reference/results/gauged_two_derivative_fermionic_action/02_single_linear_multiplet_mapping_construction.md": "a17eaaec07a5085f0ba47ed0ca0b8b73071bb5f209683f9df88709259114df6a",
+    "computations/two_derivative_fermionic/inputs/reference/results/gauged_two_derivative_fermionic_action/03_single_linear_multiplet_linear_map_anchor.md": "f54b365a682ceb5d59792e2b7ef3e7a5cb88c6127a83fe154694e8366838df1c",
+    "computations/two_derivative_fermionic/inputs/reference/results/gauged_two_derivative_fermionic_action/04_defining_vector_component_anchor.md": "631026580ce87bc4b6336b6ae618739419f3fbe7ac32d54ab6b666e6fd7c28d7",
+    "computations/two_derivative_fermionic/inputs/reference/results/gauged_two_derivative_fermionic_action/06_fluxless_ads5_zeroth_first_second_order_actions_from_1608_action.md": "c56c374b77b68c34093fbd2fa66ebc11447526e1eb2c79fd1db320859ed4a714",
+    "computations/two_derivative_fermionic/inputs/reference/results/gauged_two_derivative_fermionic_action/07_fluxless_ads5_gauge_decomposition_diagonalization_and_spectrum_from_1608_action.md": "0e571da9cbff15f2095f9076e0bccbfd6b57097385fd6fe1ac19aa9f83555abc",
+    "computations/two_derivative_fermionic/inputs/reference/results/gauged_two_derivative_fermionic_action/README.md": "d01912c73af3d6e7be74dedc0218f134069c9f3c9f5f4641b6865ab543233009",
+    "computations/two_derivative_fermionic/src/kernels/audit_exact_checks.py": "a4fd19c10d0e1e37e940b7fd4b31cf76b6eeac91123be3a410b6a70171feab79"
+  }
+}

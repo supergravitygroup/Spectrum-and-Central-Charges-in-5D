@@ -1,0 +1,98 @@
+{
+  "scope": "downstream rebuild from previously computed Standard-Weyl components",
+  "fresh_primary_derivation": false,
+  "input_sha256": {
+    "L": "fbbd880d962d33fefa0290f579d43625e14ba8e471ea6cd0aac3da94262aa8d9",
+    "phi": "2adfa0ad96c482e457615d0247e8ab761e0320f0afb95497484c6929672e19b4",
+    "N": "b806663e1b25ea53a0218ddad4069dd1d7a9f9491a7958cb78f4c26e77538263",
+    "E": "ad7f8bef78255277bc22eb99d9132e96102dd6a75bcc45d8c35fae15d35a87cc"
+  },
+  "gauged": {
+    "L": {
+      "substituted_terms": 281,
+      "gauge_terms": 33,
+      "canonical_terms": 13,
+      "fermion_degrees": {
+        "0": 8,
+        "2": 5
+      },
+      "idempotence_residual": 0,
+      "tensor_terms": 13,
+      "tensor_zeros": 0,
+      "clifford_expansion_terms": 14,
+      "clifford_zeros": 0,
+      "constraint_reductions": [
+        {}
+      ],
+      "accepted_residual": 0
+    },
+    "phi": {
+      "substituted_terms": 1226,
+      "gauge_terms": 271,
+      "canonical_terms": 94,
+      "fermion_degrees": {
+        "1": 94
+      },
+      "idempotence_residual": 0,
+      "tensor_terms": 129,
+      "tensor_zeros": 3,
+      "clifford_expansion_terms": 162,
+      "clifford_zeros": 0,
+      "constraint_reductions": [
+        {
+          "R(Q) gamma trace": 10,
+          "R(Q) rank-two reduction": 6
+        },
+        {}
+      ],
+      "accepted_residual": 0
+    },
+    "N": {
+      "substituted_terms": 4128,
+      "gauge_terms": 663,
+      "canonical_terms": 141,
+      "fermion_degrees": {
+        "0": 80,
+        "2": 61
+      },
+      "idempotence_residual": 0,
+      "tensor_terms": 198,
+      "tensor_zeros": 3,
+      "clifford_expansion_terms": 267,
+      "clifford_zeros": 0,
+      "constraint_reductions": [
+        {
+          "R(Q) gamma trace": 12,
+          "R(Q) rank-two reduction": 11,
+          "R(M) trace": 6
+        },
+        {}
+      ],
+      "accepted_residual": 0
+    },
+    "E": {
+      "substituted_terms": 6893,
+      "gauge_terms": 1259,
+      "canonical_terms": 373,
+      "fermion_degrees": {
+        "0": 216,
+        "2": 157
+      },
+      "idempotence_residual": 0,
+      "tensor_terms": 501,
+      "tensor_zeros": 42,
+      "clifford_expansion_terms": 628,
+      "clifford_zeros": 16,
+      "constraint_reductions": [
+        {
+          "R(Q) rank-two reduction": 30,
+          "R(Q) gamma trace": 23,
+          "R(M) trace": 14
+        },
+        {}
+      ],
+      "accepted_residual": 0
+    }
+  },
+  "status": "PASS"
+}

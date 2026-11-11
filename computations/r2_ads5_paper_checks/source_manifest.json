@@ -1,0 +1,50 @@
+{
+  "schema": "r2-ads5-paper-checks-source-manifest-v1",
+  "scope": "Final-paper local quadratic R2 AdS5 algebra, norm signs and critical identities; inherited Hessian, no nonlinear SUSY or logarithmic boundary-domain proof.",
+  "notation": {
+    "lambda": "lambda_R2 = zeta in the paper",
+    "tau": "6*lambda*g^2",
+    "zeta_spinor": "varphi in the paper",
+    "Q": "-2*H in the paper"
+  },
+  "manuscript_locators": [
+    "eq:R2ABnu",
+    "eq:R2vec",
+    "eq:R2vec2",
+    "eq:R2vec3",
+    "eq:R2MV",
+    "eq:R2fermop",
+    "tab:R2",
+    "tab:R2ranges",
+    "sec:R2mult"
+  ],
+  "repository_inputs": {
+    "r2/ads5/background.md": "06affa8da6f299ea29fadba03b06a418c6516a336118fcdd185375032a65ea78",
+    "r2/ads5/quadratic_action.md": "f4c54d3a68b90d48ac476d29278129836497459078887df90d7e049178e7b361",
+    "r2/ads5/details/gauge_constraints.md": "42ea011da6cd63f0adea97ac51456b83c09d8ea2551037de250f6d2ee778dd1c",
+    "r2/ads5/details/fermionic_density.md": "c59377a1954f50199d781553e91fd32c0af64c228bfb0714452695df17f6487d",
+    "r2/ads5/details/fermionic_operator_reduction.md": "1556665f05c871b4758c893578aaed6ed1946e07934f6adb186271a6a6819ce5",
+    "r2/ads5/details/masses_and_eigenfields.md": "73809ca31b123d815952e0d5a3468871f8d408c07646e033f986af211d3528fb",
+    "r2/ads5/details/kinetic_norms.md": "d8546e51ed920579acd1abdd473011e2a067a62f939c5a4edeae7e27e67dcb4f",
+    "r2/ads5/details/critical_branches.md": "42ca1c7957fa42ff6db02e90d76ee82acfd4fccb82fe8e93e1a20047e66ad4c3"
+  },
+  "implementation_hashes": {
+    "checks.py": "33db831c5e90aa88db5a41535796fbd83c99cba47a317809fd1e5c2ec42b40b3",
+    "requirements.txt": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc"
+  },
+  "external_source_records": [
+    {
+      "role": "authoritative final manuscript",
+      "origin": "draft_v110_source/draft_v109.pdf",
+      "sha256": "7a9cc9d5a727c9e9b96723ca2eee90e20acaea6b29a3400de25f4f98730f47ed",
+      "required_at_runtime": false
+    },
+    {
+      "role": "authoritative final manuscript",
+      "origin": "draft_v110_source/draft_v109.tex",
+      "sha256": "25be4ea0ef4c3d84032b9990945be1fc017a48de3c80c0f16c2bf4877091b06b",
+      "required_at_runtime": false
+    }
+  ],
+  "source_inheritance": "The original quadratic action and coupled constraint equations are the inputs. The checker independently replays finite-dimensional algebra after these inputs; it does not regenerate the complete component action."
+}

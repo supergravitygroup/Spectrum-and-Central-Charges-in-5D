@@ -1,0 +1,798 @@
+{
+  "scope": "Items 30-31 correspondence only; not a full nonlinear SUSY proof",
+  "versions": {
+    "python": "3.14.1",
+    "sympy": "1.14.0",
+    "numpy": "2.5.4"
+  },
+  "seeds": [
+    7,
+    4
+  ],
+  "checks": [
+    {
+      "check": "source and implementation fingerprints",
+      "method": "integrity",
+      "passed": true
+    },
+    {
+      "check": "norm and inverse triplet identity",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "rho index placement",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "NW-SE vector self-bilinear vanishes",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "K = L_down Q - L^2 B_down/2",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "N block: paper versus corrected OP basis",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "E block: paper versus corrected OP basis",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "literal 2013 N coefficients are different",
+      "method": "exact symbolic",
+      "expectation": "nonzero negative control",
+      "passed": true
+    },
+    {
+      "check": "literal 2013 E coefficients are different",
+      "method": "exact symbolic",
+      "expectation": "nonzero negative control",
+      "passed": true
+    },
+    {
+      "check": "DL block: paper versus coefficients (-1,+3)",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Fhat triplet-gradient term is already antisymmetric",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "literal 2013 DL coefficients are different",
+      "method": "exact symbolic",
+      "expectation": "nonzero negative control",
+      "passed": true
+    },
+    {
+      "check": "independent polynomial coefficient solve for DL basis",
+      "method": "exact symbolic",
+      "solution": {
+        "c1": "-1",
+        "c2": "3"
+      },
+      "passed": true
+    },
+    {
+      "check": "Fhat bilinear derivative: coefficients +6,-2,-4 before index swap",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Fhat leading current derivative",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Dphi corrected coefficient cancels partial epsilon",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Dphi printed real coefficient fails",
+      "method": "exact symbolic",
+      "expectation": "nonzero negative control",
+      "passed": true
+    },
+    {
+      "check": "ordinary current has no independent fermion bilinear",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "setting Ehat2=0 violates the current relation",
+      "method": "exact symbolic",
+      "expectation": "nonzero negative control",
+      "passed": true
+    },
+    {
+      "check": "ordinary-current conservation by antisymmetry",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "BF order-two selection retains rho2,Y2,lambda1",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "cubic lambda only contributes at action order four",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 0,0",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 0,1",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 0,2",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 0,3",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 0,4",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "C gamma 0 is antisymmetric",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "fixed gamma representation 0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 0.0,
+      "scale": 1.0,
+      "scaled_error": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "Clifford 1,0",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 1,1",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 1,2",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 1,3",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 1,4",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "C gamma 1 is antisymmetric",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "fixed gamma representation 1",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 0.0,
+      "scale": 1.0,
+      "scaled_error": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "Clifford 2,0",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 2,1",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 2,2",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 2,3",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 2,4",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "C gamma 2 is antisymmetric",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "fixed gamma representation 2",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 0.0,
+      "scale": 1.0,
+      "scaled_error": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "Clifford 3,0",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 3,1",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 3,2",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 3,3",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 3,4",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "C gamma 3 is antisymmetric",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "fixed gamma representation 3",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 0.0,
+      "scale": 1.0,
+      "scaled_error": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "Clifford 4,0",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 4,1",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 4,2",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 4,3",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "Clifford 4,4",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "C gamma 4 is antisymmetric",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "fixed gamma representation 4",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 0.0,
+      "scale": 1.0,
+      "scaled_error": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "linear Majorana C is antisymmetric",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "gamma volume orientation",
+      "method": "exact symbolic",
+      "expectation": "zero",
+      "passed": true
+    },
+    {
+      "check": "fixed charge matrix",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 0.0,
+      "scale": 1.0,
+      "scaled_error": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "exterior anticommutation",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 0.0,
+      "scale": 1.0,
+      "scaled_error": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "exterior nilpotence",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 0.0,
+      "scale": 1.0,
+      "scaled_error": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "exterior associativity",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 0.0,
+      "scale": 1.0,
+      "scaled_error": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "even variation product rule",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 0.0,
+      "scale": 1.0,
+      "scaled_error": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 N a=0 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 22.687500000000014,
+      "scaled_error": 7.829672019395039e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "literal 2013 N negative control seed=7",
+      "method": "numerical negative control",
+      "largest_scaled_error": 1.0943175335329005,
+      "required_minimum": 1e-06,
+      "passed": true
+    },
+    {
+      "check": "delta lambda scalar block seed=7 E a=0 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 22.687500000000014,
+      "scaled_error": 1.5659344038790077e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 E a=1 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 22.687500000000014,
+      "scaled_error": 7.829672019395039e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 E a=2 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 22.687500000000014,
+      "scaled_error": 7.829672019395039e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 E a=3 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 22.687500000000014,
+      "scaled_error": 7.829672019395039e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 E a=4 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 22.687500000000014,
+      "scaled_error": 7.829672019395039e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "literal 2013 E negative control seed=7",
+      "method": "numerical negative control",
+      "largest_scaled_error": 1.1111111111111112,
+      "required_minimum": 1e-06,
+      "passed": true
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=0 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 16.50000000000001,
+      "scaled_error": 1.0765799026668178e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=0 component=1",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 22.687500000000014,
+      "scaled_error": 1.5659344038790077e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=0 component=2",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 16.50000000000001,
+      "scaled_error": 1.0765799026668178e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=1 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 16.50000000000001,
+      "scaled_error": 1.0765799026668178e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=1 component=1",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 22.687500000000014,
+      "scaled_error": 7.829672019395039e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=1 component=2",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 16.50000000000001,
+      "scaled_error": 1.0765799026668178e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=2 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 16.50000000000001,
+      "scaled_error": 1.0765799026668178e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=2 component=1",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 22.687500000000014,
+      "scaled_error": 7.829672019395039e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=2 component=2",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 16.50000000000001,
+      "scaled_error": 1.0765799026668178e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=3 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 16.50000000000001,
+      "scaled_error": 1.0765799026668178e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=3 component=1",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 22.687500000000014,
+      "scaled_error": 7.829672019395039e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=3 component=2",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 16.50000000000001,
+      "scaled_error": 1.0765799026668178e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=4 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 16.50000000000001,
+      "scaled_error": 1.0765799026668178e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=4 component=1",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 22.687500000000014,
+      "scaled_error": 7.829672019395039e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=7 DL a=4 component=2",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 1.7763568394002505e-15,
+      "scale": 16.50000000000001,
+      "scaled_error": 1.0765799026668178e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "literal 2013 DL negative control seed=7",
+      "method": "numerical negative control",
+      "largest_scaled_error": 1.3333333333333335,
+      "required_minimum": 1e-06,
+      "passed": true
+    },
+    {
+      "check": "delta lambda scalar block seed=4 N a=0 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 7.105427357601002e-15,
+      "scale": 54.18750000000022,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "literal 2013 N negative control seed=4",
+      "method": "numerical negative control",
+      "largest_scaled_error": 1.0943175335329005,
+      "required_minimum": 1e-06,
+      "passed": true
+    },
+    {
+      "check": "delta lambda scalar block seed=4 E a=0 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 7.105427357601002e-15,
+      "scale": 54.18750000000022,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 E a=1 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 7.105427357601002e-15,
+      "scale": 54.18750000000022,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 E a=2 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 7.105427357601002e-15,
+      "scale": 54.18750000000022,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 E a=3 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 7.105427357601002e-15,
+      "scale": 54.18750000000022,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 E a=4 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 7.105427357601002e-15,
+      "scale": 54.18750000000022,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "literal 2013 E negative control seed=4",
+      "method": "numerical negative control",
+      "largest_scaled_error": 1.1111111111111112,
+      "required_minimum": 1e-06,
+      "passed": true
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=0 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 27.09375000000011,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=0 component=1",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 7.105427357601002e-15,
+      "scale": 54.18750000000022,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=0 component=2",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 22.31250000000009,
+      "scaled_error": 1.5922526291542797e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=1 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 27.09375000000011,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=1 component=1",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 54.18750000000021,
+      "scaled_error": 6.556334355341153e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=1 component=2",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 22.31250000000009,
+      "scaled_error": 1.5922526291542797e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=2 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 27.09375000000011,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=2 component=1",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 54.18750000000021,
+      "scaled_error": 6.556334355341153e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=2 component=2",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 22.31250000000009,
+      "scaled_error": 1.5922526291542797e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=3 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 27.09375000000011,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=3 component=1",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 54.18750000000021,
+      "scaled_error": 6.556334355341153e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=3 component=2",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 22.31250000000009,
+      "scaled_error": 1.5922526291542797e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=4 component=0",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 27.09375000000011,
+      "scaled_error": 1.3112668710682303e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=4 component=1",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 54.18750000000021,
+      "scaled_error": 6.556334355341153e-17,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "delta lambda scalar block seed=4 DL a=4 component=2",
+      "method": "numerical bosons / formal Grassmann coefficients",
+      "absolute_error": 3.552713678800501e-15,
+      "scale": 22.31250000000009,
+      "scaled_error": 1.5922526291542797e-16,
+      "tolerance": 2e-11
+    },
+    {
+      "check": "literal 2013 DL negative control seed=4",
+      "method": "numerical negative control",
+      "largest_scaled_error": 1.3333333333333333,
+      "required_minimum": 1e-06,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-23",
+  "status": "PASS",
+  "scope": "All 58 inputs: exact weight, parity, dummy/free-index and written coverage checks; independent original seven-derivative comparison restricted to flat constant F/X/dW and all Grassmann degrees. No full curved S/K/reality or C24 component-basis certificate.",
+  "expanded_geometric_summands": 1912,
+  "cases": [
+    {
+      "name": "X_only",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 144,
+      "source_comparison_coefficients": 768,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "F_only",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 144,
+      "source_comparison_coefficients": 768,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "gradient_only",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 272,
+      "source_comparison_coefficients": 896,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "F_X",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 400,
+      "source_comparison_coefficients": 1024,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "F_gradient",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 340,
+      "source_comparison_coefficients": 896,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "X_gradient",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 444,
+      "source_comparison_coefficients": 1024,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "all",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 556,
+      "source_comparison_coefficients": 1024,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "integer_probe_1",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 508,
+      "source_comparison_coefficients": 1024,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "integer_probe_2",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 540,
+      "source_comparison_coefficients": 1024,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "integer_probe_3",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 544,
+      "source_comparison_coefficients": 1024,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "integer_probe_4",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 568,
+      "source_comparison_coefficients": 1024,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "integer_probe_5",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 528,
+      "source_comparison_coefficients": 1024,
+      "surviving_written_terms": 156
+    },
+    {
+      "name": "integer_probe_6",
+      "status": "PASS",
+      "nonzero_candidate_coefficients": 568,
+      "source_comparison_coefficients": 1024,
+      "surviving_written_terms": 156
+    }
+  ],
+  "formatted_expression_probe": {
+    "name": "index-raised printed form",
+    "status": "PASS",
+    "nonzero_candidate_coefficients": 556,
+    "source_comparison_coefficients": 1024,
+    "surviving_written_terms": 156
+  },
+  "input_terms": 58,
+  "unresolved_spinor_derivatives_in_endpoint": 0,
+  "parent_primary_sha256": "f2f15f0bad90d386fc3f358d8aaff4aef2bd71a7b588fc957c1341b5a2185837",
+  "input_ledger_sha256": "d01ae7bf534d0a26be4a02513f17bb61d07addefc837d04a6ac54402c09de9c4",
+  "derivation_sha256": "4832e170b552ceac04ea689673887f7ad0f25d00d97c022816e9166da09927c9",
+  "scripts_sha256": {
+    "verify_log_step3_spinor.py": "a3860ee1754fc482e0a532b52ffdd05828f57e107e077a6626f68c6e84eebf5e",
+    "log_step3_covariant_rules.py": "a37e937ce86decf5638b3104d83006c83db41a646e66191ac10c81577442a79b"
+  },
+  "documentation_only_update": "Added displayed curved commutator check S3-156/157 and reported completed 15-component gradient test; candidate term equations and all numerical physics inputs unchanged.",
+  "curved_hand_crosscheck": "S3-156/157 agrees with previously derived S2-158, including RD/RJ cancellation and S curvature."
+}

@@ -1,0 +1,5 @@
+PASS: 112 correspondence checks
+PASS: exact SU(2) bases, derivative rules, current and fermion order
+PASS: 42 formal-Grassmann scalar-block checks with numerical triplets
+PASS: six literal-2013 numerical negative controls
+Scope: no full gravitino-dependent transformation or quartic action claim

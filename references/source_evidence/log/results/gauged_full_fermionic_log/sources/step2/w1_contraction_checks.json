@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-23",
+  "status": "PASS",
+  "scope": "Individual W^-1 hand tables, uncontracted matrix identities, and full K-curvature trace; no full-primary certification",
+  "table_probes": 15,
+  "checks": {
+    "DppBox_rows": 135,
+    "DeltaX_rows": 75,
+    "primary_rows": 105,
+    "WF_rows": 45,
+    "RR_Weyl_trace_K_rows": 615,
+    "matrix_identities": 220
+  },
+  "total_rows_and_matrix_identities": 1195,
+  "arithmetic": "Fixed Gaussian dyadic coefficients and exact polynomial equality; no fitting",
+  "elapsed_seconds": 56.33,
+  "script_sha256": "8e6502abd8a4a72af00532570a0c00fc3efaa2ff9a715af61c30cab0b6a9abfe"
+}

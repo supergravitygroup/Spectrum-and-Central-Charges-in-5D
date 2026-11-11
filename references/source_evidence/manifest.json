@@ -1,0 +1,486 @@
+{
+  "path_base": "repository root",
+  "entries": [
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step1.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step1.py",
+      "document_sha256": "e4530e41e323f4bd010aa5aa4df7fc976f92340df64ce1275abcecd9ccc093ad",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/certification_20260925/form/source_equations.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/certification_20260925/form/source_equations.json",
+      "document_sha256": "559fab0dd3586e0000cc7cf194c2f3ba35e0d4bf0b02fb1ffbd7a78f3dcd2e64",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step1/glyph_evidence.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step1/glyph_evidence.json",
+      "document_sha256": "376a575de7986ab656770dfaa3d874c4e4523db8ef28c2952bb5938441d71b0f",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step1/checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step1/checks.json",
+      "document_sha256": "d02903a73d73bfd69864973429f33262062b10adb30db20ab94ae6e19fbafb06",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/certification_20260925/curved/jacobi-SDD-checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/certification_20260925/curved/jacobi-SDD-checks.json",
+      "document_sha256": "d904b802d963bc1649f2eac68c399f1dcf2e71ba98f17a6829f22af7f60f46be",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step5/endpoint_term_locations.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step5/endpoint_term_locations.json",
+      "document_sha256": "c230314cc4aeb90d266a9c8b94913a4004834736f1759e7161bc30570bc1c7b1",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step5/checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step5/checks.json",
+      "document_sha256": "48a52cc8a3904e6fd5bd4ebdd5c65ca6d8184fef6972fe84895378fd5941dcb7",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step5/multiplet_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step5/multiplet_checks.json",
+      "document_sha256": "7cb8838c3068ab09872d0eaf1d9df69d9a8fe6e6752a05c5ba1176dad385f6a6",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step5/wY_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step5/wY_checks.json",
+      "document_sha256": "0d1babb9badf3d16123fadff0f3f14c6fad8e0327bc9a311569323b279322529",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step5_vector.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step5_vector.py",
+      "document_sha256": "b8d7c51064a376a7021d5c94a9d3b8eca8ab0634ffce98634d5c9ef261e40515",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step5_multiplet.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step5_multiplet.py",
+      "document_sha256": "69651cb9ecc14c62677a4daf4bcbfdbc838482719207eea3046e6928f54355f7",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step5_wY.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step5_wY.py",
+      "document_sha256": "e700229c0bc364ba8a312189756d34e9ce97c33d891273aafc408b2397db39cd",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/scripts/verify_weyl_log_definition_map.py",
+      "source_identifier": "scripts/verify_weyl_log_definition_map.py",
+      "document_sha256": "efe0b3b8b410870ed1384bb5f34e9745e3639c59a7da379637232dcea43d3961",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_two_bosonic_corrections.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_two_bosonic_corrections.py",
+      "document_sha256": "f073e514deec7e383578dd88c3a07bc5e7998da770ea296af61855d4537b72f7",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/certification.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/certification.json",
+      "document_sha256": "e01274fd4fcdc7e444db670284a2f7ce034937de93d631b8e6ddf2c722915262",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/certification_20260925/curved/full-primary-certificate.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/certification_20260925/curved/full-primary-certificate.json",
+      "document_sha256": "4f7f9996de8a297d5128c90edac199dbeb2595f671aec7cbf7237e1b00f9d1dd",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/certification_20260925/canonical/reality_phase_after_correction.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/certification_20260925/canonical/reality_phase_after_correction.json",
+      "document_sha256": "46601b680a659317529f947c692766bec39124ca1e055118e67eaae4a38f2544",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/canonical_two_fermi/final_structure_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/canonical_two_fermi/final_structure_checks.json",
+      "document_sha256": "b909999e01c1186a5590db7bf2c509408549129896771a866edccb9eec045b54",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/certification_20260925/canonical/all_terms_seed_926255_rho_1_printed.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/certification_20260925/canonical/all_terms_seed_926255_rho_1_printed.json",
+      "document_sha256": "98cdeec1e86cdac843653ed82bdcd06e144efa0bd0e9f44cbcc8bcb14f81dc2c",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step7/supercovariant/derivative_debug_rebuild.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step7/supercovariant/derivative_debug_rebuild.json",
+      "document_sha256": "d6528eaefadbe15fdd8d4bfd773d167e524ca9db59d4e2e11f76d939f1907543",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step2_w3_flat_gradient_x.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step2_w3_flat_gradient_x.py",
+      "document_sha256": "d566748ecc8d05d269e42d676631b1cc748849ba2949e3a02107140ea1a16035",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/w3_flat_gradient_x_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/w3_flat_gradient_x_checks.json",
+      "document_sha256": "9e449b74bea53314ccb500c408e4e55db1fb116920d53c8d9d10658538e5502a",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step2.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step2.py",
+      "document_sha256": "02c34acdf68e88f80d0b6916f4a1881d26074a064cd28d0c890e77c28201b270",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/checks.json",
+      "document_sha256": "74b7c81cb4529eb89f4d05b47c7336c2a7021cd7e6b72a70a05c69534d5bf4b1",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step2_projected.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step2_projected.py",
+      "document_sha256": "cbe6cf1c7819a7d5c3f064b30abbf43dc084fc2bf4a70a71fed8137b714d78ac",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/projected_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/projected_checks.json",
+      "document_sha256": "d74ba7a060949ea1c3b77675eea561d07faf0cec3c56dda17cf85409bf085353",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step2_w3.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step2_w3.py",
+      "document_sha256": "695fd40ed6b7756a898e2c72194f4e162cf1a90343ed091e045ad60fca1819ec",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/w3_contraction_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/w3_contraction_checks.json",
+      "document_sha256": "ae9c1397f77ad50af1e5d3a1dfc7d2f10b15d67436590674f86c5cf50dc47439",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/w3_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/w3_checks.json",
+      "document_sha256": "54d6142db4a2f614fae7bbddd5d854aef77762bb72fbcb0e3f0ba8a16f0aad07",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step2_w2.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step2_w2.py",
+      "document_sha256": "de757685b07fe2e88d644b80832952f3585757a659d6d5ee02f417bcfce042e0",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/w2_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/w2_checks.json",
+      "document_sha256": "d2416bf941cf80a684469c3ebb8cf8941c54c70f9a80f102fd4d560d32f99950",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step2_w2_contractions.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step2_w2_contractions.py",
+      "document_sha256": "4b090d6d6a3741a722d5c210e346f19276668b8e4f72c296fa21d5fdd581f4d7",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/w2_contraction_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/w2_contraction_checks.json",
+      "document_sha256": "f12a9ddc516f6b6fa9fe3f6ac03522ae1185f9e3871e08b1b0efe4dff10ca794",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step2_w1.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step2_w1.py",
+      "document_sha256": "5dfcf143573f8d3a9997c263e266ce583790a8198ce52c1bf846bf28632845cc",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/w1_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/w1_checks.json",
+      "document_sha256": "7b87936c7f021493e3ca482e2f5248d64b5aa2ce18c3b9330cb3293efb88fc67",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step2_w1_contractions.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step2_w1_contractions.py",
+      "document_sha256": "8e6502abd8a4a72af00532570a0c00fc3efaa2ff9a715af61c30cab0b6a9abfe",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/w1_contraction_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/w1_contraction_checks.json",
+      "document_sha256": "09acb96cf8d8c70ea8ea0a69f9d5644316750ffa4ffd85ca72f06b6b06eb738d",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step2_w0.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step2_w0.py",
+      "document_sha256": "49e48e26713e283277f8b316509aa9c1714413e5ba86ea8819823faa46970b61",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/w0_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/w0_checks.json",
+      "document_sha256": "97e4001754686196616abe4a49eadb750d709611834047e89a98308f32753752",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/primary_derived_term_ledger.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/primary_derived_term_ledger.json",
+      "document_sha256": "d01ae7bf534d0a26be4a02513f17bb61d07addefc837d04a6ac54402c09de9c4",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step2_collection.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step2_collection.py",
+      "document_sha256": "348035cd43d0d9d2f70abff943e13882a98c3d76f8522c5e34e5a319e4edb48b",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/collection_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/collection_checks.json",
+      "document_sha256": "8bed424c12a93ecbe2e8c630fc2da796896b223da60e9bfecf483522fbe8f27b",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step2/primary_term_ledger.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step2/primary_term_ledger.json",
+      "document_sha256": "4cdb20b94cb8f9574931ea48651d5a19247fce31c684f37268b0a36daf9a4bc4",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step6/checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step6/checks.json",
+      "document_sha256": "421c12e9bf746d0c5331fc5c38ea7e74e0ec0268b45f582a96197e1e230cf673",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step6/coverage.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step6/coverage.json",
+      "document_sha256": "0324bcd1a765a35fa999fe1267f1f93a054e94f23e74538cd94d5aa8d6111161",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/canonicalize_log_two_fermi.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/canonicalize_log_two_fermi.py",
+      "document_sha256": "5fbffaf4de1160b0e689e00203ab309133f5052455c958066b49bed41e7a8705",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_two_fermi_canonical.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_two_fermi_canonical.py",
+      "document_sha256": "93bb99498ad9edfa90bd9d17abe772f3a7e1888edacddb617edbe94b25c5d446",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/canonical_two_fermi/array_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/canonical_two_fermi/array_checks.json",
+      "document_sha256": "697bbc3edf428573c317f3dbde7484680d7eac324deb2379c32e9312044dd83e",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/canonical_two_fermi/clifford_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/canonical_two_fermi/clifford_checks.json",
+      "document_sha256": "1827272dbccd2b7b565d99f6447190c090f58d9a092e5bd0597a0f7ac3d7f616",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step4/w2Y_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step4/w2Y_checks.json",
+      "document_sha256": "09ea1bbfbb6010e6e296da191a9d5510c4af3246e7f1d80f7a09ef50516e89c7",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step4/checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step4/checks.json",
+      "document_sha256": "6fd30a13226d4962259c71643e6ee5c14b230b077f5d0b1d35e7c326e9ed7df5",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step4/derivation_coverage.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step4/derivation_coverage.json",
+      "document_sha256": "d610181dead2bd9773ad3e28efd1bf5d70cc044d20078bc59173f01d16c37608",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step4/endpoint_term_locations.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step4/endpoint_term_locations.json",
+      "document_sha256": "56986ba689f53398a8bd86345b7dc2e6466b084d1a24060e5d0ac8985f66bbb2",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step7/supercovariant/canonicalization.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step7/supercovariant/canonicalization.json",
+      "document_sha256": "7c50df999b095e3fce54e3b1553d4b57eb9572819e490107110ffe7e7bf726d8",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step7/supercovariant/verification.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step7/supercovariant/verification.json",
+      "document_sha256": "7f9c3b05385ac081dc959bbbb332114e46cb94f497c72a36bd90e596b1a11b4f",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step7_supercovariant.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step7_supercovariant.py",
+      "document_sha256": "4af7eff6d7566a1c7862b67451ad9a2b62809f5796f4566e26b1f5bb6d299911",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_derivative_equivalence_covariant.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_derivative_equivalence_covariant.py",
+      "document_sha256": "61f4c0e960c7ec8beb5eb05f5f45fc7e3685c438c9a8ba919a116af98a548249",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_derivative_equivalence_projector.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_derivative_equivalence_projector.py",
+      "document_sha256": "ab6eeb8b51a1ec34c0550cc400dc85f87473dd6347e37baefa03895b139d7efb",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_ungauged_composite_templates.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_ungauged_composite_templates.py",
+      "document_sha256": "96fba806dd69d834b2742da39a47d10e4e89dd10b5633e0d8c03febc1055c7ad",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step3/checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step3/checks.json",
+      "document_sha256": "1c3c60ab706ec16a863cfdfea25dd55ac4a63a9170c53ab1510150240549f1b9",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step3/gradient_x_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step3/gradient_x_checks.json",
+      "document_sha256": "66869baba5b496ab981b8ed41ee841165d7a1d61f53efb7757c7932bde6f8e88",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step3_spinor.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step3_spinor.py",
+      "document_sha256": "a3860ee1754fc482e0a532b52ffdd05828f57e107e077a6626f68c6e84eebf5e",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_step3_gradient_x.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_step3_gradient_x.py",
+      "document_sha256": "2a8fd7fded4c0f38e3808a8f84df9f64455ed938ff8d8e8fa451492e04bdfaff",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/log_step3_covariant_rules.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/log_step3_covariant_rules.py",
+      "document_sha256": "a37e937ce86decf5638b3104d83006c83db41a646e66191ac10c81577442a79b",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/correction_audit/checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/correction_audit/checks.json",
+      "document_sha256": "df242de5c191002bf90dcd20be549765db502592868a2dab089f2ca24632f1a2",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/step7/supercovariant/equivalence/decisive_comparison.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/step7/supercovariant/equivalence/decisive_comparison.json",
+      "document_sha256": "b7dd1a1acb52bfebd8756e447cd064b44f6e3b2561088dd83248dde2774fb40a",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/derivations/bosonic.md",
+      "source_identifier": ".gpd/debug/log-certification-bosonic.md",
+      "document_sha256": "b935e5f6d6f96e4f62690a98b54136838be63ca2139584ff99340fba8d1ad41b",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/derivations/curved.md",
+      "source_identifier": ".gpd/debug/log-certification-curved.md",
+      "document_sha256": "60684c04dfffec1d76829a49cd585d29790dfdcfcd3a8d2ff4e1f20717fa5abe",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/derivations/defining-projector.md",
+      "source_identifier": ".gpd/debug/log-certification-defining-projector.md",
+      "document_sha256": "50ec370d91ea488c706cb3fcda80f59b9c2b68fe45bcea1e43635703bde60d66",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/derivations/form-interface.md",
+      "source_identifier": ".gpd/debug/log-certification-form-interface.md",
+      "document_sha256": "45d35f925626bc8373b54129f73b60a735110b264368e2ce1d378fdde5172af8",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/derivations/projection.md",
+      "source_identifier": ".gpd/debug/log-certification-projection.md",
+      "document_sha256": "99edcd1618190f54bd677f523450c0f6544ffc78231f9973306d5833702cc291",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation.",
+      "inherited_document_sha256": "7ad10449e2c85313ba2106f6140716dd597a62774aa8bc438ca6382f3b42f762"
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/certification_20260925/curved/jacobi_SDD.py",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/certification_20260925/curved/jacobi_SDD.py",
+      "document_sha256": "1cfc9b15d81dc8961ff62bd55d57b9c85810dd8f307989348addd474d795fc4c",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/certification_20260925/curved/curvature_algebraic_bianchi.py",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/certification_20260925/curved/curvature_algebraic_bianchi.py",
+      "document_sha256": "ee9dbea7dfe46708528d411bf2c9e5f206de9ee3f0fdf9a51ec91841951a7429",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/certification_20260925/curved/vector_commutator.py",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/certification_20260925/curved/vector_commutator.py",
+      "document_sha256": "75a38e09e17c1cb473ee0dfa1859c4f432608f9509155244ac20882ee1f71d77",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/certification_20260925/form/checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/certification_20260925/form/checks.json",
+      "document_sha256": "71db5d87147aa0f7f67ab78c21d0a132e339a79d5672879a482d510863c3f3e6",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/verify_log_form_interface.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/verify_log_form_interface.py",
+      "document_sha256": "f74ba8299cffe0be23ca46ddae7846cfa5d7a0206ed4dfe917b3ed8ba7e26e65",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/audit_20260925/projection_canonical/epsilon_checks.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/audit_20260925/projection_canonical/epsilon_checks.json",
+      "document_sha256": "2eec9fceef5ed357d655a4c55258b83681aceb50227b486300c8a1f5430d5156",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/audit_20260925/projection_canonical/three_spinor_projection_basis.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/audit_20260925/projection_canonical/three_spinor_projection_basis.json",
+      "document_sha256": "ebceb89db4e2136d67d61284470c2dd3412f247029b2c79ffb048604ca2d03d1",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/sources/audit_20260925/projection_canonical/four_spinor_projection_basis.json",
+      "source_identifier": "results/gauged_full_fermionic_log/sources/audit_20260925/projection_canonical/four_spinor_projection_basis.json",
+      "document_sha256": "6a569c45796405bf3bee5f3a51537ade54c84162501683cf997558a340d1262d",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    },
+    {
+      "path": "references/source_evidence/log/results/gauged_full_fermionic_log/scripts/log_step6_projection.py",
+      "source_identifier": "results/gauged_full_fermionic_log/scripts/log_step6_projection.py",
+      "document_sha256": "d7f589a4f52b1a54a4c7b9eba7c2a691f4fbedbac996452a5c20ec035b76e4f4",
+      "scope": "Current component calculation, supporting identity or result; mathematical scope is specified in the referring derivation."
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "sample": "k0_H2_3_s13",
+  "parameters": {
+    "L": "3",
+    "k": "0",
+    "g": "1",
+    "S": "1/3"
+  },
+  "background": {
+    "chi": 1,
+    "M2": [
+      0.10666666666666666,
+      0.0
+    ]
+  },
+  "physical_level": true,
+  "direct_modes": [
+    {
+      "spin": -0.5,
+      "energy": [
+        3.050600001167662,
+        -4.3331804303109584e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5187807355390621,
+        -1.24725865328362e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.305858225620425,
+        6.356411447985772e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.6635225110863034,
+        -3.314868074211045e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        3.050600001167663,
+        -1.7973152353104837e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5187807355390615,
+        4.3857672293816694e-16
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.305858225620419,
+        6.1417674070200536e-15
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.663522511086306,
+        -3.090899653946455e-17
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.551982255870633,
+        -1.1082573181065783e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5519822558706324,
+        6.977669223789635e-16
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.551982255870633,
+        -1.1082573181065783e-16
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5519822558706324,
+        6.977669223789635e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    }
+  ],
+  "predicted_modes": [
+    {
+      "spin": -1.5,
+      "energy": [
+        2.5519822558706333,
+        -0.0
+      ],
+      "q_R": -1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.5519822558706333,
+        -0.0
+      ],
+      "q_R": 1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5519822558706333,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5519822558706333,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        3.050600001167663,
+        -0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        3.050600001167663,
+        -0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5187807355390621,
+        -0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5187807355390621,
+        -0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.305858225620421,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.305858225620421,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.663522511086304,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.663522511086304,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    }
+  ],
+  "matching": {
+    "maximum_error": 7.50855510912786e-15,
+    "pairs": [
+      {
+        "predicted": 0,
+        "direct": 8,
+        "energy_error": 4.577090441936021e-16
+      },
+      {
+        "predicted": 1,
+        "direct": 10,
+        "energy_error": 4.577090441936021e-16
+      },
+      {
+        "predicted": 2,
+        "direct": 9,
+        "energy_error": 1.129486424525422e-15
+      },
+      {
+        "predicted": 3,
+        "direct": 11,
+        "energy_error": 1.129486424525422e-15
+      },
+      {
+        "predicted": 4,
+        "direct": 0,
+        "energy_error": 9.882436094593836e-16
+      },
+      {
+        "predicted": 5,
+        "direct": 4,
+        "energy_error": 1.7973152353104837e-15
+      },
+      {
+        "predicted": 6,
+        "direct": 1,
+        "energy_error": 1.24725865328362e-16
+      },
+      {
+        "predicted": 7,
+        "direct": 5,
+        "energy_error": 7.975486198909761e-16
+      },
+      {
+        "predicted": 8,
+        "direct": 2,
+        "energy_error": 7.50855510912786e-15
+      },
+      {
+        "predicted": 9,
+        "direct": 6,
+        "energy_error": 6.530825946200461e-15
+      },
+      {
+        "predicted": 10,
+        "direct": 3,
+        "energy_error": 3.3444828562468212e-15
+      },
+      {
+        "predicted": 11,
+        "direct": 7,
+        "energy_error": 2.220661168143038e-15
+      }
+    ]
+  },
+  "sector_files": [
+    "k0_H2_3_s13_np1_q+1.json",
+    "k0_H2_3_s13_np1_q-1.json",
+    "k0_H2_3_s13_nm1_q+1.json",
+    "k0_H2_3_s13_nm1_q-1.json",
+    "k0_H2_3_s13_np3_q+1.json",
+    "k0_H2_3_s13_np3_q-1.json",
+    "k0_H2_3_s13_nm3_q+1.json",
+    "k0_H2_3_s13_nm3_q-1.json"
+  ]
+}

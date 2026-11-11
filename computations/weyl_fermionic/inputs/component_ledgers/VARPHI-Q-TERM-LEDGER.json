@@ -1,0 +1,783 @@
+{
+  "date": "2026-09-18",
+  "lock": "UNG-WEYL2-OP58-CONVENTIONS-v5",
+  "working_spinor": "M08/Q63 coefficient8/3",
+  "outer_term_count": 94,
+  "scope": "Outer variation terms with exact explicit shared response polynomials P06-P38; not a flattened independent-field fermion action",
+  "terms": {
+    "1": [
+      {
+        "label": "R1",
+        "coefficient": [
+          "-1/48",
+          "0"
+        ],
+        "latex": "\\gamma_{cd}\\gamma_{ab}{}^{ef}\\mathscr V_{ef}{}^i{}_j\\epsilon^j\\mathscr C^{abcd}"
+      },
+      {
+        "label": "R2",
+        "coefficient": [
+          "1/48",
+          "0"
+        ],
+        "latex": "\\gamma_{cd}\\gamma^{ef}\\gamma_{ab}\\mathscr V_{ef}{}^i{}_j\\epsilon^j\\mathscr C^{abcd}"
+      },
+      {
+        "label": "R3",
+        "coefficient": [
+          "1/96",
+          "0"
+        ],
+        "latex": "\\gamma_{cd}\\gamma_{ab}\\gamma^{ef}\\mathscr V_{ef}{}^i{}_j\\epsilon^j\\mathscr C^{abcd}"
+      },
+      {
+        "label": "R4",
+        "coefficient": [
+          "-1/32",
+          "0"
+        ],
+        "latex": "\\gamma_{cd}\\mathscr C_{ab}{}^{ef}\\gamma_{ef}\\epsilon^i\\mathscr C^{abcd}"
+      },
+      {
+        "label": "R5",
+        "coefficient": [
+          "0",
+          "-1/4"
+        ],
+        "latex": "\\gamma_{cd}\\gamma^{ef}U_{[a\\,ef}\\gamma_{b]}\\epsilon^i\\mathscr C^{abcd}"
+      },
+      {
+        "label": "R6",
+        "coefficient": [
+          "0",
+          "1/12"
+        ],
+        "latex": "\\gamma_{cd}\\gamma_{[b}\\gamma^{ef}U_{a]\\,ef}\\epsilon^i\\mathscr C^{abcd}"
+      },
+      {
+        "label": "R7",
+        "coefficient": [
+          "0",
+          "1/12"
+        ],
+        "latex": "\\gamma_{cd}\\gamma_{[a}\\gamma^g\\gamma^{ef}U_{g\\,ef}\\gamma_{b]}\\epsilon^i\\mathscr C^{abcd}"
+      },
+      {
+        "label": "R8",
+        "coefficient": [
+          "0",
+          "1/12"
+        ],
+        "latex": "\\gamma_{cd}\\gamma_{ab}\\gamma^eU^f{}_{fe}\\epsilon^i\\mathscr C^{abcd}"
+      },
+      {
+        "label": "C",
+        "coefficient": [
+          "-1/8",
+          "0"
+        ],
+        "latex": "\\gamma_{cd}\\mathscr R_{ab}^ic^{abcd}"
+      }
+    ],
+    "2": [
+      {
+        "label": "R1",
+        "coefficient": [
+          "0",
+          "-2/3"
+        ],
+        "latex": "\\gamma_c\\gamma_{ab}{}^{de}\\mathscr V_{de}{}^i{}_j\\epsilon^jU^{a\\,bc}"
+      },
+      {
+        "label": "R2",
+        "coefficient": [
+          "0",
+          "2/3"
+        ],
+        "latex": "\\gamma_c\\gamma^{de}\\gamma_{ab}\\mathscr V_{de}{}^i{}_j\\epsilon^jU^{a\\,bc}"
+      },
+      {
+        "label": "R3",
+        "coefficient": [
+          "0",
+          "1/3"
+        ],
+        "latex": "\\gamma_c\\gamma_{ab}\\gamma^{de}\\mathscr V_{de}{}^i{}_j\\epsilon^jU^{a\\,bc}"
+      },
+      {
+        "label": "R4",
+        "coefficient": [
+          "0",
+          "-1"
+        ],
+        "latex": "\\gamma_c\\mathscr C_{ab}{}^{de}\\gamma_{de}\\epsilon^iU^{a\\,bc}"
+      },
+      {
+        "label": "R5",
+        "coefficient": [
+          "8",
+          "0"
+        ],
+        "latex": "\\gamma_c\\gamma^{de}U_{[a\\,de}\\gamma_{b]}\\epsilon^iU^{a\\,bc}"
+      },
+      {
+        "label": "R6",
+        "coefficient": [
+          "-8/3",
+          "0"
+        ],
+        "latex": "\\gamma_c\\gamma_{[b}\\gamma^{de}U_{a]\\,de}\\epsilon^iU^{a\\,bc}"
+      },
+      {
+        "label": "R7",
+        "coefficient": [
+          "-8/3",
+          "0"
+        ],
+        "latex": "\\gamma_c\\gamma_{[a}\\gamma^f\\gamma^{de}U_{f\\,de}\\gamma_{b]}\\epsilon^iU^{a\\,bc}"
+      },
+      {
+        "label": "R8",
+        "coefficient": [
+          "-8/3",
+          "0"
+        ],
+        "latex": "\\gamma_c\\gamma_{ab}\\gamma^dU^e{}_{ed}\\epsilon^iU^{a\\,bc}"
+      },
+      {
+        "label": "U",
+        "coefficient": [
+          "0",
+          "-4"
+        ],
+        "latex": "\\gamma_c\\mathscr R_{ab}^iu^{a\\,bc}"
+      }
+    ],
+    "3": [
+      {
+        "label": "chi1",
+        "coefficient": [
+          "32/3",
+          "0"
+        ],
+        "latex": "D\\epsilon^iD"
+      },
+      {
+        "label": "chi2",
+        "coefficient": [
+          "-2/3",
+          "0"
+        ],
+        "latex": "\\gamma^{ab}\\mathscr V_{ab}^{ij}\\epsilon_jD"
+      },
+      {
+        "label": "chi3",
+        "coefficient": [
+          "0",
+          "16/3"
+        ],
+        "latex": "\\gamma^{ab}\\gamma^cU_{c\\,ab}\\epsilon^iD"
+      },
+      {
+        "label": "chi4",
+        "coefficient": [
+          "0",
+          "-16/3"
+        ],
+        "latex": "\\gamma^aU^b{}_{ab}\\epsilon^iD"
+      },
+      {
+        "label": "chi5",
+        "coefficient": [
+          "-32/3",
+          "0"
+        ],
+        "latex": "G_4\\epsilon^iD"
+      },
+      {
+        "label": "chi6",
+        "coefficient": [
+          "64/9",
+          "0"
+        ],
+        "latex": "t_2\\epsilon^iD"
+      },
+      {
+        "label": "D1",
+        "coefficient": [
+          "128/3",
+          "0"
+        ],
+        "latex": "\\chi^i(\\bar\\epsilon\\gamma^aZ_a)"
+      },
+      {
+        "label": "D2",
+        "coefficient": [
+          "0",
+          "-640/9"
+        ],
+        "latex": "\\chi^i(\\bar\\epsilon K\\chi)"
+      }
+    ],
+    "4": [
+      {
+        "label": "Y",
+        "coefficient": [
+          "0",
+          "8"
+        ],
+        "latex": "\\gamma_cy^{c}{}_{ab}^iT^{ab}"
+      },
+      {
+        "label": "T1",
+        "coefficient": [
+          "-4",
+          "0"
+        ],
+        "latex": "\\gamma_cY^{c}{}_{ab}^i(\\bar\\epsilon\\gamma^{ab}\\chi)"
+      },
+      {
+        "label": "T2",
+        "coefficient": [
+          "3/4",
+          "0"
+        ],
+        "latex": "\\gamma_cY^{c}{}_{ab}^i(\\bar\\epsilon\\mathscr R^{ab})"
+      }
+    ],
+    "5": [
+      {
+        "label": "Y",
+        "coefficient": [
+          "0",
+          "8"
+        ],
+        "latex": "\\gamma_ay^{c}{}_{bc}^iT^{ab}"
+      },
+      {
+        "label": "T1",
+        "coefficient": [
+          "-4",
+          "0"
+        ],
+        "latex": "\\gamma_aY^{c}{}_{bc}^i(\\bar\\epsilon\\gamma^{ab}\\chi)"
+      },
+      {
+        "label": "T2",
+        "coefficient": [
+          "3/4",
+          "0"
+        ],
+        "latex": "\\gamma_aY^{c}{}_{bc}^i(\\bar\\epsilon\\mathscr R^{ab})"
+      }
+    ],
+    "6": [
+      {
+        "label": "U",
+        "coefficient": [
+          "0",
+          "-64/3"
+        ],
+        "latex": "\\gamma^{ab}\\gamma^c u_{a\\,bc}\\chi^i"
+      },
+      {
+        "label": "chi1",
+        "coefficient": [
+          "0",
+          "-16/3"
+        ],
+        "latex": "\\gamma^{ab}\\gamma^cU_{a\\,bc}D\\epsilon^i"
+      },
+      {
+        "label": "chi2",
+        "coefficient": [
+          "0",
+          "1/3"
+        ],
+        "latex": "\\gamma^{ab}\\gamma^cU_{a\\,bc}\\gamma^{de}\\mathscr V_{de}^{ij}\\epsilon_j"
+      },
+      {
+        "label": "chi3",
+        "coefficient": [
+          "8/3",
+          "0"
+        ],
+        "latex": "\\gamma^{ab}\\gamma^cU_{a\\,bc}\\gamma^{de}\\gamma^fU_{f\\,de}\\epsilon^i"
+      },
+      {
+        "label": "chi4",
+        "coefficient": [
+          "-8/3",
+          "0"
+        ],
+        "latex": "\\gamma^{ab}\\gamma^cU_{a\\,bc}\\gamma^dU^e{}_{de}\\epsilon^i"
+      },
+      {
+        "label": "chi5",
+        "coefficient": [
+          "0",
+          "16/3"
+        ],
+        "latex": "\\gamma^{ab}\\gamma^cU_{a\\,bc}G_4\\epsilon^i"
+      },
+      {
+        "label": "chi6",
+        "coefficient": [
+          "0",
+          "-32/9"
+        ],
+        "latex": "\\gamma^{ab}\\gamma^cU_{a\\,bc}t_2\\epsilon^i"
+      }
+    ],
+    "7": [
+      {
+        "label": "T21",
+        "coefficient": [
+          "0",
+          "1024/9"
+        ],
+        "latex": "T^{ab}(\\bar\\epsilon\\gamma_{ab}\\chi)\\chi^i"
+      },
+      {
+        "label": "T22",
+        "coefficient": [
+          "0",
+          "-64/3"
+        ],
+        "latex": "T^{ab}(\\bar\\epsilon\\mathscr R_{ab})\\chi^i"
+      },
+      {
+        "label": "chi1",
+        "coefficient": [
+          "256/9",
+          "0"
+        ],
+        "latex": "t_2D\\epsilon^i"
+      },
+      {
+        "label": "chi2",
+        "coefficient": [
+          "-16/9",
+          "0"
+        ],
+        "latex": "t_2\\gamma^{ab}\\mathscr V_{ab}^{ij}\\epsilon_j"
+      },
+      {
+        "label": "chi3",
+        "coefficient": [
+          "0",
+          "128/9"
+        ],
+        "latex": "t_2\\gamma^{ab}\\gamma^cU_{c\\,ab}\\epsilon^i"
+      },
+      {
+        "label": "chi4",
+        "coefficient": [
+          "0",
+          "-128/9"
+        ],
+        "latex": "t_2\\gamma^aU^b{}_{ab}\\epsilon^i"
+      },
+      {
+        "label": "chi5",
+        "coefficient": [
+          "-256/9",
+          "0"
+        ],
+        "latex": "t_2G_4\\epsilon^i"
+      },
+      {
+        "label": "chi6",
+        "coefficient": [
+          "512/27",
+          "0"
+        ],
+        "latex": "t_2t_2\\epsilon^i"
+      }
+    ],
+    "8": [
+      {
+        "label": "Z",
+        "coefficient": [
+          "0",
+          "128/3"
+        ],
+        "latex": "\\gamma_a z_b^iT^{ab}"
+      },
+      {
+        "label": "T1",
+        "coefficient": [
+          "-64/3",
+          "0"
+        ],
+        "latex": "\\gamma_a Z_b^i(\\bar\\epsilon\\gamma^{ab}\\chi)"
+      },
+      {
+        "label": "T2",
+        "coefficient": [
+          "4",
+          "0"
+        ],
+        "latex": "\\gamma_a Z_b^i(\\bar\\epsilon\\mathscr R^{ab})"
+      }
+    ],
+    "9": [
+      {
+        "label": "R1",
+        "coefficient": [
+          "4/9",
+          "0"
+        ],
+        "latex": "\\gamma_{ab}\\gamma_{cd}{}^{ef}\\mathscr V_{ef}{}^i{}_j\\epsilon^jT^{ab}T^{cd}"
+      },
+      {
+        "label": "R2",
+        "coefficient": [
+          "-4/9",
+          "0"
+        ],
+        "latex": "\\gamma_{ab}\\gamma^{ef}\\gamma_{cd}\\mathscr V_{ef}{}^i{}_j\\epsilon^jT^{ab}T^{cd}"
+      },
+      {
+        "label": "R3",
+        "coefficient": [
+          "-2/9",
+          "0"
+        ],
+        "latex": "\\gamma_{ab}\\gamma_{cd}\\gamma^{ef}\\mathscr V_{ef}{}^i{}_j\\epsilon^jT^{ab}T^{cd}"
+      },
+      {
+        "label": "R4",
+        "coefficient": [
+          "2/3",
+          "0"
+        ],
+        "latex": "\\gamma_{ab}\\mathscr C_{cd}{}^{ef}\\gamma_{ef}\\epsilon^iT^{ab}T^{cd}"
+      },
+      {
+        "label": "R5",
+        "coefficient": [
+          "0",
+          "16/3"
+        ],
+        "latex": "\\gamma_{ab}\\gamma^{ef}U_{[c\\,ef}\\gamma_{d]}\\epsilon^iT^{ab}T^{cd}"
+      },
+      {
+        "label": "R6",
+        "coefficient": [
+          "0",
+          "-16/9"
+        ],
+        "latex": "\\gamma_{ab}\\gamma_{[d}\\gamma^{ef}U_{c]\\,ef}\\epsilon^iT^{ab}T^{cd}"
+      },
+      {
+        "label": "R7",
+        "coefficient": [
+          "0",
+          "-16/9"
+        ],
+        "latex": "\\gamma_{ab}\\gamma_{[c}\\gamma^g\\gamma^{ef}U_{g\\,ef}\\gamma_{d]}\\epsilon^iT^{ab}T^{cd}"
+      },
+      {
+        "label": "R8",
+        "coefficient": [
+          "0",
+          "-16/9"
+        ],
+        "latex": "\\gamma_{ab}\\gamma_{cd}\\gamma^eU^f{}_{fe}\\epsilon^iT^{ab}T^{cd}"
+      },
+      {
+        "label": "Tfirst1",
+        "coefficient": [
+          "0",
+          "4/3"
+        ],
+        "latex": "\\gamma_{ab}\\mathscr R_{cd}^i(\\bar\\epsilon\\gamma^{ab}\\chi)T^{cd}"
+      },
+      {
+        "label": "Tfirst2",
+        "coefficient": [
+          "0",
+          "-1/4"
+        ],
+        "latex": "\\gamma_{ab}\\mathscr R_{cd}^i(\\bar\\epsilon\\mathscr R^{ab})T^{cd}"
+      },
+      {
+        "label": "Tsecond1",
+        "coefficient": [
+          "0",
+          "4/3"
+        ],
+        "latex": "\\gamma_{ab}\\mathscr R_{cd}^iT^{ab}(\\bar\\epsilon\\gamma^{cd}\\chi)"
+      },
+      {
+        "label": "Tsecond2",
+        "coefficient": [
+          "0",
+          "-1/4"
+        ],
+        "latex": "\\gamma_{ab}\\mathscr R_{cd}^iT^{ab}(\\bar\\epsilon\\mathscr R^{cd})"
+      }
+    ],
+    "10": [
+      {
+        "label": "V1",
+        "coefficient": [
+          "-3/4",
+          "0"
+        ],
+        "latex": "B_{1}{}^{ab\\,ik}\\varepsilon_{kj}\\mathscr R_{ab}^j"
+      },
+      {
+        "label": "V2",
+        "coefficient": [
+          "-3/4",
+          "0"
+        ],
+        "latex": "B_{2}{}^{ab\\,ik}\\varepsilon_{kj}\\mathscr R_{ab}^j"
+      },
+      {
+        "label": "V3",
+        "coefficient": [
+          "0",
+          "2"
+        ],
+        "latex": "B_{3}{}^{ab\\,ik}\\varepsilon_{kj}\\mathscr R_{ab}^j"
+      },
+      {
+        "label": "V4",
+        "coefficient": [
+          "0",
+          "-9"
+        ],
+        "latex": "B_{4}{}^{ab\\,ik}\\varepsilon_{kj}\\mathscr R_{ab}^j"
+      },
+      {
+        "label": "V5",
+        "coefficient": [
+          "0",
+          "9/4"
+        ],
+        "latex": "B_{5}{}^{ab\\,ik}\\varepsilon_{kj}\\mathscr R_{ab}^j"
+      },
+      {
+        "label": "V6",
+        "coefficient": [
+          "0",
+          "6"
+        ],
+        "latex": "B_{6}{}^{ab\\,ik}\\varepsilon_{kj}\\mathscr R_{ab}^j"
+      },
+      {
+        "label": "V7",
+        "coefficient": [
+          "-4",
+          "0"
+        ],
+        "latex": "B_{7}{}^{ab\\,ik}\\varepsilon_{kj}\\mathscr R_{ab}^j"
+      },
+      {
+        "label": "V8",
+        "coefficient": [
+          "0",
+          "1/2"
+        ],
+        "latex": "B_{8}{}^{ab\\,ik}\\varepsilon_{kj}\\mathscr R_{ab}^j"
+      },
+      {
+        "label": "V9",
+        "coefficient": [
+          "0",
+          "4"
+        ],
+        "latex": "B_{9}{}^{ab\\,ik}\\varepsilon_{kj}\\mathscr R_{ab}^j"
+      },
+      {
+        "label": "R1",
+        "coefficient": [
+          "1/12",
+          "0"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma_{ab}{}^{cd}\\mathscr V_{cd}{}^j{}_k\\epsilon^k"
+      },
+      {
+        "label": "R2",
+        "coefficient": [
+          "-1/12",
+          "0"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma^{cd}\\gamma_{ab}\\mathscr V_{cd}{}^j{}_k\\epsilon^k"
+      },
+      {
+        "label": "R3",
+        "coefficient": [
+          "-1/24",
+          "0"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma_{ab}\\gamma^{cd}\\mathscr V_{cd}{}^j{}_k\\epsilon^k"
+      },
+      {
+        "label": "R4",
+        "coefficient": [
+          "1/8",
+          "0"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\mathscr C_{ab}{}^{cd}\\gamma_{cd}\\epsilon^j"
+      },
+      {
+        "label": "R5",
+        "coefficient": [
+          "0",
+          "1"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma^{cd}U_{[a\\,cd}\\gamma_{b]}\\epsilon^j"
+      },
+      {
+        "label": "R6",
+        "coefficient": [
+          "0",
+          "-1/3"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma_{[b}\\gamma^{cd}U_{a]\\,cd}\\epsilon^j"
+      },
+      {
+        "label": "R7",
+        "coefficient": [
+          "0",
+          "-1/3"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma_{[a}\\gamma^e\\gamma^{cd}U_{e\\,cd}\\gamma_{b]}\\epsilon^j"
+      },
+      {
+        "label": "R8",
+        "coefficient": [
+          "0",
+          "-1/3"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma_{ab}\\gamma^cU^d{}_{dc}\\epsilon^j"
+      }
+    ],
+    "11": [
+      {
+        "label": "V1",
+        "coefficient": [
+          "4",
+          "0"
+        ],
+        "latex": "B_{1}{}^{ab\\,ik}\\varepsilon_{kj}\\gamma_{ab}\\chi^j"
+      },
+      {
+        "label": "V2",
+        "coefficient": [
+          "4",
+          "0"
+        ],
+        "latex": "B_{2}{}^{ab\\,ik}\\varepsilon_{kj}\\gamma_{ab}\\chi^j"
+      },
+      {
+        "label": "V3",
+        "coefficient": [
+          "0",
+          "-32/3"
+        ],
+        "latex": "B_{3}{}^{ab\\,ik}\\varepsilon_{kj}\\gamma_{ab}\\chi^j"
+      },
+      {
+        "label": "V4",
+        "coefficient": [
+          "0",
+          "48"
+        ],
+        "latex": "B_{4}{}^{ab\\,ik}\\varepsilon_{kj}\\gamma_{ab}\\chi^j"
+      },
+      {
+        "label": "V5",
+        "coefficient": [
+          "0",
+          "-12"
+        ],
+        "latex": "B_{5}{}^{ab\\,ik}\\varepsilon_{kj}\\gamma_{ab}\\chi^j"
+      },
+      {
+        "label": "V6",
+        "coefficient": [
+          "0",
+          "-32"
+        ],
+        "latex": "B_{6}{}^{ab\\,ik}\\varepsilon_{kj}\\gamma_{ab}\\chi^j"
+      },
+      {
+        "label": "V7",
+        "coefficient": [
+          "64/3",
+          "0"
+        ],
+        "latex": "B_{7}{}^{ab\\,ik}\\varepsilon_{kj}\\gamma_{ab}\\chi^j"
+      },
+      {
+        "label": "V8",
+        "coefficient": [
+          "0",
+          "-8/3"
+        ],
+        "latex": "B_{8}{}^{ab\\,ik}\\varepsilon_{kj}\\gamma_{ab}\\chi^j"
+      },
+      {
+        "label": "V9",
+        "coefficient": [
+          "0",
+          "-64/3"
+        ],
+        "latex": "B_{9}{}^{ab\\,ik}\\varepsilon_{kj}\\gamma_{ab}\\chi^j"
+      },
+      {
+        "label": "chi1",
+        "coefficient": [
+          "-2/3",
+          "0"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma_{ab}D\\epsilon^j"
+      },
+      {
+        "label": "chi2",
+        "coefficient": [
+          "1/24",
+          "0"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma_{ab}\\gamma^{cd}\\mathscr V_{cd}^{jk}\\epsilon_k"
+      },
+      {
+        "label": "chi3",
+        "coefficient": [
+          "0",
+          "-1/3"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma_{ab}\\gamma^{cd}\\gamma^eU_{e\\,cd}\\epsilon^j"
+      },
+      {
+        "label": "chi4",
+        "coefficient": [
+          "0",
+          "1/3"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma_{ab}\\gamma^cU^d{}_{cd}\\epsilon^j"
+      },
+      {
+        "label": "chi5",
+        "coefficient": [
+          "2/3",
+          "0"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma_{ab}G_4\\epsilon^j"
+      },
+      {
+        "label": "chi6",
+        "coefficient": [
+          "-4/9",
+          "0"
+        ],
+        "latex": "\\mathscr V^{ab\\,i}{}_{j}\\gamma_{ab}t_2\\epsilon^j"
+      }
+    ]
+  }
+}

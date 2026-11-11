@@ -1,0 +1,29 @@
+{
+  "status": "PASS: definition-derived W^-3; published gradient-X sign discrepancy",
+  "full_primary_verified": false,
+  "pole": 3,
+  "written_terms": 18,
+  "source_agreement": {
+    "matching_terms": 17,
+    "gradient_X": "definition +i/4; S23(3.25) -i/4; original six-derivative check in companion report"
+  },
+  "commutator_source_basis_probes": 24,
+  "cubic_even_jet_simplex_probes": 1140,
+  "arithmetic": "Exact Gaussian dyadic coefficients, equality by ==; full exterior polynomials, no coefficient fitting",
+  "checks": {
+    "derivative_gaugino_even_basis_probes": 18,
+    "weyl_two_form_mixed_probes": 180,
+    "field_strength_derivative_probes": 50,
+    "ordered_scalar_hessian_probes": 25,
+    "auxiliary_derivative_probes": 15,
+    "weyl_spinor_independent_odd_generators": 8,
+    "weyl_three_spinor_independent_odd_generators": 40
+  },
+  "published_gradient_X_nonzero_failures": 10,
+  "pending": "W^0, W^-1, W^-2, complete primary S/K/linearity/reality and component projection",
+  "input_sha256": {
+    "scripts/verify_log_step2_w3.py": "695fd40ed6b7756a898e2c72194f4e162cf1a90343ed091e045ad60fca1819ec",
+    "STEP_02_LOG_PRIMARY.md": "5838974d745b8129dd1c412ce59e923a9d4fbfef7c986c30a482f0e0aa34cf8a",
+    "scripts/verify_log_step2_projected.py": "cbe6cf1c7819a7d5c3f064b30abbf43dc084fc2bf4a70a71fed8137b714d78ac"
+  }
+}

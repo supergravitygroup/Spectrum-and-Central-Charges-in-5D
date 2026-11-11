@@ -1,0 +1,14 @@
+{
+  "current_inputs": {
+    "common/generic_action.md": "c644a25849bdb03fca838fd6a5d51d4d22999e87aa5bf984cdf86cb73ea23be3",
+    "computations/generic_ads5_massless/background_blocks.py": "fc9c1fef5d2fa2c33f8e314f5c5080ca621ec43849abaa2f2be5e0756fba9f8f",
+    "generic_combination/action.md": "0a6b33770892f0292de7eb6aab7f86e62bd772dc45d8da4437edb85c4b13d614",
+    "generic_combination/action_inputs.md": "b36220239675944aea723f611c29fb79a9940f40187d4a409f97274b3f77f62d",
+    "generic_combination/background_equations.md": "6ef0f7f8dbe9239f4ecdbf1f0fea3e3b8221580793b48267d39fdf1e82bf228b"
+  },
+  "scope": "Final-paper central charges and massless vectors. Current inputs are checked by checks.py; the manuscript is not a runtime dependency.",
+  "manuscript": {
+    "file": "draft_v109.tex",
+    "sha256": "25be4ea0ef4c3d84032b9990945be1fc017a48de3c80c0f16c2bf4877091b06b"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "composite-vector-correspondence/v1",
+  "scope": "Citation-map items 30 and 31, bounded correspondence identities and numerical Grassmann scalar blocks",
+  "repository_inputs": {
+    "CONVENTIONS.md": "24626b5ede18f3c8d9cde7ddce68931a334000886541321ff689a7858557fb08",
+    "common/conventions.md": "ee1fce39aa24393466c7374cb13f94f6200731aaf7cf5f0c1b21e2580f6321ae",
+    "common/fermion_order.md": "5c306c0404f203ae3552ba3b099eb3535fd3d85c2653d7ce90addfe808d300ed",
+    "common/fields_and_derivatives.md": "4a3669f3fd882c434dc41068a72441929c1558920b923054d6262449419b0b63",
+    "common/details/composite_fields.md": "a96a864b4d82666a928bb3c8f5f45125205634af2048f7f1be515c25ca464fd6",
+    "common/details/linear_vector_construction.md": "ac7069d068e9e40071739f5f994a1a13b22bbdd9f37f854897fa132a225f52c8",
+    "common/details/superconformal_definitions.md": "c7158d85e3db305093c2a307cb8b309c81d9f00f6c5e261f9927cf6273e95aa7",
+    "common/two_derivative_action/details/construction.md": "bb85beaa33a8c06d26011af81cb8485d91cfc7a78260bc0d70e20694312f8c94",
+    "r2/action/details/construction.md": "d509f49a5b588e72d165ac826d9bc07b1cb818c963dea205fc1bb746aafcef91",
+    "common/details/composite_vector_paper_correspondence.md": "6577404cb765cc4ac7e210e867be4918477a4080bb12be26bc79db9c309fc47a"
+  },
+  "implementation_hashes": {
+    "checks.py": "6df7c846b4cfa1374bd244f3992c5bee001f9942a7fab54864087d5254b714f7",
+    "grassmann.py": "d6fba96db62bb9fca2a1324bc149bc79e4b6142b42098c987d0ba2e10bb2188d",
+    "requirements.txt": "2f9c772f32456d897fe7f7535941e02234d1880081c57d604348a529bfbdc473"
+  },
+  "external_source_records": [
+    {
+      "source": "draft_v109.tex",
+      "sha256": "25be4ea0ef4c3d84032b9990945be1fc017a48de3c80c0f16c2bf4877091b06b",
+      "role": "Author-supplied manuscript; composite-vector appendix, eq:compl, eq:compY, eq:compF, eq:EhatE, eq:Dlin, eq:boxc.",
+      "runtime_dependency": false
+    },
+    {
+      "source": "repo_citation_map.md",
+      "sha256": "e9e31278c348766ba776af62512c7e87ced23b53264cce784d898087223ae564",
+      "role": "Composite-vector correspondence; current locator: final-paper citations 30 and 31.",
+      "runtime_dependency": false
+    },
+    {
+      "source": "donor/lagrangians/composite_multiplet/NOTES.md",
+      "sha256": "1cce8f0056d680df9c7024cfa68b633f136c3bf3838cbb2697d538d506828acc",
+      "role": "Coefficient comparison reference; formulas cross-checked against manuscript and existing repository.",
+      "runtime_dependency": false
+    },
+    {
+      "source": "donor/lagrangians/composite_multiplet/op34_check2.py",
+      "sha256": "8025c6bba14dd0f998e32edcd350be49275eb8a4cfa8364ca743099e9f83c285",
+      "role": "Method reference only: formal Grassmann scalar Clifford projection. No code imported.",
+      "runtime_dependency": false
+    },
+    {
+      "source": "donor/lagrangians/composite_multiplet/op34_1608.py",
+      "sha256": "04a55f1bbdd2112417c21a71a39948aaee24079438418f5d4f403c41bc0d3b48",
+      "role": "Source-version comparison reference only; no code imported.",
+      "runtime_dependency": false
+    }
+  ],
+  "notes": [
+    "External source records are provenance only and are never opened by checks.py.",
+    "The new numerical implementation uses its own bitmask exterior algebra and even variation jets; no donor program or file is copied.",
+    "Numerical scalar-block comparisons at two positive triplets with L=2 are finite checks, not a full nonlinear supersymmetry proof.",
+    "All existing scientific formulas and couplings remain unchanged."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "claim": "Final-paper citation 23; draft_v109 eq:acgen and eq:uvgen",
+  "degenerate_scope": "polynomial kinetic congruence remains valid; no complete degenerate-mode spectrum claimed",
+  "domain": "real alpha,beta,zeta; g!=0; L0>0; Q=0; k=-ell**(-2)",
+  "method": "exact symbolic algebra; no numerical coupling samples",
+  "normalization": "S=(1/(2*kappa5**2))*integral e*L; a,c in units pi**2*ell**3/kappa5**2",
+  "producer_sha256": {
+    "action_inputs.py": "37b1a7bbffe7210f25d74ea9226e036018c0cf48a69dc71ec095d32fac6ca52c",
+    "derive.py": "e49d02fb313a3a7e0289af82ec3b4e2b7c3b812a001e338d74f748c5784b32e9"
+  },
+  "regular_pole_conditions": "(2-L0)*(4-3*L0+alpha*g**2*L0**2/2)*(alpha*g**2*L0**2+12*zeta*g**2*L0**2+2*L0-8)!=0",
+  "results": {
+    "a_normalized": "4 - 3*L0",
+    "a_normalized_before_Q": "-(3*L0**2*beta*g**2 + 18*L0**2*g**2*zeta - 12*L0 + 8)/4",
+    "ads_density_before_Q": "L0**2*g**2*(3*L0**2*beta*g**2 + 18*L0**2*g**2*zeta - 12*L0 + 8)",
+    "background_density": "L0**4*alpha*g**4/12 + 5*L0**4*beta*g**4/24 + L0**4*g**4*zeta/16 - L0**3*g**2/2 + 2*L0**2*N*alpha*g**3/3 + 2*L0**2*N*beta*g**3/3 - 5*L0**2*alpha*g**2*k/3 - 5*L0**2*beta*g**2*k/3 - 5*L0**2*g**2*k*zeta + 2*L0**2*g**2 - 2*L0*N*g + 20*L0*k + 4*N**2*alpha*g**2/3 - N**2*beta*g**2/6 - 5*N**2*g**2*zeta/2 - 20*N*alpha*g*k/3 + 10*N*beta*g*k/3 - 4*N*g + 25*alpha*k**2/3 + 10*beta*k**2/3 + 100*k**2*zeta - 2*N**2/L0 - 4*N**3*g*zeta/L0**2 + 20*N**2*k*zeta/L0**2 + N**4*zeta/L0**4",
+    "c_normalized": "(L0**2*alpha*g**2 - 6*L0 + 8)/2",
+    "c_normalized_before_Q": "L0*(L0*alpha*g**2 - L0*beta*g**2 - 6*L0*g**2*zeta + 2)/2",
+    "curvature_coefficients": {
+      "R": "-L0**2*alpha*g**2/12 - L0**2*beta*g**2/12 - L0**2*g**2*zeta/4 + L0 - N*alpha*g/3 + N*beta*g/6 + N**2*zeta/L0**2",
+      "R2": "alpha/24 + beta/24 + zeta/4",
+      "Ricci2": "-alpha/6 - beta/6",
+      "Riemann2": "alpha/8"
+    },
+    "form_pivot": "4*(L0**2*alpha*g**2 + 12*L0**2*g**2*zeta + 2*L0 - 8)/3",
+    "u_mixing": "sqrt(2)/(3*L0*g)",
+    "vacuum_polynomial": "L0**2*g**2*(beta + 6*zeta) - 8*L0 + 8",
+    "vector_K": [
+      [
+        "(4*L0**2*alpha*g**2 - 5*L0**2*beta*g**2 + 18*L0**2*g**2*zeta + 12*L0 + 4*alpha*x - 2*beta*x)/12",
+        "sqrt(2)*L0*g*(2*alpha - beta + 18*zeta)/12",
+        "-(4*L0**2*alpha*g**2 + L0**2*beta*g**2 + 54*L0**2*g**2*zeta + 4*alpha*x - 2*beta*x + 36*x*zeta - 24)/6"
+      ],
+      [
+        "sqrt(2)*L0*g*(2*alpha - beta + 18*zeta)/12",
+        "(2*alpha - beta + 6*zeta)/6",
+        "-sqrt(2)*(L0**2*alpha*g**2 + L0**2*beta*g**2 + 18*L0**2*g**2*zeta - 6*L0 + 6*x*zeta)/(3*L0*g)"
+      ],
+      [
+        "-(4*L0**2*alpha*g**2 + L0**2*beta*g**2 + 54*L0**2*g**2*zeta + 4*alpha*x - 2*beta*x + 36*x*zeta - 24)/6",
+        "-sqrt(2)*(L0**2*alpha*g**2 + L0**2*beta*g**2 + 18*L0**2*g**2*zeta - 6*L0 + 6*x*zeta)/(3*L0*g)",
+        "4*(L0**4*alpha*g**4 + L0**4*beta*g**4 + 18*L0**4*g**4*zeta - 6*L0**3*g**2 + L0**2*alpha*g**2*x + L0**2*beta*g**2*x + 18*L0**2*g**2*x*zeta - 6*L0*x + 6*x**2*zeta)/(3*L0**2*g**2)"
+      ]
+    ],
+    "vector_K0": [
+      [
+        "L0**2*alpha*g**2/3 - 5*L0**2*beta*g**2/12 + 3*L0**2*g**2*zeta/2 + L0",
+        "sqrt(2)*L0*g*(2*alpha - beta + 18*zeta)/12",
+        "-2*L0**2*alpha*g**2/3 - L0**2*beta*g**2/6 - 9*L0**2*g**2*zeta + 4"
+      ],
+      [
+        "sqrt(2)*L0*g*(2*alpha - beta + 18*zeta)/12",
+        "(2*alpha - beta + 6*zeta)/6",
+        "-sqrt(2)*(L0**2*alpha*g**2 + L0**2*beta*g**2 + 18*L0**2*g**2*zeta - 6*L0)/(3*L0*g)"
+      ],
+      [
+        "-2*L0**2*alpha*g**2/3 - L0**2*beta*g**2/6 - 9*L0**2*g**2*zeta + 4",
+        "-sqrt(2)*(L0**2*alpha*g**2 + L0**2*beta*g**2 + 18*L0**2*g**2*zeta - 6*L0)/(3*L0*g)",
+        "4*(L0**4*alpha*g**4 + L0**4*beta*g**4 + 18*L0**4*g**4*zeta - 6*L0**3*g**2)/(3*L0**2*g**2)"
+      ]
+    ],
+    "vector_Zcv": [
+      [
+        "-6*(L0 - 2)",
+        "-2*sqrt(2)*(L0 - 2)/(L0*g)"
+      ],
+      [
+        "-2*sqrt(2)*(L0 - 2)/(L0*g)",
+        "(L0**2*alpha*g**2 - 10*L0 + 16)/(3*L0**2*g**2)"
+      ]
+    ],
+    "vector_Zuv": [
+      [
+        "-6*(L0 - 2)",
+        "0"
+      ],
+      [
+        "0",
+        "(L0**2*alpha*g**2 - 6*L0 + 8)/(3*L0**2*g**2)"
+      ]
+    ]
+  },
+  "source_sha256": {
+    "common/generic_action.md": "c644a25849bdb03fca838fd6a5d51d4d22999e87aa5bf984cdf86cb73ea23be3",
+    "computations/generic_ads5_massless/background_blocks.py": "fc9c1fef5d2fa2c33f8e314f5c5080ca621ec43849abaa2f2be5e0756fba9f8f",
+    "generic_combination/action.md": "0a6b33770892f0292de7eb6aab7f86e62bd772dc45d8da4437edb85c4b13d614",
+    "generic_combination/action_inputs.md": "b36220239675944aea723f611c29fb79a9940f40187d4a409f97274b3f77f62d",
+    "generic_combination/background_equations.md": "6ef0f7f8dbe9239f4ecdbf1f0fea3e3b8221580793b48267d39fdf1e82bf228b"
+  }
+}

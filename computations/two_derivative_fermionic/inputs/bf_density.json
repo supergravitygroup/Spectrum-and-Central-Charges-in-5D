@@ -1,0 +1,61 @@
+[
+  {
+    "name": "triplet",
+    "coefficient": "L/sqrt(2)",
+    "factors": [
+      "trace_Y_eff"
+    ],
+    "source": "05 Eq(5.1), line 1"
+  },
+  {
+    "name": "barred_spinor",
+    "coefficient": "I",
+    "factors": [
+      "bar_lambda_varphi"
+    ],
+    "source": "05 Eq(5.1), line 2"
+  },
+  {
+    "name": "gravitino_spinor",
+    "coefficient": "-L/(2*sqrt(2))",
+    "factors": [
+      "psi_gamma_lambda"
+    ],
+    "source": "05 Eq(5.1), line 3"
+  },
+  {
+    "name": "ordinary_strength",
+    "coefficient": "1/2",
+    "factors": [
+      "F_eff",
+      "E2"
+    ],
+    "source": "05 Eq(5.1), line 4"
+  },
+  {
+    "name": "rho_N",
+    "coefficient": "N",
+    "factors": [
+      "rho_eff"
+    ],
+    "source": "05 Eq(5.1), scalar brace"
+  },
+  {
+    "name": "rho_psi_varphi",
+    "coefficient": "1/2",
+    "factors": [
+      "rho_eff",
+      "psi_gamma_varphi"
+    ],
+    "source": "05 Eq(5.1), scalar brace"
+  },
+  {
+    "name": "rho_psi_psi",
+    "coefficient": "I*L/(4*sqrt(2))",
+    "factors": [
+      "rho_eff",
+      "psi_gamma2_psi"
+    ],
+    "source": "05 Eq(5.1), scalar brace"
+  }
+]

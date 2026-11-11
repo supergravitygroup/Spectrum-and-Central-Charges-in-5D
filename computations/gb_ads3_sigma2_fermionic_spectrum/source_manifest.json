@@ -1,0 +1,57 @@
+{
+  "scope": "Final-paper citation 26: finite numerical fermionic spectra and multiplet checks; generic sample points, five two-derivative H2/S2 levels and constant T2. No universal symbolic completeness certificate.",
+  "manuscript_locators": [
+    "sec:GBprodferm",
+    "eq:Pdef",
+    "eq:Kform",
+    "tab:GBferm",
+    "sec:GBprodspecial"
+  ],
+  "repository_inputs": {
+    "gauss_bonnet/action/gb_splus_action.md": "1502262baee0235b7eca6e9aa99cdaf0aed81f51158311ffd7566efe8dd40e63",
+    "gauss_bonnet/ads5/code/references/COMPONENT_CONVENTIONS.md": "7044a798ec1e9cf837af8b676d472d86dc30339427f8e0d8f0fb1036b1f3b983",
+    "common/two_derivative_action/details/construction.md": "bb85beaa33a8c06d26011af81cb8485d91cfc7a78260bc0d70e20694312f8c94",
+    "computations/gb_ads3_sigma2/model.py": "881d6df7e3480e1dcf4f9a03f144d4bc7e6bde6354f1a72257179212bd9142ec",
+    "gauss_bonnet/product_backgrounds/supersymmetric_ads3_sigma2/details/compensator_fermion.md": "1c60498d8af03aa20a422ef1e4f755d079c55b44540c276fe99722773bae4f17",
+    "gauss_bonnet/product_backgrounds/supersymmetric_ads3_sigma2/fermionic_action_inputs.md": "d28dc952fa1a0c5e127ce0d5d08f1cf0c4c9ce795a99169c5d41a44814c7b55e",
+    "computations/gb_ads3_sigma2_fermionic/ferm2.py": "448250c7ab801a8753829fd69f860f4131ba99e4a7ec0ab5a3390bf072287bef",
+    "computations/gb_ads3_sigma2_fermionic/gauge_modes.py": "77f3e63476df5599ab153d0ef1495c5d2ba67d0bb8a032b9990ce8cc8ba9d313",
+    "computations/gb_ads3_sigma2_fermionic/check_derivatives.py": "c5cf1cf27ad6997d14cb7dd6c41c06a7e61a8563b6c8f1966b9dd7c2140a8ec9",
+    "computations/gb_ads3_sigma2_fermionic/action2.py": "5352659c524d2a43c1e222f4e3686914af8e4a14072951b50ef59e0428e8c786",
+    "computations/gb_ads3_sigma2_fermionic/evalbg.py": "51fd47e498fd4c885896794e53b661133107be269f7b54d7254eed73b814d94b",
+    "computations/gb_ads3_sigma2_fermionic/eval2.py": "f58083b98d960533f3657423a4e02431376598102913debd48047f55fafac56b",
+    "computations/gb_ads3_sigma2_fermionic/checks.py": "62eb676a6d2e9d5e631ab43e0acfafd0c77842d231ef6a93581fe1935846eab5",
+    "computations/gb_ads3_sigma2_fermionic/bderiv2.py": "f293a4ad13f0adc0335d4630f40876b7c6c43d1f62ca0d6a790d935dc983f177",
+    "computations/gb_ads3_sigma2_fermionic/background.py": "98387685e1ed3f0fdf1087eef198546cfed7e91cce1747e3b5f0be80b4dc2bc0",
+    "computations/gb_ads3_sigma2_fermionic/derive.py": "77cdb4e234aa931258adee80019f97cd2a77f7ca264870a404a4046d03646673",
+    "computations/gb_ads3_sigma2_fermionic/deriv2.py": "7bc45998734ab17a9a0681d8b4c2ec365f2094147cbe00e747277be544ec153d",
+    "computations/gb_ads3_sigma2_fermionic/clifford.py": "f192824890b60b07f71b28c67714716c882cf12b87586714840ad8274324d3f2",
+    "computations/gb_ads3_sigma2_fermionic/fengine.py": "d9e42f1fd54fbb783bd52838dce3828d74803465043533174d80fb02e3d983d7",
+    "computations/gb_ads3_sigma2_fermionic/action.py": "cb97fe02099eeb11f965f3a4c96807538b76875b505f1102cec431695f206ad2",
+    "computations/gb_ads3_sigma2_fermionic/parse_density.py": "c4c54d039fa4668ffa21f15895ddac9d22e9e4e82d5fdb1f5e55ce35b27086a4",
+    "computations/gb_ads3_sigma2_fermionic/sources.py": "2c051f610de8936a110d6ad27fd85a05a0fbf57b7d3daf153f3f9b63481fb702",
+    "computations/gb_ads3_sigma2_fermionic/objects2.py": "b254dbfdf5d9c9fa29149dae4f28a338d62f3663e4892d9e83605937e09d7b3a",
+    "computations/gb_ads3_sigma2_fermionic/second2.py": "6c035c58496ef770260a040b58da5b0ebe72e8671d370a9cf6d84ebd01830b46",
+    "computations/gb_ads3_sigma2_fermionic/bgfields.py": "3240391be7475565403bc34bc60995fd6f5759edf9b1cab57b843234c0b1da97",
+    "computations/gb_ads3_sigma2_fermionic/source_manifest.json": "c4c48cd19f7b6670a56bb78e3c61ae05502c6fa5991c58a44e0fb241f8be6cd3",
+    "computations/gb_ads3_sigma2/closed_forms.py": "1a81026c6e4622dee4dd81d63f03ba732e290cd8afa0242aec19576042cfee93",
+    "computations/gb_ads3_sigma2/source_manifest.json": "7654f59f9eb3cada51058af197393af79f740a8da1d85cabb076c74d48a36c2a"
+  },
+  "external_source_records": {
+    "manuscript_v109": {
+      "origin": "draft_v109.tex",
+      "sha256": "25be4ea0ef4c3d84032b9990945be1fc017a48de3c80c0f16c2bf4877091b06b",
+      "runtime_dependency": false
+    }
+  },
+  "implementation_hashes": {
+    "backend.py": "446a4475407638c733a67f11cf77114a8ecb94c523053e8930928445d3cf0eeb",
+    "checks.py": "f5eef994409a8023957fd1300554a7eccb89b92a77f326b7bda4a517364dfa07",
+    "derive.py": "540ea2e4a42099dca4e76b7583dc89b792191df3765fca290a5340eca971f7f3",
+    "matching.py": "beeb1cff37eb322b29c6f6a08cd2ba26afcb30ab9cb1888d65f283defb72ed62",
+    "polynomial.py": "932bcac0988be24b74280ade8bd80fa715567037ccd50d9e48339735acf94b3e",
+    "test_polynomial.py": "0da8e7bf640620618cbf7f5601a48c7f807c190d73767d345a2ce1f930eaa192",
+    "requirements.txt": "987e611f0be6704fbc5b32f3a23cba00ac6e7f1aad5c4afb07fa051b243ea5d7",
+    "test_reproduction.py": "0ce248841eedb2d0def29faa9f58dd19e3f343ffa9263ac25af9f8315a76a360"
+  }
+}

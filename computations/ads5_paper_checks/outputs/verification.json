@@ -1,0 +1,565 @@
+{
+  "status": "PASS_SCOPED_EXACT",
+  "count": 89,
+  "checks": [
+    {
+      "name": "WV quadratic form gives t M",
+      "group": "Weyl vectors",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "constrained vector determinant",
+      "group": "Weyl vectors",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "vector -1: all null-vector rows",
+      "group": "Weyl vectors",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "vector -1: normalized kinetic coefficient",
+      "group": "Weyl vectors",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "vector 1: all null-vector rows",
+      "group": "Weyl vectors",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "vector 1: normalized kinetic coefficient",
+      "group": "Weyl vectors",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "two Maxwell kinetic coefficients",
+      "group": "Weyl vectors",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "W21 derivative terms give paper Wquad after AdS IBP",
+      "group": "Weyl quadratic action",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "current determinant in dimensionless mass",
+      "group": "Weyl vectors",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Majorana C antisymmetry",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Majorana C unitary normalization",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "symplectic Majorana B star B",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "paper epsilon orientation",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "gamma 0 Majorana adjoint",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 0,0",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 0,1",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 0,2",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 0,3",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 0,4",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "gamma 1 Majorana adjoint",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 1,1",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 1,2",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 1,3",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 1,4",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "gamma 2 Majorana adjoint",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 2,2",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 2,3",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 2,4",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "gamma 3 Majorana adjoint",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 3,3",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 3,4",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "gamma 4 Majorana adjoint",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Clifford 4,4",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "paper J squared",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "internal mass convention",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "NW-SE internal mass formal adjoint",
+      "group": "paper reality convention",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q gamma trace, free bivector 0,1",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q gamma trace, free bivector 0,2",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q gamma trace, free bivector 0,3",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q gamma trace, free bivector 0,4",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q gamma trace, free bivector 1,2",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q gamma trace, free bivector 1,3",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q gamma trace, free bivector 1,4",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q gamma trace, free bivector 2,3",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q gamma trace, free bivector 2,4",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q gamma trace, free bivector 3,4",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q annihilates gamma wedge derivative 0",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q annihilates gamma wedge derivative 1",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q annihilates gamma wedge derivative 2",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q annihilates gamma wedge derivative 3",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q annihilates gamma wedge derivative 4",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Q annihilates AdS SUSY curvature term",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X gauge curvature identity",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X gauge derivative identity 0",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X gauge derivative identity 1",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X gauge derivative identity 2",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X gauge derivative identity 3",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X gauge derivative identity 4",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X linearized SUSY shift",
+      "group": "fermion projector",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "mixed fermion trace equations give X polynomial",
+      "group": "Weyl fermions",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "paper gravitino two equivalent factors",
+      "group": "Weyl fermions",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "paper/repo gravitino signed operator",
+      "group": "Weyl fermions",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "massless gravitino coefficient",
+      "group": "Weyl fermions",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "gravitino -1 residue",
+      "group": "Weyl fermions",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X -1: two-derivative action pullback",
+      "group": "Weyl X norm",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X -1: composite embedding",
+      "group": "Weyl X norm",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X -1: full action root",
+      "group": "Weyl X norm",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X -1: kinetic coefficient",
+      "group": "Weyl X norm",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "gravitino 1 residue",
+      "group": "Weyl fermions",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X 1: two-derivative action pullback",
+      "group": "Weyl X norm",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X 1: composite embedding",
+      "group": "Weyl X norm",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X 1: full action root",
+      "group": "Weyl X norm",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "X 1: kinetic coefficient",
+      "group": "Weyl X norm",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "critical q=-2 gravitino",
+      "group": "critical operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "critical q=-2 constrained vector determinant",
+      "group": "critical operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "critical q=6 gravitino",
+      "group": "critical operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "critical q=6 constrained vector determinant",
+      "group": "critical operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "q=6 X double factor",
+      "group": "critical operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "q=-2 vector Smith form",
+      "group": "critical operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "scalar kinetic pullback",
+      "group": "critical operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "q=6 two separate nonzero BF scalar coefficients",
+      "group": "critical operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "LOG parameter map",
+      "group": "LOG displayed operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "LOG massless kinetic coefficient",
+      "group": "LOG displayed operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "LOG coupled row subtraction",
+      "group": "LOG displayed operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "LOG coupled spin-half separation",
+      "group": "LOG displayed operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "LOG spin-half factorization",
+      "group": "LOG displayed operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "LOG TT cubic factorization",
+      "group": "LOG displayed operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "LOG TT masses equal paper nu",
+      "group": "LOG displayed operators",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "LOG critical tau=3/2 massless merger",
+      "group": "LOG displayed operators",
+      "method": "exact",
+      "residual": "0"
+    }
+  ],
+  "python": "3.14.1",
+  "sympy": "1.14.0",
+  "current_inputs": {
+    "weyl2/ads5/quadratic_action.md": "bb925ae834ccab42fcf58889dfebd3c9128886a65ae9ebd1eadcb5462785759c",
+    "weyl2/ads5/details/gauge_constraints.md": "2f6d34c2a64aa523eeaf426e9c18a27c0698425ba535bf9169a98d28acb9e50e",
+    "weyl2/ads5/details/physical_operators.md": "352a6299fff8a0eb96853c71d234535315aba4c47b96123fea789aba8d43f411",
+    "weyl2/ads5/details/kinetic_norms.md": "3b34c3590ecd5db46e12ee01bc7cc2363f874f10d9ae1f24d08732b86acfa81a",
+    "weyl2/ads5/details/critical_branches.md": "108618b10f54283dabb83b909a94e3c2047caeea7adb447e9500c77cb020e9a7",
+    "log/ads5/quadratic_action.md": "674f75df8dff180b09531f28d8a887524517fff9c3deb5cb0953d946564e26ee",
+    "log/ads5/details/physical_operators.md": "729e0a266b9f8405af49a5d901dd2059da72c5ded7bc58fb56897595e447f5b9",
+    "log/ads5/fermionic_spectrum.md": "2d09f454ac3af40494e227b2cb5db36de4e2eb7c1c315f78ddbe82400f20d65a"
+  },
+  "paper_sources": {
+    "final/draft_v109.tex": {
+      "sha256": "25be4ea0ef4c3d84032b9990945be1fc017a48de3c80c0f16c2bf4877091b06b",
+      "locator": "Weyl section: LC2/Wquad/WV/Wgravitino/WX; LOGresult/LOGmap/LOGnu; Appendix A",
+      "status": "final supplied source; not a runtime dependency"
+    },
+    "final/draft_v109.pdf": {
+      "sha256": "7a9cc9d5a727c9e9b96723ca2eee90e20acaea6b29a3400de25f4f98730f47ed",
+      "locator": "Weyl section: LC2/Wquad/WV/Wgravitino/WX; LOGresult/LOGmap/LOGnu; Appendix A",
+      "status": "final supplied source; not a runtime dependency"
+    }
+  },
+  "scope": "Displayed Weyl quadratic densities, formal/physical convention bridge, local operators and LOG reduced equations; no new invariant construction or global boundary-norm calculation."
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "scope": "C24 (2.41b) in flat constant F/X/dW jets, all free spinor and SU(2) slots, explicit degrees zero and two. Uses actual prior scalar polynomial and new vector; not the full curved identity.",
+  "tensor_components": 64,
+  "compared_coefficients": 1856,
+  "max_absolute_residual": 0.0
+}

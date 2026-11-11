@@ -1,0 +1,369 @@
+[
+  {
+    "id": "L-01",
+    "coefficient": "2",
+    "printed_coefficient": "2",
+    "slots": [
+      "rho",
+      "Y"
+    ],
+    "symmetric": false,
+    "weights": [
+      "1",
+      "2"
+    ],
+    "output_weight": "3",
+    "bosonic": true
+  },
+  {
+    "id": "L-02",
+    "coefficient": "-I/2",
+    "printed_coefficient": "-I/2",
+    "slots": [
+      "bar_lambda_i",
+      "lambda_j"
+    ],
+    "symmetric": true,
+    "weights": [
+      "3/2",
+      "3/2"
+    ],
+    "output_weight": "3",
+    "bosonic": false
+  },
+  {
+    "id": "P-01",
+    "coefficient": "I",
+    "printed_coefficient": "I",
+    "slots": [
+      "rho",
+      "Dslash_lambda"
+    ],
+    "symmetric": false,
+    "weights": [
+      "1",
+      "1",
+      "3/2"
+    ],
+    "output_weight": "7/2",
+    "bosonic": false
+  },
+  {
+    "id": "P-02",
+    "coefficient": "2",
+    "printed_coefficient": "2",
+    "slots": [
+      "rho",
+      "lambda"
+    ],
+    "symmetric": false,
+    "weights": [
+      "1",
+      "1",
+      "3/2"
+    ],
+    "output_weight": "7/2",
+    "bosonic": false
+  },
+  {
+    "id": "P-03",
+    "coefficient": "-8",
+    "printed_coefficient": "-8",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true,
+    "weights": [
+      "1",
+      "1",
+      "3/2"
+    ],
+    "output_weight": "7/2",
+    "bosonic": false
+  },
+  {
+    "id": "P-04",
+    "coefficient": "-1/4",
+    "printed_coefficient": "-1/4",
+    "slots": [
+      "F",
+      "lambda"
+    ],
+    "symmetric": false,
+    "weights": [
+      "2",
+      "3/2"
+    ],
+    "output_weight": "7/2",
+    "bosonic": false
+  },
+  {
+    "id": "P-05",
+    "coefficient": "I/2",
+    "printed_coefficient": "1/2",
+    "slots": [
+      "Dslash_rho",
+      "lambda"
+    ],
+    "symmetric": false,
+    "weights": [
+      "1",
+      "1",
+      "3/2"
+    ],
+    "output_weight": "7/2",
+    "bosonic": false
+  },
+  {
+    "id": "P-06",
+    "coefficient": "-1",
+    "printed_coefficient": "-1",
+    "slots": [
+      "Y",
+      "lambda_j"
+    ],
+    "symmetric": false,
+    "weights": [
+      "2",
+      "3/2"
+    ],
+    "output_weight": "7/2",
+    "bosonic": false
+  },
+  {
+    "id": "E-01",
+    "coefficient": "-1",
+    "printed_coefficient": "-1",
+    "slots": [
+      "rho",
+      "F"
+    ],
+    "symmetric": false,
+    "weights": [
+      "1",
+      "1",
+      "2"
+    ],
+    "output_weight": "4",
+    "bosonic": true
+  },
+  {
+    "id": "E-02",
+    "coefficient": "8",
+    "printed_coefficient": "8",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true,
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "output_weight": "4",
+    "bosonic": true
+  },
+  {
+    "id": "E-03",
+    "coefficient": "-I/4",
+    "printed_coefficient": "-I/4",
+    "slots": [
+      "bar_lambda",
+      "lambda"
+    ],
+    "symmetric": true,
+    "weights": [
+      "1",
+      "3/2",
+      "3/2"
+    ],
+    "output_weight": "4",
+    "bosonic": false
+  },
+  {
+    "id": "E-04",
+    "coefficient": "-1/8",
+    "printed_coefficient": "-1/8",
+    "slots": [
+      "F",
+      "F"
+    ],
+    "symmetric": true,
+    "weights": [
+      "2",
+      "2"
+    ],
+    "output_weight": "4",
+    "bosonic": true
+  },
+  {
+    "id": "N-01",
+    "coefficient": "1",
+    "printed_coefficient": "1",
+    "slots": [
+      "rho",
+      "Box_rho"
+    ],
+    "symmetric": false,
+    "weights": [
+      "1",
+      "2",
+      "1"
+    ],
+    "output_weight": "4",
+    "bosonic": true
+  },
+  {
+    "id": "N-02",
+    "coefficient": "1/2",
+    "printed_coefficient": "1/2",
+    "slots": [
+      "Drho",
+      "Drho"
+    ],
+    "symmetric": true,
+    "weights": [
+      "2",
+      "2"
+    ],
+    "output_weight": "4",
+    "bosonic": true
+  },
+  {
+    "id": "N-03",
+    "coefficient": "-1/4",
+    "printed_coefficient": "-1/4",
+    "slots": [
+      "F",
+      "F"
+    ],
+    "symmetric": true,
+    "weights": [
+      "2",
+      "2"
+    ],
+    "output_weight": "4",
+    "bosonic": true
+  },
+  {
+    "id": "N-04",
+    "coefficient": "1",
+    "printed_coefficient": "1",
+    "slots": [
+      "Y",
+      "Y"
+    ],
+    "symmetric": true,
+    "weights": [
+      "2",
+      "2"
+    ],
+    "output_weight": "4",
+    "bosonic": true
+  },
+  {
+    "id": "N-05",
+    "coefficient": "8",
+    "printed_coefficient": "8",
+    "slots": [
+      "rho",
+      "F"
+    ],
+    "symmetric": false,
+    "weights": [
+      "1",
+      "2",
+      "1"
+    ],
+    "output_weight": "4",
+    "bosonic": true
+  },
+  {
+    "id": "N-06",
+    "coefficient": "-4",
+    "printed_coefficient": "-4",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true,
+    "weights": [
+      "1",
+      "1",
+      "2"
+    ],
+    "output_weight": "4",
+    "bosonic": true
+  },
+  {
+    "id": "N-07",
+    "coefficient": "-104/3",
+    "printed_coefficient": "-104/3",
+    "slots": [
+      "rho",
+      "rho"
+    ],
+    "symmetric": true,
+    "weights": [
+      "1",
+      "1",
+      "2"
+    ],
+    "output_weight": "4",
+    "bosonic": true
+  },
+  {
+    "id": "N-08",
+    "coefficient": "-1/2",
+    "printed_coefficient": "-1/2",
+    "slots": [
+      "bar_lambda",
+      "Dslash_lambda"
+    ],
+    "symmetric": false,
+    "weights": [
+      "3/2",
+      "1",
+      "3/2"
+    ],
+    "output_weight": "4",
+    "bosonic": false
+  },
+  {
+    "id": "N-09",
+    "coefficient": "I",
+    "printed_coefficient": "I",
+    "slots": [
+      "bar_lambda",
+      "lambda"
+    ],
+    "symmetric": true,
+    "weights": [
+      "3/2",
+      "1",
+      "3/2"
+    ],
+    "output_weight": "4",
+    "bosonic": false
+  },
+  {
+    "id": "N-10",
+    "coefficient": "16*I",
+    "printed_coefficient": "16*I",
+    "slots": [
+      "rho",
+      "lambda"
+    ],
+    "symmetric": false,
+    "weights": [
+      "1",
+      "3/2",
+      "3/2"
+    ],
+    "output_weight": "4",
+    "bosonic": false
+  }
+]

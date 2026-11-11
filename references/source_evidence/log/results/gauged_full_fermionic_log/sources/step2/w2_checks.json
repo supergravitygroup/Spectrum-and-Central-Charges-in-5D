@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "date": "2026-09-23",
+  "scope": "Complete W^-2 projected coefficient; no claim for full-primary S/K/linearity or reality",
+  "source_agreement": "12 of 12 printed W^-2 terms agree; W^-3 discrepancy unchanged",
+  "arithmetic": "Exact equality of Gaussian dyadic exterior-polynomial coefficients; no fitting",
+  "basis_probes": {
+    "single odd channels": 4,
+    "Y": 1,
+    "ordered Hessian": 25,
+    "gradient W times gradient X": 75,
+    "W quadratic polarization": 55,
+    "W and odd channels": 30,
+    "F and Weyl fermions": 20,
+    "uncontracted derivative W": 50,
+    "Weyl tensor descendant cancellation": 30,
+    "X W F cancellation": 100,
+    "X and Weyl spinor": 3,
+    "gradient W and Weyl spinor cancellation": 5,
+    "combined nonzero fields": 1
+  },
+  "total_basis_probes": 399,
+  "delta_lambda_row_checks": 308,
+  "uncontracted_DDX_explicit_W_checks": 399,
+  "elapsed_seconds": 31.65,
+  "script_sha256": "de757685b07fe2e88d644b80832952f3585757a659d6d5ee02f417bcfce042e0"
+}

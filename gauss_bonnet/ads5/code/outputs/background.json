@@ -1,0 +1,45 @@
+{
+  "scope": "selected-branch S0/S1 calculation with source coefficients; other-field zeros use the supplied analytic ledger",
+  "higher_derivative_source_terms": {
+    "Weyl_sigma_N:2": "-L**4*g**4/6 - 4*L**2*N*g**3/3 + 10*L**2*g**2*k/3 - 8*N**2*g**2/3 + 40*N*g*k/3 - 50*k**2/3",
+    "LOG_seed:46": "-125*k**2/6",
+    "LOG_seed:47": "65*L**2*g**2*k/3",
+    "LOG_seed:48": "80*N*g*k/3",
+    "LOG_seed:49": "-7*L**4*g**4/12",
+    "LOG_seed:50": "-8*L**2*N*g**3/3",
+    "LOG_seed:51": "2*N**2*g**2/3",
+    "LOG_seed:71": "-15*L**2*g**2*k",
+    "LOG_seed:74": "15*k**2/2",
+    "LOG_seed:75": "0",
+    "LOG_seed:76": "-40*N*g*k",
+    "LOG_seed:80": "-L**4*g**4/4"
+  },
+  "S0_density": "-(2*L**5*g**4*lambda_GB + L**4*g**2 + 8*L**3*N*g**3*lambda_GB - 20*L**3*g**2*k*lambda_GB - 4*L**3*g**2 + 4*L**2*N*g - 40*L**2*k + 4*L*N**2*g**2*lambda_GB + 8*L*N*g + 60*L*k**2*lambda_GB + 4*N**2)/(2*L)",
+  "S1_before_boundary_transfers": "-4*L**3*ell*g**4*lambda_GB - 3*L**2*ell*g**2/2 - 4*L**2*g**3*lambda_GB*n + L**2*g**2*lambda_GB*r/2 - 8*L*N*ell*g**3*lambda_GB + 2*L*box_ell*g**2*lambda_GB + 20*L*ell*g**2*k*lambda_GB + 4*L*ell*g**2 - 2*L*g*n + L*r - 2*N*ell*g - 4*N*g**2*lambda_GB*n - 2*box_ell + 4*box_n*g*lambda_GB + 20*ell*k - 4*g*n - 3*k*lambda_GB*r - 4*N*n/L + 2*N**2*ell/L**2",
+  "total_divergence_coefficients": {
+    "box_ell": "2*L*g**2*lambda_GB - 2",
+    "box_n": "4*g*lambda_GB"
+  },
+  "tadpoles": {
+    "L": "-(8*L**5*g**4*lambda_GB + 3*L**4*g**2 + 16*L**3*N*g**3*lambda_GB - 40*L**3*g**2*k*lambda_GB - 8*L**3*g**2 + 4*L**2*N*g - 40*L**2*k - 4*N**2)/(2*L**2)",
+    "N": "-2*(2*L**3*g**3*lambda_GB + L**2*g + 2*L*N*g**2*lambda_GB + 2*L*g + 2*N)/L",
+    "metric_trace": "-(2*L**5*g**4*lambda_GB + L**4*g**2 + 8*L**3*N*g**3*lambda_GB - 12*L**3*g**2*k*lambda_GB - 4*L**3*g**2 + 4*L**2*N*g - 24*L**2*k + 4*L*N**2*g**2*lambda_GB + 8*L*N*g + 12*L*k**2*lambda_GB + 4*N**2)/(4*L)"
+  },
+  "background": {
+    "L": "x",
+    "N": "-3*g*x**2/2",
+    "k": "-g**2*x**2/2",
+    "lambda_GB": "(2 - 2*x)/(g**2*x**2)"
+  },
+  "positive_root_x": "2/(sqrt(2*a + 1) + 1)",
+  "domain": "g != 0; a >= -1/2; 0 < x <= 2; scalar patch L > 0",
+  "residuals": {
+    "scalar L variation": "0",
+    "scalar N variation": "0",
+    "metric scaling cross-check": "0",
+    "GB-S+ tadpole: L": "0",
+    "GB-S+ tadpole: N": "0",
+    "GB-S+ tadpole: metric_trace": "0",
+    "selected root equation": "0"
+  }
+}

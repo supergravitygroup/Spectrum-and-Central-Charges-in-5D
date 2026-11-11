@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "scope": "generic superform, current and BF slot interface only; conditional on true linear multiplet; not a verification of the expanded LOG polynomial",
+  "checks": {
+    "indexed_spinor_lowering": "PASS: all ten independent Sigma generators, exact Gaussian rational matrices",
+    "graded_pullback": "PASS: all 48 subsets for p=4,5; matches source (8.27); potential coefficients -1,+3/2",
+    "full_indexed_current_and_potential": "PASS: five currents and ten three-form components, all three symmetric triplet bases, independent Grassmann generators",
+    "BF_coefficients": "PASS: all seven slots, including +A.P from the ordinary four-form",
+    "weights": "PASS: all BF terms weight5; both completions weight4"
+  },
+  "pullback_coefficients": {
+    "4": [
+      "1",
+      "-2",
+      "-3/2",
+      "1/2",
+      "1/16"
+    ],
+    "5": [
+      "1",
+      "5/2",
+      "-5/2",
+      "-5/4",
+      "5/16",
+      "1/32"
+    ]
+  },
+  "literal_C24_2_50_minus_covariant_current": "2 Q1 = i bar(psi_b) gamma^{ba} phi",
+  "action_current": "P=E+Q1+Q2",
+  "potential_coefficients": [
+    1,
+    -3
+  ],
+  "sources": {
+    "sources/certification_20260925/form/1410.8682v2.html": "7d59ad6e972849db040802aecdd9ed3c9fc5cb4426ce743df9dceda793c7f64d",
+    "STEP_02_LOG_PRIMARY.md": "378b6ddb76748443a9734d54636a7ed606056bcfca327d29960db80c5cc786d7",
+    "notes/07_step1_linear_bridge_independent_check.md": "b6a7b03e6c53115d6aaa7a43f0b6d532909a3984231c35a814e798eb469b82d5",
+    "scripts/verify_log_form_interface.py": "9c1a94c85c968fcfb4bd914b140d86d8973e329189d15cd7f71e6dadc8387387"
+  }
+}

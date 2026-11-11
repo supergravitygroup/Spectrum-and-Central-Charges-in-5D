@@ -1,0 +1,1430 @@
+{
+  "scope": "Ordinary-field hand expansion of 66 direct origins; six connection/derivative origins explicitly retained for further hand expansion",
+  "lock": "UNG-WEYL2-OP58-CONVENTIONS-v5",
+  "blocks": {
+    "1": [
+      {
+        "coefficient": [
+          "-1/32",
+          "0"
+        ],
+        "latex": "\\gamma_{cd} \\gamma_{ef}\\widehat C_{ab}{}^{ef}\\widehat C^{abcd}\\epsilon^i",
+        "origin": "R4",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "-1/4"
+        ],
+        "latex": "\\gamma_{cd} \\gamma^{ef} \\gamma_{b]}(\\mathcal D_{[a}T_{ef})\\widehat C^{abcd}\\epsilon^i",
+        "origin": "R5",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "1/12"
+        ],
+        "latex": "\\gamma_{cd} \\gamma_{[b} \\gamma^{ef}(\\mathcal D_{a]}T_{ef})\\widehat C^{abcd}\\epsilon^i",
+        "origin": "R6",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "1/12"
+        ],
+        "latex": "\\gamma_{cd} \\gamma_{[a} \\gamma^{g} \\gamma^{ef} \\gamma_{b]}(\\mathcal D_gT_{ef})\\widehat C^{abcd}\\epsilon^i",
+        "origin": "R7",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "1/12"
+        ],
+        "latex": "\\gamma_{cd} \\gamma_{ab} \\gamma^{e}(\\mathcal D^fT_{fe})\\widehat C^{abcd}\\epsilon^i",
+        "origin": "R8",
+        "rank": "ordered gamma product"
+      }
+    ],
+    "2": [
+      {
+        "coefficient": [
+          "0",
+          "-1"
+        ],
+        "latex": "\\gamma_c \\gamma_{de}\\widehat C_{ab}{}^{de}(\\mathcal D^aT^{bc})\\epsilon^i",
+        "origin": "R4",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "8",
+          "0"
+        ],
+        "latex": "\\gamma_c \\gamma^{de} \\gamma_{b]}(\\mathcal D_{[a}T_{de})(\\mathcal D^aT^{bc})\\epsilon^i",
+        "origin": "R5",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "-8/3",
+          "0"
+        ],
+        "latex": "\\gamma_c \\gamma_{[b} \\gamma^{de}(\\mathcal D_{a]}T_{de})(\\mathcal D^aT^{bc})\\epsilon^i",
+        "origin": "R6",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "-8/3",
+          "0"
+        ],
+        "latex": "\\gamma_c \\gamma_{[a} \\gamma^{f} \\gamma^{de} \\gamma_{b]}(\\mathcal D_fT_{de})(\\mathcal D^aT^{bc})\\epsilon^i",
+        "origin": "R7",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "-8/3",
+          "0"
+        ],
+        "latex": "\\gamma_c \\gamma_{ab} \\gamma^{d}(\\mathcal D^eT_{ed})(\\mathcal D^aT^{bc})\\epsilon^i",
+        "origin": "R8",
+        "rank": "ordered gamma product"
+      }
+    ],
+    "3": [
+      {
+        "coefficient": [
+          "32/3",
+          "0"
+        ],
+        "latex": "D^2\\epsilon^i",
+        "origin": "chi1",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "16/3"
+        ],
+        "latex": "\\gamma^{ab} \\gamma^{c}(\\mathcal D_cT_{ab})D\\epsilon^i",
+        "origin": "chi3",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "-16/3"
+        ],
+        "latex": "\\gamma^{a}(\\mathcal D^bT_{ab})D\\epsilon^i",
+        "origin": "chi4",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "-32/3",
+          "0"
+        ],
+        "latex": "D\\gamma^{rstu}T_{rs}T_{tu}\\epsilon^i",
+        "origin": "chi5",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "64/9",
+          "0"
+        ],
+        "latex": "T^2D\\epsilon^i",
+        "origin": "chi6",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "16/3",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D_a\\chi}\\gamma^a\\chi\\big)\\epsilon^i",
+        "origin": "D1",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "16/3",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D_a\\chi}\\gamma^a\\gamma_p\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "D1",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "-8/3",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D_a\\chi}\\gamma^a\\gamma_{pq}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "D1",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "80/9"
+        ],
+        "latex": "\\big(\\bar\\chi(\\gamma\\!\\cdot\\!T)\\chi\\big)\\epsilon^i",
+        "origin": "D2",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "80/9"
+        ],
+        "latex": "\\big(\\bar\\chi(\\gamma\\!\\cdot\\!T)\\gamma_p\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "D2",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "-40/9"
+        ],
+        "latex": "\\big(\\bar\\chi(\\gamma\\!\\cdot\\!T)\\gamma_{pq}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "D2",
+        "rank": 2
+      }
+    ],
+    "4": [
+      {
+        "coefficient": [
+          "1/2",
+          "0"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{ab}\\gamma_c\\mathcal D^c\\widehat R(Q)_{ab}\\big)\\epsilon^i",
+        "origin": "T1",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "1/2",
+          "0"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{ab}\\gamma_p\\gamma_c\\mathcal D^c\\widehat R(Q)_{ab}\\big)\\gamma^p\\epsilon^i",
+        "origin": "T1",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "-1/4",
+          "0"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{ab}\\gamma_{pq}\\gamma_c\\mathcal D^c\\widehat R(Q)_{ab}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "T1",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "3/32",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_c\\mathcal D^c\\widehat R(Q)_{ab}\\big)\\epsilon^i",
+        "origin": "T2",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "3/32",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_p\\gamma_c\\mathcal D^c\\widehat R(Q)_{ab}\\big)\\gamma^p\\epsilon^i",
+        "origin": "T2",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "-3/64",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_{pq}\\gamma_c\\mathcal D^c\\widehat R(Q)_{ab}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "T2",
+        "rank": 2
+      }
+    ],
+    "5": [
+      {
+        "coefficient": [
+          "1/2",
+          "0"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{ab}\\gamma_a\\mathcal D^c\\widehat R(Q)_{bc}\\big)\\epsilon^i",
+        "origin": "T1",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "1/2",
+          "0"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{ab}\\gamma_p\\gamma_a\\mathcal D^c\\widehat R(Q)_{bc}\\big)\\gamma^p\\epsilon^i",
+        "origin": "T1",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "-1/4",
+          "0"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{ab}\\gamma_{pq}\\gamma_a\\mathcal D^c\\widehat R(Q)_{bc}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "T1",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "3/32",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_a\\mathcal D^c\\widehat R(Q)_{bc}\\big)\\epsilon^i",
+        "origin": "T2",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "3/32",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_p\\gamma_a\\mathcal D^c\\widehat R(Q)_{bc}\\big)\\gamma^p\\epsilon^i",
+        "origin": "T2",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "-3/64",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_{pq}\\gamma_a\\mathcal D^c\\widehat R(Q)_{bc}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "T2",
+        "rank": 2
+      }
+    ],
+    "6": [
+      {
+        "coefficient": [
+          "0",
+          "-16/3"
+        ],
+        "latex": "\\gamma^{ab} \\gamma^c D(\\mathcal D_aT_{bc})\\epsilon^i",
+        "origin": "chi1",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "8/3",
+          "0"
+        ],
+        "latex": "\\gamma^{ab} \\gamma^c \\gamma^{de} \\gamma^{f}(\\mathcal D_fT_{de})(\\mathcal D_aT_{bc})\\epsilon^i",
+        "origin": "chi3",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "-8/3",
+          "0"
+        ],
+        "latex": "\\gamma^{ab} \\gamma^c \\gamma^{d}(\\mathcal D^eT_{de})(\\mathcal D_aT_{bc})\\epsilon^i",
+        "origin": "chi4",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "16/3"
+        ],
+        "latex": "\\gamma^{ab} \\gamma^c \\gamma^{rstu}T_{rs}T_{tu}(\\mathcal D_aT_{bc})\\epsilon^i",
+        "origin": "chi5",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "-32/9"
+        ],
+        "latex": "\\gamma^{ab} \\gamma^c T^2(\\mathcal D_aT_{bc})\\epsilon^i",
+        "origin": "chi6",
+        "rank": "ordered gamma product"
+      }
+    ],
+    "7": [
+      {
+        "coefficient": [
+          "0",
+          "-128/9"
+        ],
+        "latex": "T^{ab}\\big(\\bar\\chi\\gamma_{ab}\\chi\\big)\\epsilon^i",
+        "origin": "T21",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-128/9"
+        ],
+        "latex": "T^{ab}\\big(\\bar\\chi\\gamma_{ab}\\gamma_p\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "T21",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "64/9"
+        ],
+        "latex": "T^{ab}\\big(\\bar\\chi\\gamma_{ab}\\gamma_{pq}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "T21",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "-8/3"
+        ],
+        "latex": "T^{ab}\\big(\\overline{\\widehat R(Q)}_{ab}\\chi\\big)\\epsilon^i",
+        "origin": "T22",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-8/3"
+        ],
+        "latex": "T^{ab}\\big(\\overline{\\widehat R(Q)}_{ab}\\gamma_p\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "T22",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "4/3"
+        ],
+        "latex": "T^{ab}\\big(\\overline{\\widehat R(Q)}_{ab}\\gamma_{pq}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "T22",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "256/9",
+          "0"
+        ],
+        "latex": "DT^2\\epsilon^i",
+        "origin": "chi1",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "128/9"
+        ],
+        "latex": "\\gamma^{ab} \\gamma^{c}(\\mathcal D_cT_{ab})T^2\\epsilon^i",
+        "origin": "chi3",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "-128/9"
+        ],
+        "latex": "\\gamma^{a}(\\mathcal D^bT_{ab})T^2\\epsilon^i",
+        "origin": "chi4",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "-256/9",
+          "0"
+        ],
+        "latex": "T^2\\gamma^{rstu}T_{rs}T_{tu}\\epsilon^i",
+        "origin": "chi5",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "512/27",
+          "0"
+        ],
+        "latex": "T^2^2\\epsilon^i",
+        "origin": "chi6",
+        "rank": "ordered gamma product"
+      }
+    ],
+    "8": [
+      {
+        "coefficient": [
+          "8/3",
+          "0"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{ab}\\gamma_a \\mathcal D_b\\chi\\big)\\epsilon^i",
+        "origin": "T1",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "8/3",
+          "0"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{ab}\\gamma_p\\gamma_a \\mathcal D_b\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "T1",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "-4/3",
+          "0"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{ab}\\gamma_{pq}\\gamma_a \\mathcal D_b\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "T1",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "1/2",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_a \\mathcal D_b\\chi\\big)\\epsilon^i",
+        "origin": "T2",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "1/2",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_p\\gamma_a \\mathcal D_b\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "T2",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "-1/4",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_{pq}\\gamma_a \\mathcal D_b\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "T2",
+        "rank": 2
+      }
+    ],
+    "9": [
+      {
+        "coefficient": [
+          "2/3",
+          "0"
+        ],
+        "latex": "\\gamma_{ab} \\gamma_{ef}\\widehat C_{cd}{}^{ef}T^{ab}T^{cd}\\epsilon^i",
+        "origin": "R4",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "16/3"
+        ],
+        "latex": "\\gamma_{ab} \\gamma^{ef} \\gamma_{d]}(\\mathcal D_{[c}T_{ef})T^{ab}T^{cd}\\epsilon^i",
+        "origin": "R5",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "-16/9"
+        ],
+        "latex": "\\gamma_{ab} \\gamma_{[d} \\gamma^{ef}(\\mathcal D_{c]}T_{ef})T^{ab}T^{cd}\\epsilon^i",
+        "origin": "R6",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "-16/9"
+        ],
+        "latex": "\\gamma_{ab} \\gamma_{[c} \\gamma^{g} \\gamma^{ef} \\gamma_{d]}(\\mathcal D_gT_{ef})T^{ab}T^{cd}\\epsilon^i",
+        "origin": "R7",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "-16/9"
+        ],
+        "latex": "\\gamma_{ab} \\gamma_{cd} \\gamma^{e}(\\mathcal D^fT_{fe})T^{ab}T^{cd}\\epsilon^i",
+        "origin": "R8",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "0",
+          "-1/6"
+        ],
+        "latex": "T^{cd}\\big(\\bar\\chi\\gamma^{ab}\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\epsilon^i",
+        "origin": "Tfirst1",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-1/6"
+        ],
+        "latex": "T^{cd}\\big(\\bar\\chi\\gamma^{ab}\\gamma_p\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\gamma^p\\epsilon^i",
+        "origin": "Tfirst1",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "1/12"
+        ],
+        "latex": "T^{cd}\\big(\\bar\\chi\\gamma^{ab}\\gamma_{pq}\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "Tfirst1",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "-1/32"
+        ],
+        "latex": "T^{cd}\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\epsilon^i",
+        "origin": "Tfirst2",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-1/32"
+        ],
+        "latex": "T^{cd}\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_p\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\gamma^p\\epsilon^i",
+        "origin": "Tfirst2",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "1/64"
+        ],
+        "latex": "T^{cd}\\big(\\overline{\\widehat R(Q)}^{ab}\\gamma_{pq}\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "Tfirst2",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "-1/6"
+        ],
+        "latex": "T^{ab}\\big(\\bar\\chi\\gamma^{cd}\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\epsilon^i",
+        "origin": "Tsecond1",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-1/6"
+        ],
+        "latex": "T^{ab}\\big(\\bar\\chi\\gamma^{cd}\\gamma_p\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\gamma^p\\epsilon^i",
+        "origin": "Tsecond1",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "1/12"
+        ],
+        "latex": "T^{ab}\\big(\\bar\\chi\\gamma^{cd}\\gamma_{pq}\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "Tsecond1",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "-1/32"
+        ],
+        "latex": "T^{ab}\\big(\\overline{\\widehat R(Q)}^{cd}\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\epsilon^i",
+        "origin": "Tsecond2",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-1/32"
+        ],
+        "latex": "T^{ab}\\big(\\overline{\\widehat R(Q)}^{cd}\\gamma_p\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\gamma^p\\epsilon^i",
+        "origin": "Tsecond2",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "1/64"
+        ],
+        "latex": "T^{ab}\\big(\\overline{\\widehat R(Q)}^{cd}\\gamma_{pq}\\gamma_{ab}\\widehat R(Q)_{cd}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "Tsecond2",
+        "rank": 2
+      }
+    ],
+    "10": [
+      {
+        "coefficient": [
+          "-9/64",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D_c\\widehat R(Q)^{ab}}\\gamma^c\\widehat R(Q)_{ab}\\big)\\epsilon^i",
+        "origin": "V1",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "-9/64",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D_c\\widehat R(Q)^{ab}}\\gamma^c\\gamma_p\\widehat R(Q)_{ab}\\big)\\gamma^p\\epsilon^i",
+        "origin": "V1",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "9/128",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D_c\\widehat R(Q)^{ab}}\\gamma^c\\gamma_{pq}\\widehat R(Q)_{ab}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V1",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "-9/64",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^c\\widehat R(Q)^{b]}{}_c}\\gamma^{[a}\\widehat R(Q)_{ab}\\big)\\epsilon^i",
+        "origin": "V2",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "-9/64",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^c\\widehat R(Q)^{b]}{}_c}\\gamma^{[a}\\gamma_p\\widehat R(Q)_{ab}\\big)\\gamma^p\\epsilon^i",
+        "origin": "V2",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "9/128",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^c\\widehat R(Q)^{b]}{}_c}\\gamma^{[a}\\gamma_{pq}\\widehat R(Q)_{ab}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V2",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "-3/8"
+        ],
+        "latex": "\\big(T^{ef}\\overline{\\widehat R(Q)}_{ef}\\gamma^{ab}\\widehat R(Q)_{ab}\\big)\\epsilon^i",
+        "origin": "V3",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-3/8"
+        ],
+        "latex": "\\big(T^{ef}\\overline{\\widehat R(Q)}_{ef}\\gamma^{ab}\\gamma_p\\widehat R(Q)_{ab}\\big)\\gamma^p\\epsilon^i",
+        "origin": "V3",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "3/16"
+        ],
+        "latex": "\\big(T^{ef}\\overline{\\widehat R(Q)}_{ef}\\gamma^{ab}\\gamma_{pq}\\widehat R(Q)_{ab}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V3",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "-27/16"
+        ],
+        "latex": "T^{cd}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\gamma^{[a}\\gamma_d\\widehat R(Q)_{ab}\\big)\\epsilon^i",
+        "origin": "V4",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-27/16"
+        ],
+        "latex": "T^{cd}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\gamma^{[a}\\gamma_d\\gamma_p\\widehat R(Q)_{ab}\\big)\\gamma^p\\epsilon^i",
+        "origin": "V4",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "27/32"
+        ],
+        "latex": "T^{cd}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\gamma^{[a}\\gamma_d\\gamma_{pq}\\widehat R(Q)_{ab}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V4",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "-27/64"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\widehat R(Q)_{ab}\\big)\\epsilon^i",
+        "origin": "V5",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-27/64"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\gamma_p\\widehat R(Q)_{ab}\\big)\\gamma^p\\epsilon^i",
+        "origin": "V5",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "27/128"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\gamma_{pq}\\widehat R(Q)_{ab}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V5",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "9/8"
+        ],
+        "latex": "T^{c[a}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\widehat R(Q)_{ab}\\big)\\epsilon^i",
+        "origin": "V6",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "9/8"
+        ],
+        "latex": "T^{c[a}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\gamma_p\\widehat R(Q)_{ab}\\big)\\gamma^p\\epsilon^i",
+        "origin": "V6",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "-9/16"
+        ],
+        "latex": "T^{c[a}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\gamma_{pq}\\widehat R(Q)_{ab}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V6",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "-3/4",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^{b]}\\chi}\\gamma^{[a}\\widehat R(Q)_{ab}\\big)\\epsilon^i",
+        "origin": "V7",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "-3/4",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^{b]}\\chi}\\gamma^{[a}\\gamma_p\\widehat R(Q)_{ab}\\big)\\gamma^p\\epsilon^i",
+        "origin": "V7",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "3/8",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^{b]}\\chi}\\gamma^{[a}\\gamma_{pq}\\widehat R(Q)_{ab}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V7",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "-3/32"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\widehat R(Q)_{ab}\\big)\\epsilon^i",
+        "origin": "V8",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-3/32"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\gamma_p\\widehat R(Q)_{ab}\\big)\\gamma^p\\epsilon^i",
+        "origin": "V8",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "3/64"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\gamma_{pq}\\widehat R(Q)_{ab}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V8",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "3/4"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{[a}(\\gamma\\!\\cdot\\!T)\\gamma^{b]}\\widehat R(Q)_{ab}\\big)\\epsilon^i",
+        "origin": "V9",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "3/4"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{[a}(\\gamma\\!\\cdot\\!T)\\gamma^{b]}\\gamma_p\\widehat R(Q)_{ab}\\big)\\gamma^p\\epsilon^i",
+        "origin": "V9",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "-3/8"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{[a}(\\gamma\\!\\cdot\\!T)\\gamma^{b]}\\gamma_{pq}\\widehat R(Q)_{ab}\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V9",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "-1/24",
+          "0"
+        ],
+        "latex": "\\widehat R(V)^{ab\\,kl}\\gamma_{ab}{}^{cd}\\widehat R(V)_{cd\\,kl}\\epsilon^i",
+        "origin": "R1",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "1/24",
+          "0"
+        ],
+        "latex": "\\widehat R(V)^{ab\\,kl}\\gamma^{cd} \\gamma_{ab}\\widehat R(V)_{cd\\,kl}\\epsilon^i",
+        "origin": "R2",
+        "rank": "ordered gamma product"
+      },
+      {
+        "coefficient": [
+          "1/48",
+          "0"
+        ],
+        "latex": "\\widehat R(V)^{ab\\,kl}\\gamma_{ab} \\gamma^{cd}\\widehat R(V)_{cd\\,kl}\\epsilon^i",
+        "origin": "R3",
+        "rank": "ordered gamma product"
+      }
+    ],
+    "11": [
+      {
+        "coefficient": [
+          "3/4",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D_c\\widehat R(Q)^{ab}}\\gamma^c\\gamma_{ab}\\chi\\big)\\epsilon^i",
+        "origin": "V1",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "3/4",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D_c\\widehat R(Q)^{ab}}\\gamma^c\\gamma_p\\gamma_{ab}\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "V1",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "-3/8",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D_c\\widehat R(Q)^{ab}}\\gamma^c\\gamma_{pq}\\gamma_{ab}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V1",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "3/4",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^c\\widehat R(Q)^{b]}{}_c}\\gamma^{[a}\\gamma_{ab}\\chi\\big)\\epsilon^i",
+        "origin": "V2",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "3/4",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^c\\widehat R(Q)^{b]}{}_c}\\gamma^{[a}\\gamma_p\\gamma_{ab}\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "V2",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "-3/8",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^c\\widehat R(Q)^{b]}{}_c}\\gamma^{[a}\\gamma_{pq}\\gamma_{ab}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V2",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "2"
+        ],
+        "latex": "\\big(T^{ef}\\overline{\\widehat R(Q)}_{ef}\\gamma^{ab}\\gamma_{ab}\\chi\\big)\\epsilon^i",
+        "origin": "V3",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "2"
+        ],
+        "latex": "\\big(T^{ef}\\overline{\\widehat R(Q)}_{ef}\\gamma^{ab}\\gamma_p\\gamma_{ab}\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "V3",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "-1"
+        ],
+        "latex": "\\big(T^{ef}\\overline{\\widehat R(Q)}_{ef}\\gamma^{ab}\\gamma_{pq}\\gamma_{ab}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V3",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "9"
+        ],
+        "latex": "T^{cd}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\gamma^{[a}\\gamma_d\\gamma_{ab}\\chi\\big)\\epsilon^i",
+        "origin": "V4",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "9"
+        ],
+        "latex": "T^{cd}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\gamma^{[a}\\gamma_d\\gamma_p\\gamma_{ab}\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "V4",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "-9/2"
+        ],
+        "latex": "T^{cd}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\gamma^{[a}\\gamma_d\\gamma_{pq}\\gamma_{ab}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V4",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "9/4"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\gamma_{ab}\\chi\\big)\\epsilon^i",
+        "origin": "V5",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "9/4"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\gamma_p\\gamma_{ab}\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "V5",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "-9/8"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\gamma_{pq}\\gamma_{ab}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V5",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "-6"
+        ],
+        "latex": "T^{c[a}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\gamma_{ab}\\chi\\big)\\epsilon^i",
+        "origin": "V6",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-6"
+        ],
+        "latex": "T^{c[a}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\gamma_p\\gamma_{ab}\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "V6",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "3"
+        ],
+        "latex": "T^{c[a}\\big(\\overline{\\widehat R(Q)}^{b]}{}_c\\gamma_{pq}\\gamma_{ab}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V6",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "4",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^{b]}\\chi}\\gamma^{[a}\\gamma_{ab}\\chi\\big)\\epsilon^i",
+        "origin": "V7",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "4",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^{b]}\\chi}\\gamma^{[a}\\gamma_p\\gamma_{ab}\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "V7",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "-2",
+          "0"
+        ],
+        "latex": "\\big(\\overline{\\mathcal D^{b]}\\chi}\\gamma^{[a}\\gamma_{pq}\\gamma_{ab}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V7",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "1/2"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\gamma_{ab}\\chi\\big)\\epsilon^i",
+        "origin": "V8",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "1/2"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\gamma_p\\gamma_{ab}\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "V8",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "-1/4"
+        ],
+        "latex": "\\big(\\overline{\\widehat R(Q)}^{ab}(\\gamma\\!\\cdot\\!T)\\gamma_{pq}\\gamma_{ab}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V8",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "0",
+          "-4"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{[a}(\\gamma\\!\\cdot\\!T)\\gamma^{b]}\\gamma_{ab}\\chi\\big)\\epsilon^i",
+        "origin": "V9",
+        "rank": 0
+      },
+      {
+        "coefficient": [
+          "0",
+          "-4"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{[a}(\\gamma\\!\\cdot\\!T)\\gamma^{b]}\\gamma_p\\gamma_{ab}\\chi\\big)\\gamma^p\\epsilon^i",
+        "origin": "V9",
+        "rank": 1
+      },
+      {
+        "coefficient": [
+          "0",
+          "2"
+        ],
+        "latex": "\\big(\\bar\\chi\\gamma^{[a}(\\gamma\\!\\cdot\\!T)\\gamma^{b]}\\gamma_{pq}\\gamma_{ab}\\chi\\big)\\gamma^{pq}\\epsilon^i",
+        "origin": "V9",
+        "rank": 2
+      },
+      {
+        "coefficient": [
+          "1/48",
+          "0"
+        ],
+        "latex": "\\widehat R(V)^{ab\\,kl}\\gamma_{ab} \\gamma^{cd}\\widehat R(V)_{cd\\,kl}\\epsilon^i",
+        "origin": "chi2",
+        "rank": "ordered gamma product"
+      }
+    ]
+  },
+  "pending": {
+    "1": {
+      "label": "C",
+      "latex": "-\\tfrac18\\gamma_{cd}\\widehat R(Q)_{ab}^i\\delta_Q\\widehat C^{abcd}",
+      "input_equations": "P24\u2013P29"
+    },
+    "2": {
+      "label": "U",
+      "latex": "-4i\\gamma_c\\widehat R(Q)_{ab}^i\\delta_Q(\\mathcal D^aT^{bc})",
+      "input_equations": "P30\u2013P32"
+    },
+    "4": {
+      "label": "Y",
+      "latex": "8i\\gamma_cT^{ab}\\delta_Q(\\mathcal D^c\\widehat R(Q)_{ab}^i)",
+      "input_equations": "P36\u2013P38"
+    },
+    "5": {
+      "label": "Y",
+      "latex": "8i\\gamma_aT^{ab}\\delta_Q(\\mathcal D^c\\widehat R(Q)_{bc}^i)",
+      "input_equations": "P36\u2013P38"
+    },
+    "6": {
+      "label": "U",
+      "latex": "-\\tfrac{64i}{3}\\gamma^{ab}\\gamma^c\\chi^i\\delta_Q(\\mathcal D_aT_{bc})",
+      "input_equations": "P30\u2013P32"
+    },
+    "8": {
+      "label": "Z",
+      "latex": "\\tfrac{128i}{3}\\gamma_aT^{ab}\\delta_Q(\\mathcal D_b\\chi^i)",
+      "input_equations": "P33\u2013P35"
+    }
+  },
+  "zero_trace_witnesses": [
+    {
+      "block": 1,
+      "label": "R1",
+      "original_coefficient": [
+        "-1/48",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 1,
+      "label": "R2",
+      "original_coefficient": [
+        "1/48",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 1,
+      "label": "R3",
+      "original_coefficient": [
+        "1/96",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 2,
+      "label": "R1",
+      "original_coefficient": [
+        "0",
+        "-2/3"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 2,
+      "label": "R2",
+      "original_coefficient": [
+        "0",
+        "2/3"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 2,
+      "label": "R3",
+      "original_coefficient": [
+        "0",
+        "1/3"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 3,
+      "label": "chi2",
+      "original_coefficient": [
+        "2/3",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 6,
+      "label": "chi2",
+      "original_coefficient": [
+        "0",
+        "-1/3"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 7,
+      "label": "chi2",
+      "original_coefficient": [
+        "16/9",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 9,
+      "label": "R1",
+      "original_coefficient": [
+        "4/9",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 9,
+      "label": "R2",
+      "original_coefficient": [
+        "-4/9",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 9,
+      "label": "R3",
+      "original_coefficient": [
+        "-2/9",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 10,
+      "label": "R4",
+      "original_coefficient": [
+        "1/8",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 10,
+      "label": "R5",
+      "original_coefficient": [
+        "0",
+        "1"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 10,
+      "label": "R6",
+      "original_coefficient": [
+        "0",
+        "-1/3"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 10,
+      "label": "R7",
+      "original_coefficient": [
+        "0",
+        "-1/3"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 10,
+      "label": "R8",
+      "original_coefficient": [
+        "0",
+        "-1/3"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 11,
+      "label": "chi1",
+      "original_coefficient": [
+        "-2/3",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 11,
+      "label": "chi3",
+      "original_coefficient": [
+        "0",
+        "-1/3"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 11,
+      "label": "chi4",
+      "original_coefficient": [
+        "0",
+        "1/3"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 11,
+      "label": "chi5",
+      "original_coefficient": [
+        "2/3",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    },
+    {
+      "block": 11,
+      "label": "chi6",
+      "original_coefficient": [
+        "-4/9",
+        "0"
+      ],
+      "reason": "single traceless SU(2) curvature after parameter factorization"
+    }
+  ]
+}

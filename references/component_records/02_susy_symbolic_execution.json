@@ -1,0 +1,77 @@
+{
+  "method": "exact symbolic, no physical parameter samples",
+  "sympy_version": "1.14.0",
+  "checks": [
+    {
+      "calculation": "results_vl_check.py",
+      "execution": "passed",
+      "current_sha256": "e32864cf7fd85798670cb2c30cee0159cd316fe99259811bfea2c8a2bfa1f964"
+    },
+    {
+      "calculation": "results_p_current_check.py",
+      "execution": "passed",
+      "current_sha256": "8a541638ed97da821211677d19c6668b8ce25335aa9bbcc5e8e6adc163c0437c"
+    },
+    {
+      "calculation": "results_check_scalar_map.py",
+      "execution": "passed",
+      "current_sha256": "d1f49d6d7f329ab2cd39f10bbbb5d70b760006bde9b582e41aa22fe274f48056"
+    },
+    {
+      "calculation": "results_rq_full_check.py",
+      "execution": "passed",
+      "current_sha256": "d75ddd03dc2d79f762acea15eb7d9d264c048d8d71b05c09fec5f133bd054657"
+    },
+    {
+      "calculation": "results_rs_bianchi_check.py",
+      "execution": "passed",
+      "current_sha256": "4a33ca3517fba9a84ba841847d40071095802015afe88ea3c692612636987737"
+    },
+    {
+      "calculation": "results_weyl_gamma_ids.py",
+      "execution": "passed",
+      "current_sha256": "864ef1bb58c26b1092a9211366efaa9e5da8a4342c311263233687a929d643b8"
+    },
+    {
+      "calculation": "results_weyl_l_check.py",
+      "execution": "passed",
+      "current_sha256": "d36203dc477b26431d8d03b9f3f127f7a315915b024d9f049189d73fa693c850"
+    },
+    {
+      "calculation": "results_weyl_spinor_s_check.py",
+      "execution": "passed",
+      "current_sha256": "d6f341387c8ea6419280053565624bd4128d2e36cac40a45581aec33acb3c420"
+    },
+    {
+      "calculation": "results_weyl_scalar_q_check.py",
+      "execution": "passed",
+      "current_sha256": "03fcc53038c6e81fcfb83d6fc8605f26e2d5cb3b33b99c64a33b0a1b3d772600"
+    },
+    {
+      "calculation": "results_weyl_vector_q_check.py",
+      "execution": "passed",
+      "current_sha256": "c6c9354edaece9a872f604a49ea665af1e682d39cfb437af92d9a1b1074e826a"
+    },
+    {
+      "calculation": "results_weyl_dc_reduction.py",
+      "execution": "passed",
+      "current_sha256": "6106ce772738675c9edeb3c068af5cfc714a029b9c5bd467d81aa618916f4e89"
+    },
+    {
+      "calculation": "results_weyl_spinor_q_full_check.py",
+      "execution": "passed",
+      "current_sha256": "7f04a44e773f33f68be003502ac716dfa78b1fc57019a166cc9b1be5315f0905"
+    },
+    {
+      "calculation": "results_weyl_dr_bianchi.py",
+      "execution": "passed",
+      "current_sha256": "77ec47909137b188dcae945dbc32187a966f5f52d06b779a8c59143cec51a302"
+    },
+    {
+      "calculation": "results_linear_vector_spinor_check.py",
+      "execution": "passed",
+      "current_sha256": "0249a3d7f4feb6d1b5f861e0e661a60b272a101a35786d961c8393790075edcc"
+    }
+  ],
+  "record_scope": "Recorded symbolic checks at the stated fermion orders. Execution hashes identify the script versions used for the reported results; current hashes identify the accompanying scripts."
+}

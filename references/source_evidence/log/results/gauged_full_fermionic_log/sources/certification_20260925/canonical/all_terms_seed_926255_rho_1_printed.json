@@ -1,0 +1,178 @@
+{
+  "status": "PASS_ALL_LISTED_TERMS_AT_THIS_SAMPLE",
+  "seed": 926255,
+  "rho": 1,
+  "scope": "Every corrected tensor/canonical term at finite independent ordered-jet tensors; zero-residual numerical cross-check, not unrestricted identity or exact-internal-arithmetic proof",
+  "slots": {
+    "L": {
+      "status": "PASS_FINITE_TENSOR_EVALUATION",
+      "terms": {
+        "printed": 59,
+        "tensor": 59,
+        "clifford": 59
+      },
+      "cleared_coefficient_denominator": 96,
+      "absolute_residual": 0.0,
+      "relative_residual": 0.0,
+      "maximum_accumulation_bound": 1184720.0,
+      "elapsed_seconds": 22.321358290999342
+    },
+    "phi": {
+      "status": "PASS_FINITE_TENSOR_EVALUATION",
+      "terms": {
+        "printed": 1520,
+        "tensor": 492,
+        "clifford": 278
+      },
+      "cleared_coefficient_denominator": 5184,
+      "absolute_residual": 0.0,
+      "relative_residual": 0.0,
+      "maximum_accumulation_bound": 4060652064.0,
+      "elapsed_seconds": 23.011746374999348
+    },
+    "N": {
+      "status": "PASS_FINITE_TENSOR_EVALUATION",
+      "terms": {
+        "printed": 87829,
+        "tensor": 5315,
+        "clifford": 514
+      },
+      "cleared_coefficient_denominator": 7962624,
+      "absolute_residual": 0.0,
+      "relative_residual": 0.0,
+      "maximum_accumulation_bound": 380679045111936.0,
+      "elapsed_seconds": 67.69184866599608
+    },
+    "E": {
+      "status": "PASS_FINITE_TENSOR_EVALUATION",
+      "terms": {
+        "printed": 89988,
+        "tensor": 8021,
+        "clifford": 1332
+      },
+      "cleared_coefficient_denominator": 7962624,
+      "absolute_residual": 0.0,
+      "relative_residual": 0.0,
+      "maximum_accumulation_bound": 259776484072896.0,
+      "elapsed_seconds": 145.0255608749976
+    }
+  },
+  "input_hashes": {
+    "L-tensor.pkl": "836cfdb9e2c5d712dbbe1dce276f928c5b0012186cf29b5982446f745216f11d",
+    "L-clifford.pkl": "836cfdb9e2c5d712dbbe1dce276f928c5b0012186cf29b5982446f745216f11d",
+    "phi-tensor.pkl": "19744e7fbd3594a8d2ae18af80cbf1b5f05e6ca3a5113eddc42c436e35ac1cca",
+    "phi-clifford.pkl": "f29f068d905350e05006adcdeaabfd0dff49215960261acb4705a1a26bef78d4",
+    "N-tensor.pkl": "91c97e80f5ab62c553749c69bbe22b701b8df8d2b6e74c185d5e59c7dfed2c7e",
+    "N-clifford.pkl": "6cec085d67c6f3ff79e9e28004c05951f98fd48ff96d983c52b89a2176afa5bc",
+    "E-tensor.pkl": "9d11b638eb3e295035b5e6070aef1bc0ce52a574af4d023e2f6d5e23cf2545c8",
+    "E-clifford.pkl": "c669fc8ab8a055d5045d1b78952c4697d5c31db7ce5541b1089ce6422fec90ff"
+  },
+  "printed_source_sha256": "3067f32508378b43d75f613b12c87e28b5696c9a4333c9479fd03d6ceff05f1b",
+  "printed_source_parse_counts": {
+    "L": {
+      "input_terms": 59,
+      "degrees": {
+        "0": 10,
+        "2": 49
+      }
+    },
+    "phi": {
+      "input_terms": 1520,
+      "degrees": {
+        "1": 1520
+      }
+    },
+    "N": {
+      "input_terms": 87829,
+      "degrees": {
+        "0": 19346,
+        "2": 68483
+      }
+    },
+    "E": {
+      "input_terms": 89988,
+      "degrees": {
+        "0": 20014,
+        "2": 69974
+      }
+    }
+  },
+  "arithmetic": {
+    "L": {
+      "printed": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 245760.0,
+        "sum_absolute_real_imag_bound": 1184720.0
+      },
+      "tensor": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 245760.0,
+        "sum_absolute_real_imag_bound": 1184720.0
+      },
+      "clifford": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 245760.0,
+        "sum_absolute_real_imag_bound": 1184720.0
+      },
+      "internal_contraction_exactness_certified": false,
+      "final_accumulation_bound_below_2pow53": true
+    },
+    "phi": {
+      "printed": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 278268047.72759086,
+        "sum_absolute_real_imag_bound": 4060652064.0
+      },
+      "tensor": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 210905642.04570803,
+        "sum_absolute_real_imag_bound": 3300902976.0
+      },
+      "clifford": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 1024830232.6197511,
+        "sum_absolute_real_imag_bound": 2348594208.0
+      },
+      "internal_contraction_exactness_certified": false,
+      "final_accumulation_bound_below_2pow53": true
+    },
+    "N": {
+      "printed": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 5390519500800.0,
+        "sum_absolute_real_imag_bound": 380679045111936.0
+      },
+      "tensor": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 21562078003200.0,
+        "sum_absolute_real_imag_bound": 206673319794048.0
+      },
+      "clifford": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 5058330624000.0,
+        "sum_absolute_real_imag_bound": 10467531058176.0
+      },
+      "internal_contraction_exactness_certified": false,
+      "final_accumulation_bound_below_2pow53": true
+    },
+    "E": {
+      "printed": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 1505922908160.0,
+        "sum_absolute_real_imag_bound": 259776484072896.0
+      },
+      "tensor": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 4185579847680.0,
+        "sum_absolute_real_imag_bound": 161193870245184.0
+      },
+      "clifford": {
+        "gaussian_integer_term_values": true,
+        "maximum_term": 7031331225600.0,
+        "sum_absolute_real_imag_bound": 28549509413376.0
+      },
+      "internal_contraction_exactness_certified": false,
+      "final_accumulation_bound_below_2pow53": true
+    }
+  }
+}

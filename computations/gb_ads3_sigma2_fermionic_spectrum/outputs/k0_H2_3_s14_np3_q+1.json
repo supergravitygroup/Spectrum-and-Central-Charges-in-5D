@@ -1,0 +1,341 @@
+{
+  "sample": "k0_H2_3_s14",
+  "L": "3",
+  "k": "0",
+  "g": "1",
+  "S": "1/4",
+  "n": "3/2",
+  "q_R": 1,
+  "method": "complex128 action evaluation; D-polynomial and numerical determinantal roots",
+  "coefficients": [
+    {
+      "real": [
+        [
+          1.567565097294765e-15,
+          5.728239834100129e-15
+        ],
+        [
+          5.400723709517182e-16,
+          4.870885685749039e-16
+        ]
+      ],
+      "imag": [
+        [
+          11.022703842524303,
+          31.819805153394643
+        ],
+        [
+          -10.606601717798211,
+          3.6742346141747673
+        ]
+      ]
+    },
+    {
+      "real": [
+        [
+          -4.933925180869813e-15,
+          -1.2862821894775208e-14
+        ],
+        [
+          4.497668054042098e-15,
+          -1.5875148430516101e-15
+        ]
+      ],
+      "imag": [
+        [
+          -2.06983929323682e-15,
+          -21.21320343559644
+        ],
+        [
+          -21.213203435596437,
+          -7.538898325906177e-16
+        ]
+      ]
+    }
+  ],
+  "degree": 1,
+  "basis_a": [
+    {
+      "field": "psi",
+      "frame": "p",
+      "spinor": [
+        "0",
+        "-I",
+        "1",
+        "0"
+      ],
+      "doublet": [
+        "I",
+        "1"
+      ]
+    },
+    {
+      "field": "psi",
+      "frame": "p",
+      "spinor": [
+        "-I",
+        "0",
+        "0",
+        "1"
+      ],
+      "doublet": [
+        "I",
+        "1"
+      ]
+    }
+  ],
+  "basis_b": [
+    {
+      "field": "psi",
+      "frame": "m",
+      "spinor": [
+        "0",
+        "I",
+        "1",
+        "0"
+      ],
+      "doublet": [
+        "-I",
+        "1"
+      ]
+    },
+    {
+      "field": "psi",
+      "frame": "m",
+      "spinor": [
+        "I",
+        "0",
+        "0",
+        "1"
+      ],
+      "doublet": [
+        "-I",
+        "1"
+      ]
+    }
+  ],
+  "interpolation": {
+    "nodes": 5,
+    "phase": 0.23,
+    "radius": 1.7,
+    "coefficient_maxima": [
+      31.819805153394643,
+      21.21320343559644,
+      2.220076379016669e-14,
+      1.1718885907165501e-14,
+      3.138510463465142e-15
+    ],
+    "discarded_relative_size": 6.977026943798943e-16,
+    "holdouts": [
+      {
+        "D": [
+          0.21,
+          0.87
+        ],
+        "scaled_error": 5.796362731996855e-16
+      },
+      {
+        "D": [
+          2.83,
+          -0.44
+        ],
+        "scaled_error": 6.086174699820422e-16
+      }
+    ]
+  },
+  "rank_and_projections": {
+    "generic_rank": 2,
+    "dimension": 2,
+    "probe_ranks": [
+      2,
+      2,
+      2
+    ],
+    "projection_seed": 25,
+    "projections": 4,
+    "projection_spread": 0.0,
+    "rank_filtered_candidate_counts": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "discarded_unmatched_candidates": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "discarded_candidate_interpretation": "extra Newton copies of retained roots only; unique unmatched rank-lowering candidates fail",
+    "singular_value_normalization": "sum_j Frobenius_norm(C_j)*abs(D)^j",
+    "rejected_nonlocal_rank_candidates": [],
+    "numerical_limit": "finite-pencil candidates without a localized rank drop are rejected; unresolved homogeneous pairs and ill-conditioned large-D neighborhoods are not an analytic root exclusion",
+    "minimum_distinct_root_separation": 2.088061301782109,
+    "pencils": [
+      {
+        "unresolved_homogeneous_pairs": 0,
+        "pair_tolerance": 5.684341886080802e-14,
+        "D_scale": 1.0
+      },
+      {
+        "unresolved_homogeneous_pairs": 0,
+        "pair_tolerance": 5.684341886080802e-14,
+        "D_scale": 1.0
+      },
+      {
+        "unresolved_homogeneous_pairs": 0,
+        "pair_tolerance": 5.684341886080802e-14,
+        "D_scale": 1.0
+      },
+      {
+        "unresolved_homogeneous_pairs": 0,
+        "pair_tolerance": 5.684341886080802e-14,
+        "D_scale": 1.0
+      }
+    ]
+  },
+  "roots": [
+    {
+      "root": [
+        -0.5440306508910547,
+        1.0781285428697969e-16
+      ],
+      "multiplicity": 1,
+      "normalized_singular_values": [
+        0.8665021822600766,
+        4.4448302427521097e-17
+      ],
+      "threshold_nullity_increase": 1,
+      "local_rank_drop": {
+        "accepted": true,
+        "backward_singular_value": 4.4448302427521097e-17,
+        "neighboring_singular_values": [
+          4.038866318088144e-05,
+          4.038409040843441e-05,
+          4.038637645226125e-05,
+          4.0386376452258264e-05
+        ],
+        "localization_ratio": 1.1005766382647101e-12,
+        "probe_radius": 0.0001
+      },
+      "cluster_spread": 0.0
+    },
+    {
+      "root": [
+        1.544030650891054,
+        6.914173296306357e-16
+      ],
+      "multiplicity": 1,
+      "normalized_singular_values": [
+        0.548781672543909,
+        2.6662289349155104e-17
+      ],
+      "threshold_nullity_increase": 1,
+      "local_rank_drop": {
+        "accepted": true,
+        "backward_singular_value": 2.6662289349155104e-17,
+        "neighboring_singular_values": [
+          3.9490898973474454e-05,
+          3.949521432550451e-05,
+          3.9493056426868545e-05,
+          3.949305642687615e-05
+        ],
+        "localization_ratio": 6.751133429878885e-13,
+        "probe_radius": 0.00015440306508910542
+      },
+      "cluster_spread": 0.0
+    }
+  ],
+  "direct_root_checks": [
+    {
+      "root": [
+        -0.5440306508910547,
+        1.0781285428697969e-16
+      ],
+      "coefficient_scaled_disagreement": 3.8960169777242503e-16,
+      "action_interpolant_disagreement": 2.018814632273816e-14,
+      "polynomial_rank_defect_residual": 2.3031953873267343e-15,
+      "coefficient_scaled_root_solve_residual": 4.4448302427521097e-17,
+      "coefficient_evaluation_scale": 51.817398225329356,
+      "singular_values": [
+        44.89988864128729,
+        6.64629944614434e-15
+      ],
+      "rank_threshold_absolute": 1.5627044026401027e-12,
+      "retained_gap_over_error_budget": 28732170054318.277,
+      "resolved_extra_nullity": 1
+    },
+    {
+      "root": [
+        1.544030650891054,
+        6.914173296306357e-16
+      ],
+      "coefficient_scaled_disagreement": 2.932606878801786e-16,
+      "action_interpolant_disagreement": 2.399382648412659e-14,
+      "polynomial_rank_defect_residual": 2.1814391452787806e-15,
+      "coefficient_scaled_root_solve_residual": 2.6662289349155104e-17,
+      "coefficient_evaluation_scale": 81.81739822532936,
+      "singular_values": [
+        44.89988864128728,
+        2.4886881666052073e-14
+      ],
+      "rank_threshold_absolute": 2.430091381229585e-12,
+      "retained_gap_over_error_budget": 18476625606798.664,
+      "resolved_extra_nullity": 1
+    }
+  ],
+  "gauge_checks": [],
+  "independent_seed_and_scale": {
+    "maximum_root_difference": 0.0,
+    "generic_rank": 2,
+    "dimension": 2,
+    "probe_ranks": [
+      2,
+      2,
+      2
+    ],
+    "projection_seed": 109,
+    "projections": 4,
+    "projection_spread": 0.0,
+    "rank_filtered_candidate_counts": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "discarded_unmatched_candidates": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "discarded_candidate_interpretation": "extra Newton copies of retained roots only; unique unmatched rank-lowering candidates fail",
+    "singular_value_normalization": "sum_j Frobenius_norm(C_j)*abs(D)^j",
+    "rejected_nonlocal_rank_candidates": [],
+    "numerical_limit": "finite-pencil candidates without a localized rank drop are rejected; unresolved homogeneous pairs and ill-conditioned large-D neighborhoods are not an analytic root exclusion",
+    "minimum_distinct_root_separation": 2.088061301782109,
+    "pencils": [
+      {
+        "unresolved_homogeneous_pairs": 0,
+        "pair_tolerance": 5.684341886080802e-14,
+        "D_scale": 1.0
+      },
+      {
+        "unresolved_homogeneous_pairs": 0,
+        "pair_tolerance": 5.684341886080802e-14,
+        "D_scale": 1.0
+      },
+      {
+        "unresolved_homogeneous_pairs": 0,
+        "pair_tolerance": 5.684341886080802e-14,
+        "D_scale": 1.0
+      },
+      {
+        "unresolved_homogeneous_pairs": 0,
+        "pair_tolerance": 5.684341886080802e-14,
+        "D_scale": 1.0
+      }
+    ]
+  },
+  "elapsed_seconds": 0.27046458306722343
+}

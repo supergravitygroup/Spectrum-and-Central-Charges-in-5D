@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "date": "2026-09-22",
+  "scope": "Source-level bosonic discrepancy audit; raw descendant assumed as input; no independent all-fermion/SUSY proof",
+  "projection": "69/1024 * (-128/3) = -23/8; 3/2048 * (-128/3)^2 = 8/3; (-3/32) * (-128/3) = 4",
+  "qualifier": "C24 (5.20) already has +23/8 w^2 D; 368/3 mismatch is in (4.8b)",
+  "curvature": "24 tensor-jet cases, two signatures; raw=canonical_3/8+divJ; raw-canonical_1/4-divJ=Rww/8",
+  "sources": [
+    {
+      "path": "Sources/2024-Gold-Components-of-curvature-squared-invariants.pdf",
+      "sha256": "0e30ca2f64d6e7e8e08f653f08a85883a06c74377c2fb57f578dc01c00fedca2"
+    },
+    {
+      "path": "results/gauged_full_fermionic_log/sources/equations/C24-p014.png",
+      "sha256": "9991b6481f926e76b7b8765d1b262dbf230530c2fbcf10d288371a370cd3a1f0"
+    },
+    {
+      "path": "results/gauged_full_fermionic_log/sources/equations/C24-p034.png",
+      "sha256": "5a2a58b7a0de9046327c1cbcee42be775a73bf68e53b2fe0f5212b9fbf78d655"
+    },
+    {
+      "path": "results/gauged_full_fermionic_log/sources/equations/C24-p103.png",
+      "sha256": "bd6964568fa9121c252da67d8a3323a4f612d98c6ba0a7988d32b3f576ffb460"
+    },
+    {
+      "path": "results/gauged_full_fermionic_log/sources/equations/C24-p113.png",
+      "sha256": "4a7c62bec8e5795819b29d134e18d2c0e876dd72ab89080353b2f7b0b0e35742"
+    },
+    {
+      "path": "results/gauged_full_fermionic_log/sources/correction_audit/C24-p045.png",
+      "sha256": "3d4e68507def5d1500536fcb1d0303fa2dbca2b97cb87f0a05a1da94cc044a92"
+    },
+    {
+      "path": "results/gauged_full_fermionic_log/sources/correction_audit/C24-p150.png",
+      "sha256": "ff6211f7e15d1db5b0a5d4973da3adece51a73e56bb95057e9a5d5a0954e886f"
+    }
+  ],
+  "cases": {
+    "lorentz": [
+      {
+        "J": "856",
+        "printed_residual": "107",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-7104",
+        "printed_residual": "-888",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-2072",
+        "printed_residual": "-259",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "3584",
+        "printed_residual": "448",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-2396",
+        "printed_residual": "-599/2",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-1832",
+        "printed_residual": "-229",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-11380",
+        "printed_residual": "-2845/2",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "5492",
+        "printed_residual": "1373/2",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-608",
+        "printed_residual": "-76",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "7256",
+        "printed_residual": "907",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-9872",
+        "printed_residual": "-1234",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-812",
+        "printed_residual": "-203/2",
+        "corrected_residual": "0"
+      }
+    ],
+    "euclidean": [
+      {
+        "J": "2344",
+        "printed_residual": "293",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-9840",
+        "printed_residual": "-1230",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "4008",
+        "printed_residual": "501",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-1888",
+        "printed_residual": "-236",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-6540",
+        "printed_residual": "-1635/2",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-1224",
+        "printed_residual": "-153",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-4676",
+        "printed_residual": "-1169/2",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "2740",
+        "printed_residual": "685/2",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "1296",
+        "printed_residual": "162",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-744",
+        "printed_residual": "-93",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "5408",
+        "printed_residual": "676",
+        "corrected_residual": "0"
+      },
+      {
+        "J": "-1436",
+        "printed_residual": "-359/2",
+        "corrected_residual": "0"
+      }
+    ]
+  }
+}

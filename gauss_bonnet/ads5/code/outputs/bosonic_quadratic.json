@@ -1,0 +1,73 @@
+{
+  "scope": "source-coefficient scalar restriction and documented analytic form/metric reductions; no unrestricted nonlinear EOM solver",
+  "scalar_restriction": {
+    "F": "L**2*g**2*lambda_GB/2 + L",
+    "K": "g**2*lambda_GB + 1/L",
+    "V": "-L**4*g**4*lambda_GB - L**3*g**2/2 - 4*L**2*N*g**3*lambda_GB + 2*L**2*g**2 - 2*L*N*g - 2*N**2*g**2*lambda_GB - 4*N*g - 2*N**2/L",
+    "boundary_current": {
+      "grad_L": "2*L*g**2*lambda_GB - 2",
+      "grad_N": "4*g*lambda_GB"
+    }
+  },
+  "form_collection": {
+    "source_terms": {
+      "Weyl_sigma_N:6": "2*A_GG/3 - 8*A_GH/3 + 8*A_HH/3",
+      "Weyl_sigma_N:7": "-2*J_GG/3 + 8*J_GH/3 - 8*J_HH/3 - 8*k_GH + 2*k_G_squared + 8*k_H_squared",
+      "Weyl_sigma_N:8": "-4*J_GG/3 + 16*J_GH/3 - 16*J_HH/3 - 16*k_GH/3 + 4*k_G_squared/3 + 16*k_H_squared/3",
+      "LOG_seed:33": "-8*J_GG/9 + 4*k_G_squared/9",
+      "LOG_seed:35": "112*J_GH/9",
+      "LOG_seed:37": "-32*J_GH/9 + 16*k_GH/9",
+      "LOG_seed:39": "-128*J_HH/9",
+      "LOG_seed:40": "4*A_GG/3 + 20*k_G_squared/3",
+      "LOG_seed:41": "16*A_GH/3 + 80*k_GH/3",
+      "LOG_seed:42": "-4*J_GG/9 + 2*k_G_squared/9",
+      "LOG_seed:43": "8*J_GH/9",
+      "LOG_seed:44": "-16*J_GH/9 + 8*k_GH/9",
+      "LOG_seed:45": "32*J_HH/9",
+      "LOG_seed:52": "-10*J_GG/3 + 10*k_G_squared",
+      "LOG_seed:53": "28*J_GH/3 - 28*k_GH",
+      "LOG_seed:54": "-16*J_HH/3 + 16*k_H_squared",
+      "LOG_seed:55": "4*A_GG/3",
+      "LOG_seed:56": "-22*A_GH/3",
+      "LOG_seed:57": "-8*A_HH/3",
+      "LOG_seed:58": "-8*J_GH",
+      "LOG_seed:59": "16*J_HH"
+    },
+    "derivative_sum": "10*A_GG/3 - 14*A_GH/3 - 20*J_GG/3 + 52*J_GH/3 - 8*J_HH - 12*k_GH + 62*k_G_squared/3 + 88*k_H_squared/3",
+    "closed_G_sum": "8*J_GH - 8*J_HH + 16*k_GH + 2*k_G_squared/3 + 88*k_H_squared/3",
+    "algebraic": "-17*k_G_squared/3 - 112*k_H_squared/3",
+    "ordered_current": "-8*J_GH - 22*k_GH + 2*k_G_squared",
+    "remaining_currents": "10*k_GH + 4*k_G_squared",
+    "total": "-8*J_HH + 4*k_GH + k_G_squared - 8*k_H_squared"
+  },
+  "raw_quadratic_coefficients": {
+    "h_Einstein_h": "x/2 - 1",
+    "ell_r": "-(x - 2)/x",
+    "gradient_ell_squared": "-(x - 2)/x**2",
+    "ell_squared": "4*g**2*(x - 2)",
+    "ell_n": "8*g*(x - 2)/x",
+    "n_squared": "2*(x - 2)/x**2",
+    "G_squared": "(x - 2)/2",
+    "H_squared": "-4*(x - 2)",
+    "p_squared": "2*(x - 2)/x**2",
+    "p_v": "2*sqrt(2)*(x - 2)/x",
+    "p_A": "4*g*(x - 2)",
+    "vprime_squared": "-2*(x - 2)"
+  },
+  "auxiliary_equation": "8*ell*g*(x - 2)/x + 4*n*(x - 2)/x**2",
+  "auxiliary_solution_n": "-2*ell*g*x",
+  "constraint_domain": "0<x<2, c!=0; do not use the solutions at x=2",
+  "metric_shift_beta": "-2/(3*x)",
+  "scalar_gradient_coefficient": "(x - 2)/(3*x**2)",
+  "scalar_potential_coefficient": "-2*g**2*(x - 2)/3",
+  "scalar_mass_squared": "-2*g**2*x**2",
+  "connection_curl_Fv": "sqrt(2)*g*x*(-G + 2*H)",
+  "dual_vector_coefficient": "4*x - 8",
+  "residuals": {
+    "complete scalar restriction": "0",
+    "scalar mass from diagonal action": "0",
+    "scalar reconstructed original equation": "0",
+    "original three-form equation": "0",
+    "form derivative and current cancellation": "0"
+  }
+}

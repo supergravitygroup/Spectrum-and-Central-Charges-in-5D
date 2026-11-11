@@ -1,0 +1,14 @@
+{
+  "dimension": 5,
+  "F_exponent": "-1",
+  "density_factor": "-2",
+  "relative_defining_vector": "2",
+  "fermion_degree": 2,
+  "gauge": [
+    "sigma=1",
+    "b_mu=0",
+    "psi^i=0",
+    "L_ij=L delta_ij/sqrt(2)"
+  ],
+  "background": "fluxless maximally supersymmetric AdS5, L0=1, g!=0"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS: definition-derived sign; printed sign fails",
+  "scope": "all 15 independent flat dX components and every surviving Grassmann monomial; complete six-derivative SU(2) symmetrization",
+  "unique_ordered_words": 960,
+  "cached_ordered_prefixes": 2232,
+  "operator_normalization_denominator_cleared": 30720,
+  "printed_gradient_X_coefficient": "-i/4",
+  "derived_gradient_X_coefficient": "+i/4",
+  "IBP_or_EOM_used": false,
+  "full_primary_verified": false,
+  "input_sha256": {
+    "scripts/verify_log_step2_w3_flat_gradient_x.py": "d566748ecc8d05d269e42d676631b1cc748849ba2949e3a02107140ea1a16035",
+    "scripts/verify_log_step2_w3.py": "695fd40ed6b7756a898e2c72194f4e162cf1a90343ed091e045ad60fca1819ec"
+  }
+}

@@ -1,0 +1,144 @@
+S^(2)=(2 kappa_5^2)^(-1) integral d^5x e_0 [q_2B+alpha q_WB+beta q_LOGB+zeta q_R2B+q_2F+alpha q_WF+beta q_LOGF+zeta q_R2F].
+q_IF = sum of the rows of the three coefficient files I-PsiPsi, I-PsiLambda, I-LambdaLambda.
+q_WB and q_LOGB = sum of the rows of their bosonic coefficient files.
+All contractions use the repository convention record ../../CONVENTIONS.md.
+S[Phi_0+s deltaPhi]=S_0+s S_1+s^2 S^(2)+O(s^3); hence the displayed q coefficients have no additional overall factor 1/2.
+The equality is for the bulk action modulo the displayed local divergences; no boundary condition is selected.
+Fermion background values vanish. Terms of fermion degree four or more in a completion cannot contribute to this quadratic action.
+The source action is the accepted local action of report1.md; no claim of a new proof of its defining supersymmetric LOG construction is made. All ordinary derivative orders are retained. No fermion or boson field equation is imposed on fluctuations.
+
+Phi_B=(e_mu^a,C_mu,B_munu,E_munurho,L,N,V_mu,V'_mu^ij).
+Phi_F=(psi_mu^i,varphi^i); delta Phi_F=(Psi_mu^i,lambda^i).
+delta Phi_B=(u_mu^a,c_mu,b_munu,a_munurho,ell,nu,v_mu,w_mu^ij).
+a_mu^ij=w_mu^ij+(1/2)delta^ij v_mu. L_0 != 0, g != 0. No sign of L_0 is prescribed.
+Lambda^ij=L_0 delta^ij/sqrt(2), n^ij=Lambda^ij/L_0, Upsilon_a^ij=bar nabla_a Lambda^ij.
+bar nabla includes the full background spin and SU(2) connections.
+The printed L_c, psi and vartheta in the raw intermediate files mean Lambda, Psi and lambda, respectively. In results/ these names are converted.
+
+BACKGROUND COEFFICIENTS (fermion files only):
+G_0=dC_0; H_0=dB_0+(1/2)C_0 wedge G_0+(g/2)E_0; Q_0=*H_0.
+T_0=(G_0+Q_0)/8.
+D_0=-R_0/32+5 G_0^2/96-G_0.Q_0/48-13 Q_0^2/96+g N_0/4+g^2 L_0^2/16.
+f_0ab=-R_0ab/6+eta_ab R_0/48.
+Ccal_0abcd=R_0abcd+2(f_0ac eta_bd-f_0ad eta_bc-f_0bc eta_ad+f_0bd eta_ac).
+Vcurv_0ab^ij=2 e_0a^mu e_0b^nu [partial_[mu V_0nu]^ij - V_0[mu^k(i V_0nu]k^j)].
+rho_0=2N_0/L_0; F_0=sqrt(2)dV_0; W_0=F_0-rho_0 G_0.
+Z_0=-V'_0^2-R_0/2-N_0^2/L_0^2+G_0^2/4+H_0^2/6+g^2 L_0^2/4.
+For AdS3 x S2: R_0=6j+2k, j=-ell_3^(-2), k=r_2^(-2), G_0=p Omega_S, H_0=h*Omega_S.
+**Omega_S=-Omega_S, so Q_0=-h Omega_S, T_0=(p-h)Omega_S/8.
+No numerical values for j,k,p,h,L_0,N_0,g,alpha,beta,zeta have been assigned.
+The background V'_0 is retained. In particular Upsilon need not vanish.
+
+BOSONIC FRAME AND FORM MAPS:
+e(s)=e_0+s u; kappa_a^b=e_0a^mu u_mu^b.
+h_munu=2e_0(mu|a|u_nu)^a, k_munu=u_mu^a u_nua.
+d_1=tr kappa; d_2=((tr kappa)^2-tr(kappa^2))/2.
+e(s)/e_0=1+s d_1+s^2 d_2; e_a^mu(s)=(delta_a^b-s kappa_a^b+s^2(kappa^2)_a^b)e_0b^mu.
+g^munu(s)=g_0^munu-s h^munu+s^2(h^mu_rho h^rhonu-k^munu).
+G_1=dc, G_2=0 (coordinate indices).
+H_1=db+(1/2)c wedge G_0+(1/2)C_0 wedge dc+(g/2)a_3.
+H_2=(1/2)c wedge dc.
+P_0=0, p_1^mu=-epsilon_0^munurhosigmalambda(da_3)_nurhosigmalambda/48.
+P_2^mu=-d_1 p_1^mu; (P_flat)_2mu=h_munu p_1^nu-d_1 p_1mu.
+e(s)P^mu(s)=s e_0 p_1^mu exactly through this order.
+
+For a covariant p-tensor X, h_p=sum_r h_(r),
+b_p=sum_r(h^2-k)_(r)+sum_(r<t)h_(r)h_(t).
+Q_1=*0[H_1+(d_1-h_3)H_0].
+Q_2=*0[H_2+(d_1-h_3)H_1+(d_2-d_1 h_3+b_3)H_0].
+All tangent components below include inverse-frame insertions on EVERY tensor index:
+I_1 X_0=-sum_r kappa_(r) X_0,
+I_2 X_0=sum_r(kappa^2)_(r)X_0+sum_(r<t)kappa_(r)kappa_(t)X_0,
+X_1^t=(X_1^coordinate)^t+I_1 X_0^t,
+X_2^t=(X_2^coordinate)^t+I_1(X_1^coordinate)^t+I_2 X_0^t.
+Raised tangent indices are obtained with the constant eta, not with a separately varied metric.
+
+A^rho_munu=(1/2)g_0^rhosigma(bar nabla_mu h_nusigma+bar nabla_nu h_musigma-bar nabla_sigma h_munu).
+B^rho_munu=(1/2)g_0^rhosigma(bar nabla_mu k_nusigma+bar nabla_nu k_musigma-bar nabla_sigma k_munu)-h^rho_sigma A^sigma_munu.
+R_1munu=bar nabla_rho A^rho_munu-bar nabla_nu A^rho_murho.
+R_2munu=bar nabla_rho B^rho_munu-bar nabla_nu B^rho_murho+A^rho_rholambda A^lambda_munu-A^rho_nulambda A^lambda_murho.
+r_1=g_0^munu R_1munu-h^munu R_0munu.
+r_2=g_0^munu R_2munu-h^munu R_1munu+(h^mu_rho h^rhonu-k^munu)R_0munu.
+w_mu^a_b=e_0b^nu[A^rho_munu e_0rho^a-bar nabla_mu u_nu^a].
+z_mu^a_b=e_0b^nu[B^rho_munu e_0rho^a+A^rho_munu u_rho^a-w_mu^a_c u_nu^c].
+R_1munu^ab=2 D_0[mu w_nu]^ab.
+R_2munu^ab=2 D_0[mu z_nu]^ab+2w_[mu^ac w_nu]c^b.
+Use I_1,I_2 above to convert these curvatures to tangent indices.
+Vcurv_1munu^ij=2 D_0[mu a_nu]^ij.
+Vcurv_2munu^ij=-2 a_[mu^k(i a_nu]k^j).
+
+T_r=(G_r+Q_r)/8, r=0,1,2 (tangent indices).
+f_rab=-Ric_rab/6+eta_ab r_r/48; r_0=R_0.
+Ccal_rabcd=R_rabcd+2(f_rac eta_bd-f_rad eta_bc-f_rbc eta_ad+f_rbd eta_ac).
+D_1=-r_1/32+5G_0.G_1/48-(G_1.Q_0+G_0.Q_1)/48-13Q_0.Q_1/48+g nu/4+g^2 L_0 ell/8.
+D_2=-r_2/32+5(G_1^2+2G_0.G_2)/96-(G_2.Q_0+G_1.Q_1+G_0.Q_2)/48-13(Q_1^2+2Q_0.Q_2)/96+g^2 ell^2/16.
+(L_c)_0=Lambda, (L_c)_1=ell n, (L_c)_2=0.
+(C_potential)_1 and (C_potential)_2 follow from C_0+s c and the same I_1,I_2.
+
+ORDERED DERIVATIVE JETS IN THE BOSONIC COEFFICIENT FILES:
+(X)_[r] denotes the r-th displayed coefficient above; (nabla_I X)_[r] denotes the FULL ordered-derivative coefficient, as follows.
+Acal_a=-kappa_a^b bar nabla_b+rho_M(w_a)+rho_U(a_a).
+Bcal_a=(kappa^2)_a^b bar nabla_b-kappa_a^b[rho_M(w_b)+rho_U(a_b)]+rho_M(z_a).
+Every derivative index is also a Lorentz index acted on by rho_M.
+For a Lorentz-valued one-form A_mu^{bc},
+(rho_M(A_mu)X)^a=A_mu^a_b X^b,
+(rho_M(A_mu)X)_a=A_mu_ab X^b,
+rho_M(A_mu)chi=(1/4)A_mu^{bc}gamma_bc chi.
+For an internal one-form a_mu^{ij},
+(rho_U(a_mu)X)^i=-a_mu^{ij}X_j,
+(rho_U(a_mu)X)_i=+a_mu_ij X^j,
+(rho_U(a_mu)X)^{ij}=a_mu^i_k X^{kj}+a_mu^j_k X^{ik}.
+On lower triplet indices, use the dual action; on products use Leibniz. Constant eta, epsilon and gamma tensors are covariantly constant.
+w_a=e_0a^mu w_mu, z_a=e_0a^mu z_mu, a_a=e_0a^mu a_mu in Acal,Bcal.
+(nabla_I X)_[0]=bar nabla_I X_0.
+(nabla_I X)_[1]=bar nabla_I X_1+sum_k bar nabla_i1 ... Acal_ik ... bar nabla_in X_0.
+(nabla_I X)_[2]=bar nabla_I X_2
+ +sum_k bar nabla_i1 ... Acal_ik ... bar nabla_in X_1
+ +sum_k bar nabla_i1 ... Bcal_ik ... bar nabla_in X_0
+ +sum_(k<l) bar nabla_i1 ... Acal_ik ... Acal_il ... bar nabla_in X_0.
+The sums run over the actual finite derivative word printed in that row; operator order is unchanged, and derivatives act on intervening coefficients.
+These are explicit finite product expansions, not unevaluated second functional variations.
+
+DEPENDENT FERMION MAPS USED IN THE EXPANDED FERMION FILES:
+K_a^bc=(1/2)bar Psi^[b gamma^c] Psi_a+(1/4)bar Psi^b gamma_a Psi^c.
+RQ'_ab=2bar nabla_[a Psi_b]+2i gamma.T_0 gamma_[a Psi_b].
+phi_a=(i/3)gamma^b RQ'_ab-(i/24)gamma_a gamma^bc RQ'_bc.
+RQ_ab=RQ'_ab-2i gamma_[a phi_b]; gamma^a RQ_ab=0.
+U_a^i=gamma.(G_0/4-T_0)Psi_a^i-(g/2)Lambda^ij Psi_aj-phi_a^i.
+chi^i=(i/8)gamma^a U_a^i+(g/8)lambda^i.
+G_Fab=(i/2)bar Psi_[a Psi_b].
+H_Fabc=-(3/4)bar Psi_[a gamma_b Psi_c]; T_F=(G_F+*H_F)/8.
+M_Fab^cd=2bar nabla_[a K_b]^cd+i bar phi_[a gamma^cd Psi_b]
+ +i bar Psi_[a gamma^[c gamma.T_0 gamma^d] Psi_b]
+ +bar Psi_[a gamma^[c RQ_b]^d]+(1/2)bar Psi_[a gamma_b] RQ^cd
+ +8bar Psi_[a delta_b]^[c gamma^d] chi.
+Ric_Fab=M_Facb^c, R_F=eta^ab Ric_Fab.
+f_Fab=-Ric_Fab/6+eta_ab R_F/48.
+Ccal_Fabcd=M_Fabcd+2(f_Fac eta_bd-f_Fad eta_bc-f_Fbc eta_ad+f_Fbd eta_ac).
+Vcurv_Fab^ij=-3i bar phi_[a^(i Psi_b]^j)-8bar Psi_[a^(i gamma_b]chi^j)-i bar Psi_[a^(i gamma.T_0 Psi_b]^j).
+D_F=(1/2)tr f_F-G_0.G_F/8-(52/3)T_0.T_F+2G_F.T_0+2G_0.T_F-(i/8)bar Psi^a U_a-(1/2)bar Psi_a gamma^a chi.
+The antisymmetric part of f_F is RETAINED. No symmetry is imposed on the full primed Ricci tensor.
+For every even tensor jet: (nabla_I X)_F=bar nabla_I X_F+sum_k bar nabla_i1 ... rho_M(K_ik) ... bar nabla_in X_0.
+For every odd tensor jet: (nabla_I chi)_1=bar nabla_I chi_1, and similarly for phi,RQ,Psi.
+Every dependent odd field and every F-order even field in these equations has already been substituted in the three fermion coefficient files.
+
+EXACT CONNECTION CHECKS:
+J_ab=bar Psi_a gamma_b chi:
+(Ric_Fab)_chi=-6J_ab-2eta_ab tr J,
+(f_Fab)_chi=J_ab,
+(Ccal_Fabcd)_chi=0,
+[(1/2)tr f_F-(1/2)bar Psi_a gamma^a chi]_chi=0.
+The full Ccal_F pair-exchange identity and its conventional trace were checked independently in the Psi nabla Psi and arbitrary-T_0 Psi Psi coefficient sectors.
+
+VARIATION CHECK (all 28 Weyl and 266 LOG bosonic source monomials):
+For M=e product_a X_a, original variation is delta M=(delta e)product X_a+e sum_a (delta X_a)product_(b!=a)X_b.
+X_a(s)=X_a0+s X_a1+s^2 X_a2; delta X_a(s)=V_a1+s V_a2.
+The linearized first variation is
+ delta d_2 product X_0
+ +delta d_1 sum_a X_a1 product_(b!=a)X_b0
+ +d_1 sum_a V_a1 product_(b!=a)X_b0
+ +sum_a V_a2 product_(b!=a)X_b0
+ +sum_(a!=b)V_a1 X_b1 product_(c!=a,b)X_c0.
+V_a2 is the explicit polarization of the quadratic field maps above; it is not set to zero.
+Direct variation of every completed quadratic coefficient row yields exactly these coefficients; all residuals are zero.
+The comparison stated here is a coefficient comparison of the full first-variation densities in the tensor-jet representation, with the explicit physical field maps above. It is not a separate computation of a harmonic-reduced physical Euler matrix. Ordered integration by parts preserves the identity and supplies the connection, form and mixed-metric Euler directions. No separate invariant background equation is set to zero.

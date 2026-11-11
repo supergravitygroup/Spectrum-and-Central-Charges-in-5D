@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "scope": "Flat constant F_ab, X^ij, nabla W; every exterior degree retained; independent original eight-derivative definition. Not a complete curved supersymmetry/reality certificate.",
+  "input_terms": 58,
+  "expanded_geometric_summands": 66386,
+  "checks": [
+    {
+      "case": "X only",
+      "status": "PASS",
+      "nonzero_coefficients": 36,
+      "compared_coefficients": 36,
+      "surviving_written_terms": 1482
+    },
+    {
+      "case": "F only",
+      "status": "PASS",
+      "nonzero_coefficients": 36,
+      "compared_coefficients": 36,
+      "surviving_written_terms": 1482
+    },
+    {
+      "case": "gradient only",
+      "status": "PASS",
+      "nonzero_coefficients": 38,
+      "compared_coefficients": 38,
+      "surviving_written_terms": 1482
+    },
+    {
+      "case": "F X gradient",
+      "status": "PASS",
+      "nonzero_coefficients": 104,
+      "compared_coefficients": 104,
+      "surviving_written_terms": 1482
+    },
+    {
+      "case": "integer probe 1",
+      "status": "PASS",
+      "nonzero_coefficients": 120,
+      "compared_coefficients": 120,
+      "surviving_written_terms": 1482
+    },
+    {
+      "case": "integer probe 2",
+      "status": "PASS",
+      "nonzero_coefficients": 120,
+      "compared_coefficients": 120,
+      "surviving_written_terms": 1482
+    },
+    {
+      "case": "integer probe 3",
+      "status": "PASS",
+      "nonzero_coefficients": 95,
+      "compared_coefficients": 95,
+      "surviving_written_terms": 1482
+    },
+    {
+      "case": "index-raised rendered form",
+      "status": "PASS",
+      "nonzero_coefficients": 95,
+      "compared_coefficients": 95,
+      "surviving_written_terms": 1482
+    }
+  ],
+  "source_hashes": {
+    "STEP_02_LOG_PRIMARY.md": "378b6ddb76748443a9734d54636a7ed606056bcfca327d29960db80c5cc786d7",
+    "STEP_03_LOG_SPINOR.md": "403f96335dd87abd08f73ca168478b82c2b065d1e29eb4aab2a6c2d7f6aa8963",
+    "scripts/log_step3_covariant_rules.py": "a37e937ce86decf5638b3104d83006c83db41a646e66191ac10c81577442a79b",
+    "scripts/log_step4_covariant_rules.py": "791aa9f1ffddb51a73776a17c91fc2f7eb06ec2c175f532306bd1e0013cd3a9d"
+  }
+}

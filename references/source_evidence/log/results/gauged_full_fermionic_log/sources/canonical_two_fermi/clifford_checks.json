@@ -1,0 +1,7 @@
+{
+  "right_vector_identities": 160,
+  "duality_identities": 16,
+  "indexed_gamma_placement_checks": 240,
+  "identical_fermion_zero_kernels": 36,
+  "exact_entry_residual": 0
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS_REPRESENTATION_COMPATIBILITY",
+  "branch": "GB-S+",
+  "domain": "a>-1/2, finite, g nonzero; flat contraction checked",
+  "checks": {
+    "scalar mass": "0",
+    "vector mass": "0",
+    "graviton mass": "0",
+    "spinor mass": "0",
+    "gravitino mass": "0",
+    "left shortening E=2": "0",
+    "right shortening E=2": "0",
+    "left shortening E=3": "0",
+    "right shortening E=3": "0",
+    "energy_charge_ladders": "both short ladders match",
+    "spinor flux combination": "0",
+    "shift flux coefficient": "0",
+    "gravitino rank three flux": "0",
+    "gravitino gamma flux": "0",
+    "vector kinetic rotation": "0",
+    "R connection": "0",
+    "null_subtracted_DOF": {
+      "gravity": [
+        8,
+        8
+      ],
+      "vector": [
+        4,
+        4
+      ],
+      "total": [
+        12,
+        12
+      ]
+    }
+  },
+  "multiplets": [
+    "A1 Abar1 [1;1]_3^(0)",
+    "A2 Abar2 [0;0]_2^(0)"
+  ],
+  "vector_assignments": {
+    "gravity": "A-2Q",
+    "matter": "A+4Q"
+  },
+  "scope": "standard unitary positive-energy representation comparison; global boundary conditions not selected; complete SUSY intertwining/closure not claimed"
+}

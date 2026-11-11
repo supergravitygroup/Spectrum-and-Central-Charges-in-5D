@@ -1,0 +1,1624 @@
+{
+  "scope": "Items 27/29 only: MS5 vacuum coefficients and fermion contorsion. No full spectrum or nonlinear SUSY proof.",
+  "command": "python3 -B computations/paper_conventions/checks.py",
+  "working_directory": "repository root",
+  "versions": {
+    "python": "3.14.1",
+    "sympy": "1.14.0"
+  },
+  "assumptions": [
+    "L>0, g!=0; real alpha,beta,zeta remain symbolic",
+    "Zero form strengths, constant scalars, maximally symmetric five-dimensional geometry",
+    "Differentiate the off-shell MS5 density before imposing N=-3gL^2/2, k=-g^2L^2/2",
+    "NW-SE contracted rank-one Majorana flip B(a,c,b)=-B(b,c,a)",
+    "Poincare gauge b_mu=0; no sampled field or coupling values"
+  ],
+  "source_hashes": {
+    "computations/generic_ads5_massless/action_inputs.py": "37b1a7bbffe7210f25d74ea9226e036018c0cf48a69dc71ec095d32fac6ca52c",
+    "computations/generic_ads5_massless/SOURCE_MAP.md": "2698628627bfeeac840a7d6fdc9b2f0c39a4d97cbcc8c0019d354a1e4d36d1d9",
+    "common/generic_action.md": "c644a25849bdb03fca838fd6a5d51d4d22999e87aa5bf984cdf86cb73ea23be3",
+    "common/conventions.md": "ee1fce39aa24393466c7374cb13f94f6200731aaf7cf5f0c1b21e2580f6321ae",
+    "common/fermion_order.md": "5c306c0404f203ae3552ba3b099eb3535fd3d85c2653d7ce90addfe808d300ed",
+    "common/details/composite_fields.md": "a96a864b4d82666a928bb3c8f5f45125205634af2048f7f1be515c25ca464fd6",
+    "common/details/source_conventions.md": "e32da263e9514b26744eaa545b0b50a48b8124664c6362a2518a55c14c85ceea",
+    "weyl2/action/bosonic.md": "5b38825224a44e79bb51e665c7b1bef240b7818b4500fd6ca9d3925dee878320",
+    "gauss_bonnet/ads5/code/references/COMPONENT_CONVENTIONS.md": "7044a798ec1e9cf837af8b676d472d86dc30339427f8e0d8f0fb1036b1f3b983"
+  },
+  "results": {
+    "vacuum_polynomial": "L0**2*g**2*(beta + 6*zeta) - 8*L0 + 8",
+    "N_tadpole": "-g*(L0**2*g**2*(beta + 6*zeta) - 8*L0 + 8)/2",
+    "L_tadpole": "L0*g**2*(L0**2*g**2*(beta + 6*zeta) - 8*L0 + 8)/2",
+    "metric_tadpole": "L0**2*g**2*(L0**2*g**2*(beta + 6*zeta) - 8*L0 + 8)/2",
+    "Weyl_second_N_derivative": "8*g**2/3"
+  },
+  "checks": [
+    {
+      "name": "metric compatibility K[0,0,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,0,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,0,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,0,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,0,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,1,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,1,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,1,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,1,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,1,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,2,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,2,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,2,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,2,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,2,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,3,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,3,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,3,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,3,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,3,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,4,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,4,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,4,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,4,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[0,4,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,0,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,0,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,0,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,0,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,0,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,1,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,1,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,1,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,1,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,1,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,2,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,2,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,2,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,2,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,2,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,3,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,3,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,3,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,3,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,3,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,4,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,4,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,4,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,4,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[1,4,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,0,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,0,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,0,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,0,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,0,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,1,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,1,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,1,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,1,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,1,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,2,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,2,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,2,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,2,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,2,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,3,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,3,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,3,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,3,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,3,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,4,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,4,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,4,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,4,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[2,4,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,0,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,0,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,0,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,0,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,0,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,1,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,1,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,1,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,1,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,1,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,2,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,2,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,2,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,2,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,2,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,3,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,3,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,3,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,3,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,3,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,4,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,4,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,4,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,4,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[3,4,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,0,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,0,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,0,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,0,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,0,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,1,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,1,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,1,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,1,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,1,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,2,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,2,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,2,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,2,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,2,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,3,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,3,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,3,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,3,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,3,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,4,0]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,4,1]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,4,2]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,4,3]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric compatibility K[4,4,4]",
+      "group": "contorsion antisymmetry",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,0,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,0,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,0,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,0,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,0,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,1,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,1,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,1,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,1,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,1,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,2,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,2,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,2,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,2,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,2,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,3,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,3,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,3,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,3,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,3,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,4,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,4,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,4,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,4,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [0,4,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,0,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,0,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,0,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,0,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,0,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,1,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,1,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,1,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,1,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,1,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,2,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,2,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,2,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,2,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,2,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,3,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,3,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,3,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,3,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,3,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,4,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,4,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,4,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,4,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [1,4,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,0,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,0,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,0,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,0,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,0,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,1,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,1,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,1,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,1,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,1,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,2,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,2,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,2,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,2,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,2,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,3,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,3,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,3,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,3,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,3,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,4,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,4,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,4,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,4,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [2,4,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,0,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,0,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,0,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,0,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,0,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,1,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,1,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,1,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,1,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,1,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,2,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,2,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,2,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,2,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,2,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,3,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,3,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,3,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,3,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,3,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,4,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,4,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,4,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,4,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [3,4,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,0,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,0,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,0,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,0,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,0,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,1,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,1,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,1,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,1,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,1,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,2,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,2,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,2,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,2,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,2,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,3,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,3,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,3,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,3,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,3,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,4,0]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,4,1]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,4,2]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,4,3]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "R(P) fermion coefficient [4,4,4]",
+      "group": "torsion constraint",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "incorrect contracted rank-one flip breaks metric compatibility",
+      "group": "negative control",
+      "method": "exact",
+      "detected": true,
+      "nonzero_residual": "B_1_0_2/2"
+    },
+    {
+      "name": "omitted last contorsion term breaks R(P)=0",
+      "group": "negative control",
+      "method": "exact",
+      "detected": true,
+      "nonzero_residual": "-B_0_1_2/4 + B_1_0_2/4"
+    },
+    {
+      "name": "auxiliary D vanishes on the SUSY configuration",
+      "group": "vacuum",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Weyl density equals 64 Dbar^2/3 on MS5",
+      "group": "vacuum",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Weyl density vanishes for arbitrary positive L",
+      "group": "vacuum",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Weyl first derivative before BPS substitution: L0",
+      "group": "vacuum",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Weyl first derivative before BPS substitution: N",
+      "group": "vacuum",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "Weyl first derivative before BPS substitution: k",
+      "group": "vacuum",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "N equation = -g Q/2",
+      "group": "vacuum",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "L equation = g^2 L Q/2",
+      "group": "vacuum",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "metric trace = g^2 L^2 Q/2",
+      "group": "vacuum",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "nonzero Weyl second derivative coefficient",
+      "group": "vacuum",
+      "method": "exact",
+      "residual": "0"
+    },
+    {
+      "name": "wrong SUSY coefficient N=-g L^2 is detected by dW/dN",
+      "group": "negative control",
+      "method": "exact",
+      "detected": true,
+      "nonzero_residual": "4*L0**2*g**3/3"
+    }
+  ],
+  "counts": {
+    "contorsion antisymmetry": 125,
+    "torsion constraint": 125,
+    "vacuum": 10,
+    "negative control": 3
+  },
+  "status": "PASS"
+}

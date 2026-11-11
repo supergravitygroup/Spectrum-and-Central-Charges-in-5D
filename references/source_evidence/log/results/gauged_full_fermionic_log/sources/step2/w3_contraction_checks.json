@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "individual displayed derivative-gaugino and Grassmann rows, not full-primary certification",
+  "derivative_contraction_row_basis_checks": 96,
+  "gamma_sigma_components": 125,
+  "odd_pairing_rows": 5,
+  "arithmetic": "Exact Gaussian dyadic equality, fixed displayed coefficients; no fitting",
+  "input_sha256": {
+    "scripts/verify_log_step2_w3_contractions.py": "f36e9769372a16aed24dd9b7de7a752bdc9db66cc6ba42df9a0d0976c9e6227c",
+    "scripts/verify_log_step2_w3.py": "695fd40ed6b7756a898e2c72194f4e162cf1a90343ed091e045ad60fca1819ec",
+    "STEP_02_LOG_PRIMARY.md": "5838974d745b8129dd1c412ce59e923a9d4fbfef7c986c30a482f0e0aa34cf8a"
+  }
+}

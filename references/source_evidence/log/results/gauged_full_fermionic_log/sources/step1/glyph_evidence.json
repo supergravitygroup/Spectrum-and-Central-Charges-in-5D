@@ -1,0 +1,617 @@
+{
+  "date": "2026-09-22",
+  "reason": "Concrete ambiguity in BF current and SU2 placement; cached images inspected first",
+  "source": "Sources/2024-Gold-Components-of-curvature-squared-invariants.pdf",
+  "source_sha256": "0e30ca2f64d6e7e8e08f653f08a85883a06c74377c2fb57f578dc01c00fedca2",
+  "findings": [
+    "Eq2.50 first psi has lower SU2 i; following phi has upper SU2 i",
+    "Eq3.2b H is calligraphic CMSY10, same as Eq2.50; not ordinary h",
+    "These are glyph/transcription facts, not a physics proof"
+  ],
+  "records": [
+    {
+      "pdf_page": 22,
+      "label": "C24(2.50) H completion; SU2 glyph positions",
+      "box": [
+        145,
+        165,
+        535,
+        198
+      ],
+      "glyphs": [
+        {
+          "text": "H",
+          "x0": 156.36,
+          "top": 172.594,
+          "bottom": 184.549,
+          "fontname": "BRQBGD+CMSY10",
+          "size": 11.955
+        },
+        {
+          "text": "a",
+          "x0": 166.56,
+          "top": 170.263,
+          "bottom": 178.233,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "=",
+          "x0": 174.84,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "h",
+          "x0": 187.32,
+          "top": 172.594,
+          "bottom": 184.549,
+          "fontname": "DQEUSL+CMMI12",
+          "size": 11.955
+        },
+        {
+          "text": "a",
+          "x0": 194.04,
+          "top": 170.263,
+          "bottom": 178.233,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "+",
+          "x0": 201.72,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "2",
+          "x0": 213.48,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "(",
+          "x0": 219.36,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "\u03a3",
+          "x0": 223.92,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "a",
+          "x0": 232.32,
+          "top": 170.263,
+          "bottom": 178.233,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "b",
+          "x0": 236.76,
+          "top": 170.263,
+          "bottom": 178.233,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": ")",
+          "x0": 240.96,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "\u03b1",
+          "x0": 245.52,
+          "top": 177.104,
+          "bottom": 185.074,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "\u03b2",
+          "x0": 251.4,
+          "top": 170.263,
+          "bottom": 178.233,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "\u03c8",
+          "x0": 257.16,
+          "top": 172.594,
+          "bottom": 184.549,
+          "fontname": "DQEUSL+CMMI12",
+          "size": 11.955
+        },
+        {
+          "text": "b",
+          "x0": 264.72,
+          "top": 177.104,
+          "bottom": 185.074,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "\u03b1",
+          "x0": 268.8,
+          "top": 170.263,
+          "bottom": 178.233,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "i",
+          "x0": 268.8,
+          "top": 178.183,
+          "bottom": 186.153,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "\u03d5",
+          "x0": 274.8,
+          "top": 172.594,
+          "bottom": 184.549,
+          "fontname": "DQEUSL+CMMI12",
+          "size": 11.955
+        },
+        {
+          "text": "i",
+          "x0": 282.48,
+          "top": 170.263,
+          "bottom": 178.233,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "\u03b2",
+          "x0": 282.48,
+          "top": 178.183,
+          "bottom": 186.153,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "\u2212",
+          "x0": 290.76,
+          "top": 172.594,
+          "bottom": 184.549,
+          "fontname": "BRQBGD+CMSY10",
+          "size": 11.955
+        },
+        {
+          "text": "i",
+          "x0": 305.16,
+          "top": 165,
+          "bottom": 176.401,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "2",
+          "x0": 303.96,
+          "top": 180.766,
+          "bottom": 192.721,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "\u03b5",
+          "x0": 310.92,
+          "top": 172.594,
+          "bottom": 184.549,
+          "fontname": "DQEUSL+CMMI12",
+          "size": 11.955
+        },
+        {
+          "text": "a",
+          "x0": 316.44,
+          "top": 170.263,
+          "bottom": 178.234,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "b",
+          "x0": 320.88,
+          "top": 170.263,
+          "bottom": 178.234,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "c",
+          "x0": 324.48,
+          "top": 170.263,
+          "bottom": 178.234,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "d",
+          "x0": 328.2,
+          "top": 170.263,
+          "bottom": 178.234,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "e",
+          "x0": 332.52,
+          "top": 170.263,
+          "bottom": 178.234,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "(",
+          "x0": 336.96,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "\u03a3",
+          "x0": 341.52,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "b",
+          "x0": 349.92,
+          "top": 177.104,
+          "bottom": 185.074,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "c",
+          "x0": 353.52,
+          "top": 177.104,
+          "bottom": 185.074,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": ")",
+          "x0": 357.84,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "\u03b1",
+          "x0": 362.4,
+          "top": 177.104,
+          "bottom": 185.074,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "\u03b2",
+          "x0": 367.8,
+          "top": 177.104,
+          "bottom": 185.074,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "\u03c8",
+          "x0": 373.44,
+          "top": 172.594,
+          "bottom": 184.549,
+          "fontname": "DQEUSL+CMMI12",
+          "size": 11.955
+        },
+        {
+          "text": "d",
+          "x0": 381.0,
+          "top": 177.104,
+          "bottom": 185.074,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "\u03b1",
+          "x0": 385.92,
+          "top": 170.263,
+          "bottom": 178.234,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "i",
+          "x0": 385.92,
+          "top": 178.183,
+          "bottom": 186.153,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "\u03c8",
+          "x0": 391.8,
+          "top": 172.594,
+          "bottom": 184.549,
+          "fontname": "DQEUSL+CMMI12",
+          "size": 11.955
+        },
+        {
+          "text": "e",
+          "x0": 399.36,
+          "top": 177.104,
+          "bottom": 185.074,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "\u03b2",
+          "x0": 403.92,
+          "top": 169.544,
+          "bottom": 177.514,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "j",
+          "x0": 403.92,
+          "top": 178.304,
+          "bottom": 186.274,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "G",
+          "x0": 409.56,
+          "top": 172.594,
+          "bottom": 184.549,
+          "fontname": "DQEUSL+CMMI12",
+          "size": 11.955
+        },
+        {
+          "text": "i",
+          "x0": 418.8,
+          "top": 170.263,
+          "bottom": 178.234,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "j",
+          "x0": 421.68,
+          "top": 170.263,
+          "bottom": 178.234,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": ".",
+          "x0": 429.96,
+          "top": 172.594,
+          "bottom": 184.549,
+          "fontname": "DQEUSL+CMMI12",
+          "size": 11.955
+        },
+        {
+          "text": "(",
+          "x0": 495.6,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "2",
+          "x0": 500.16,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": ".",
+          "x0": 506.04,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "5",
+          "x0": 509.28,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "0",
+          "x0": 515.16,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": ")",
+          "x0": 521.04,
+          "top": 172.606,
+          "bottom": 184.561,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        }
+      ]
+    },
+    {
+      "pdf_page": 24,
+      "label": "C24(3.2b) current glyph",
+      "box": [
+        207,
+        350,
+        241,
+        370
+      ],
+      "glyphs": [
+        {
+          "text": "v",
+          "x0": 212.88,
+          "top": 353.434,
+          "bottom": 365.389,
+          "fontname": "DQEUSL+CMMI12",
+          "size": 11.955
+        },
+        {
+          "text": "a",
+          "x0": 218.52,
+          "top": 357.944,
+          "bottom": 365.914,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "H",
+          "x0": 223.56,
+          "top": 353.434,
+          "bottom": 365.389,
+          "fontname": "BRQBGD+CMSY10",
+          "size": 11.955
+        },
+        {
+          "text": "a",
+          "x0": 233.76,
+          "top": 351.224,
+          "bottom": 359.194,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        }
+      ]
+    },
+    {
+      "pdf_page": 24,
+      "label": "C24(3.3) ordinary-looking H comparison glyph",
+      "box": [
+        118,
+        604,
+        147,
+        630
+      ],
+      "glyphs": [
+        {
+          "text": "c",
+          "x0": 118,
+          "top": 604,
+          "bottom": 604.441,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "t",
+          "x0": 121.921,
+          "top": 604,
+          "bottom": 604.441,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "i",
+          "x0": 126.481,
+          "top": 604,
+          "bottom": 604.441,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "o",
+          "x0": 129.721,
+          "top": 604,
+          "bottom": 604.441,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "n",
+          "x0": 135.601,
+          "top": 604,
+          "bottom": 604.441,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "p",
+          "x0": 145.441,
+          "top": 604,
+          "bottom": 604.441,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "y",
+          "x0": 118,
+          "top": 609.885,
+          "bottom": 621.841,
+          "fontname": "RURYOG+CMR12",
+          "size": 11.955
+        },
+        {
+          "text": "H",
+          "x0": 126.001,
+          "top": 609.874,
+          "bottom": 621.829,
+          "fontname": "DQEUSL+CMMI12",
+          "size": 11.955
+        },
+        {
+          "text": "i",
+          "x0": 136.681,
+          "top": 606.824,
+          "bottom": 614.794,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "j",
+          "x0": 139.561,
+          "top": 606.824,
+          "bottom": 614.794,
+          "fontname": "CKBFGA+CMMI8",
+          "size": 7.97
+        },
+        {
+          "text": "V",
+          "x0": 135.721,
+          "top": 616.103,
+          "bottom": 624.073,
+          "fontname": "QFHIHK+CMR8",
+          "size": 7.97
+        },
+        {
+          "text": "M",
+          "x0": 142.081,
+          "top": 616.103,
+          "bottom": 624.073,
+          "fontname": "QFHIHK+CMR8",
+          "size": 7.97
+        }
+      ]
+    }
+  ]
+}

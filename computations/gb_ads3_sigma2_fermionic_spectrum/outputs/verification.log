@@ -1,0 +1,6 @@
+PASS source and implementation fingerprints
+PASS matching and polynomial negative/positive controls
+PASS 18 positive/negative sector mode bijections
+PASS exact T2 ranks and small-k checks
+PASS 144 fresh action holdouts and independently projected root sets
+PASS item 26; elapsed 75.7s

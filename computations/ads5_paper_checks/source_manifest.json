@@ -1,0 +1,30 @@
+{
+  "scope": "Bounded exact Weyl AdS5 vector/norm/convention/critical checks and LOG displayed-equation factorization, citation-map items 11–19 and 21–22.",
+  "current_inputs": {
+    "weyl2/ads5/quadratic_action.md": "bb925ae834ccab42fcf58889dfebd3c9128886a65ae9ebd1eadcb5462785759c",
+    "weyl2/ads5/details/gauge_constraints.md": "2f6d34c2a64aa523eeaf426e9c18a27c0698425ba535bf9169a98d28acb9e50e",
+    "weyl2/ads5/details/physical_operators.md": "352a6299fff8a0eb96853c71d234535315aba4c47b96123fea789aba8d43f411",
+    "weyl2/ads5/details/kinetic_norms.md": "3b34c3590ecd5db46e12ee01bc7cc2363f874f10d9ae1f24d08732b86acfa81a",
+    "weyl2/ads5/details/critical_branches.md": "108618b10f54283dabb83b909a94e3c2047caeea7adb447e9500c77cb020e9a7",
+    "log/ads5/quadratic_action.md": "674f75df8dff180b09531f28d8a887524517fff9c3deb5cb0953d946564e26ee",
+    "log/ads5/details/physical_operators.md": "729e0a266b9f8405af49a5d901dd2059da72c5ded7bc58fb56897595e447f5b9",
+    "log/ads5/fermionic_spectrum.md": "2d09f454ac3af40494e227b2cb5db36de4e2eb7c1c315f78ddbe82400f20d65a"
+  },
+  "implementation_hashes": {
+    "checks.py": "8f558ab708ac994bebf53ad0afbbaeafc01749eb9555fbb919eae9ef50852488",
+    "requirements.txt": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc"
+  },
+  "external_source_records": {
+    "final/draft_v109.tex": {
+      "sha256": "25be4ea0ef4c3d84032b9990945be1fc017a48de3c80c0f16c2bf4877091b06b",
+      "locator": "Weyl section: LC2/Wquad/WV/Wgravitino/WX; LOGresult/LOGmap/LOGnu; Appendix A",
+      "status": "final supplied source; not a runtime dependency"
+    },
+    "final/draft_v109.pdf": {
+      "sha256": "7a9cc9d5a727c9e9b96723ca2eee90e20acaea6b29a3400de25f4f98730f47ed",
+      "locator": "Weyl section: LC2/Wquad/WV/Wgravitino/WX; LOGresult/LOGmap/LOGnu; Appendix A",
+      "status": "final supplied source; not a runtime dependency"
+    }
+  },
+  "construction": "Exact formula checks from the current quadratic actions and final manuscript."
+}

@@ -1,0 +1,33 @@
+Command: python3 -B computations/r2_ads5_paper_checks/checks.py --write-log
+PASS vector/algebraic E coefficient
+PASS vector/E equation has no spectral derivative
+PASS eq:R2vec2/from constrained original action
+PASS eq:R2vec3/kinetic and mass congruence
+PASS eq:R2MV/mass
+PASS scalar/kinetic determinant
+PASS scalar/all eigenfield norms
+PASS fermion/SUSY shift of varphi
+PASS fermion/flat Killing connection
+PASS fermion/Lambda RS coefficient with J=i sqrt(2) I
+PASS fermion/Lambda spinor mass coefficient
+PASS eq:R2fermop/factorization
+PASS fermion/heavy norm modulo original root
+PASS fermion/light norm
+PASS range/A in nu
+PASS range/B in nu
+PASS tau=3/2/scalar critical square modulo IBP
+PASS tau=3/2/vector critical square modulo form IBP
+PASS tau=3/2/critical spinor norm
+PASS tau=2/vector determinant
+PASS tau=2/vector field equations
+PASS tau=2/vector nilpotency
+PASS tau=2/vector Jordan block sizes
+PASS tau=2/regular vector field change
+PASS tau=2/scalar characteristic polynomial
+PASS tau=2/scalar minimal polynomial has simple BF factor
+PASS tau=2/two independent BF scalars
+PASS tau=2/undivided spinor identity
+PASS tau=2/spinor determinant
+PASS tau=2/spinor Jordan pair
+PASS tau=2/spinor Jordan source coefficient
+PASS 31 exact checks; source fingerprints verified

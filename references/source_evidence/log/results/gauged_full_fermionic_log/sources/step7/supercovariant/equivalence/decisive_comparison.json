@@ -1,0 +1,70 @@
+{
+  "verdict": "PASS: full-covariant frozen origin versus active components",
+  "components": {
+    "L": {
+      "slot": "L",
+      "mapped_terms": 30,
+      "original_gauge_terms": 12,
+      "exact_tensor_clifford_residual_terms": 0,
+      "source_sha256": "836cfdb9e2c5d712dbbe1dce276f928c5b0012186cf29b5982446f745216f11d",
+      "current_sha256": "4c6ef0eea7177c4341c8c92550debe288c80f750c9d5b999019fcddba70bf5dc",
+      "seconds": 0.027248859405517578,
+      "scope": "exact full-covariant standard-Weyl comparison; no connection expansion and no f/Ricci symmetry assumption",
+      "final_exact_residual_terms": 0
+    },
+    "phi": {
+      "slot": "phi",
+      "mapped_terms": 232,
+      "original_gauge_terms": 96,
+      "exact_tensor_clifford_residual_terms": 5,
+      "source_sha256": "0bd11a4c4ab46c808a0d129b797e8a3f7d44ec139cb9e67a7b0c6c3408ee558e",
+      "current_sha256": "83ed08f199ccb07759ccf9be81837c59d20be394fed1ea7be2f8bad3d1472715",
+      "seconds": 0.44116902351379395,
+      "scope": "exact full-covariant standard-Weyl comparison; no connection expansion and no f/Ricci symmetry assumption",
+      "final_exact_residual_terms": 0
+    },
+    "N": {
+      "slot": "N",
+      "mapped_terms": 468,
+      "original_gauge_terms": 169,
+      "exact_tensor_clifford_residual_terms": 9,
+      "source_sha256": "0ee6fda396b800bbf07d2596fd2883c148d0933acd6f99419fdf415d81ee598c",
+      "current_sha256": "ff550d9514319f04d40196873cdd5c023d0afab6c79f1becdf532c98aa481b46",
+      "seconds": 0.8083958625793457,
+      "scope": "exact full-covariant standard-Weyl comparison; no connection expansion and no f/Ricci symmetry assumption",
+      "final_exact_residual_terms": 0
+    },
+    "E": {
+      "slot": "E",
+      "mapped_terms": 1103,
+      "original_gauge_terms": 437,
+      "exact_tensor_clifford_residual_terms": 57,
+      "source_sha256": "8edacda54abb4a7fdaf1e06ee6e937270d4c19a8ed280164c3d2b542b7010687",
+      "current_sha256": "179b015c652027e75ca193aa1f53f80f04dafb78cdf69c169a4f2a3db3b8745d",
+      "seconds": 2.339423894882202,
+      "scope": "exact full-covariant standard-Weyl comparison; no connection expansion and no f/Ricci symmetry assumption",
+      "final_exact_residual_terms": 0
+    }
+  },
+  "projector_validation": {
+    "basis_twoform_spinors": 40,
+    "gamma_trace_exact_residual": 0,
+    "idempotence_exact_residual": 0,
+    "arithmetic": "exact SymPy Gaussian rationals; complete 10x4 component basis",
+    "source_matrix_sha256": "6cf5eb2444ffd9864618d9677f9ae269b69e35ec269ee2b545e0c56461ad07af"
+  },
+  "no_connection_symmetry_assumptions": true,
+  "no_uncancelled_inverse_g": true,
+  "domain": "Inverse map constructed on sigma !=0 and g !=0; all inverse g cancel identically before comparison, so polynomial equality extends to g=0. Gauge uses sigma=1 on positive patch.",
+  "independence": "Inverse map algebraically inverts production pre-gauge templates. Independent source-formula coefficient check is parent ungauged_composite_debug.json; this report proves migration preservation, not nonlinear SUSY.",
+  "scripts": {
+    "verify_log_derivative_equivalence_ordered.py": "06c0f5ac1678427e2a459be302954b5bea8c08383e4cbaeb7f4f088b43dca35d",
+    "verify_log_derivative_equivalence_covariant.py": "61f4c0e960c7ec8beb5eb05f5f45fc7e3685c438c9a8ba919a116af98a548249",
+    "verify_log_derivative_equivalence_identities.py": "7f5972f700c631fe6a2b0215c35103e4826eb625de9737fbb05dfdb76a40d554",
+    "verify_log_derivative_equivalence_endpoint.py": "fd0398c2e3ffa82d7921c14115eb17e4fde0ad57f2db143c50ad4181f6d5cbc7",
+    "verify_log_derivative_equivalence_projector.py": "ab6eeb8b51a1ec34c0550cc400dc85f87473dd6347e37baefa03895b139d7efb",
+    "verify_log_derivative_equivalence.py": "fd66fd897df2c74e2b4e88b484670897de02d2040a8074086deb521db243f8d6",
+    "verify_log_derivative_equivalence_all.py": "3a9f72b1a2b79cbe28c5c7158408455a473ff8286bd7fda88cb3dfcddb796687"
+  },
+  "seconds": 16.1427800655365
+}

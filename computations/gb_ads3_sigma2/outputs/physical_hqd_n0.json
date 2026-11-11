@@ -1,0 +1,425 @@
+{
+  "label": "hqd",
+  "rank": 2,
+  "shape": [
+    2,
+    2
+  ],
+  "blocks": [
+    {
+      "rank": 1,
+      "shape": [
+        1,
+        1
+      ],
+      "rows": [
+        0
+      ],
+      "cols": [
+        0
+      ],
+      "row_scales": [
+        "(-2*L**3*k**3 + 24*L**2*k**2 - 96*L*k + 128)/(L**7*k**4 - 8*L**6*k**3 - 12*L**5*k**3 + 28*L**5*k**2 + 64*L**4*k**2 - 48*L**4*k + 48*L**3*k**2 - 144*L**3*k + 32*L**3 - 128*L**2*k + 128*L**2 - 64*L*k + 128*L)"
+      ],
+      "physical_divisor": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "D",
+            1
+          ],
+          [
+            "D - 2",
+            1
+          ]
+        ]
+      },
+      "chart_denominators": {
+        "coefficient": "1",
+        "factors": []
+      },
+      "minor_witnesses": [
+        {
+          "rows": [
+            0
+          ],
+          "cols": [
+            0
+          ]
+        }
+      ],
+      "rank_factorization_verified": true,
+      "denominators_coprime_to_divisor_in_D": true,
+      "proof_method": "coprime chart",
+      "gauge_right": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "gauge_left": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "probes": {
+        "h_34": {
+          "numerator": {
+            "coefficient": "-2",
+            "factors": [
+              [
+                "L*k - 4",
+                3
+              ]
+            ]
+          },
+          "denominator": {
+            "coefficient": "1",
+            "factors": [
+              [
+                "D",
+                1
+              ],
+              [
+                "D - 2",
+                1
+              ],
+              [
+                "L",
+                1
+              ],
+              [
+                "L^2*k^2 - 4*L*k - 4*k + 8",
+                1
+              ],
+              [
+                "L^2*k - 2*L - 4",
+                2
+              ]
+            ]
+          }
+        }
+      },
+      "probe_names": [
+        "h_34"
+      ],
+      "propagator": [
+        [
+          {
+            "numerator": {
+              "coefficient": "-2",
+              "factors": [
+                [
+                  "L*k - 4",
+                  3
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": [
+                [
+                  "D",
+                  1
+                ],
+                [
+                  "D - 2",
+                  1
+                ],
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L^2*k^2 - 4*L*k - 4*k + 8",
+                  1
+                ],
+                [
+                  "L^2*k - 2*L - 4",
+                  2
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "observables_a": {
+        "h_34": {
+          "0": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "observables_b": {
+        "h_34": {
+          "0": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "original_rows": [
+        0
+      ],
+      "original_cols": [
+        0
+      ],
+      "avars": [
+        "a_h_34"
+      ],
+      "bvars": [
+        "b_h_34"
+      ],
+      "K": [
+        [
+          "-D*L*(D - 2)*(L**2*k - 2*L - 4)**2*(L**2*k**2 - 4*L*k - 4*k + 8)/(2*(L*k - 4)**3)"
+        ]
+      ]
+    },
+    {
+      "rank": 1,
+      "shape": [
+        1,
+        1
+      ],
+      "rows": [
+        0
+      ],
+      "cols": [
+        0
+      ],
+      "row_scales": [
+        "(-2*L**3*k**3 + 24*L**2*k**2 - 96*L*k + 128)/(L**7*k**4 - 8*L**6*k**3 - 12*L**5*k**3 + 28*L**5*k**2 + 64*L**4*k**2 - 48*L**4*k + 48*L**3*k**2 - 144*L**3*k + 32*L**3 - 128*L**2*k + 128*L**2 - 64*L*k + 128*L)"
+      ],
+      "physical_divisor": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "D",
+            1
+          ],
+          [
+            "D - 2",
+            1
+          ]
+        ]
+      },
+      "chart_denominators": {
+        "coefficient": "1",
+        "factors": []
+      },
+      "minor_witnesses": [
+        {
+          "rows": [
+            0
+          ],
+          "cols": [
+            0
+          ]
+        }
+      ],
+      "rank_factorization_verified": true,
+      "denominators_coprime_to_divisor_in_D": true,
+      "proof_method": "coprime chart",
+      "gauge_right": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "gauge_left": [
+        [
+          {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        ]
+      ],
+      "probes": {
+        "h_u": {
+          "numerator": {
+            "coefficient": "-2",
+            "factors": [
+              [
+                "L*k - 4",
+                3
+              ]
+            ]
+          },
+          "denominator": {
+            "coefficient": "1",
+            "factors": [
+              [
+                "D",
+                1
+              ],
+              [
+                "D - 2",
+                1
+              ],
+              [
+                "L",
+                1
+              ],
+              [
+                "L^2*k^2 - 4*L*k - 4*k + 8",
+                1
+              ],
+              [
+                "L^2*k - 2*L - 4",
+                2
+              ]
+            ]
+          }
+        }
+      },
+      "probe_names": [
+        "h_u"
+      ],
+      "propagator": [
+        [
+          {
+            "numerator": {
+              "coefficient": "-2",
+              "factors": [
+                [
+                  "L*k - 4",
+                  3
+                ]
+              ]
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": [
+                [
+                  "D",
+                  1
+                ],
+                [
+                  "D - 2",
+                  1
+                ],
+                [
+                  "L",
+                  1
+                ],
+                [
+                  "L^2*k^2 - 4*L*k - 4*k + 8",
+                  1
+                ],
+                [
+                  "L^2*k - 2*L - 4",
+                  2
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "observables_a": {
+        "h_u": {
+          "0": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "observables_b": {
+        "h_u": {
+          "0": {
+            "numerator": {
+              "coefficient": "1",
+              "factors": []
+            },
+            "denominator": {
+              "coefficient": "1",
+              "factors": []
+            }
+          }
+        }
+      },
+      "original_rows": [
+        1
+      ],
+      "original_cols": [
+        1
+      ],
+      "avars": [
+        "a_h_u"
+      ],
+      "bvars": [
+        "b_h_u"
+      ],
+      "K": [
+        [
+          "L**3*(L*k - 2)/2 - L*(D**2*L**6*k**4 - 8*D**2*L**5*k**3 - 12*D**2*L**4*k**3 + 28*D**2*L**4*k**2 + 64*D**2*L**3*k**2 - 48*D**2*L**3*k + 48*D**2*L**2*k**2 - 144*D**2*L**2*k + 32*D**2*L**2 - 128*D**2*L*k + 128*D**2*L - 64*D**2*k + 128*D**2 - 2*D*L**6*k**4 + 16*D*L**5*k**3 + 24*D*L**4*k**3 - 56*D*L**4*k**2 - 128*D*L**3*k**2 + 96*D*L**3*k - 96*D*L**2*k**2 + 288*D*L**2*k - 64*D*L**2 + 256*D*L*k - 256*D*L + 128*D*k - 256*D + L**6*k**4 - 14*L**5*k**3 + 72*L**4*k**2 - 160*L**3*k + 128*L**2)/(2*(L*k - 4)**3)"
+        ]
+      ]
+    }
+  ],
+  "physical_divisor": {
+    "coefficient": "1",
+    "factors": [
+      [
+        "D",
+        2
+      ],
+      [
+        "D - 2",
+        2
+      ]
+    ]
+  },
+  "level": "hqd",
+  "removed_equations_zero": true
+}

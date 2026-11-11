@@ -1,0 +1,1666 @@
+{
+  "precision_digits": [
+    80,
+    140
+  ],
+  "method": "analytic residues; Hermitian flat residue inertia",
+  "scope": "v109 Table GBbos upper block; finite samples do not prove global unitarity",
+  "levels": [
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "3",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-2.10796442115015125719413",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "3.55036239262915447522511",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "10.0607076185831085832113",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-3.97516746781213060249591",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-0.818865237218411944962257",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "2.64068891643778355072731",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.74780689681095206296732",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "7.18814558743398084680701",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "4",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-3.35459893225259555330603",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.21989541160736668590938",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "10.6378091107073406686389",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-5.22029878368821871879107",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-1.92013311570071921478167",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "3.30440257106230458813406",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "5.36606740579783890095024",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "8.25257061818096835753192",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "5",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-4.64338592331275445772877",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.73772337661736363739226",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "11.4087681367575026215787",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-6.49982757475492785105769",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-3.09998466111509485120547",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "3.71504854108146534943428",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "6.22668041004385848389768",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "9.44069198039687278197467",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "6",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-5.95923310647914317405255",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "5.11751707425231835985062",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "12.3448216222889366154442",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-7.80053961560381276379162",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-4.30955612999521122216193",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "3.92709741662533133647708",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "7.27493900025853908582197",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "10.690668024367327476698",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "7",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-7.29395651905661222211085",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "5.38952210339791899008627",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "13.4075400057208050332668",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-9.11622895044021663248092",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-5.53208733006409386447453",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.04074216457785740012256",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "8.41443930420769720996276",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "11.9757435073709297999136",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "8",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-8.64249971602821401091662",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "5.58415071666246189358799",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "14.5614545894278639185709",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-10.4434299425436184561982",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-6.76032098735194755150787",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.10750945873783036060279",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "9.59560229185141184080761",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "13.2832478749584977193392",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "9",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-10.0015008951724036410819",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "5.72518407433304018658863",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "15.7794224109014752557355",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-11.7799507916856148930434",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-7.99067793570892910175771",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.1500003809178373264684",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "10.7967738721591238129458",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "14.6064631699697567684304",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "10",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-11.3686165906334804763074",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "5.82930819778391461033602",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "17.0424139829116776672136",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-13.1242700030810742723308",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-9.22126497266893828774832",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.17875638167384682813393",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "12.0079389565562830969638",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "15.9414483331720565480249",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "11",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-12.7421565296699460806488",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "5.90775933434977916845236",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "18.3375027853822787134387",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-14.4752552923852965179841",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-10.4510518103195744367268",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.19915730635762509156764",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "13.2240724436385693343226",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "17.2856860483608504418642",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "12",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-14.1208688088539016114818",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "5.96804655632178535649767",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "19.6559278425942280562264",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-15.8320200638945152882807",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-11.6794832900638350068173",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.21417592466971808194247",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "14.4424842080210423978629",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "18.637451916919763728336",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "13",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-15.5038058820672814706677",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "6.0152309561076950421467",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "20.9916805160216982297632",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-17.193844462588190158511",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-12.9062785059054368518989",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.22556519970864838371569",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "15.6616703232945840932363",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "19.9954961411425684465015",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "14",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-16.8902373049287966924406",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "6.0527776061884129018334",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "22.3405652888024955918495",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-18.5601289912180686853168",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-14.1313192584415734480898",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.23441480629176730022488",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "16.8807706103871308830742",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "21.358871528632917863151",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "15",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-18.2795910053837457067075",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "6.08310281256078386326155",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "23.6995937828850736446882",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-19.9303655202606691764549",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-15.354584889893480143956",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.24143206682909296460584",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "18.0992922334105977945002",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "22.7268348055666324743483",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "16",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-19.6714126744472205161276",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "6.10792353427038205193146",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "25.0665947302389502654383",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-21.3041180614417429600083",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-16.5761128145022802164051",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.24709294834229118311465",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "19.3169597694173103887434",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "24.0987868538365955175987",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "10",
+      "k": "1/10",
+      "S": "17",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-21.065337042774009693823",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "6.12848220843466009336785",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "26.4399604244014614016974",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-22.6810092866826816344608",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "-17.7959740244043763719215",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "4.25172761679750492994322",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "20.5336296976915978688785",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "25.4742346922501291206041",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(5.28571428571428571428571 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "5",
+      "k": "-1",
+      "S": "3",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "(-0.662573177482556045207289 - 0.445806578540909390078607j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(-0.662573177482556045207289 + 0.445806578540909390078607j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "2.59640141569385702968583",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "(-2.72515507180174358818132 - 0.431226272274123911683807j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(-2.72515507180174358818132 + 0.431226272274123911683807j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "-0.293870990793035843624381",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "0.660464488602966813974069",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": true,
+          "superalgebra_norm_check": "PASS (formal branch)",
+          "formal_branch": {
+            "scalar_spin": 0,
+            "scalar_energy": "0.660464488602966813974069",
+            "vector_spin": 1,
+            "vector_energy": "1.66046448860296681397407",
+            "supersymmetric_weight_h": "0.330232244301483406987034",
+            "scalar_mass_squared_ell_squared": "-0.884715636500355147439819",
+            "norm_factor_sign": 1,
+            "relation": "N_vector = sign[4 h(h+1)] N_scalar; kinetic signs unchanged",
+            "scalar_probe_checks": {
+              "L_0": {
+                "at_d": "(-0.0341961736974933225237108 + 0.0j)",
+                "at_2_minus_d": "(0.0341961736974933225237108 + 0.0j)",
+                "residue_reflection": "PASS",
+                "mass_residue_norm": 1
+              },
+              "N_0": {
+                "at_d": "(-2.6330119994463553494005 + 0.0j)",
+                "at_2_minus_d": "(2.6330119994463553494005 + 0.0j)",
+                "residue_reflection": "PASS",
+                "mass_residue_norm": 1
+              }
+            },
+            "scope": "formal paper branch; no boundary-condition theorem"
+          }
+        },
+        {
+          "D_chi_plus": "2.61465938726261346454389",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(-2.23076923076923076923077 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "5",
+      "k": "-1",
+      "S": "4",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "(-0.870823408153931582299514 - 0.583812581447074796642086j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(-0.870823408153931582299514 + 0.583812581447074796642086j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "3.01290187703660810387028",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "(-2.94291278982928955673228 - 0.675660492192190446841076j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(-2.94291278982928955673228 + 0.675660492192190446841076j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "-0.668014844361169046494915",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "1.04245839168649140828206",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "3.04232477380231401020836",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(-2.23076923076923076923077 + 0.0j)",
+        "charged_norm": -1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "6",
+      "k": "2",
+      "S": "1/2",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-0.0747741730663586416407111",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "0.154781658933442270084838",
+          "norm": -1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "2.01523060937101160965111",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "(-0.940063781610353940379598 - 0.882951475407323846864561j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(-0.940063781610353940379598 + 0.882951475407323846864561j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "-0.121119517317910656596024",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "0.0503524692507271142135725",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": true,
+          "superalgebra_norm_check": "PASS (formal branch)",
+          "formal_branch": {
+            "scalar_spin": 0,
+            "scalar_energy": "0.0503524692507271142135725",
+            "vector_spin": 1,
+            "vector_energy": "1.05035246925072711421357",
+            "supersymmetric_weight_h": "0.0251762346253635571067863",
+            "scalar_mass_squared_ell_squared": "-0.0981695673418088088724842",
+            "norm_factor_sign": 1,
+            "relation": "N_vector = sign[4 h(h+1)] N_scalar; kinetic signs unchanged",
+            "scalar_probe_checks": {
+              "L_0": {
+                "at_d": "(0.00136262722264562812891361 + 0.0j)",
+                "at_2_minus_d": "(-0.00136262722264562812891361 + 0.0j)",
+                "residue_reflection": "PASS",
+                "mass_residue_norm": -1
+              },
+              "N_0": {
+                "at_d": "(0.22868164245199294832384 + 0.0j)",
+                "at_2_minus_d": "(-0.22868164245199294832384 + 0.0j)",
+                "residue_reflection": "PASS",
+                "mass_residue_norm": -1
+              }
+            },
+            "scope": "formal paper branch; no boundary-condition theorem"
+          }
+        },
+        {
+          "D_chi_plus": "2.02708508747836761361784",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(-0.428571428571428571428571 + 0.0j)",
+        "charged_norm": 1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "6",
+      "k": "2",
+      "S": "1/2 + I",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-0.227040193271726091442177",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "0.247575220359109125382415",
+          "norm": -1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "2.074703068150712204155",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "(-0.987256946434699857919711 - 0.892449590708182198230932j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(-0.987256946434699857919711 + 0.892449590708182198230932j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "-0.241496947598272428768333",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "0.163075163935709043818901",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": true,
+          "superalgebra_norm_check": "PASS (formal branch)",
+          "formal_branch": {
+            "scalar_spin": 0,
+            "scalar_energy": "0.163075163935709043818901",
+            "vector_spin": 1,
+            "vector_energy": "1.1630751639357090438189",
+            "supersymmetric_weight_h": "0.0815375819678545219094504",
+            "scalar_mass_squared_ell_squared": "-0.299556818778759708079567",
+            "norm_factor_sign": 1,
+            "relation": "N_vector = sign[4 h(h+1)] N_scalar; kinetic signs unchanged",
+            "scalar_probe_checks": {
+              "L_0": {
+                "at_d": "(0.0023401349300616331267178 + 0.0j)",
+                "at_2_minus_d": "(-0.0023401349300616331267178 + 0.0j)",
+                "residue_reflection": "PASS",
+                "mass_residue_norm": -1
+              },
+              "N_0": {
+                "at_d": "(0.378209652798645737728327 + 0.0j)",
+                "at_2_minus_d": "(-0.378209652798645737728327 + 0.0j)",
+                "residue_reflection": "PASS",
+                "mass_residue_norm": -1
+              }
+            },
+            "scope": "formal paper branch; no boundary-condition theorem"
+          }
+        },
+        {
+          "D_chi_plus": "2.12912615272243929126504",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(-0.428571428571428571428571 + 0.0j)",
+        "charged_norm": 1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "6",
+      "k": "2",
+      "S": "1/2 + 3*I",
+      "chi": 1,
+      "spin2": [
+        {
+          "D_chi_plus": "-0.816343114444989023872518",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "0.425157351143036623610326",
+          "norm": -1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "2.48642385854004763835743",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "(-1.29564439971059112883023 - 0.964245623781927388738966j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(-1.29564439971059112883023 + 0.964245623781927388738966j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "-0.768163510290333700729344",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "0.691963936499096832799061",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": true,
+          "superalgebra_norm_check": "PASS (formal branch)",
+          "formal_branch": {
+            "scalar_spin": 0,
+            "scalar_energy": "0.691963936499096832799061",
+            "vector_spin": 1,
+            "vector_energy": "1.69196393649909683279906",
+            "supersymmetric_weight_h": "0.34598196824954841639953",
+            "scalar_mass_squared_ell_squared": "-0.90511378358286755161148",
+            "norm_factor_sign": 1,
+            "relation": "N_vector = sign[4 h(h+1)] N_scalar; kinetic signs unchanged",
+            "scalar_probe_checks": {
+              "L_0": {
+                "at_d": "(0.00972998642282939897608379 + 0.0j)",
+                "at_2_minus_d": "(-0.00972998642282939897608379 + 0.0j)",
+                "residue_reflection": "PASS",
+                "mass_residue_norm": -1
+              },
+              "N_0": {
+                "at_d": "(1.3884444644505123817923 + 0.0j)",
+                "at_2_minus_d": "(-1.3884444644505123817923 + 0.0j)",
+                "residue_reflection": "PASS",
+                "mass_residue_norm": -1
+              }
+            },
+            "scope": "formal paper branch; no boundary-condition theorem"
+          }
+        },
+        {
+          "D_chi_plus": "2.74367884940289531606694",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(-0.428571428571428571428571 + 0.0j)",
+        "charged_norm": 1,
+        "neutral_inertia": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "L": "3",
+      "k": "6/5",
+      "S": "1/2 + I/2",
+      "chi": -1,
+      "spin2": [
+        {
+          "D_chi_plus": "-1.27504623153347669634387",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "(1.94055341879704137847496 - 0.830914456381652135698901j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(1.94055341879704137847496 + 0.830914456381652135698901j)",
+          "norm": "complex energy"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-2.16099439272714365339913",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "(1.17341284629783954916303 - 0.738741623128920565712829j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(1.17341284629783954916303 + 0.738741623128920565712829j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(7.74988738036876258056684 - 0.914879190159716424698415j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(7.74988738036876258056684 + 0.914879190159716424698415j)",
+          "norm": "complex energy"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(2.33333333333333333333333 + 0.0j)",
+        "charged_norm": 1,
+        "neutral_inertia": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "L": "3",
+      "k": "6/5",
+      "S": "1/2 + 2*I",
+      "chi": -1,
+      "spin2": [
+        {
+          "D_chi_plus": "-3.92107633948120778613391",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "(3.26356847277090692336998 - 1.29073928960819410290778j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(3.26356847277090692336998 + 1.29073928960819410290778j)",
+          "norm": "complex energy"
+        }
+      ],
+      "scalar": [
+        {
+          "D_chi_plus": "-4.93179767904166983995466",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "1.8084290137615550812188",
+          "norm": -1,
+          "vector_partner_norm": -1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "2.49283886714547569673294",
+          "norm": 1,
+          "vector_partner_norm": 1,
+          "alternative_quantization": false,
+          "superalgebra_norm_check": "PASS"
+        },
+        {
+          "D_chi_plus": "(8.15806792937034983403176 - 13.2391826138054670132121j)",
+          "norm": "complex energy"
+        },
+        {
+          "D_chi_plus": "(8.15806792937034983403176 + 13.2391826138054670132121j)",
+          "norm": "complex energy"
+        }
+      ],
+      "flat": {
+        "D_chi_plus": "(2.33333333333333333333333 + 0.0j)",
+        "charged_norm": 1,
+        "neutral_inertia": [
+          1,
+          1
+        ]
+      }
+    }
+  ]
+}

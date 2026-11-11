@@ -1,0 +1,341 @@
+{
+  "status": "PASS",
+  "scope": "Coefficients of the two W-Y first-derivative tensor structures only; all ten two-form planes for each structure. Finite Clifford contractions, absolute tolerance 1e-10; not a complete curved constraint or SUSY test.",
+  "source_comparison": "C24 supplement 2.2.3, PDF121, first two terms",
+  "contributions": 114,
+  "by_primary_at_W12_or_d2W12_1": {
+    "W_dY": {
+      "H0.1": 0.09375,
+      "H1.3": 0.1875,
+      "H1.7": -0.1875
+    },
+    "Y_dW": {
+      "H0.2": 0.19921875,
+      "H1.1": -0.421875,
+      "H1.3": 0.10546875,
+      "H1.6": 0.2109375
+    }
+  },
+  "checks": [
+    {
+      "sector": "W_dY",
+      "W_slot": [
+        0,
+        1
+      ],
+      "derivative_slot": 1,
+      "vector": [
+        -0.09375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "W_dY",
+      "W_slot": [
+        0,
+        2
+      ],
+      "derivative_slot": 2,
+      "vector": [
+        -0.09375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "W_dY",
+      "W_slot": [
+        0,
+        3
+      ],
+      "derivative_slot": 3,
+      "vector": [
+        -0.09375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "W_dY",
+      "W_slot": [
+        0,
+        4
+      ],
+      "derivative_slot": 4,
+      "vector": [
+        -0.09375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "W_dY",
+      "W_slot": [
+        1,
+        2
+      ],
+      "derivative_slot": 2,
+      "vector": [
+        0.0,
+        0.09375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "W_dY",
+      "W_slot": [
+        1,
+        3
+      ],
+      "derivative_slot": 3,
+      "vector": [
+        0.0,
+        0.09375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "W_dY",
+      "W_slot": [
+        1,
+        4
+      ],
+      "derivative_slot": 4,
+      "vector": [
+        0.0,
+        0.09375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "W_dY",
+      "W_slot": [
+        2,
+        3
+      ],
+      "derivative_slot": 3,
+      "vector": [
+        0.0,
+        0.0,
+        0.09375,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "W_dY",
+      "W_slot": [
+        2,
+        4
+      ],
+      "derivative_slot": 4,
+      "vector": [
+        0.0,
+        0.0,
+        0.09375,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "W_dY",
+      "W_slot": [
+        3,
+        4
+      ],
+      "derivative_slot": 4,
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.09375,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "Y_dW",
+      "W_slot": [
+        0,
+        1
+      ],
+      "derivative_slot": 1,
+      "vector": [
+        -0.09375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "Y_dW",
+      "W_slot": [
+        0,
+        2
+      ],
+      "derivative_slot": 2,
+      "vector": [
+        -0.09375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "Y_dW",
+      "W_slot": [
+        0,
+        3
+      ],
+      "derivative_slot": 3,
+      "vector": [
+        -0.09375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "Y_dW",
+      "W_slot": [
+        0,
+        4
+      ],
+      "derivative_slot": 4,
+      "vector": [
+        -0.09375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "Y_dW",
+      "W_slot": [
+        1,
+        2
+      ],
+      "derivative_slot": 2,
+      "vector": [
+        0.0,
+        0.09375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "Y_dW",
+      "W_slot": [
+        1,
+        3
+      ],
+      "derivative_slot": 3,
+      "vector": [
+        0.0,
+        0.09375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "Y_dW",
+      "W_slot": [
+        1,
+        4
+      ],
+      "derivative_slot": 4,
+      "vector": [
+        0.0,
+        0.09375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "Y_dW",
+      "W_slot": [
+        2,
+        3
+      ],
+      "derivative_slot": 3,
+      "vector": [
+        0.0,
+        0.0,
+        0.09375,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "Y_dW",
+      "W_slot": [
+        2,
+        4
+      ],
+      "derivative_slot": 4,
+      "vector": [
+        0.0,
+        0.0,
+        0.09375,
+        0.0,
+        0.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "sector": "Y_dW",
+      "W_slot": [
+        3,
+        4
+      ],
+      "derivative_slot": 4,
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.09375,
+        0.0
+      ],
+      "status": "PASS"
+    }
+  ]
+}

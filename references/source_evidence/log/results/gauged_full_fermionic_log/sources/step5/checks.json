@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "scope": "Unreduced Gold-superspace vector through two explicit fermions. Flat constant-jet checks, gamma normalization, index/weight/parity and truncation audit; full curved transformation and reality checks not certified.",
+  "retained_contributions": 52689,
+  "degrees": {
+    "0": 7545,
+    "2": 45144
+  },
+  "gamma_trace": [
+    [
+      4.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -4.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -4.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -4.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -4.0
+    ]
+  ],
+  "checks": [
+    {
+      "case": "X only",
+      "status": "PASS",
+      "compared_coefficients": 0,
+      "nonzero_vector_coefficients": 0,
+      "retained_written_terms_in_probe": 741,
+      "max_absolute_difference": 0.0,
+      "constant_jet_divergence_residual": 0.0
+    },
+    {
+      "case": "F only",
+      "status": "PASS",
+      "compared_coefficients": 0,
+      "nonzero_vector_coefficients": 0,
+      "retained_written_terms_in_probe": 741,
+      "max_absolute_difference": 0.0,
+      "constant_jet_divergence_residual": 0.0
+    },
+    {
+      "case": "gradient only",
+      "status": "PASS",
+      "compared_coefficients": 56,
+      "nonzero_vector_coefficients": 56,
+      "retained_written_terms_in_probe": 741,
+      "max_absolute_difference": 0.0,
+      "constant_jet_divergence_residual": 0.0
+    },
+    {
+      "case": "F X gradient",
+      "status": "PASS",
+      "compared_coefficients": 145,
+      "nonzero_vector_coefficients": 145,
+      "retained_written_terms_in_probe": 741,
+      "max_absolute_difference": 0.0,
+      "constant_jet_divergence_residual": 0.0
+    },
+    {
+      "case": "integer probe 1",
+      "status": "PASS",
+      "compared_coefficients": 111,
+      "nonzero_vector_coefficients": 111,
+      "retained_written_terms_in_probe": 741,
+      "max_absolute_difference": 0.0,
+      "constant_jet_divergence_residual": 0.0
+    },
+    {
+      "case": "integer probe 2",
+      "status": "PASS",
+      "compared_coefficients": 141,
+      "nonzero_vector_coefficients": 141,
+      "retained_written_terms_in_probe": 741,
+      "max_absolute_difference": 0.0,
+      "constant_jet_divergence_residual": 0.0
+    },
+    {
+      "case": "integer probe 3",
+      "status": "PASS",
+      "compared_coefficients": 137,
+      "nonzero_vector_coefficients": 137,
+      "retained_written_terms_in_probe": 741,
+      "max_absolute_difference": 0.0,
+      "constant_jet_divergence_residual": 0.0
+    },
+    {
+      "case": "index-raised displayed form",
+      "status": "PASS",
+      "compared_coefficients": 137,
+      "nonzero_vector_coefficients": 137,
+      "retained_written_terms_in_probe": 741,
+      "max_absolute_difference": 0.0,
+      "constant_jet_divergence_residual": 0.0
+    }
+  ],
+  "source_hashes": {
+    "STEP_02_LOG_PRIMARY.md": "378b6ddb76748443a9734d54636a7ed606056bcfca327d29960db80c5cc786d7",
+    "STEP_03_LOG_SPINOR.md": "403f96335dd87abd08f73ca168478b82c2b065d1e29eb4aab2a6c2d7f6aa8963",
+    "STEP_04_LOG_SCALAR.md": "8adb3c4821d004eb2a3c06223210e1fed3f57e2c9173965e4528f9a6ec5c9121",
+    "scripts/log_step3_covariant_rules.py": "a37e937ce86decf5638b3104d83006c83db41a646e66191ac10c81577442a79b",
+    "scripts/log_step4_covariant_rules.py": "791aa9f1ffddb51a73776a17c91fc2f7eb06ec2c175f532306bd1e0013cd3a9d"
+  }
+}

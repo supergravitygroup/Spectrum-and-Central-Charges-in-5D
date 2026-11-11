@@ -1,0 +1,161 @@
+{
+  "scope": "Final paper eq:atrial, eq:LCS, eq:TrR, eq:cLcR, eq:UTc, eq:deltac; exact identities only.",
+  "domain": "g>0; L0,L>0; vacuum Q=0 for AdS5 values; regular product family and chi=+1; the k=2/3 trial is evaluated before division; universal twist c!=0.",
+  "checks": [
+    {
+      "identity": "CS reduction / matrix entry 0",
+      "residual": "0"
+    },
+    {
+      "identity": "CS reduction / matrix entry 1",
+      "residual": "0"
+    },
+    {
+      "identity": "CS reduction / matrix entry 2",
+      "residual": "0"
+    },
+    {
+      "identity": "CS reduction / matrix entry 3",
+      "residual": "0"
+    },
+    {
+      "identity": "eq:TrR cubic",
+      "residual": "0"
+    },
+    {
+      "identity": "eq:atrial from anomalies",
+      "residual": "0"
+    },
+    {
+      "identity": "trial a independent of alpha",
+      "residual": "0"
+    },
+    {
+      "identity": "stationarity is vacuum polynomial",
+      "residual": "0"
+    },
+    {
+      "identity": "trial a from current scalar-curvature action",
+      "residual": "0"
+    },
+    {
+      "identity": "a maximum / current action a",
+      "residual": "0"
+    },
+    {
+      "identity": "a maximum / current action c",
+      "residual": "0"
+    },
+    {
+      "identity": "R direction equals graviphoton",
+      "residual": "0"
+    },
+    {
+      "identity": "normalized flavor coefficient",
+      "residual": "0"
+    },
+    {
+      "identity": "a-maximization / flavor two-point coefficient",
+      "residual": "0"
+    },
+    {
+      "identity": "trial-y second derivative",
+      "residual": "0"
+    },
+    {
+      "identity": "two-derivative normalization a",
+      "residual": "0"
+    },
+    {
+      "identity": "2d mixing",
+      "residual": "0"
+    },
+    {
+      "identity": "eq:cLcR / extremized trial",
+      "residual": "0"
+    },
+    {
+      "identity": "eq:cLcR / gravitational anomaly",
+      "residual": "0"
+    },
+    {
+      "identity": "two-derivative cL",
+      "residual": "0"
+    },
+    {
+      "identity": "two-derivative cR",
+      "residual": "0"
+    },
+    {
+      "identity": "k=2/3 / trial independent of mixing",
+      "residual": "0"
+    },
+    {
+      "identity": "k=2/3 / trial value",
+      "residual": "0"
+    },
+    {
+      "identity": "k=2/3 / cR",
+      "residual": "0"
+    },
+    {
+      "identity": "current pencil / CS entry 0",
+      "residual": "0"
+    },
+    {
+      "identity": "current pencil / CS entry 1",
+      "residual": "0"
+    },
+    {
+      "identity": "current pencil / CS entry 2",
+      "residual": "0"
+    },
+    {
+      "identity": "current pencil / CS entry 3",
+      "residual": "0"
+    },
+    {
+      "identity": "R-current level cL=3kR",
+      "residual": "0"
+    },
+    {
+      "identity": "eq:deltac",
+      "residual": "0"
+    },
+    {
+      "identity": "eq:UTc left",
+      "residual": "0"
+    },
+    {
+      "identity": "eq:UTc right",
+      "residual": "0"
+    },
+    {
+      "identity": "universal twist / no zeroth- or first-order correction",
+      "residual": "0"
+    }
+  ],
+  "results": {
+    "TrR3": "-8*pi**2*epsilon*(alpha*g + beta*g + 3*epsilon**2*g - 3*sqrt(2)*epsilon + 6*g*zeta)/(g*kappa**2)",
+    "TrR": "-24*pi**2*alpha*epsilon/kappa**2",
+    "trial_a": "-9*pi**2*epsilon*(beta*g + 3*epsilon**2*g - 3*sqrt(2)*epsilon + 6*g*zeta)/(4*g*kappa**2)",
+    "C_F": "-24*sqrt(2)*pi**2*(L0 - 2)/(L0*g*kappa**2)",
+    "mixing_2d": "sqrt(2)*(L*k - 4)/(g*(L**2*k - 2*L - 4))",
+    "cL": "-6*sqrt(2)*pi*A_Sigma*L*(L**4*k**4 - 6*L**3*k**3 - 14*L**2*k**3 + 20*L**2*k**2 + 72*L*k**2 - 48*L*k + 16*k**2 - 128*k + 64)/(g*kappa**2*(L**2*k - 2*L - 4)*(L**2*k**2 - 4*L*k - 4*k + 8))",
+    "cR": "12*sqrt(2)*pi*A_Sigma*L*(3*k - 2)*(L*k - 4)**2/(g*kappa**2*(L**2*k - 2*L - 4)*(L**2*k**2 - 4*L*k - 4*k + 8))",
+    "universal_twist_delta_c": "-64*sqrt(2)*pi**2*(L0 - 1)**2*(genus - 1)/(3*L0**3*g**3*kappa**2*(L0 - 2))",
+    "universal_twist_cL": "-64*sqrt(2)*pi**2*(genus - 1)*(7*L0**2 - 21*L0 + 15)/(3*L0**3*g**3*kappa**2*(L0 - 2))",
+    "universal_twist_cR": "-64*sqrt(2)*pi**2*(2*L0 - 3)**2*(genus - 1)/(3*L0**3*g**3*kappa**2*(L0 - 2))"
+  },
+  "source_sha256": {
+    "generic_combination/action.md": "0a6b33770892f0292de7eb6aab7f86e62bd772dc45d8da4437edb85c4b13d614",
+    "common/generic_action.md": "c644a25849bdb03fca838fd6a5d51d4d22999e87aa5bf984cdf86cb73ea23be3",
+    "computations/generic_ads5_massless/action_inputs.py": "37b1a7bbffe7210f25d74ea9226e036018c0cf48a69dc71ec095d32fac6ca52c",
+    "computations/generic_ads5_massless/derive.py": "e49d02fb313a3a7e0289af82ec3b4e2b7c3b812a001e338d74f748c5784b32e9",
+    "computations/gb_ads3_sigma2/model.py": "881d6df7e3480e1dcf4f9a03f144d4bc7e6bde6354f1a72257179212bd9142ec",
+    "computations/gb_ads3_sigma2/closed_forms.py": "1a81026c6e4622dee4dd81d63f03ba732e290cd8afa0242aec19576042cfee93",
+    "computations/gb_ads3_sigma2/outputs/constant.json": "54be7f3089ca46e75c4a1e4d140d4d6a8a931a542b2f7345e7f823f43baa0c72"
+  },
+  "implementation_sha256": "021c1e77ee8efd70e66015b35b6b3352ad795dfdb9e591ae59c6c624f4d401ac",
+  "sympy_version": "1.14.0"
+}

@@ -1,0 +1,265 @@
+PASS [Weyl vectors] WV quadratic form gives t MPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl vectors] constrained vector determinantPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl vectors] vector -1: all null-vector rowsPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl vectors] vector -1: normalized kinetic coefficientPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl vectors] vector 1: all null-vector rowsPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl vectors] vector 1: normalized kinetic coefficientPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl vectors] two Maxwell kinetic coefficientsPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl quadratic action] W21 derivative terms give paper Wquad after AdS IBPPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl vectors] current determinant in dimensionless massPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Majorana C antisymmetryPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Majorana C unitary normalizationPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] symplectic Majorana B star BPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] paper epsilon orientationPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] gamma 0 Majorana adjointPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 0,0PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 0,1PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 0,2PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 0,3PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 0,4PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] gamma 1 Majorana adjointPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 1,1PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 1,2PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 1,3PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 1,4PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] gamma 2 Majorana adjointPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 2,2PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 2,3PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 2,4PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] gamma 3 Majorana adjointPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 3,3PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 3,4PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] gamma 4 Majorana adjointPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] Clifford 4,4PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] paper J squaredPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] internal mass conventionPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [paper reality convention] NW-SE internal mass formal adjointPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q gamma trace, free bivector 0,1PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q gamma trace, free bivector 0,2PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q gamma trace, free bivector 0,3PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q gamma trace, free bivector 0,4PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q gamma trace, free bivector 1,2PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q gamma trace, free bivector 1,3PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q gamma trace, free bivector 1,4PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q gamma trace, free bivector 2,3PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q gamma trace, free bivector 2,4PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q gamma trace, free bivector 3,4PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q annihilates gamma wedge derivative 0PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q annihilates gamma wedge derivative 1PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q annihilates gamma wedge derivative 2PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q annihilates gamma wedge derivative 3PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q annihilates gamma wedge derivative 4PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] Q annihilates AdS SUSY curvature termPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] X gauge curvature identityPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] X gauge derivative identity 0PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] X gauge derivative identity 1PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] X gauge derivative identity 2PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] X gauge derivative identity 3PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] X gauge derivative identity 4PASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [fermion projector] X linearized SUSY shiftPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl fermions] mixed fermion trace equations give X polynomialPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl fermions] paper gravitino two equivalent factorsPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl fermions] paper/repo gravitino signed operatorPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl fermions] massless gravitino coefficientPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl fermions] gravitino -1 residuePASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl X norm] X -1: two-derivative action pullbackPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl X norm] X -1: composite embeddingPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl X norm] X -1: full action rootPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl X norm] X -1: kinetic coefficientPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl fermions] gravitino 1 residuePASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl X norm] X 1: two-derivative action pullbackPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl X norm] X 1: composite embeddingPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl X norm] X 1: full action rootPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [Weyl X norm] X 1: kinetic coefficientPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [critical operators] critical q=-2 gravitinoPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [critical operators] critical q=-2 constrained vector determinantPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [critical operators] critical q=6 gravitinoPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [critical operators] critical q=6 constrained vector determinantPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [critical operators] q=6 X double factorPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [critical operators] q=-2 vector Smith formPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [critical operators] scalar kinetic pullbackPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [critical operators] q=6 two separate nonzero BF scalar coefficientsPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [LOG displayed operators] LOG parameter mapPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [LOG displayed operators] LOG massless kinetic coefficientPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [LOG displayed operators] LOG coupled row subtractionPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [LOG displayed operators] LOG coupled spin-half separationPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [LOG displayed operators] LOG spin-half factorizationPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [LOG displayed operators] LOG TT cubic factorizationPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [LOG displayed operators] LOG TT masses equal paper nuPASS_SCOPED_EXACT: 89 bounded exact checks
+Python 3.14.1; SymPy 1.14.0
+
+PASS [LOG displayed operators] LOG critical tau=3/2 massless merger

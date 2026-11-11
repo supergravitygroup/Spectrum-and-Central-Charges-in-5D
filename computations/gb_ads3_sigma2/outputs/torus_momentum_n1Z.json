@@ -1,0 +1,15 @@
+{
+  "harmonic_chart": "flat Fourier",
+  "level": "M2=-S**2/9",
+  "avars": [
+    "a_Z_p"
+  ],
+  "bvars": [
+    "b_Z_m"
+  ],
+  "K": [
+    [
+      "(3*D*L - 12*D - 5*L + 12)/(L - 3)"
+    ]
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "sample": "H2_3_1o1000",
+  "parameters": {
+    "L": "3",
+    "k": "1/1000",
+    "g": "1",
+    "S": "1/3"
+  },
+  "background": {
+    "chi": 1,
+    "M2": [
+      0.1069124024253338,
+      0.0
+    ]
+  },
+  "physical_level": true,
+  "direct_modes": [
+    {
+      "spin": -0.5,
+      "energy": [
+        3.050288459022989,
+        8.362223878554769e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5188408453813034,
+        -1.1608896541589783e-15
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.3077143467755175,
+        -7.516024651619151e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.6647785319962365,
+        1.1620188291297903e-14
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        1598.3397580358105,
+        2.0025342654725923e-09
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        1598.339855868843,
+        -1.9535548717051515e-09
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        3.0502884590229886,
+        2.1384000369473014e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5188408453813038,
+        -2.941478531922763e-16
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.307714346775525,
+        -5.352877711674997e-15
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.6647785319962396,
+        -1.5512872417901846e-14
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        1598.339758040003,
+        5.7014786243544385e-09
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        1598.3398558740726,
+        -1.039817143941948e-08
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.5520990618305133,
+        -4.4291552952498626e-17
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5520990618514678,
+        -1.4156048899573933e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1599.3393548671656,
+        2.2034905922329147e-09
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1599.3398558684771,
+        1.2797265061554182e-10
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.5520990618305133,
+        -4.43382941268977e-17
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.552099061851468,
+        -1.415651692687354e-15
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1599.3393548671656,
+        2.2034905922329395e-09
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1599.3398558684771,
+        1.2797265061554184e-10
+      ],
+      "q_R": -1,
+      "origin": null
+    }
+  ],
+  "predicted_modes": [
+    {
+      "spin": -1.5,
+      "energy": [
+        2.5520990618305137,
+        -0.0
+      ],
+      "q_R": -1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.5520990618305137,
+        -0.0
+      ],
+      "q_R": 1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5520990618514672,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5520990618514672,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1599.339354868823,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1599.339354868823,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        3.0502884590229913,
+        -0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        3.0502884590229913,
+        -0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5188408453813032,
+        -0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5188408453813032,
+        -0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.3077143467755112,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.3077143467755112,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.6647785319962365,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.6647785319962365,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        1598.3397580390026,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        1598.3397580390026,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        1598.3398558702831,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "flat lower"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1599.3398558702831,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "flat upper"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        1598.3398558702831,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "flat lower"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1599.3398558702831,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "flat upper"
+    }
+  ],
+  "matching": {
+    "maximum_error": 1.1067140324766124e-08,
+    "pairs": [
+      {
+        "predicted": 0,
+        "direct": 12,
+        "energy_error": 4.462924690919587e-16
+      },
+      {
+        "predicted": 1,
+        "direct": 16,
+        "energy_error": 4.462971102655004e-16
+      },
+      {
+        "predicted": 2,
+        "direct": 13,
+        "energy_error": 1.5645035837792455e-15
+      },
+      {
+        "predicted": 3,
+        "direct": 17,
+        "energy_error": 1.6712063368206758e-15
+      },
+      {
+        "predicted": 4,
+        "direct": 14,
+        "energy_error": 2.7571910793229894e-09
+      },
+      {
+        "predicted": 5,
+        "direct": 18,
+        "energy_error": 2.757191079323009e-09
+      },
+      {
+        "predicted": 6,
+        "direct": 0,
+        "energy_error": 2.3726880409320647e-15
+      },
+      {
+        "predicted": 7,
+        "direct": 6,
+        "energy_error": 3.4165044804603033e-15
+      },
+      {
+        "predicted": 8,
+        "direct": 1,
+        "energy_error": 1.1819342603163958e-15
+      },
+      {
+        "predicted": 9,
+        "direct": 7,
+        "energy_error": 7.28187626044582e-16
+      },
+      {
+        "predicted": 10,
+        "direct": 2,
+        "energy_error": 9.75422015947848e-15
+      },
+      {
+        "predicted": 11,
+        "direct": 8,
+        "energy_error": 1.477082029798938e-14
+      },
+      {
+        "predicted": 12,
+        "direct": 3,
+        "energy_error": 1.1620188291297903e-14
+      },
+      {
+        "predicted": 13,
+        "direct": 9,
+        "energy_error": 1.5821275446153424e-14
+      },
+      {
+        "predicted": 14,
+        "direct": 4,
+        "energy_error": 3.768240928978688e-09
+      },
+      {
+        "predicted": 15,
+        "direct": 10,
+        "energy_error": 5.788587655478644e-09
+      },
+      {
+        "predicted": 16,
+        "direct": 5,
+        "energy_error": 2.4270370966422516e-09
+      },
+      {
+        "predicted": 17,
+        "direct": 15,
+        "energy_error": 1.8105574069786608e-09
+      },
+      {
+        "predicted": 18,
+        "direct": 11,
+        "energy_error": 1.1067140324766124e-08
+      },
+      {
+        "predicted": 19,
+        "direct": 19,
+        "energy_error": 1.8105574069786608e-09
+      }
+    ]
+  },
+  "sector_files": [
+    "H2_3_1o1000_np1_q+1.json",
+    "H2_3_1o1000_np1_q-1.json",
+    "H2_3_1o1000_nm1_q+1.json",
+    "H2_3_1o1000_nm1_q-1.json",
+    "H2_3_1o1000_np3_q+1.json",
+    "H2_3_1o1000_np3_q-1.json",
+    "H2_3_1o1000_nm3_q+1.json",
+    "H2_3_1o1000_nm3_q-1.json"
+  ]
+}

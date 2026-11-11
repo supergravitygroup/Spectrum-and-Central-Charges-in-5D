@@ -1,0 +1,60 @@
+{
+  "direct_fermion_samples": [
+    {
+      "k": 0.1,
+      "light_modes": 12,
+      "heavy_modes": 8,
+      "maximum_light_deviation": 0.2063138948281784,
+      "light_deviation_over_k": 2.063138948281784,
+      "heavy_k_ReDelta": [
+        1.432417582417542,
+        1.4349270610140985,
+        1.4324175824176146,
+        1.4349270610144418,
+        1.5262503919791515,
+        1.5324175824175665,
+        1.5262503919791515,
+        1.5324175824175674
+      ],
+      "maximum_heavy_limit_error": 0.16758241758245807
+    },
+    {
+      "k": 0.01,
+      "light_modes": 12,
+      "heavy_modes": 8,
+      "maximum_light_deviation": 0.018216217264868995,
+      "light_deviation_over_k": 1.8216217264868995,
+      "heavy_k_ReDelta": [
+        1.5833777193629714,
+        1.5833854692230103,
+        1.5833777193634635,
+        1.5833854692235818,
+        1.5933344544501866,
+        1.5933854692228153,
+        1.5933344544501866,
+        1.5933854692228155
+      ],
+      "maximum_heavy_limit_error": 0.01662228063702864
+    },
+    {
+      "k": 0.001,
+      "light_modes": 12,
+      "heavy_modes": 8,
+      "maximum_light_deviation": 0.0018561211551060275,
+      "light_deviation_over_k": 1.8561211551060275,
+      "heavy_k_ReDelta": [
+        1.5983397580358105,
+        1.598339855868843,
+        1.5983397580400032,
+        1.5983398558740727,
+        1.5993393548671657,
+        1.599339855868477,
+        1.5993393548671657,
+        1.599339855868477
+      ],
+      "maximum_heavy_limit_error": 0.0016602419641895683
+    }
+  ],
+  "analytic_bosonic_prediction": "8/(L + 2)",
+  "scope": "three direct L=3 samples; finite-sample O(k) evidence, not a uniform all-level limit"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS \u2014 stated sectors only; full curved primary OPEN",
+  "scope": "Independent projected W^-4 derivation, eight lambda and forty derivative-lambda exterior generators; all coefficients checked by even-jet polarization.",
+  "full_primary_verified": false,
+  "three_spinor_identity_components": 64,
+  "derivative_contractions": 6,
+  "polarized_three_spinor_identity": "PASS",
+  "unreduced_to_reduced_third_vector_derivative_probes": 64,
+  "clifford_completeness_components": 256,
+  "clifford_two_form_square_polarizations": 55,
+  "two_gaugino_coefficient_probes": 171,
+  "derivative_gaugino_exterior_generators": 40,
+  "weyl_two_form_basis_probes": 10,
+  "arithmetic": "Exact Gaussian dyadic coefficients, tested with ==, no coefficient fitting.",
+  "pending": "W^0, W^-1, W^-2 full curved reduction, full collected-polynomial verification and component projection; W^-3 checked separately in w3_checks.json.",
+  "input_sha256": {
+    "scripts/verify_log_step2.py": "ada887c091de3067fb53ab73bea04fb0c1736c0130ee3335eb107db3deed7f02",
+    "scripts/verify_log_step2_projected.py": "cbe6cf1c7819a7d5c3f064b30abbf43dc084fc2bf4a70a71fed8137b714d78ac",
+    "STEP_02_LOG_PRIMARY.md": "5838974d745b8129dd1c412ce59e923a9d4fbfef7c986c30a482f0e0aa34cf8a"
+  }
+}

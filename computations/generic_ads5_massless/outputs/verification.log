@@ -1,0 +1,47 @@
+Item 23: exact symbolic verification
+Command: python3 -B computations/generic_ads5_massless/checks.py --write-log
+Working directory: repository root
+Python: 3.14.1; SymPy: 1.14.0
+Parameters: real alpha,beta,zeta; g!=0; L0>0; no numerical samples.
+Q=0 is imposed algebraically; named single-invariant limits are separate checks.
+PASS source lock: 5 current input files
+PASS background/two_derivative: exact zero (1 component(s))
+PASS background/weyl: exact zero (1 component(s))
+PASS background/log: exact zero (1 component(s))
+PASS background/r2: exact zero (1 component(s))
+PASS background/N tadpole: exact zero (1 component(s))
+PASS background/L tadpole: exact zero (1 component(s))
+PASS background/metric tadpole: exact zero (1 component(s))
+PASS curvature/Riemann2: exact zero (1 component(s))
+PASS curvature/Ricci2: exact zero (1 component(s))
+PASS curvature/R2: exact zero (1 component(s))
+PASS eq:acgen/a: exact zero (1 component(s))
+PASS eq:acgen/c: exact zero (1 component(s))
+PASS central charges/c-a: exact zero (1 component(s))
+PASS vector source representatives/two_derivative: exact zero (1 component(s))
+PASS vector source representatives/weyl: exact zero (1 component(s))
+PASS vector source representatives/log: exact zero (1 component(s))
+PASS vector source representatives/r2: exact zero (1 component(s))
+PASS LOG Bianchi completion: exact zero (1 component(s))
+PASS multiplier/Bianchi equation: exact zero (1 component(s))
+PASS vector/two routes at symbolic x: exact zero (4 component(s))
+PASS vector/exact massless coefficient: exact zero (4 component(s))
+PASS vector/pole inverse normalization: exact zero (4 component(s))
+PASS vector/undivided congruence: exact zero (9 component(s))
+PASS vector/congruence invertible: exact zero (1 component(s))
+PASS eq:uvgen/mixing: exact zero (1 component(s))
+PASS eq:uvgen/kinetic matrix: exact zero (4 component(s))
+PASS limits/Einstein/a,c: exact zero (2 component(s))
+PASS limits/Einstein/vectors: exact zero (9 component(s))
+PASS limits/Weyl/a,c: exact zero (2 component(s))
+PASS limits/Weyl/vectors: exact zero (9 component(s))
+PASS limits/LOG/a,c: exact zero (2 component(s))
+PASS limits/LOG/vectors: exact zero (9 component(s))
+PASS limits/R2/a,c: exact zero (2 component(s))
+PASS limits/R2/vectors: exact zero (9 component(s))
+PASS limits/common GB/a,c: exact zero (2 component(s))
+PASS limits/common GB/vectors: exact zero (9 component(s))
+PASS stored results: exact match to fresh derivation and producer hashes
+PASS: 36 exact algebraic checks, source lock and output reproduction.
+Regular pole interpretation: B0*C0*Delta != 0. Undivided congruence covers their zeros.
+Scope: eq:acgen, eq:uvgen; no full generic spectrum or degenerate-mode classification.

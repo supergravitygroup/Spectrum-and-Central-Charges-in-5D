@@ -1,0 +1,358 @@
+{
+  "sample": "k0_T2_constant",
+  "parameters": {
+    "L": "4",
+    "k": "0",
+    "g": "1",
+    "S": "0"
+  },
+  "background": {
+    "chi": 1,
+    "M2": [
+      0.0,
+      0.0
+    ]
+  },
+  "physical_level": true,
+  "direct_modes": [
+    {
+      "spin": -0.5,
+      "energy": [
+        3.081520882179344,
+        -6.99939753005643e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5000000000000004,
+        -1.9033473862070228e-15
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.499999999999999,
+        2.123490322960801e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.499999999999999,
+        2.123490322960801e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.748187548846001,
+        -9.691639659127402e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        3.0815208821793467,
+        5.525487766207894e-16
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.499999999999998,
+        6.006514597363338e-16
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.4999999999999982,
+        4.443902516536405e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.4999999999999982,
+        4.443902516536405e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.7481875488460283,
+        2.083593626225887e-14
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.5,
+        -1.638090133145532e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.499999999999999,
+        5.138240254031107e-16
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.5,
+        -1.638090133145532e-16
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.499999999999999,
+        5.138240254031108e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    }
+  ],
+  "predicted_modes": [
+    {
+      "spin": -0.5,
+      "energy": [
+        3.081520882179343,
+        -0.0
+      ],
+      "q_R": -1,
+      "origin": "T2 massive boson-primary"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        3.081520882179343,
+        -0.0
+      ],
+      "q_R": 1,
+      "origin": "T2 massive boson-primary"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.7481875488460097,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "T2 massive boson-primary"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.7481875488460097,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "T2 massive boson-primary"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "T2 massless/short multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.5,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "T2 massless/short multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.5,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "T2 massless/short multiplet"
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.5,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "T2 massless/short multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "T2 massless/short multiplet"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "T2 massless/short multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.5,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "T2 massless/short multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.5,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "T2 massless/short multiplet"
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.5,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "T2 massless/short multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "T2 massless/short multiplet"
+    }
+  ],
+  "matching": {
+    "maximum_error": 2.7964690220479476e-14,
+    "pairs": [
+      {
+        "predicted": 0,
+        "direct": 0,
+        "energy_error": 1.1308300327894605e-15
+      },
+      {
+        "predicted": 1,
+        "direct": 5,
+        "energy_error": 3.595425515023406e-15
+      },
+      {
+        "predicted": 2,
+        "direct": 4,
+        "energy_error": 1.3145872728901353e-14
+      },
+      {
+        "predicted": 3,
+        "direct": 9,
+        "energy_error": 2.7964690220479476e-14
+      },
+      {
+        "predicted": 4,
+        "direct": 11,
+        "energy_error": 1.2233602468158296e-15
+      },
+      {
+        "predicted": 5,
+        "direct": 2,
+        "energy_error": 2.3017541260806243e-15
+      },
+      {
+        "predicted": 6,
+        "direct": 3,
+        "energy_error": 2.3017541260806243e-15
+      },
+      {
+        "predicted": 7,
+        "direct": 12,
+        "energy_error": 1.638090133145532e-16
+      },
+      {
+        "predicted": 8,
+        "direct": 6,
+        "energy_error": 2.0867176399227474e-15
+      },
+      {
+        "predicted": 9,
+        "direct": 13,
+        "energy_error": 1.2233602468158296e-15
+      },
+      {
+        "predicted": 10,
+        "direct": 7,
+        "energy_error": 1.831099756061595e-15
+      },
+      {
+        "predicted": 11,
+        "direct": 8,
+        "energy_error": 1.831099756061595e-15
+      },
+      {
+        "predicted": 12,
+        "direct": 10,
+        "energy_error": 1.638090133145532e-16
+      },
+      {
+        "predicted": 13,
+        "direct": 1,
+        "energy_error": 1.954468341745744e-15
+      }
+    ]
+  },
+  "sector_files": [
+    "k0_T2_constant_np1_q+1.json",
+    "k0_T2_constant_np1_q-1.json",
+    "k0_T2_constant_nm1_q+1.json",
+    "k0_T2_constant_nm1_q-1.json",
+    "k0_T2_constant_np3_q+1.json",
+    "k0_T2_constant_np3_q-1.json",
+    "k0_T2_constant_nm3_q+1.json",
+    "k0_T2_constant_nm3_q-1.json"
+  ]
+}

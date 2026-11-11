@@ -1,0 +1,819 @@
+{
+  "status": "PASS_SCOPED",
+  "scope": "BF-to-gauge source reconstruction, retained-supercovariant map insertion, exact global coefficient collection, and final document equality; no all-orders SUSY/reality claim.",
+  "document": "notes/BF_to_R2_canonical_action_through_two_fermions.md",
+  "document_sha256": "2b1a66ddadb24ec68e3062d186d9fb46f21a049087622310b70d171b3a009dea",
+  "verifier_sha256": "0dc5a5b5bace931fb1ed0a2d144ff66657fdddbaf182ff070cdb89f00732590d",
+  "definition_source_pages_sha256": {
+    "coomans2013-16.png": "bc592812bc42b3591d75307b8436cce1deb6a41b20138a414bd8d84a141301d6",
+    "coomans2013-17.png": "8e9b5acbda19cfb4e6b9049b8a39d0b7555a1c9ec827dbded935997347049a64"
+  },
+  "input_sha256": {
+    "AGENTS.md": "d727c48e49c8141abd7b0025bab2de1162d77773aa6d1ada2c20d38710e75ac0",
+    ".gpd/state.json": "3b57d5ae4588439f4d34447202605e9889580f4754d7e15b88649bd0ef526504",
+    ".gpd/STATE.md": "c1cce6891a0e49402e2214a59762d8e11d177a20f405c491dc95b1ec0cae1557",
+    ".gpd/CONVENTIONS.md": "9fe02db8c80cc66e0db0ccbe32a72dfbb51d5c93a81f7d06767ed25a2203f95c",
+    "notes/00_action_construction_framework.md": "6279196962d3894cbc77280c15ef786507b9aa7709e67c471c397ccdaa2be058",
+    "notes/00_source_lock.md": "37370e1064b3ac497018a1d586dc5e459b0e6cac4a7ca9a5719af2c152035846",
+    "notes/01_multiplet_inputs.md": "2ef04462b101d6a13b2b11c60a65f2b5f13b09362adaf481209e931affcf176f",
+    "notes/02_open_issues.md": "b8bab69eb0d2e0ea2ba1c30bbe897307b362a398f34e9b489a5e712e3db2d10e",
+    "notes/03_step1_full_primed_BF_density.md": "21795555a9d46e7af2646173b8f329182eac0419d5f98e56c82d196e213f8299",
+    "notes/04_step2_mixed_primed_linear_multiplet.md": "4cde9a556a6f290a243a1e45a544f6eef6e363a7ee0fd732a7cac913dd020647",
+    "notes/05_step3_mixed_linear_inserted_in_BF.md": "01bf997e435510214275eff2aa822ced70946ccef4a36be465f10651a51115ab",
+    "notes/06_step4_Gold_unprimed_vector_and_gauge.md": "cd21e62c9b970ad439e67e1279fef409ad3d2c95f28dc6420ac595dcf23c252e",
+    "notes/07_gradient_phase_correction_and_regression.md": "8ad6604a06668e567029f691bd579ca0a3cb9a7bc641c8188c57c09e56f17213",
+    "notes/08_step5_primed_composite_vector_insertion.md": "9ac1243cd9c56b021648d077e5ea40f45210b590b2590cf011d32b860938c2da",
+    "notes/09_step5a_rho_lambda_partial_insertion.md": "9372bfd6d4f64f057bce57b1f85f3c5025a4cb656d242aa6575d0180feeeef7a",
+    "notes/10_step6_gauged_action_through_two_fermions.md": "68ffb0ab4054b8d8216d155e50675b0a93ebc8065192130ab7e029669a0d4e09",
+    "notes/11_primed_insertion_supercovariant_two_fermions.md": "29c44d06a5dacd08a67ce5accf1e1b00cf8b79de4d66bfbe62977a7745c05318",
+    "notes/12_total_action_zeroth_first_second_orders.md": "028dbb071064f51093339e45f0dd92994b67173ca5cfacf02741de62225b7177",
+    "notes/13_ads5_gauge_decomposition_diagonalization_spectrum.md": "0842c44090bf67bb405a04efc01b71c0a2453a416c3274ed811029cb5d96f322",
+    "build/step6_collection_majorana_verification.json": "f5041ae3dd425340dd86944b1c74959e7414af44503efe763103c0b33eb0dacd",
+    "build/step6_elementary_delivery_verification.json": "bc9c6132c95f002c870fa07ba8a6c2ba6e65a3b899829f42aeb225c82dddc5a2",
+    "build/step6_elementary_tensor_verification.json": "c01f0e0f6675b5509de612d74e65015a26b7a88c71d216ae646779e2970ffd4d",
+    "build/step6_elementary_verification.json": "ca53e2b5e396ed4a02f27a8c9a8b661ad775ee7605280d0a95e503c2a992ef64",
+    "build/step6_quadratic_verification.json": "3243a38dfdcd6cbef1698f2d31f9cc518a3b4cccd74a376cfa8dfe0d00d63fee",
+    "build/step6_supercovariant_collection_verification.json": "0a692bb9d619106aa16a0f2155f4a587135732fa208e450d0b885b7264bf1dbc",
+    "build/step6_supercovariant_delivery_verification.json": "d518b005eb008772477d3bc1ff40ba112c4127d8fa1ec173f5ba394431a2708b",
+    "build/step6_supercovariant_tensor_verification.json": "75972fdcad11631c3ff8dd112ad0cd57805787a08b2627496037476ec5611b41",
+    "build/step6_supercovariant_verification.json": "2d6a8781b4960c48cfde5b76bb235bd263c1800171670ec24586dd2be31adfc8",
+    "build/step6_supercovariant_collected_ledger.json": "f1dc23aad6d5b4a76bb7ae76b1d93244b3aa492f0614e75719872065b034fa0b",
+    "notes/step5_insertion_ledger.json": "61e7420a69f0b5eb056efed23095986e3539c186422f05dc179dde7429a8f577"
+  },
+  "source_suites": {
+    "source": {
+      "logs": {
+        "verify_step3_bf_insertion": "PASS: 404 scoped checks; 69 distributed rows; 19 bosonic rows.",
+        "verify_step4_gold_gauge": "PASS: 331 scoped checks; 26 zero rows, 43 survivors, 57 final distributed rows."
+      },
+      "reports": {
+        "build/step3_bf_insertion_verification.json": {
+          "status": "PASS",
+          "checks": 404,
+          "scope": "exact_locked_input_BF_insertion_ordered_distribution_and_stated_limits_only"
+        },
+        "build/step4_gold_gauge_verification.json": {
+          "status": "PASS",
+          "checks": 331,
+          "scope": "Gold4_substitution_Gold7_restriction_derivative_connections_ordered_algebra_only"
+        }
+      }
+    },
+    "exact": {
+      "logs": {
+        "verify_step6_supercovariant_collections": "PASS_SCOPED 386 passed; 0 failed []"
+      },
+      "reports": {
+        "build/step6_supercovariant_collection_verification.json": {
+          "status": "PASS_SCOPED",
+          "passed": 386,
+          "failed": 0,
+          "scope": "Exact triplet, coefficient and derivative identities; complete source-group coverage; dimensions, indices and explicit grading. Majorana-aware numerical map check is separate. No full SUSY or reality proof.",
+          "check_count": 386,
+          "failed_checks": []
+        }
+      }
+    },
+    "tensor": {
+      "logs": {
+        "verify_step6_collections_majorana": "PASS_SCOPED 120 passed; 0 failed; max 1.751617335954972e-16"
+      },
+      "reports": {
+        "build/step6_collection_majorana_verification.json": {
+          "status": "PASS_SCOPED",
+          "passed": 120,
+          "failed": 0,
+          "scope": "Majorana-aware full triplet-map equality in all symmetric components; every collected outer group before/after simplification. General polynomial identities are verified separately. No SUSY/reality certification.",
+          "threshold": 2e-10,
+          "maximum_scaled_residual": 1.751617335954972e-16,
+          "check_count": 120,
+          "failed_checks": []
+        }
+      }
+    }
+  },
+  "terms": 365,
+  "explicit_degrees": {
+    "0": 30,
+    "2": 335
+  },
+  "action_layout": {
+    "terms_per_line": 4,
+    "lines": 92,
+    "full_integral": true
+  },
+  "mergers": [
+    {
+      "rows": [
+        110,
+        111
+      ],
+      "coefficient_before": "4*g + 64*N/L**2",
+      "coefficient_after": "4*(L**2*g + 16*N)/L**2",
+      "residual": "0"
+    },
+    {
+      "rows": [
+        112,
+        113
+      ],
+      "coefficient_before": "-32*I*g - 512*I*N/L**2",
+      "coefficient_after": "-32*I*(L**2*g + 16*N)/L**2",
+      "residual": "0"
+    },
+    {
+      "rows": [
+        114,
+        115
+      ],
+      "coefficient_before": "8*I*g + 128*I*N/L**2",
+      "coefficient_after": "8*I*(L**2*g + 16*N)/L**2",
+      "residual": "0"
+    },
+    {
+      "rows": [
+        116,
+        117
+      ],
+      "coefficient_before": "4*I*g/L**2 + 64*I*N/L**4",
+      "coefficient_after": "4*I*(L**2*g + 16*N)/L**4",
+      "residual": "0"
+    },
+    {
+      "rows": [
+        118,
+        119
+      ],
+      "coefficient_before": "4*g/L**2 + 64*N/L**4",
+      "coefficient_after": "4*(L**2*g + 16*N)/L**4",
+      "residual": "0"
+    },
+    {
+      "rows": [
+        166,
+        167
+      ],
+      "coefficient_before": "-6*N*g - 20*N**2/L**2",
+      "coefficient_after": "-2*N*(3*L**2*g + 10*N)/L**2",
+      "residual": "0"
+    },
+    {
+      "rows": [
+        301,
+        302
+      ],
+      "coefficient_before": "-2*I*g - 16*I*N/L**2",
+      "coefficient_after": "-2*I*(L**2*g + 8*N)/L**2",
+      "residual": "0"
+    },
+    {
+      "rows": [
+        303,
+        304
+      ],
+      "coefficient_before": "-sqrt(2)*I*L*g - 8*sqrt(2)*I*N/L",
+      "coefficient_after": "-sqrt(2)*I*(L**2*g + 8*N)/L",
+      "residual": "0"
+    }
+  ],
+  "new_checks": [
+    {
+      "check": "prior source and tensor certificates reused only after all input hashes agree",
+      "pass": true
+    },
+    {
+      "check": "in-memory regeneration equals the complete stored collection ledger",
+      "pass": true
+    },
+    {
+      "check": "373 rows become 365 by eight coefficient mergers",
+      "pass": true
+    },
+    {
+      "check": "every newly merged coefficient has exact residual zero",
+      "pass": true
+    },
+    {
+      "check": "all 373 inherited rows enter the final equation exactly once",
+      "pass": true
+    },
+    {
+      "check": "all displayed words have explicit degree zero or two",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.2): gauged Y",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.3): differentiated dilatino phase",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.3): scalar derivative phase",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.3): printed ordinary G",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.3): T coefficient",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.3): Y and gauged linear fermion",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.4): conformal box and scalar derivative square",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.4): ordinary strength square",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.4): dilatino kinetic coefficient has no i",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.4): Y square and chi bilinear",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.4): gravitino-dilatino factor and sigma power",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.4): two-gravitino G coupling",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.4): T contractions",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.4): gauged N contribution",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.6): gauged T duality",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.7): bosonic three-form and gauging",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.7): both supercovariant fermion completions",
+      "pass": true
+    },
+    {
+      "check": "Coomans (5.4) ordinary square is kept before the separate hatted conversion",
+      "pass": true
+    },
+    {
+      "check": "source-to-hatted gauge conversion and derivative completions are displayed",
+      "pass": true
+    },
+    {
+      "check": "complete action integral encloses the entire integrand",
+      "pass": true
+    },
+    {
+      "check": "entire action integrand equals regenerated density, including every sign and index",
+      "pass": true
+    },
+    {
+      "check": "four terms per action line, with the final remainder retained",
+      "pass": true
+    },
+    {
+      "check": "one final combined action",
+      "pass": true
+    },
+    {
+      "check": "final density has no primed components, helper fields, or ordinary nabla",
+      "pass": true
+    },
+    {
+      "check": "B.2 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.3 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.4 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.5 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.6 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.7 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.1 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.8 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.9 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.10 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.11 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.12 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.13 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.14 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.15 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.16 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.17 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.18 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.19 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.20 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.21 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.22 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.23 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.24 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.25 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.26 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.27 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.28 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.29 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.30 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "B.31 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.1 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.2 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.6 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.7 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.8 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.9 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.10 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.11 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.12 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.13 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.14 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.15 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.16 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.17 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.18 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.19 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.20 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.21 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.22 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.23 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.24 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.25 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.26 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.27 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.28 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.29 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.30 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.31 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.32 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.33 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.34 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.35 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.36 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.37 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.38 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.39 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.40 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.41 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "G.42 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC32 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC34 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC35 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC1 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC2 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC3 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC4 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC5 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC6 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC7 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC8 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC9 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC10 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC11 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC12 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC13 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC14 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC15 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC16 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC17 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC18 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC21 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC22 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC23 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC24 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC25 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC26 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC27 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC28 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC29 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC30 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "SC31 transcribed without changing its mathematical content",
+      "pass": true
+    },
+    {
+      "check": "equation labels unique",
+      "pass": true
+    },
+    {
+      "check": "local numbered references resolve",
+      "pass": true
+    },
+    {
+      "check": "only balanced dollar math delimiters",
+      "pass": true
+    },
+    {
+      "check": "aligned delimiters balanced",
+      "pass": true
+    },
+    {
+      "check": "pmatrix delimiters balanced",
+      "pass": true
+    },
+    {
+      "check": "array delimiters balanced",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../sources/pages/ozkan-pang2013-10.png",
+      "pass": true
+    },
+    {
+      "check": "local link exists: 03_step1_full_primed_BF_density.md",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../sources/pages/ozkan2016-10.png",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../sources/pages/ozkan2016-11.png",
+      "pass": true
+    },
+    {
+      "check": "local link exists: 04_step2_mixed_primed_linear_multiplet.md",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../sources/pages/ozkan2016-step2-definitions-09.png",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../sources/pages/gold2025-05.png",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../sources/pages/gold2025-06.png",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../inputs/two_derivative_map_2026-09-09/results/gauged_two_derivative_fermionic_action/02_single_linear_multiplet_mapping_construction.md",
+      "pass": true
+    },
+    {
+      "check": "local link exists: 08_step5_primed_composite_vector_insertion.md",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../sources/pages/coomans2013-16.png",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../sources/pages/coomans2013-17.png",
+      "pass": true
+    },
+    {
+      "check": "local link exists: 06_step4_Gold_unprimed_vector_and_gauge.md",
+      "pass": true
+    },
+    {
+      "check": "local link exists: 08_step5_primed_composite_vector_insertion.md",
+      "pass": true
+    },
+    {
+      "check": "local link exists: 11_primed_insertion_supercovariant_two_fermions.md",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../archive/2026-09-22-before-source-and-quadratic-audit/README.md",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../results/audits/2026-09-22-source-and-quadratic/audit.md",
+      "pass": true
+    },
+    {
+      "check": "local link exists: 10_step6_gauged_action_through_two_fermions.md",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../results/bf_canonical_action/verify.py",
+      "pass": true
+    },
+    {
+      "check": "local link exists: ../results/bf_canonical_action/verification.json",
+      "pass": true
+    },
+    {
+      "check": "existing action notes, metadata, ledger and verification files unchanged",
+      "pass": true
+    }
+  ],
+  "passed": 159,
+  "failed": 0
+}

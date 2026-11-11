@@ -1,0 +1,11 @@
+Items 27 and 29: exact symbolic checks
+python3 -B computations/paper_conventions/checks.py --write-log
+Python: 3.14.1; SymPy: 1.14.0
+No field or coupling samples; no small-coupling expansion.
+PASS contorsion antisymmetry: 125
+PASS torsion constraint: 125
+PASS vacuum: 10
+PASS negative control: 3
+PASS input fingerprints: 9
+PASS total: 263 exact checks.
+The donor's 241-check summary was not rerun by this command.

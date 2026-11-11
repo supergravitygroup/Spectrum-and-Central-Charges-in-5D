@@ -1,0 +1,2 @@
+python3 -B computations/central_charge_extremization/checks.py
+PASS 33 exact final-paper anomaly/extremization identities; 7 source fingerprints

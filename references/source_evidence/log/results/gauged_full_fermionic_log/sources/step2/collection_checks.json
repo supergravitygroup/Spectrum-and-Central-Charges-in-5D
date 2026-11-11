@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-23",
+  "status": "PASS",
+  "scope": "Final 58-term transcription, sector coverage and explicit source difference; no S/K/reality or action certification",
+  "terms_per_pole": [
+    2,
+    7,
+    12,
+    18,
+    14,
+    3,
+    2
+  ],
+  "derived_terms": 58,
+  "source_agreeing_terms": 57,
+  "source_differences": [
+    "H3.9"
+  ],
+  "derivation_sha256": "f2f15f0bad90d386fc3f358d8aaff4aef2bd71a7b588fc957c1341b5a2185837",
+  "derived_ledger_sha256": "d01ae7bf534d0a26be4a02513f17bb61d07addefc837d04a6ac54402c09de9c4",
+  "source_ledger_sha256": "4cdb20b94cb8f9574931ea48651d5a19247fce31c684f37268b0a36daf9a4bc4",
+  "script_sha256": "348035cd43d0d9d2f70abff943e13882a98c3d76f8522c5e34e5a319e4edb48b"
+}

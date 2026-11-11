@@ -1,0 +1,31 @@
+{
+  "status": "PASS_SCOPED_FERMION_OPERATOR",
+  "frame": "AdS5 Poincare orthonormal frame, curvature k=-1",
+  "sample": "g=1,x=sqrt(2),m=1/2,u=3; homogeneous radial jets",
+  "operation": "graded transpose with measure z^-5; (z*d_z)^adjoint=4-z*d_z",
+  "polynomial_degree_at_most": 3,
+  "checks": [
+    {
+      "radial_exponent": 0,
+      "exact_zero_entries": 2304
+    },
+    {
+      "radial_exponent": 1,
+      "exact_zero_entries": 2304
+    },
+    {
+      "radial_exponent": 2,
+      "exact_zero_entries": 2304
+    },
+    {
+      "radial_exponent": 3,
+      "exact_zero_entries": 2304
+    },
+    {
+      "radial_exponent": 4,
+      "exact_zero_entries": 2304
+    }
+  ],
+  "interpretation": "bulk quadratic Euler representative after source collection; not global boundary norm",
+  "source_action": "GB-FINAL-DENSITY only"
+}

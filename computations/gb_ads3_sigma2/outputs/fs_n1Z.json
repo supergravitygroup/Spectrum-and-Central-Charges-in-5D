@@ -1,0 +1,31 @@
+{
+  "spin": 1,
+  "charged": true,
+  "field_strength_variables": true,
+  "parameters": [
+    "L",
+    "N",
+    "p",
+    "h",
+    "r",
+    "l",
+    "w",
+    "g",
+    "lam",
+    "D",
+    "S"
+  ],
+  "linear_a": "0",
+  "linear_b": "0",
+  "avars": [
+    "a_Z_p"
+  ],
+  "bvars": [
+    "b_Z_m"
+  ],
+  "K": [
+    [
+      "D*lam*p/l + L**2*g**2*lam - 2*L - lam*p/l"
+    ]
+  ]
+}

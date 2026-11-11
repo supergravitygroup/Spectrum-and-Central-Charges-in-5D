@@ -1,0 +1,2700 @@
+{
+  "scope": "physical 0+2 projection; slot definitions in the self-contained note",
+  "parent_sha256": "cd21e62c9b970ad439e67e1279fef409ad3d2c95f28dc6420ac595dcf23c252e",
+  "counts": {
+    "0": 15,
+    "2": 80
+  },
+  "groups": [
+    {
+      "group": 1,
+      "source_tex": "Y'^{ij}Y'_{ij}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 1,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "1",
+          "factors": [
+            "\\bigl[Y'^{ij}\\bigr]_{0}",
+            "\\bigl[Y'_{ij}\\bigr]_{0}"
+          ],
+          "tex": "1 \\bigl[Y'^{ij}\\bigr]_{0} \\bigl[Y'_{ij}\\bigr]_{0}"
+        },
+        {
+          "group": 1,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "1",
+          "factors": [
+            "\\bigl[Y'^{ij}\\bigr]_{0}",
+            "\\bigl[Y'_{ij}\\bigr]_{2}"
+          ],
+          "tex": "1 \\bigl[Y'^{ij}\\bigr]_{0} \\bigl[Y'_{ij}\\bigr]_{2}"
+        },
+        {
+          "group": 1,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "1",
+          "factors": [
+            "\\bigl[Y'^{ij}\\bigr]_{2}",
+            "\\bigl[Y'_{ij}\\bigr]_{0}"
+          ],
+          "tex": "1 \\bigl[Y'^{ij}\\bigr]_{2} \\bigl[Y'_{ij}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 2,
+      "source_tex": "-g\\rho'Y'^{ij}L_{ij}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 2,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "-g",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[Y'^{ij}\\bigr]_{0}",
+            "L_{ij}"
+          ],
+          "tex": "- g \\bigl[\\rho'\\bigr]_{0} \\bigl[Y'^{ij}\\bigr]_{0} L_{ij}"
+        },
+        {
+          "group": 2,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-g",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[Y'^{ij}\\bigr]_{2}",
+            "L_{ij}"
+          ],
+          "tex": "- g \\bigl[\\rho'\\bigr]_{0} \\bigl[Y'^{ij}\\bigr]_{2} L_{ij}"
+        },
+        {
+          "group": 2,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-g",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{2}",
+            "\\bigl[Y'^{ij}\\bigr]_{0}",
+            "L_{ij}"
+          ],
+          "tex": "- g \\bigl[\\rho'\\bigr]_{2} \\bigl[Y'^{ij}\\bigr]_{0} L_{ij}"
+        }
+      ]
+    },
+    {
+      "group": 3,
+      "source_tex": "-\\frac12\\bar\\lambda'{}^i\\not{\\mathcal D}\\lambda'_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 3,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 4,
+      "source_tex": "+i\\bar\\lambda'{}^i\\gamma\\!\\cdot\\!T\\lambda'_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 4,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "I",
+          "factors": [
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+            "\\bigl[\\lambda'_i\\bigr]_{1}"
+          ],
+          "tex": "i \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 5,
+      "source_tex": "-8i\\rho'\\bar\\lambda'{}^i\\chi_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 5,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-8*I",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\bigl[\\chi_i\\bigr]_{1}"
+          ],
+          "tex": "- 8 i \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\bigl[\\chi_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 6,
+      "source_tex": "-\\frac i8\\bar\\lambda'{}^i\\gamma\\!\\cdot\\!\\widehat G\\lambda'_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 6,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-I/8",
+          "factors": [
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+            "\\bigl[\\lambda'_i\\bigr]_{1}"
+          ],
+          "tex": "- \\frac{i}{8} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 7,
+      "source_tex": "+\\frac{ig}4\\bar\\lambda'{}^iL_{ij}\\lambda'{}^j",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 7,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "I*g/4",
+          "factors": [
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "L_{ij}",
+            "\\bigl[\\lambda'^j\\bigr]_{1}"
+          ],
+          "tex": "\\frac{i g}{4} \\bigl[\\bar\\lambda'^i\\bigr]_{1} L_{ij} \\bigl[\\lambda'^j\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 8,
+      "source_tex": "+\\frac g4\\rho'\\bar\\psi_a{}^i\\gamma^a\\lambda'{}^jL_{ij}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 8,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "g/4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^a",
+            "\\bigl[\\lambda'^j\\bigr]_{1}",
+            "L_{ij}"
+          ],
+          "tex": "\\frac{g}{4} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\bigl[\\lambda'^j\\bigr]_{1} L_{ij}"
+        }
+      ]
+    },
+    {
+      "group": 9,
+      "source_tex": "-\\frac12\\bar\\psi_a{}^i\\gamma^a\\lambda'{}^jY'_{ij}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 9,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bar\\psi_a^i",
+            "\\gamma^a",
+            "\\bigl[\\lambda'^j\\bigr]_{1}",
+            "\\bigl[Y'_{ij}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{2} \\bar\\psi_a^i \\gamma^a \\bigl[\\lambda'^j\\bigr]_{1} \\bigl[Y'_{ij}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 10,
+      "source_tex": "-\\frac{3\\rho'}4\\bar\\lambda'{}^i\\gamma^a [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{ai} -\\gamma\\!\\cdot\\!T\\psi_{ai}+\\frac g2L_{ij}\\psi_a{}^j-\\phi_{ai}]",
+      "source_rows": 4,
+      "rows": [
+        {
+          "group": 10,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-3/16",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\gamma^a",
+            "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+            "\\psi_{ai}"
+          ],
+          "tex": "- \\frac{3}{16} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^a \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\psi_{ai}"
+        },
+        {
+          "group": 10,
+          "source_row": 2,
+          "degree": 2,
+          "coefficient": "3/4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\gamma^a",
+            "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+            "\\psi_{ai}"
+          ],
+          "tex": "\\frac{3}{4} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^a \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\psi_{ai}"
+        },
+        {
+          "group": 10,
+          "source_row": 3,
+          "degree": 2,
+          "coefficient": "-3*g/8",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\gamma^a",
+            "L_{ij}",
+            "\\psi_a^j"
+          ],
+          "tex": "- \\frac{3 g}{8} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^a L_{ij} \\psi_a^j"
+        },
+        {
+          "group": 10,
+          "source_row": 4,
+          "degree": 2,
+          "coefficient": "3/4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\gamma^a",
+            "\\bigl[\\phi_{ai}\\bigr]_{1}"
+          ],
+          "tex": "\\frac{3}{4} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^a \\bigl[\\phi_{ai}\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 11,
+      "source_tex": "-\\frac12A'_a(\\mathcal D_b\\rho')\\widehat G^{ab}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 11,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+            "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 11,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+            "\\bigl[\\widehat G^{ab}\\bigr]_{2}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{2}"
+        },
+        {
+          "group": 11,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{2}",
+            "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{2} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 11,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{2}",
+            "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+            "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{2} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 12,
+      "source_tex": "-\\frac12A'_a\\rho'\\mathcal D_b\\widehat G^{ab}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 12,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 12,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{2}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{2}"
+        },
+        {
+          "group": 12,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{2}",
+            "\\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{2} \\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 12,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{2}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{2} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 13,
+      "source_tex": "-\\frac12A'_a\\mathcal D_b\\widehat F'^{ab}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 13,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 13,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{2}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{2}"
+        },
+        {
+          "group": 13,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{2}",
+            "\\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{2} \\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 14,
+      "source_tex": "+8A'_a(\\mathcal D_b\\rho')T^{ab}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 14,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+            "\\bigl[T^{ab}\\bigr]_{0}"
+          ],
+          "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 14,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+            "\\bigl[T^{ab}\\bigr]_{2}"
+          ],
+          "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{2}"
+        },
+        {
+          "group": 14,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{2}",
+            "\\bigl[T^{ab}\\bigr]_{0}"
+          ],
+          "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{2} \\bigl[T^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 14,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{2}",
+            "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+            "\\bigl[T^{ab}\\bigr]_{0}"
+          ],
+          "tex": "8 \\bigl[A'_a\\bigr]_{2} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 15,
+      "source_tex": "+8A'_a\\rho'\\mathcal D_bT^{ab}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 15,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+          ],
+          "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 15,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\mathcal D_bT^{ab}\\bigr]_{2}"
+          ],
+          "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_bT^{ab}\\bigr]_{2}"
+        },
+        {
+          "group": 15,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{2}",
+            "\\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+          ],
+          "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{2} \\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 15,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{2}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+          ],
+          "tex": "8 \\bigl[A'_a\\bigr]_{2} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 16,
+      "source_tex": "-\\frac18A'_a\\varepsilon^{abcde}\\widehat F'_{bc}\\widehat G_{de}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 16,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "-1/8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\varepsilon^{abcde}",
+            "\\bigl[\\widehat F'_{bc}\\bigr]_{0}",
+            "\\bigl[\\widehat G_{de}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{8} \\bigl[A'_a\\bigr]_{0} \\varepsilon^{abcde} \\bigl[\\widehat F'_{bc}\\bigr]_{0} \\bigl[\\widehat G_{de}\\bigr]_{0}"
+        },
+        {
+          "group": 16,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\varepsilon^{abcde}",
+            "\\bigl[\\widehat F'_{bc}\\bigr]_{0}",
+            "\\bigl[\\widehat G_{de}\\bigr]_{2}"
+          ],
+          "tex": "- \\frac{1}{8} \\bigl[A'_a\\bigr]_{0} \\varepsilon^{abcde} \\bigl[\\widehat F'_{bc}\\bigr]_{0} \\bigl[\\widehat G_{de}\\bigr]_{2}"
+        },
+        {
+          "group": 16,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\varepsilon^{abcde}",
+            "\\bigl[\\widehat F'_{bc}\\bigr]_{2}",
+            "\\bigl[\\widehat G_{de}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{8} \\bigl[A'_a\\bigr]_{0} \\varepsilon^{abcde} \\bigl[\\widehat F'_{bc}\\bigr]_{2} \\bigl[\\widehat G_{de}\\bigr]_{0}"
+        },
+        {
+          "group": 16,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{2}",
+            "\\varepsilon^{abcde}",
+            "\\bigl[\\widehat F'_{bc}\\bigr]_{0}",
+            "\\bigl[\\widehat G_{de}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{8} \\bigl[A'_a\\bigr]_{2} \\varepsilon^{abcde} \\bigl[\\widehat F'_{bc}\\bigr]_{0} \\bigl[\\widehat G_{de}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 17,
+      "source_tex": "-\\frac i4A'_a\\bar\\lambda'{}^i\\gamma^{ab} [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{bi} -\\gamma\\!\\cdot\\!T\\psi_{bi}+\\frac g2L_{ij}\\psi_b{}^j-\\phi_{bi}]",
+      "source_rows": 4,
+      "rows": [
+        {
+          "group": 17,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-I/16",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\gamma^{ab}",
+            "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+            "\\psi_{bi}"
+          ],
+          "tex": "- \\frac{i}{16} \\bigl[A'_a\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^{ab} \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\psi_{bi}"
+        },
+        {
+          "group": 17,
+          "source_row": 2,
+          "degree": 2,
+          "coefficient": "I/4",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\gamma^{ab}",
+            "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+            "\\psi_{bi}"
+          ],
+          "tex": "\\frac{i}{4} \\bigl[A'_a\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^{ab} \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\psi_{bi}"
+        },
+        {
+          "group": 17,
+          "source_row": 3,
+          "degree": 2,
+          "coefficient": "-I*g/8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\gamma^{ab}",
+            "L_{ij}",
+            "\\psi_b^j"
+          ],
+          "tex": "- \\frac{i g}{8} \\bigl[A'_a\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^{ab} L_{ij} \\psi_b^j"
+        },
+        {
+          "group": 17,
+          "source_row": 4,
+          "degree": 2,
+          "coefficient": "I/4",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+            "\\gamma^{ab}",
+            "\\bigl[\\phi_{bi}\\bigr]_{1}"
+          ],
+          "tex": "\\frac{i}{4} \\bigl[A'_a\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^{ab} \\bigl[\\phi_{bi}\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 18,
+      "source_tex": "-\\frac14A'_a\\rho'\\bar\\psi_b{}^i\\gamma^{ba}\\gamma^c [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{ci} -\\gamma\\!\\cdot\\!T\\psi_{ci}+\\frac g2L_{ij}\\psi_c{}^j-\\phi_{ci}]",
+      "source_rows": 4,
+      "rows": [
+        {
+          "group": 18,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/16",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_b^i",
+            "\\gamma^{ba}",
+            "\\gamma^c",
+            "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+            "\\psi_{ci}"
+          ],
+          "tex": "- \\frac{1}{16} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\gamma^c \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\psi_{ci}"
+        },
+        {
+          "group": 18,
+          "source_row": 2,
+          "degree": 2,
+          "coefficient": "1/4",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_b^i",
+            "\\gamma^{ba}",
+            "\\gamma^c",
+            "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+            "\\psi_{ci}"
+          ],
+          "tex": "\\frac{1}{4} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\gamma^c \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\psi_{ci}"
+        },
+        {
+          "group": 18,
+          "source_row": 3,
+          "degree": 2,
+          "coefficient": "-g/8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_b^i",
+            "\\gamma^{ba}",
+            "\\gamma^c",
+            "L_{ij}",
+            "\\psi_c^j"
+          ],
+          "tex": "- \\frac{g}{8} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\gamma^c L_{ij} \\psi_c^j"
+        },
+        {
+          "group": 18,
+          "source_row": 4,
+          "degree": 2,
+          "coefficient": "1/4",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_b^i",
+            "\\gamma^{ba}",
+            "\\gamma^c",
+            "\\bigl[\\phi_{ci}\\bigr]_{1}"
+          ],
+          "tex": "\\frac{1}{4} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\gamma^c \\bigl[\\phi_{ci}\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 19,
+      "source_tex": "-\\frac14A'_a\\bar\\psi_b{}^i\\gamma^{ba}\\not{\\mathcal D}\\lambda'_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 19,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/4",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bar\\psi_b^i",
+            "\\gamma^{ba}",
+            "\\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+          ],
+          "tex": "- \\frac{1}{4} \\bigl[A'_a\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 20,
+      "source_tex": "+\\frac i2A'_a\\bar\\psi_b{}^i\\gamma^{ba}\\gamma\\!\\cdot\\!T\\lambda'_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 20,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "I/2",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bar\\psi_b^i",
+            "\\gamma^{ba}",
+            "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+            "\\bigl[\\lambda'_i\\bigr]_{1}"
+          ],
+          "tex": "\\frac{i}{2} \\bigl[A'_a\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 21,
+      "source_tex": "-4iA'_a\\rho'\\bar\\psi_b{}^i\\gamma^{ba}\\chi_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 21,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-4*I",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_b^i",
+            "\\gamma^{ba}",
+            "\\bigl[\\chi_i\\bigr]_{1}"
+          ],
+          "tex": "- 4 i \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\bigl[\\chi_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 22,
+      "source_tex": "-\\frac i{16}A'_a\\bar\\psi_b{}^i\\gamma^{ba}\\gamma\\!\\cdot\\!\\widehat G\\lambda'_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 22,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-I/16",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bar\\psi_b^i",
+            "\\gamma^{ba}",
+            "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+            "\\bigl[\\lambda'_i\\bigr]_{1}"
+          ],
+          "tex": "- \\frac{i}{16} \\bigl[A'_a\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 23,
+      "source_tex": "+\\frac{ig}8A'_a\\bar\\psi_b{}^i\\gamma^{ba}L_{ij}\\lambda'{}^j",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 23,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "I*g/8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bar\\psi_b^i",
+            "\\gamma^{ba}",
+            "L_{ij}",
+            "\\bigl[\\lambda'^j\\bigr]_{1}"
+          ],
+          "tex": "\\frac{i g}{8} \\bigl[A'_a\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} L_{ij} \\bigl[\\lambda'^j\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 24,
+      "source_tex": "-\\frac g8A'_a\\rho'\\bar\\psi_b{}^i\\gamma^{abc}\\psi_c{}^jL_{ij}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 24,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-g/8",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_b^i",
+            "\\gamma^{abc}",
+            "\\psi_c^j",
+            "L_{ij}"
+          ],
+          "tex": "- \\frac{g}{8} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{abc} \\psi_c^j L_{ij}"
+        }
+      ]
+    },
+    {
+      "group": 25,
+      "source_tex": "+\\frac14A'_a\\bar\\psi_b{}^i\\gamma^{abc}\\psi_c{}^jY'_{ij}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 25,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "1/4",
+          "factors": [
+            "\\bigl[A'_a\\bigr]_{0}",
+            "\\bar\\psi_b^i",
+            "\\gamma^{abc}",
+            "\\psi_c^j",
+            "\\bigl[Y'_{ij}\\bigr]_{0}"
+          ],
+          "tex": "\\frac{1}{4} \\bigl[A'_a\\bigr]_{0} \\bar\\psi_b^i \\gamma^{abc} \\psi_c^j \\bigl[Y'_{ij}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 26,
+      "source_tex": "+\\frac12\\rho'\\Box_c\\rho'",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 26,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "1/2",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\Box_c\\rho'\\bigr]_{0}"
+          ],
+          "tex": "\\frac{1}{2} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\Box_c\\rho'\\bigr]_{0}"
+        },
+        {
+          "group": 26,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "1/2",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\Box_c\\rho'\\bigr]_{2}"
+          ],
+          "tex": "\\frac{1}{2} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\Box_c\\rho'\\bigr]_{2}"
+        },
+        {
+          "group": 26,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "1/2",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{2}",
+            "\\bigl[\\Box_c\\rho'\\bigr]_{0}"
+          ],
+          "tex": "\\frac{1}{2} \\bigl[\\rho'\\bigr]_{2} \\bigl[\\Box_c\\rho'\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 27,
+      "source_tex": "+(\\rho')^2 f_a{}^a",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 27,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "1",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bigl[f_a^a\\bigr]_{0}"
+          ],
+          "tex": "1 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[f_a^a\\bigr]_{0}"
+        },
+        {
+          "group": 27,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "1",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bigl[f_a^a\\bigr]_{2}"
+          ],
+          "tex": "1 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[f_a^a\\bigr]_{2}"
+        },
+        {
+          "group": 27,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "1",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{2}",
+            "\\bigl[f_a^a\\bigr]_{0}"
+          ],
+          "tex": "1 \\bigl[(\\rho')^2\\bigr]_{2} \\bigl[f_a^a\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 28,
+      "source_tex": "-\\frac14\\rho'\\widehat F'_{ab}\\widehat G^{ab}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 28,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "-1/4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+            "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{4} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 28,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+            "\\bigl[\\widehat G^{ab}\\bigr]_{2}"
+          ],
+          "tex": "- \\frac{1}{4} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{2}"
+        },
+        {
+          "group": 28,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\widehat F'_{ab}\\bigr]_{2}",
+            "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{4} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{2} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 28,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{2}",
+            "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+            "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{1}{4} \\bigl[\\rho'\\bigr]_{2} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 29,
+      "source_tex": "+4(\\rho')^2\\widehat G_{ab}T^{ab}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 29,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "4",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bigl[\\widehat G_{ab}\\bigr]_{0}",
+            "\\bigl[T^{ab}\\bigr]_{0}"
+          ],
+          "tex": "4 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[\\widehat G_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 29,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "4",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bigl[\\widehat G_{ab}\\bigr]_{0}",
+            "\\bigl[T^{ab}\\bigr]_{2}"
+          ],
+          "tex": "4 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[\\widehat G_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{2}"
+        },
+        {
+          "group": 29,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "4",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bigl[\\widehat G_{ab}\\bigr]_{2}",
+            "\\bigl[T^{ab}\\bigr]_{0}"
+          ],
+          "tex": "4 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[\\widehat G_{ab}\\bigr]_{2} \\bigl[T^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 29,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "4",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{2}",
+            "\\bigl[\\widehat G_{ab}\\bigr]_{0}",
+            "\\bigl[T^{ab}\\bigr]_{0}"
+          ],
+          "tex": "4 \\bigl[(\\rho')^2\\bigr]_{2} \\bigl[\\widehat G_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 30,
+      "source_tex": "+4\\rho'\\widehat F'_{ab}T^{ab}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 30,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+            "\\bigl[T^{ab}\\bigr]_{0}"
+          ],
+          "tex": "4 \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 30,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+            "\\bigl[T^{ab}\\bigr]_{2}"
+          ],
+          "tex": "4 \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{2}"
+        },
+        {
+          "group": 30,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\widehat F'_{ab}\\bigr]_{2}",
+            "\\bigl[T^{ab}\\bigr]_{0}"
+          ],
+          "tex": "4 \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{2} \\bigl[T^{ab}\\bigr]_{0}"
+        },
+        {
+          "group": 30,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{2}",
+            "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+            "\\bigl[T^{ab}\\bigr]_{0}"
+          ],
+          "tex": "4 \\bigl[\\rho'\\bigr]_{2} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 31,
+      "source_tex": "-4(\\rho')^2D",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 31,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "-4",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bigl[D\\bigr]_{0}"
+          ],
+          "tex": "-4 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[D\\bigr]_{0}"
+        },
+        {
+          "group": 31,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-4",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bigl[D\\bigr]_{2}"
+          ],
+          "tex": "-4 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[D\\bigr]_{2}"
+        },
+        {
+          "group": 31,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-4",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{2}",
+            "\\bigl[D\\bigr]_{0}"
+          ],
+          "tex": "-4 \\bigl[(\\rho')^2\\bigr]_{2} \\bigl[D\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 32,
+      "source_tex": "-\\frac{104}{3}(\\rho')^2T^2",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 32,
+          "source_row": 1,
+          "degree": 0,
+          "coefficient": "-104/3",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bigl[T^2\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{104}{3} \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[T^2\\bigr]_{0}"
+        },
+        {
+          "group": 32,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-104/3",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bigl[T^2\\bigr]_{2}"
+          ],
+          "tex": "- \\frac{104}{3} \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[T^2\\bigr]_{2}"
+        },
+        {
+          "group": 32,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-104/3",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{2}",
+            "\\bigl[T^2\\bigr]_{0}"
+          ],
+          "tex": "- \\frac{104}{3} \\bigl[(\\rho')^2\\bigr]_{2} \\bigl[T^2\\bigr]_{0}"
+        }
+      ]
+    },
+    {
+      "group": 33,
+      "source_tex": "+8i\\rho'\\bar\\chi\\lambda'",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 33,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "8*I",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bigl[\\bar\\chi^i\\bigr]_{1}",
+            "\\bigl[\\lambda'_i\\bigr]_{1}"
+          ],
+          "tex": "8 i \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\chi^i\\bigr]_{1} \\bigl[\\lambda'_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 34,
+      "source_tex": "-5(\\rho')^2\\bar\\psi_a{}^i\\gamma^a\\chi_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 34,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-5",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^a",
+            "\\bigl[\\chi_i\\bigr]_{1}"
+          ],
+          "tex": "-5 \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\bigl[\\chi_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 35,
+      "source_tex": "+\\frac i4\\rho'\\bar\\psi_a{}^i\\gamma^a\\not{\\mathcal D}\\lambda'_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 35,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "I/4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^a",
+            "\\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+          ],
+          "tex": "\\frac{i}{4} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 36,
+      "source_tex": "+\\frac12\\rho'\\bar\\psi_a{}^i\\gamma^a\\gamma\\!\\cdot\\!T\\lambda'_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 36,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "1/2",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^a",
+            "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+            "\\bigl[\\lambda'_i\\bigr]_{1}"
+          ],
+          "tex": "\\frac{1}{2} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 37,
+      "source_tex": "-\\frac1{16}\\rho'\\bar\\psi_a{}^i\\gamma^a\\gamma\\!\\cdot\\!\\widehat G\\lambda'_i",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 37,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-1/16",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^a",
+            "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+            "\\bigl[\\lambda'_i\\bigr]_{1}"
+          ],
+          "tex": "- \\frac{1}{16} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 38,
+      "source_tex": "+\\frac g8\\rho'\\bar\\psi_a{}^i\\gamma^aL_{ij}\\lambda'{}^j",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 38,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "g/8",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^a",
+            "L_{ij}",
+            "\\bigl[\\lambda'^j\\bigr]_{1}"
+          ],
+          "tex": "\\frac{g}{8} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^a L_{ij} \\bigl[\\lambda'^j\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 39,
+      "source_tex": "+\\frac i4(\\rho')^2\\bar\\psi_a{}^i\\gamma^a\\gamma^b [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi_{bi} -\\gamma\\!\\cdot\\!T\\psi_{bi}+\\frac g2L_{ij}\\psi_b{}^j-\\phi_{bi}]",
+      "source_rows": 4,
+      "rows": [
+        {
+          "group": 39,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "I/16",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^a",
+            "\\gamma^b",
+            "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+            "\\psi_{bi}"
+          ],
+          "tex": "\\frac{i}{16} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\gamma^b \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\psi_{bi}"
+        },
+        {
+          "group": 39,
+          "source_row": 2,
+          "degree": 2,
+          "coefficient": "-I/4",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^a",
+            "\\gamma^b",
+            "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+            "\\psi_{bi}"
+          ],
+          "tex": "- \\frac{i}{4} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\gamma^b \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\psi_{bi}"
+        },
+        {
+          "group": 39,
+          "source_row": 3,
+          "degree": 2,
+          "coefficient": "I*g/8",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^a",
+            "\\gamma^b",
+            "L_{ij}",
+            "\\psi_b^j"
+          ],
+          "tex": "\\frac{i g}{8} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\gamma^b L_{ij} \\psi_b^j"
+        },
+        {
+          "group": 39,
+          "source_row": 4,
+          "degree": 2,
+          "coefficient": "-I/4",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^a",
+            "\\gamma^b",
+            "\\bigl[\\phi_{bi}\\bigr]_{1}"
+          ],
+          "tex": "- \\frac{i}{4} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\gamma^b \\bigl[\\phi_{bi}\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 40,
+      "source_tex": "-\\frac i4(\\rho')^2\\bar\\psi_a{}^i [\\frac14\\gamma\\!\\cdot\\!\\widehat G\\psi^a_i -\\gamma\\!\\cdot\\!T\\psi^a_i+\\frac g2L_{ij}\\psi^{aj}-\\phi^a_i]",
+      "source_rows": 4,
+      "rows": [
+        {
+          "group": 40,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-I/16",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+            "\\psi^a_i"
+          ],
+          "tex": "- \\frac{i}{16} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\psi^a_i"
+        },
+        {
+          "group": 40,
+          "source_row": 2,
+          "degree": 2,
+          "coefficient": "I/4",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+            "\\psi^a_i"
+          ],
+          "tex": "\\frac{i}{4} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\psi^a_i"
+        },
+        {
+          "group": 40,
+          "source_row": 3,
+          "degree": 2,
+          "coefficient": "-I*g/8",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "L_{ij}",
+            "\\psi^{aj}"
+          ],
+          "tex": "- \\frac{i g}{8} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i L_{ij} \\psi^{aj}"
+        },
+        {
+          "group": 40,
+          "source_row": 4,
+          "degree": 2,
+          "coefficient": "I/4",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\bigl[\\phi^a_i\\bigr]_{1}"
+          ],
+          "tex": "\\frac{i}{4} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\bigl[\\phi^a_i\\bigr]_{1}"
+        }
+      ]
+    },
+    {
+      "group": 41,
+      "source_tex": "-\\frac{ig}8(\\rho')^2\\bar\\psi_a{}^i\\gamma^{ab}\\psi_b{}^jL_{ij}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 41,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "-I*g/8",
+          "factors": [
+            "\\bigl[(\\rho')^2\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^{ab}",
+            "\\psi_b^j",
+            "L_{ij}"
+          ],
+          "tex": "- \\frac{i g}{8} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^{ab} \\psi_b^j L_{ij}"
+        }
+      ]
+    },
+    {
+      "group": 42,
+      "source_tex": "+\\frac i4\\rho'\\bar\\psi_a{}^i\\gamma^{ab}\\psi_b{}^jY'_{ij}",
+      "source_rows": 1,
+      "rows": [
+        {
+          "group": 42,
+          "source_row": 1,
+          "degree": 2,
+          "coefficient": "I/4",
+          "factors": [
+            "\\bigl[\\rho'\\bigr]_{0}",
+            "\\bar\\psi_a^i",
+            "\\gamma^{ab}",
+            "\\psi_b^j",
+            "\\bigl[Y'_{ij}\\bigr]_{0}"
+          ],
+          "tex": "\\frac{i}{4} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^{ab} \\psi_b^j \\bigl[Y'_{ij}\\bigr]_{0}"
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "group": 1,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "1",
+      "factors": [
+        "\\bigl[Y'^{ij}\\bigr]_{0}",
+        "\\bigl[Y'_{ij}\\bigr]_{0}"
+      ],
+      "tex": "1 \\bigl[Y'^{ij}\\bigr]_{0} \\bigl[Y'_{ij}\\bigr]_{0}"
+    },
+    {
+      "group": 1,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "1",
+      "factors": [
+        "\\bigl[Y'^{ij}\\bigr]_{0}",
+        "\\bigl[Y'_{ij}\\bigr]_{2}"
+      ],
+      "tex": "1 \\bigl[Y'^{ij}\\bigr]_{0} \\bigl[Y'_{ij}\\bigr]_{2}"
+    },
+    {
+      "group": 1,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "1",
+      "factors": [
+        "\\bigl[Y'^{ij}\\bigr]_{2}",
+        "\\bigl[Y'_{ij}\\bigr]_{0}"
+      ],
+      "tex": "1 \\bigl[Y'^{ij}\\bigr]_{2} \\bigl[Y'_{ij}\\bigr]_{0}"
+    },
+    {
+      "group": 2,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "-g",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[Y'^{ij}\\bigr]_{0}",
+        "L_{ij}"
+      ],
+      "tex": "- g \\bigl[\\rho'\\bigr]_{0} \\bigl[Y'^{ij}\\bigr]_{0} L_{ij}"
+    },
+    {
+      "group": 2,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-g",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[Y'^{ij}\\bigr]_{2}",
+        "L_{ij}"
+      ],
+      "tex": "- g \\bigl[\\rho'\\bigr]_{0} \\bigl[Y'^{ij}\\bigr]_{2} L_{ij}"
+    },
+    {
+      "group": 2,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-g",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{2}",
+        "\\bigl[Y'^{ij}\\bigr]_{0}",
+        "L_{ij}"
+      ],
+      "tex": "- g \\bigl[\\rho'\\bigr]_{2} \\bigl[Y'^{ij}\\bigr]_{0} L_{ij}"
+    },
+    {
+      "group": 3,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+    },
+    {
+      "group": 4,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "I",
+      "factors": [
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+        "\\bigl[\\lambda'_i\\bigr]_{1}"
+      ],
+      "tex": "i \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+    },
+    {
+      "group": 5,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-8*I",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\bigl[\\chi_i\\bigr]_{1}"
+      ],
+      "tex": "- 8 i \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\bigl[\\chi_i\\bigr]_{1}"
+    },
+    {
+      "group": 6,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-I/8",
+      "factors": [
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+        "\\bigl[\\lambda'_i\\bigr]_{1}"
+      ],
+      "tex": "- \\frac{i}{8} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+    },
+    {
+      "group": 7,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "I*g/4",
+      "factors": [
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "L_{ij}",
+        "\\bigl[\\lambda'^j\\bigr]_{1}"
+      ],
+      "tex": "\\frac{i g}{4} \\bigl[\\bar\\lambda'^i\\bigr]_{1} L_{ij} \\bigl[\\lambda'^j\\bigr]_{1}"
+    },
+    {
+      "group": 8,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "g/4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^a",
+        "\\bigl[\\lambda'^j\\bigr]_{1}",
+        "L_{ij}"
+      ],
+      "tex": "\\frac{g}{4} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\bigl[\\lambda'^j\\bigr]_{1} L_{ij}"
+    },
+    {
+      "group": 9,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bar\\psi_a^i",
+        "\\gamma^a",
+        "\\bigl[\\lambda'^j\\bigr]_{1}",
+        "\\bigl[Y'_{ij}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{2} \\bar\\psi_a^i \\gamma^a \\bigl[\\lambda'^j\\bigr]_{1} \\bigl[Y'_{ij}\\bigr]_{0}"
+    },
+    {
+      "group": 10,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-3/16",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\gamma^a",
+        "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+        "\\psi_{ai}"
+      ],
+      "tex": "- \\frac{3}{16} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^a \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\psi_{ai}"
+    },
+    {
+      "group": 10,
+      "source_row": 2,
+      "degree": 2,
+      "coefficient": "3/4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\gamma^a",
+        "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+        "\\psi_{ai}"
+      ],
+      "tex": "\\frac{3}{4} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^a \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\psi_{ai}"
+    },
+    {
+      "group": 10,
+      "source_row": 3,
+      "degree": 2,
+      "coefficient": "-3*g/8",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\gamma^a",
+        "L_{ij}",
+        "\\psi_a^j"
+      ],
+      "tex": "- \\frac{3 g}{8} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^a L_{ij} \\psi_a^j"
+    },
+    {
+      "group": 10,
+      "source_row": 4,
+      "degree": 2,
+      "coefficient": "3/4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\gamma^a",
+        "\\bigl[\\phi_{ai}\\bigr]_{1}"
+      ],
+      "tex": "\\frac{3}{4} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^a \\bigl[\\phi_{ai}\\bigr]_{1}"
+    },
+    {
+      "group": 11,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+        "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 11,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+        "\\bigl[\\widehat G^{ab}\\bigr]_{2}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{2}"
+    },
+    {
+      "group": 11,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{2}",
+        "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{2} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 11,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{2}",
+        "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+        "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{2} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 12,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 12,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{2}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{2}"
+    },
+    {
+      "group": 12,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{2}",
+        "\\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{2} \\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 12,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{2}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{2} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_b\\widehat G^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 13,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 13,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{2}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{0} \\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{2}"
+    },
+    {
+      "group": 13,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{2}",
+        "\\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{2} \\bigl[A'_a\\bigr]_{2} \\bigl[\\mathcal D_b\\widehat F'^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 14,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+        "\\bigl[T^{ab}\\bigr]_{0}"
+      ],
+      "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 14,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+        "\\bigl[T^{ab}\\bigr]_{2}"
+      ],
+      "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{2}"
+    },
+    {
+      "group": 14,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{2}",
+        "\\bigl[T^{ab}\\bigr]_{0}"
+      ],
+      "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{2} \\bigl[T^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 14,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{2}",
+        "\\bigl[(\\mathcal D_b\\rho')\\bigr]_{0}",
+        "\\bigl[T^{ab}\\bigr]_{0}"
+      ],
+      "tex": "8 \\bigl[A'_a\\bigr]_{2} \\bigl[(\\mathcal D_b\\rho')\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 15,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+      ],
+      "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 15,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\mathcal D_bT^{ab}\\bigr]_{2}"
+      ],
+      "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_bT^{ab}\\bigr]_{2}"
+    },
+    {
+      "group": 15,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{2}",
+        "\\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+      ],
+      "tex": "8 \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{2} \\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 15,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{2}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+      ],
+      "tex": "8 \\bigl[A'_a\\bigr]_{2} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\mathcal D_bT^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 16,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "-1/8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\varepsilon^{abcde}",
+        "\\bigl[\\widehat F'_{bc}\\bigr]_{0}",
+        "\\bigl[\\widehat G_{de}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{8} \\bigl[A'_a\\bigr]_{0} \\varepsilon^{abcde} \\bigl[\\widehat F'_{bc}\\bigr]_{0} \\bigl[\\widehat G_{de}\\bigr]_{0}"
+    },
+    {
+      "group": 16,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\varepsilon^{abcde}",
+        "\\bigl[\\widehat F'_{bc}\\bigr]_{0}",
+        "\\bigl[\\widehat G_{de}\\bigr]_{2}"
+      ],
+      "tex": "- \\frac{1}{8} \\bigl[A'_a\\bigr]_{0} \\varepsilon^{abcde} \\bigl[\\widehat F'_{bc}\\bigr]_{0} \\bigl[\\widehat G_{de}\\bigr]_{2}"
+    },
+    {
+      "group": 16,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\varepsilon^{abcde}",
+        "\\bigl[\\widehat F'_{bc}\\bigr]_{2}",
+        "\\bigl[\\widehat G_{de}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{8} \\bigl[A'_a\\bigr]_{0} \\varepsilon^{abcde} \\bigl[\\widehat F'_{bc}\\bigr]_{2} \\bigl[\\widehat G_{de}\\bigr]_{0}"
+    },
+    {
+      "group": 16,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{2}",
+        "\\varepsilon^{abcde}",
+        "\\bigl[\\widehat F'_{bc}\\bigr]_{0}",
+        "\\bigl[\\widehat G_{de}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{8} \\bigl[A'_a\\bigr]_{2} \\varepsilon^{abcde} \\bigl[\\widehat F'_{bc}\\bigr]_{0} \\bigl[\\widehat G_{de}\\bigr]_{0}"
+    },
+    {
+      "group": 17,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-I/16",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\gamma^{ab}",
+        "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+        "\\psi_{bi}"
+      ],
+      "tex": "- \\frac{i}{16} \\bigl[A'_a\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^{ab} \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\psi_{bi}"
+    },
+    {
+      "group": 17,
+      "source_row": 2,
+      "degree": 2,
+      "coefficient": "I/4",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\gamma^{ab}",
+        "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+        "\\psi_{bi}"
+      ],
+      "tex": "\\frac{i}{4} \\bigl[A'_a\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^{ab} \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\psi_{bi}"
+    },
+    {
+      "group": 17,
+      "source_row": 3,
+      "degree": 2,
+      "coefficient": "-I*g/8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\gamma^{ab}",
+        "L_{ij}",
+        "\\psi_b^j"
+      ],
+      "tex": "- \\frac{i g}{8} \\bigl[A'_a\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^{ab} L_{ij} \\psi_b^j"
+    },
+    {
+      "group": 17,
+      "source_row": 4,
+      "degree": 2,
+      "coefficient": "I/4",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\bar\\lambda'^i\\bigr]_{1}",
+        "\\gamma^{ab}",
+        "\\bigl[\\phi_{bi}\\bigr]_{1}"
+      ],
+      "tex": "\\frac{i}{4} \\bigl[A'_a\\bigr]_{0} \\bigl[\\bar\\lambda'^i\\bigr]_{1} \\gamma^{ab} \\bigl[\\phi_{bi}\\bigr]_{1}"
+    },
+    {
+      "group": 18,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/16",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_b^i",
+        "\\gamma^{ba}",
+        "\\gamma^c",
+        "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+        "\\psi_{ci}"
+      ],
+      "tex": "- \\frac{1}{16} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\gamma^c \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\psi_{ci}"
+    },
+    {
+      "group": 18,
+      "source_row": 2,
+      "degree": 2,
+      "coefficient": "1/4",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_b^i",
+        "\\gamma^{ba}",
+        "\\gamma^c",
+        "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+        "\\psi_{ci}"
+      ],
+      "tex": "\\frac{1}{4} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\gamma^c \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\psi_{ci}"
+    },
+    {
+      "group": 18,
+      "source_row": 3,
+      "degree": 2,
+      "coefficient": "-g/8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_b^i",
+        "\\gamma^{ba}",
+        "\\gamma^c",
+        "L_{ij}",
+        "\\psi_c^j"
+      ],
+      "tex": "- \\frac{g}{8} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\gamma^c L_{ij} \\psi_c^j"
+    },
+    {
+      "group": 18,
+      "source_row": 4,
+      "degree": 2,
+      "coefficient": "1/4",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_b^i",
+        "\\gamma^{ba}",
+        "\\gamma^c",
+        "\\bigl[\\phi_{ci}\\bigr]_{1}"
+      ],
+      "tex": "\\frac{1}{4} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\gamma^c \\bigl[\\phi_{ci}\\bigr]_{1}"
+    },
+    {
+      "group": 19,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/4",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bar\\psi_b^i",
+        "\\gamma^{ba}",
+        "\\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+      ],
+      "tex": "- \\frac{1}{4} \\bigl[A'_a\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+    },
+    {
+      "group": 20,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "I/2",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bar\\psi_b^i",
+        "\\gamma^{ba}",
+        "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+        "\\bigl[\\lambda'_i\\bigr]_{1}"
+      ],
+      "tex": "\\frac{i}{2} \\bigl[A'_a\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+    },
+    {
+      "group": 21,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-4*I",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_b^i",
+        "\\gamma^{ba}",
+        "\\bigl[\\chi_i\\bigr]_{1}"
+      ],
+      "tex": "- 4 i \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\bigl[\\chi_i\\bigr]_{1}"
+    },
+    {
+      "group": 22,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-I/16",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bar\\psi_b^i",
+        "\\gamma^{ba}",
+        "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+        "\\bigl[\\lambda'_i\\bigr]_{1}"
+      ],
+      "tex": "- \\frac{i}{16} \\bigl[A'_a\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+    },
+    {
+      "group": 23,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "I*g/8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bar\\psi_b^i",
+        "\\gamma^{ba}",
+        "L_{ij}",
+        "\\bigl[\\lambda'^j\\bigr]_{1}"
+      ],
+      "tex": "\\frac{i g}{8} \\bigl[A'_a\\bigr]_{0} \\bar\\psi_b^i \\gamma^{ba} L_{ij} \\bigl[\\lambda'^j\\bigr]_{1}"
+    },
+    {
+      "group": 24,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-g/8",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_b^i",
+        "\\gamma^{abc}",
+        "\\psi_c^j",
+        "L_{ij}"
+      ],
+      "tex": "- \\frac{g}{8} \\bigl[A'_a\\bigr]_{0} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_b^i \\gamma^{abc} \\psi_c^j L_{ij}"
+    },
+    {
+      "group": 25,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "1/4",
+      "factors": [
+        "\\bigl[A'_a\\bigr]_{0}",
+        "\\bar\\psi_b^i",
+        "\\gamma^{abc}",
+        "\\psi_c^j",
+        "\\bigl[Y'_{ij}\\bigr]_{0}"
+      ],
+      "tex": "\\frac{1}{4} \\bigl[A'_a\\bigr]_{0} \\bar\\psi_b^i \\gamma^{abc} \\psi_c^j \\bigl[Y'_{ij}\\bigr]_{0}"
+    },
+    {
+      "group": 26,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "1/2",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\Box_c\\rho'\\bigr]_{0}"
+      ],
+      "tex": "\\frac{1}{2} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\Box_c\\rho'\\bigr]_{0}"
+    },
+    {
+      "group": 26,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "1/2",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\Box_c\\rho'\\bigr]_{2}"
+      ],
+      "tex": "\\frac{1}{2} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\Box_c\\rho'\\bigr]_{2}"
+    },
+    {
+      "group": 26,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "1/2",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{2}",
+        "\\bigl[\\Box_c\\rho'\\bigr]_{0}"
+      ],
+      "tex": "\\frac{1}{2} \\bigl[\\rho'\\bigr]_{2} \\bigl[\\Box_c\\rho'\\bigr]_{0}"
+    },
+    {
+      "group": 27,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "1",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bigl[f_a^a\\bigr]_{0}"
+      ],
+      "tex": "1 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[f_a^a\\bigr]_{0}"
+    },
+    {
+      "group": 27,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "1",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bigl[f_a^a\\bigr]_{2}"
+      ],
+      "tex": "1 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[f_a^a\\bigr]_{2}"
+    },
+    {
+      "group": 27,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "1",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{2}",
+        "\\bigl[f_a^a\\bigr]_{0}"
+      ],
+      "tex": "1 \\bigl[(\\rho')^2\\bigr]_{2} \\bigl[f_a^a\\bigr]_{0}"
+    },
+    {
+      "group": 28,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "-1/4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+        "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{4} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 28,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+        "\\bigl[\\widehat G^{ab}\\bigr]_{2}"
+      ],
+      "tex": "- \\frac{1}{4} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{2}"
+    },
+    {
+      "group": 28,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\widehat F'_{ab}\\bigr]_{2}",
+        "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{4} \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{2} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 28,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{2}",
+        "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+        "\\bigl[\\widehat G^{ab}\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{1}{4} \\bigl[\\rho'\\bigr]_{2} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[\\widehat G^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 29,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "4",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bigl[\\widehat G_{ab}\\bigr]_{0}",
+        "\\bigl[T^{ab}\\bigr]_{0}"
+      ],
+      "tex": "4 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[\\widehat G_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 29,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "4",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bigl[\\widehat G_{ab}\\bigr]_{0}",
+        "\\bigl[T^{ab}\\bigr]_{2}"
+      ],
+      "tex": "4 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[\\widehat G_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{2}"
+    },
+    {
+      "group": 29,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "4",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bigl[\\widehat G_{ab}\\bigr]_{2}",
+        "\\bigl[T^{ab}\\bigr]_{0}"
+      ],
+      "tex": "4 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[\\widehat G_{ab}\\bigr]_{2} \\bigl[T^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 29,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "4",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{2}",
+        "\\bigl[\\widehat G_{ab}\\bigr]_{0}",
+        "\\bigl[T^{ab}\\bigr]_{0}"
+      ],
+      "tex": "4 \\bigl[(\\rho')^2\\bigr]_{2} \\bigl[\\widehat G_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 30,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+        "\\bigl[T^{ab}\\bigr]_{0}"
+      ],
+      "tex": "4 \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 30,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+        "\\bigl[T^{ab}\\bigr]_{2}"
+      ],
+      "tex": "4 \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{2}"
+    },
+    {
+      "group": 30,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\widehat F'_{ab}\\bigr]_{2}",
+        "\\bigl[T^{ab}\\bigr]_{0}"
+      ],
+      "tex": "4 \\bigl[\\rho'\\bigr]_{0} \\bigl[\\widehat F'_{ab}\\bigr]_{2} \\bigl[T^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 30,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{2}",
+        "\\bigl[\\widehat F'_{ab}\\bigr]_{0}",
+        "\\bigl[T^{ab}\\bigr]_{0}"
+      ],
+      "tex": "4 \\bigl[\\rho'\\bigr]_{2} \\bigl[\\widehat F'_{ab}\\bigr]_{0} \\bigl[T^{ab}\\bigr]_{0}"
+    },
+    {
+      "group": 31,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "-4",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bigl[D\\bigr]_{0}"
+      ],
+      "tex": "-4 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[D\\bigr]_{0}"
+    },
+    {
+      "group": 31,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-4",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bigl[D\\bigr]_{2}"
+      ],
+      "tex": "-4 \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[D\\bigr]_{2}"
+    },
+    {
+      "group": 31,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-4",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{2}",
+        "\\bigl[D\\bigr]_{0}"
+      ],
+      "tex": "-4 \\bigl[(\\rho')^2\\bigr]_{2} \\bigl[D\\bigr]_{0}"
+    },
+    {
+      "group": 32,
+      "source_row": 1,
+      "degree": 0,
+      "coefficient": "-104/3",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bigl[T^2\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{104}{3} \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[T^2\\bigr]_{0}"
+    },
+    {
+      "group": 32,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-104/3",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bigl[T^2\\bigr]_{2}"
+      ],
+      "tex": "- \\frac{104}{3} \\bigl[(\\rho')^2\\bigr]_{0} \\bigl[T^2\\bigr]_{2}"
+    },
+    {
+      "group": 32,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-104/3",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{2}",
+        "\\bigl[T^2\\bigr]_{0}"
+      ],
+      "tex": "- \\frac{104}{3} \\bigl[(\\rho')^2\\bigr]_{2} \\bigl[T^2\\bigr]_{0}"
+    },
+    {
+      "group": 33,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "8*I",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bigl[\\bar\\chi^i\\bigr]_{1}",
+        "\\bigl[\\lambda'_i\\bigr]_{1}"
+      ],
+      "tex": "8 i \\bigl[\\rho'\\bigr]_{0} \\bigl[\\bar\\chi^i\\bigr]_{1} \\bigl[\\lambda'_i\\bigr]_{1}"
+    },
+    {
+      "group": 34,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-5",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^a",
+        "\\bigl[\\chi_i\\bigr]_{1}"
+      ],
+      "tex": "-5 \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\bigl[\\chi_i\\bigr]_{1}"
+    },
+    {
+      "group": 35,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "I/4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^a",
+        "\\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+      ],
+      "tex": "\\frac{i}{4} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\bigl[\\not{\\mathcal D}\\lambda'_i\\bigr]_{1}"
+    },
+    {
+      "group": 36,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "1/2",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^a",
+        "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+        "\\bigl[\\lambda'_i\\bigr]_{1}"
+      ],
+      "tex": "\\frac{1}{2} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+    },
+    {
+      "group": 37,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-1/16",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^a",
+        "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+        "\\bigl[\\lambda'_i\\bigr]_{1}"
+      ],
+      "tex": "- \\frac{1}{16} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\bigl[\\lambda'_i\\bigr]_{1}"
+    },
+    {
+      "group": 38,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "g/8",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^a",
+        "L_{ij}",
+        "\\bigl[\\lambda'^j\\bigr]_{1}"
+      ],
+      "tex": "\\frac{g}{8} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^a L_{ij} \\bigl[\\lambda'^j\\bigr]_{1}"
+    },
+    {
+      "group": 39,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "I/16",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^a",
+        "\\gamma^b",
+        "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+        "\\psi_{bi}"
+      ],
+      "tex": "\\frac{i}{16} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\gamma^b \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\psi_{bi}"
+    },
+    {
+      "group": 39,
+      "source_row": 2,
+      "degree": 2,
+      "coefficient": "-I/4",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^a",
+        "\\gamma^b",
+        "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+        "\\psi_{bi}"
+      ],
+      "tex": "- \\frac{i}{4} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\gamma^b \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\psi_{bi}"
+    },
+    {
+      "group": 39,
+      "source_row": 3,
+      "degree": 2,
+      "coefficient": "I*g/8",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^a",
+        "\\gamma^b",
+        "L_{ij}",
+        "\\psi_b^j"
+      ],
+      "tex": "\\frac{i g}{8} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\gamma^b L_{ij} \\psi_b^j"
+    },
+    {
+      "group": 39,
+      "source_row": 4,
+      "degree": 2,
+      "coefficient": "-I/4",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^a",
+        "\\gamma^b",
+        "\\bigl[\\phi_{bi}\\bigr]_{1}"
+      ],
+      "tex": "- \\frac{i}{4} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^a \\gamma^b \\bigl[\\phi_{bi}\\bigr]_{1}"
+    },
+    {
+      "group": 40,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-I/16",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0}",
+        "\\psi^a_i"
+      ],
+      "tex": "- \\frac{i}{16} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\bigl[\\gamma\\!\\cdot\\!\\widehat G\\bigr]_{0} \\psi^a_i"
+    },
+    {
+      "group": 40,
+      "source_row": 2,
+      "degree": 2,
+      "coefficient": "I/4",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0}",
+        "\\psi^a_i"
+      ],
+      "tex": "\\frac{i}{4} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\bigl[\\gamma\\!\\cdot\\! T\\bigr]_{0} \\psi^a_i"
+    },
+    {
+      "group": 40,
+      "source_row": 3,
+      "degree": 2,
+      "coefficient": "-I*g/8",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "L_{ij}",
+        "\\psi^{aj}"
+      ],
+      "tex": "- \\frac{i g}{8} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i L_{ij} \\psi^{aj}"
+    },
+    {
+      "group": 40,
+      "source_row": 4,
+      "degree": 2,
+      "coefficient": "I/4",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\bigl[\\phi^a_i\\bigr]_{1}"
+      ],
+      "tex": "\\frac{i}{4} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\bigl[\\phi^a_i\\bigr]_{1}"
+    },
+    {
+      "group": 41,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "-I*g/8",
+      "factors": [
+        "\\bigl[(\\rho')^2\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^{ab}",
+        "\\psi_b^j",
+        "L_{ij}"
+      ],
+      "tex": "- \\frac{i g}{8} \\bigl[(\\rho')^2\\bigr]_{0} \\bar\\psi_a^i \\gamma^{ab} \\psi_b^j L_{ij}"
+    },
+    {
+      "group": 42,
+      "source_row": 1,
+      "degree": 2,
+      "coefficient": "I/4",
+      "factors": [
+        "\\bigl[\\rho'\\bigr]_{0}",
+        "\\bar\\psi_a^i",
+        "\\gamma^{ab}",
+        "\\psi_b^j",
+        "\\bigl[Y'_{ij}\\bigr]_{0}"
+      ],
+      "tex": "\\frac{i}{4} \\bigl[\\rho'\\bigr]_{0} \\bar\\psi_a^i \\gamma^{ab} \\psi_b^j \\bigl[Y'_{ij}\\bigr]_{0}"
+    }
+  ]
+}

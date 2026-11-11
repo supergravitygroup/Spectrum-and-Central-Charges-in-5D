@@ -1,0 +1,53 @@
+{
+  "source_files": {
+    "main_action.md": {
+      "sha256": "c32682dd02136cd028e83ebcbee08240d4ee7e034518af6072ba80f6c75fc5e2"
+    },
+    "bosonic_action.md": {
+      "sha256": "ef85bb69fb81e6c5e5f70b840c4d848c81a38dcdc571996cf64c3f0de427ab3f"
+    },
+    "source_checks.md": {
+      "sha256": "ebc99c8558fda2b64db3eabe649f4d91d5106f9dfc47cfe09e5d5dc0df4c38f5"
+    },
+    "two_derivative_construction.md": {
+      "sha256": "1258cb21abbe590b79b680238727cac0a070b4d25ba6ae16b73cd894391e691b"
+    },
+    "weyl2_construction.md": {
+      "sha256": "fcfdf173fa3364df888fc73bca0707c25660bba9e42c400859160278b71ffdb3"
+    },
+    "r2_construction.md": {
+      "sha256": "abb8362ce32bfc87e855c96053cf2a32375d13118c5ffba8080722b9b5fb8874"
+    },
+    "log_construction.md": {
+      "sha256": "57c14f3c5d01805a7dad3d145246da64e35aadc312d58128a4bf01856245357e"
+    }
+  },
+  "group_counts": {
+    "two_derivative": {
+      "B": 11,
+      "U": 11,
+      "V": 33
+    },
+    "weyl2": {
+      "B": 17,
+      "U": 17,
+      "V": 62
+    },
+    "log": {
+      "B": 40,
+      "U": 40,
+      "V": 326
+    },
+    "r2": {
+      "B": 49,
+      "U": 49,
+      "V": 423
+    },
+    "gb": {
+      "B": 54,
+      "U": 54,
+      "V": 387
+    }
+  },
+  "verification": "exact ordered coupling-coefficient decomposition; not independent SUSY verification"
+}

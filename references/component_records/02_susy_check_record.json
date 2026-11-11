@@ -1,0 +1,46 @@
+{
+  "scope": "Physical zero-plus-two-fermion action; retained SUSY variation has physical fermion degree one.",
+  "source_inputs": [
+    {
+      "path": "weyl2/action/details/linear_multiplet.md",
+      "sha256": "be384f44a0cfa398164897f89b33ffdb7019e4c8dbd16659d0fec2d2d76a90b9"
+    },
+    {
+      "path": "common/details/linear_vector_construction.md",
+      "sha256": "d5a89e94a6cc745041faf7be03e1c63ec6d295b73eba21016345dcf0634ad3fa"
+    }
+  ],
+  "verified_equations": [
+    "delta(e*ell_VL)|1 = partial_mu(e*J_VL^mu)",
+    "delta(e*P^mu)|1 = partial_nu(e*Q^{mu nu})",
+    "Weyl delta_Q L|1 and delta_S L|1",
+    "Weyl delta_Q varphi|0 and delta_S varphi|0, including N|0 and E|0 back-substitution",
+    "Linear-vector delta_Q rho|1 and delta_S rho|1",
+    "Linear-vector delta_Q lambda|0 and delta_S lambda|0",
+    "Definition-derived Q-curvature variation and S-curvature Bianchi coefficients"
+  ],
+  "not_certified": [
+    "Weyl delta N|1, delta E|1",
+    "Linear-vector delta Y|1, delta F|1",
+    "R-squared mixed-map full retained-order descent",
+    "LOG full retained-order descent",
+    "Individual S2, Weyl2, R2, LOG retained-order Noether identities after all composite substitutions"
+  ],
+  "method": "Exact symbolic Clifford coefficients, SU(2) matrices, derivative commutators, algebraic and differential Bianchi identities. No numerical specialization of free fields or parameters.",
+  "weyl_differential_bianchi_projector": {
+    "ambient_dimension": 275,
+    "constraint_rank": 100,
+    "parameterization_rank": 175,
+    "constraint_times_parameterization_is_zero": true
+  },
+  "proofs": [
+    "common/details/vector_linear_density.md",
+    "weyl2/action/multiplet_derivations.md",
+    "common/details/linear_vector_map.md"
+  ],
+  "reproducible_calculations": "common/details/code/run_checks.py",
+  "execution_record": "references/component_records/02_susy_symbolic_execution.json",
+  "replay_passed": true,
+  "replay_calculation_files": 14,
+  "record_scope": "Historical symbolic execution record. Its results apply only to the listed identities and fermion orders; the not_certified entries delimit this check record rather than list additional spectrum calculations."
+}

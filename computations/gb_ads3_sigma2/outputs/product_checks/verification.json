@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "fresh_source_matrices": true,
+  "standalone_sectors": 36,
+  "deleted_sectors": 3,
+  "standalone_raw_roots": 432,
+  "cases": [
+    {
+      "model": "W",
+      "point": "a",
+      "raw_roots": 88,
+      "boson_primary_pairs": 28,
+      "fermion_primary_pairs": 16
+    },
+    {
+      "model": "W",
+      "point": "b",
+      "raw_roots": 88,
+      "boson_primary_pairs": 28,
+      "fermion_primary_pairs": 16
+    },
+    {
+      "model": "LOG",
+      "point": "a",
+      "raw_roots": 88,
+      "boson_primary_pairs": 28,
+      "fermion_primary_pairs": 16
+    },
+    {
+      "model": "LOG",
+      "point": "b",
+      "raw_roots": 88,
+      "boson_primary_pairs": 28,
+      "fermion_primary_pairs": 16
+    },
+    {
+      "model": "R2",
+      "point": "a",
+      "raw_roots": 40,
+      "boson_primary_pairs": 16,
+      "fermion_primary_pairs": 4
+    },
+    {
+      "model": "R2",
+      "point": "b",
+      "raw_roots": 40,
+      "boson_primary_pairs": 16,
+      "fermion_primary_pairs": 4
+    }
+  ],
+  "max_source_coefficient_error": "0.0",
+  "maximum_discarded_singular_value": "9.79370214072e-76",
+  "minimum_retained_singular_value": "2.84876685246e-11",
+  "precision_digits": 115,
+  "root_rank_threshold": "1e-55",
+  "root_residual_guard": "1e-65",
+  "elapsed_seconds": 46.3,
+  "messages": [
+    "PASS current local action and numerical-solver fingerprints",
+    "PASS W_a: all six sectors, 88 raw roots, complete matching",
+    "PASS W_b: all six sectors, 88 raw roots, complete matching",
+    "PASS LOG_a: all six sectors, 88 raw roots, complete matching",
+    "PASS LOG_b: all six sectors, 88 raw roots, complete matching",
+    "PASS R2_a: all six sectors, 40 raw roots, complete matching",
+    "PASS R2_b: all six sectors, 40 raw roots, complete matching",
+    "PASS E deletion: quoted complex pair and all bosonic-primary partner losses",
+    "PASS missing-root, wrong-energy, wrong-charge and 42-digit gauge-breaking controls"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "spin": 0,
+  "charged": true,
+  "field_strength_variables": false,
+  "parameters": [
+    "L",
+    "N",
+    "p",
+    "h",
+    "r",
+    "l",
+    "w",
+    "g",
+    "lam",
+    "D",
+    "S"
+  ],
+  "linear_a": "0",
+  "linear_b": "0",
+  "avars": [
+    "a_Z_2",
+    "a_Z_3",
+    "a_Z_4"
+  ],
+  "bvars": [
+    "b_Z_2",
+    "b_Z_3",
+    "b_Z_4"
+  ],
+  "K": [
+    [
+      "-2*L**2*g**2*lam + 4*L",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "-2*L**2*g**2*lam + 4*L",
+      "4*sqrt(2)*I*L*g*h*lam"
+    ],
+    [
+      "0",
+      "-4*sqrt(2)*I*L*g*h*lam",
+      "-2*L**2*g**2*lam + 4*L"
+    ]
+  ]
+}

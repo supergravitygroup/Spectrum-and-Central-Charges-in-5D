@@ -1,0 +1,496 @@
+{
+  "sample": "H2_3_1o10",
+  "parameters": {
+    "L": "3",
+    "k": "1/10",
+    "g": "1",
+    "S": "1/3"
+  },
+  "background": {
+    "chi": 1,
+    "M2": [
+      0.13585470840080638,
+      0.0
+    ]
+  },
+  "physical_level": true,
+  "direct_modes": [
+    {
+      "spin": -0.5,
+      "energy": [
+        3.0173724492400753,
+        -7.961749238386816e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5263440725225035,
+        9.755156310384444e-16
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.4428038736494138,
+        -7.0776770867770796e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.8698364059143167,
+        -2.353622752694625e-14
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        14.32417582417542,
+        5.15364637590852e-13
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        14.349270610140984,
+        2.0009839993125666e-12
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        3.017372449240071,
+        3.830496595308849e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5263440725225053,
+        1.3781494908439893e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.442803873649446,
+        -3.477287119701877e-14
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.8698364059144845,
+        -1.3218495172348513e-13
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        14.324175824176146,
+        -1.580802326546806e-12
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        14.349270610144417,
+        6.355986541299971e-13
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.56601299237598,
+        -6.04690880454003e-17
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5660516147878385,
+        -1.2501663527205634e-15
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        15.262503919791515,
+        1.7026592026157827e-13
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        15.324175824175665,
+        -1.3070501059501118e-14
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.5660129923759802,
+        -6.0360879219611656e-18
+      ],
+      "q_R": 1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5660516147878385,
+        -1.2623943550007883e-15
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        15.262503919791513,
+        1.7052369512071991e-13
+      ],
+      "q_R": -1,
+      "origin": null
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        15.324175824175674,
+        -9.199116612170951e-15
+      ],
+      "q_R": -1,
+      "origin": null
+    }
+  ],
+  "predicted_modes": [
+    {
+      "spin": -1.5,
+      "energy": [
+        2.566012992375981,
+        -0.0
+      ],
+      "q_R": -1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": -1.5,
+      "energy": [
+        2.566012992375981,
+        -0.0
+      ],
+      "q_R": 1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5660516147878374,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        1.5660516147878374,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        15.262503919791703,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        15.262503919791703,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "spin2 multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        3.0173724492400753,
+        -0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        3.0173724492400753,
+        -0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5263440725225048,
+        -0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": -0.5,
+      "energy": [
+        1.5263440725225048,
+        -0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.4428038736494186,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.4428038736494186,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.8698364059144135,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        2.8698364059144135,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        14.349270610143863,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        14.349270610143863,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "scalar-vector multiplet"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        14.324175824175825,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "flat lower"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        15.324175824175825,
+        0.0
+      ],
+      "q_R": 1,
+      "origin": "flat upper"
+    },
+    {
+      "spin": 0.5,
+      "energy": [
+        14.324175824175825,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "flat lower"
+    },
+    {
+      "spin": 1.5,
+      "energy": [
+        15.324175824175825,
+        0.0
+      ],
+      "q_R": -1,
+      "origin": "flat upper"
+    }
+  ],
+  "matching": {
+    "maximum_error": 3.506466882337304e-12,
+    "pairs": [
+      {
+        "predicted": 0,
+        "direct": 12,
+        "energy_error": 1.3336392118396635e-15
+      },
+      {
+        "predicted": 1,
+        "direct": 16,
+        "energy_error": 8.881989301831058e-16
+      },
+      {
+        "predicted": 2,
+        "direct": 13,
+        "energy_error": 1.6719781918082744e-15
+      },
+      {
+        "predicted": 3,
+        "direct": 17,
+        "energy_error": 1.6811408840265849e-15
+      },
+      {
+        "predicted": 4,
+        "direct": 14,
+        "energy_error": 2.538602925366141e-13
+      },
+      {
+        "predicted": 5,
+        "direct": 18,
+        "energy_error": 2.553527062968507e-13
+      },
+      {
+        "predicted": 6,
+        "direct": 0,
+        "energy_error": 7.961749238386816e-16
+      },
+      {
+        "predicted": 7,
+        "direct": 6,
+        "energy_error": 5.8646591373410594e-15
+      },
+      {
+        "predicted": 8,
+        "direct": 1,
+        "energy_error": 1.6512322014627775e-15
+      },
+      {
+        "predicted": 9,
+        "direct": 7,
+        "energy_error": 1.4479334395678553e-15
+      },
+      {
+        "predicted": 10,
+        "direct": 2,
+        "energy_error": 8.599799726018328e-15
+      },
+      {
+        "predicted": 11,
+        "direct": 8,
+        "energy_error": 4.4353668407493084e-14
+      },
+      {
+        "predicted": 12,
+        "direct": 3,
+        "energy_error": 9.963137267513192e-14
+      },
+      {
+        "predicted": 13,
+        "direct": 9,
+        "energy_error": 1.500718869593988e-13
+      },
+      {
+        "predicted": 14,
+        "direct": 5,
+        "energy_error": 3.506466882337304e-12
+      },
+      {
+        "predicted": 15,
+        "direct": 11,
+        "energy_error": 8.432965984534744e-13
+      },
+      {
+        "predicted": 16,
+        "direct": 4,
+        "energy_error": 6.554641796980111e-13
+      },
+      {
+        "predicted": 17,
+        "direct": 15,
+        "energy_error": 1.6040552149819284e-13
+      },
+      {
+        "predicted": 18,
+        "direct": 10,
+        "energy_error": 1.6131681512103991e-12
+      },
+      {
+        "predicted": 19,
+        "direct": 19,
+        "energy_error": 1.512703008106071e-13
+      }
+    ]
+  },
+  "sector_files": [
+    "H2_3_1o10_np1_q+1.json",
+    "H2_3_1o10_np1_q-1.json",
+    "H2_3_1o10_nm1_q+1.json",
+    "H2_3_1o10_nm1_q-1.json",
+    "H2_3_1o10_np3_q+1.json",
+    "H2_3_1o10_np3_q-1.json",
+    "H2_3_1o10_nm3_q+1.json",
+    "H2_3_1o10_nm3_q-1.json"
+  ]
+}

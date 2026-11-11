@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-25",
+  "record": "GAUGED-LOG-STEP1-v1",
+  "status": "PASS_LISTED_CHECKS_WITH_GENERIC_FORM_INTERFACE_RESOLVED",
+  "checks": {
+    "dependency_graph": "PASS: 9 hashes and 4 links",
+    "epsilon_gamma_form_identities": "PASS: 25 rank-three and 125 rank-two contractions",
+    "clifford_product_and_bilinear_kernels": "PASS: 50 gamma products, 10 correctly lowered second-index kernels; old opposite kernel rejected",
+    "su2_lowering": "PASS: lowered L epsilon = [-2, -1]",
+    "curvature_chi": "PASS: all625 index orders and625 converted/project coefficients; -8K=+8J",
+    "slot_and_nonform_bf_coefficients": "PASS: three arbitrary normalizations; multiplier -2a, unit at a=-1/2",
+    "local_susy_grassmann_form_test": "PASS: all5 vector components; independent odd generators; alpha=1,beta=-3 cancel; literal OP(-1,+1) fails; literal Gold h+Q1-Q2 leaves exactly 2*dQ1",
+    "normalization_and_weights": "PASS: raw bosonic R\u00b2 ->1/24; seven density weights5, current completions4, action dimension0",
+    "working_ledger_structure": "PASS: 24 unique relation IDs and all local links"
+  },
+  "covariant_linear_QS_map": "VERIFIED",
+  "nonform_BF_terms": "SIX OF SIX MATCH",
+  "explicit_chi_curvature_interface": "MATCHES PROJECT +8 IN ITS WRITTEN ORDER",
+  "bosonic_normalization": "UNIT MULTIPLIER VERIFIED IN CURVATURE PROBE",
+  "full_printed_Gold_form_equivalence": "LITERAL FORMULAS INCOMPATIBLE; derived corrections recorded",
+  "generic_form_interface": "RESOLVED by log-certification-form-interface.md and verify_log_form_interface.py, conditional on genuine multiplets",
+  "full_generic_potential_SUSY": "DERIVED by superform contraction; separate from this principal test",
+  "full_LOG_invariant": "ACTUAL COMPOSITE IDENTITIES REQUIRE SEPARATE VERIFICATION",
+  "working_ledger_sha256": "9fcbdc3da5bb16555fe0a3ea92658052a80449a0050b3edbc1154ec8cfe66586"
+}

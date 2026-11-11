@@ -1,0 +1,65 @@
+[
+  {
+    "coefficient": "-sqrt(2)*L",
+    "factors": [
+      "trace_Y_linear"
+    ],
+    "explicit_degree": 0
+  },
+  {
+    "coefficient": "2*(L**3*g**2 - 2*L*N*g - 2*N**2)/L",
+    "factors": [],
+    "explicit_degree": 0
+  },
+  {
+    "coefficient": "-2*I",
+    "factors": [
+      "bar_lambda_varphi"
+    ],
+    "explicit_degree": 2
+  },
+  {
+    "coefficient": "sqrt(2)*L/2",
+    "factors": [
+      "psi_gamma_lambda"
+    ],
+    "explicit_degree": 2
+  },
+  {
+    "coefficient": "-1",
+    "factors": [
+      "F_linear",
+      "E2"
+    ],
+    "explicit_degree": 0
+  },
+  {
+    "coefficient": "-2*g",
+    "factors": [
+      "G",
+      "E2"
+    ],
+    "explicit_degree": 0
+  },
+  {
+    "coefficient": "-sqrt(2)*I*N/L**2",
+    "factors": [
+      "varphi_bilinear"
+    ],
+    "explicit_degree": 2
+  },
+  {
+    "coefficient": "-2*(L*g + N)/L",
+    "factors": [
+      "psi_gamma_varphi"
+    ],
+    "explicit_degree": 2
+  },
+  {
+    "coefficient": "-sqrt(2)*I*(L*g + N)/2",
+    "factors": [
+      "psi_gamma2_psi"
+    ],
+    "explicit_degree": 2
+  }
+]

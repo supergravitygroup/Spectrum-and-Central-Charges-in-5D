@@ -1,0 +1,208 @@
+{
+  "status": "PASS",
+  "claim": "Independent full defining six-spinor LOG primary equals stored corrected 58-term primary in degrees0,2,4,6",
+  "literal_source_correction": "H3.9 is +i/4, independently rejected at literal -i/4",
+  "source_terms": 58,
+  "total_exhaustive_component_coefficients": 21408,
+  "equality_sign": "direct operator minus stored corrected primary",
+  "algebraic_assumptions": [
+    "Full corrected C24 curved conformal derivative algebra",
+    "Full gamma-traceless R(Q) projector",
+    "Exact full R(M) cyclic identity C24(A.4c)",
+    "Ordered derivatives, no integration by parts, no target EOM or gauge specialization"
+  ],
+  "negative_control_nonzero_coefficients": 40,
+  "reports": {
+    "quadratic-comparison": {
+      "status": "PASS",
+      "exact_RM_cyclic_removals": 1,
+      "before_terms": 20,
+      "after_terms": 19,
+      "groups": 10,
+      "component_coefficients": 7840,
+      "denominator": 18432,
+      "remaining": [],
+      "antisymmetric_Hessian_checks": [
+        {
+          "signature": "(-2, (('lam__0', 0, 1), ('lam__0', 2, 1)))",
+          "antisym_residual": 0
+        }
+      ],
+      "differential_substitutions": [
+        {
+          "coefficient": "C(r=Fraction(0, 1), i=Fraction(1, 4))",
+          "monomial": "(A(name='pow', ix=(), ds=(), power=-2, oddD=()), A(name='g2', ix=('+lc0', '+lc1', '+sc0', '+sc1'), ds=(), power=0, oddD=()), A(name='lam__0', ix=('-sc0',), ds=(), power=0, oddD=()), A(name='lam__0', ix=('-sc1',), ds=('-lc0', '-lc1'), power=0, oddD=()))",
+          "identity": "antisymmetric gaugino Hessian = commutator / 2"
+        }
+      ],
+      "exact_arithmetic_bounds": {
+        "contractions": 102,
+        "max_contraction_L1_bound": 7200000,
+        "max_coefficient_product_L1_bound": 1024416,
+        "max_group_sum_L1_bound": 1459008,
+        "max_permutation_sum_L1_bound": 0
+      },
+      "seconds": 17.491520959003537
+    },
+    "quartic-comparison": {
+      "status": "PASS",
+      "direct_terms": 559,
+      "target_terms": 34,
+      "preFierz_residual": 24,
+      "groups": 7,
+      "component_coefficients": 9472,
+      "denominator": 1536,
+      "remaining": [],
+      "exact_arithmetic_bounds": {
+        "contractions": 107,
+        "max_contraction_L1_bound": 12000,
+        "max_coefficient_product_L1_bound": 15360,
+        "max_group_sum_L1_bound": 21504,
+        "max_permutation_sum_L1_bound": 55296
+      },
+      "seconds": 1.0426622079976369
+    },
+    "sextic-comparison": {
+      "status": "PASS",
+      "stages": [
+        {
+          "stage": 1,
+          "degree": 3,
+          "terms": 1
+        },
+        {
+          "stage": 2,
+          "degree": 4,
+          "terms": 1
+        },
+        {
+          "stage": 3,
+          "degree": 5,
+          "terms": 1
+        },
+        {
+          "stage": 4,
+          "degree": 6,
+          "terms": 1
+        }
+      ],
+      "direct_terms": 1,
+      "target_terms": 8,
+      "preFierz_residual": 2,
+      "groups": 1,
+      "component_coefficients": 4096,
+      "denominator": 32,
+      "remaining": [],
+      "exact_arithmetic_bounds": {
+        "contractions": 10,
+        "max_contraction_L1_bound": 4,
+        "max_coefficient_product_L1_bound": 12,
+        "max_group_sum_L1_bound": 15,
+        "max_permutation_sum_L1_bound": 36
+      },
+      "seconds": 0.03438295800151536
+    },
+    "orchestration-checks": {
+      "status": "PASS",
+      "exact_open_metric_chain_cases": 1360,
+      "chain_lengths": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "dimensions": [
+        2,
+        4
+      ],
+      "streamed_graded_seed_derivative_residual": 0,
+      "streamed_geometry_vs_production_residual": 0,
+      "scope": "Certification-only helper and orchestration; all integer matrix comparisons exact"
+    },
+    "negative-control": {
+      "status": "EXPECTED_NONZERO",
+      "difference": "direct projector minus literal S23(3.25) = +2 times corrected H3.9",
+      "groups": 2,
+      "nonzero_coefficients": 40,
+      "denominator": 1,
+      "exact_arithmetic_bounds": {
+        "contractions": 6,
+        "max_contraction_L1_bound": 5,
+        "max_coefficient_product_L1_bound": 1,
+        "max_group_sum_L1_bound": 1,
+        "max_permutation_sum_L1_bound": 2
+      }
+    }
+  },
+  "source_sha256": {
+    "results/gauged_full_fermionic_log/STEP_02_LOG_PRIMARY.md": "378b6ddb76748443a9734d54636a7ed606056bcfca327d29960db80c5cc786d7",
+    "results/gauged_full_fermionic_log/scripts/canonicalize_log_two_fermi.py": "5fbffaf4de1160b0e689e00203ab309133f5052455c958066b49bed41e7a8705",
+    "results/gauged_full_fermionic_log/scripts/log_step3_covariant_rules.py": "a37e937ce86decf5638b3104d83006c83db41a646e66191ac10c81577442a79b",
+    "results/gauged_full_fermionic_log/scripts/log_step4_covariant_rules.py": "791aa9f1ffddb51a73776a17c91fc2f7eb06ec2c175f532306bd1e0013cd3a9d",
+    "results/gauged_full_fermionic_log/scripts/log_step6_projection.py": "d7f589a4f52b1a54a4c7b9eba7c2a691f4fbedbac996452a5c20ec035b76e4f4",
+    "results/gauged_full_fermionic_log/scripts/log_step7_constraints.py": "60a66720904a2e225a9caa6b273038402f78e97f8807d96eff4bbecbeee0d114",
+    "results/gauged_full_fermionic_log/scripts/log_step7_gauge.py": "64d662c3f8d7a6026edd4eb52c5fb1a7f21c1c6a8243c01f8bd51395ca9fdc5f",
+    "results/gauged_full_fermionic_log/scripts/verify_log_two_fermi_canonical.py": "93bb99498ad9edfa90bd9d17abe772f3a7e1888edacddb617edbe94b25c5d446",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/curved/cubic_clifford.py": "e86ff3f498962a073dc662e4a4ec3833df65d86d8b4403a97b00c5155793623f",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/curved/cubic_tensor_coefficients.py": "19176a6ced4c09978588afb6a3b79ff365c472b50dc12c0d753edd4db7efbac7",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/curved/curvature-algebraic-bianchi.json": "90e643c2268c64f42630b344ece1ad0fecd9452a0d90cdcf1d0a63986bf77802",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/curved/curvature_algebraic_bianchi.py": "ee9dbea7dfe46708528d411bf2c9e5f206de9ee3f0fdf9a51ec91841951a7429",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/curved/curved_primary.py": "af379e5a84c57f0e5da6e3694ac0fef560f177b40b49a17e4d691a511cbfcee7",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/curved/exact_su2_components.py": "dc0c01da5cca01d6f29bbbbdd2daf98ea95468f473d55924a0d636767a3c8026",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/curved/vector_commutator.py": "75a38e09e17c1cb473ee0dfa1859c4f432608f9509155244ac20882ee1f71d77",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/CL0-commutator.pkl": "68c053af12876a91b744e8e344b90bf2b90616382443690b64c76554b873438d",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/CL1-commutator.pkl": "9299c76556709a049d59a0d9f151cb474eafe1e7bc39f3cfc4efe24e7319d2cc",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/D1-uncollected.pkl": "ab20b9005bcde9f45e88eb8846675f96ff9432a648aa2545ae4290b792570286",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/D1.pkl": "2b501d5592a09dd9b0b4d7ad5429ebb3b1693841e8a221e9a988d2ae5e5f05cd",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/D2-uncollected.pkl": "351d5703eb4654fa7db40c23fff54b8fafacc2425c020a510b85b55ddedb6203",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/D2.pkl": "608755600acd822a53f47f60ced3d8a14f5efcca2e7a6306971af2c68c332379",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/D3-degree5.pkl": "bab712122fefaa418ca67c728ebacca72c787eb7801b5958ebcd479c0ca4a786",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/D3-uncollected.pkl": "62978615cc0ff0bde2eb3ae908e2f937c3bd1e5c5366c5315e4b018bdaa23a4f",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/D3.pkl": "2ec78d17e91cc243d6e847aadd3a32f66fad6bd136ac793f2e142d80f833bfe9",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/D4-degree4-uncollected.pkl": "4cb16ea782e23c6a88125446c96d3ebe9fe45b30919cdf9da719085d60dd7d18",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/D4-uncollected.pkl": "b9ae25905524179a2dd63c5a0d3240b4ec31abad44864ac10461735533cecadd",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/D4.pkl": "8e3ffa7c82d8e902c25d3f5f1de3b98362a8004678e98399531510e670da4cbe",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HMM-clifford-progress.pkl": "2650b79b08a1a87d34d88235ec40191464350bba387c88b0be585c120f9afae1",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HMM-difference-before-canonical.pkl": "46d0ef72f71a1075818e35088e8a8851f22d1e0af1acd7a3132b5c1fc858e139",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HMM-residual.pkl": "2d610fc53dd98ca5a70f1db8c90c6ee1f1bdc6d15430e3ae7349e422309a3a33",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HP4-coefficients.pkl": "3684c79a3674c974061c5d3e0968c90959289759121b4dd7d0a6e760d3093ad1",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HP4-residual.pkl": "6dcd4d3a9044a0a4b8790acd61b53040669f69f799db1528c36bd2a1fc491117",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HP6-coefficients.pkl": "dc698d8ee0a00ce99f54a19a72e8c7f43138c3e41e21c9b9839ba4a311d75292",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HP6-residual.pkl": "d1f81b7da175199ea07d758b050d113d6fb5449c8c2d0e2c3eeb705680f7fb2c",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HPP-clifford-progress.pkl": "c423c8e0ee315477f89890be7747a58fb7a9c191540b631467bf679bf959ef36",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HPP-difference-before-canonical.pkl": "ddca549df3e79f8c8c785c922eba9cfc1a576298cbe82d55dc143b0deba7bc5f",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HPP-residual.pkl": "42f16d710ead2404cf89f19587117cf62ff9c0af43f75f545eb19599e86cc260",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HQ2-after-differentials.pkl": "c115020393f13ea829fd7b7b1e8b85a00035fbc4be65f4b811371fae83d28eb6",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HQ2-before-coefficients.pkl": "d8e6cd92d6308aa593ddd89f26c31909b4990bd4a3d56522e57b73af712e8cb3",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HQ2-before-differentials.pkl": "62e923c34a5dc4be49661d1f1cb70acf4fd444ae09bd027e475a294581314db9",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HQ2-clifford-progress.pkl": "714b51303941434f730af934c6f9cbbbbd340a126b93e7ae2dd70ec7fc36b84d",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/HQ2-final-coefficients.pkl": "fa81a84db5332d4c0be55fd854a4acbd7faf820756905962fc63d6b7be16eee0",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/Hpp-degree4-projected-open-SU2.pkl": "400db189a776fd2be628be048a12794a54b259b8b421a8ee11700bdf76e17a7e",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/Hpp-degree4-source-open-SU2.pkl": "ce4829c1a2f67a32377a024aa25e3d2097da623aca876677d7b3392838196911",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/Hpp-degree6-source-open-SU2.pkl": "4412116bacff68842826e562f3aaeaafea974a7a441af6e313b9b694eb57993d",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/Hpp-projected-open-SU2.pkl": "796f4cab9fdc9445812162b31018374587db3d6ff2776e5560fe0201a7a20d52",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/Hpp-source-open-SU2.pkl": "81b6f42397c423665b6aaf1480f50276dc7609830b89bc3bf84dc0fd2ee3fe48",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/S14.SS3.txt": "05a50539bd67820542f7ef92346ea215a43e5c709e3047d9a8ad4696fce7cbfc",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/S7.SS1.txt": "42425c7e2a1d076167ad9e9489625d671be44865fff42f5fdddf2504e2033bfd",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/close_quadratic.py": "fe3e56c4bc5860b64e6754802ca816aaec882f0639075b875c14beac9f03ec49",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/compare_projector.py": "8e6b8f53e6d611cafc14691ba19ea8ae8c4d601f53e9b2e66595147367ff8616",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/compare_quartic.py": "c7a64bb0ac62de9d7f8fd27ea884cc7ec9fa71e2252815d75502ac3e8fec4ff2",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/compare_sextic.py": "3dbd5be9abcfdee9ab3dd24ec08796605a88e9b05a7edfb7354b128e01f5a39b",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/direct_projector.py": "5aa3fa151496bed13a57f2e20d406b9ba7b4ad512fd859c3415a0681b605c214",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/direct_quartic.py": "5801d5111a7fa611ffa2345aa2daf225f370d4862e1f60e838686c1b74d24c5b",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/literal-sign-negative-control-coefficients.pkl": "18071410e5ff9a28457a1fcf09be99ace125dd7edccf8ab65c10ce6820716fda",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/metric_network.py": "1f182a33763b0355b14e5c5db9a272969e7052072286b9f012002015ef251764",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/negative-control.json": "66bcb3860350b1b7b72d94952acf9c342bfd3f37a690fade5fe96227360e287c",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/negative_control.py": "f684962ba1e4c7e7872eb1bc5074e84afb7de61aaad35784ecc81e2b4d1b741b",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/orchestration-checks.json": "c8136513e02be32e521a737d1e95828cacc0f8f1bbcde935e42f9b15b230e689",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/quadratic-comparison.json": "2c5286665280db9c189b3dcbc06786140aa3d57c69bd885a69fd7ef5e7f50d3e",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/quartic-comparison.json": "547f6496e5345dec854b12bb248055b261e0156ba248f7b3b88f2a0faaa9946d",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/seed.pkl": "d0daaef8c40bfeade88845dfcb15fc646b2e4ef0a1b9ca803ed13c3919cc0eb5",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/sextic-comparison.json": "b370dde08fcac62139eaac628b162d73d51b3e7566827ae345a0804c156d3398",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/target-projected.pkl": "a2cc26d1ec83a504868e1a75444260e47af2a8818ca98a1cafd87043fddd3192",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/verify_orchestration.py": "ff8d1c6523d7249c0c2134f65c43111d2d0f03eca62842d012bb16c465d3a71f",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/defining_projector/verify_result.py": "eab6afd554319384562078a36a9b7ed3ca455836b018fb992a1af60273ed08ed",
+    "results/gauged_full_fermionic_log/sources/certification_20260925/form/1410.8682v2.html": "7d59ad6e972849db040802aecdd9ed3c9fc5cb4426ce743df9dceda793c7f64d",
+    "results/gauged_full_fermionic_log/sources/extracted/gold2023_superspace.txt": "ea404eaaf22ecd82d6bfd19eab8bece2b59df23ccf502010efe1b21eb86fd533"
+  }
+}

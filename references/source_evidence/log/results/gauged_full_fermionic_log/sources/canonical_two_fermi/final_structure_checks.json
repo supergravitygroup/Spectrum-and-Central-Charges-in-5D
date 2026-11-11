@@ -1,0 +1,34 @@
+{
+  "L": {
+    "monomials": 59,
+    "idempotent_collection": true,
+    "all_indices_and_weights": true,
+    "max_explicit_fermion_degree": 2,
+    "remaining_wedge_rewrites_tested": 0,
+    "relative_residual": 0
+  },
+  "phi": {
+    "monomials": 278,
+    "idempotent_collection": true,
+    "all_indices_and_weights": true,
+    "max_explicit_fermion_degree": 1,
+    "remaining_wedge_rewrites_tested": 0,
+    "relative_residual": 0
+  },
+  "N": {
+    "monomials": 514,
+    "idempotent_collection": true,
+    "all_indices_and_weights": true,
+    "max_explicit_fermion_degree": 2,
+    "remaining_wedge_rewrites_tested": 0,
+    "relative_residual": 0
+  },
+  "E": {
+    "monomials": 1332,
+    "idempotent_collection": true,
+    "all_indices_and_weights": true,
+    "max_explicit_fermion_degree": 2,
+    "remaining_wedge_rewrites_tested": 0,
+    "relative_residual": 0
+  }
+}

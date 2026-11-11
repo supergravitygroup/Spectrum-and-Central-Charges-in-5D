@@ -1,0 +1,12 @@
+{
+  "source": "C24 (A.4c), PDF83; S6-14/15",
+  "symmetric_four_spinor_basis": 35,
+  "quadratic_T_basis_and_pair_sums": 55,
+  "component_entries_per_case": 256,
+  "projection_max_residual": 2.1316282072803006e-14,
+  "production_elementary_map_max_residual": 7.105427357601002e-15,
+  "R_M_pair_exchange_residual": 8.95090418262362e-16,
+  "R_M_trace_residual": 3.553056323704495e-15,
+  "R_M_algebraic_Bianchi_residual": 3.552713678800501e-15,
+  "scope": "Complete finite bases for w4 and quadratic T map; no derivative commutation"
+}

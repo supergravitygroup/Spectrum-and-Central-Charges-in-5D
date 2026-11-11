@@ -1,0 +1,20 @@
+{
+  "dimension": 5,
+  "C1BC": {
+    "11": "0",
+    "12": "1/2",
+    "21": "1/2",
+    "22": "0"
+  },
+  "labels": {
+    "1": "primed composite vector",
+    "2": "unprimed defining vector"
+  },
+  "paired_vector": 1,
+  "retained_physical_fermion_degrees": [
+    0,
+    2
+  ],
+  "gradient_repair": "R2-VL-GRADIENT-PHASE-v1",
+  "spectrum_domain": "0 < lambda_R2*g**2 < 1/4; Einstein-connected branch"
+}

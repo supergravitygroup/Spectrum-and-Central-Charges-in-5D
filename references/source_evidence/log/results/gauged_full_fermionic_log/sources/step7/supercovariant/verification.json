@@ -1,0 +1,33 @@
+{
+  "composite_formula_array_residuals": {
+    "aux": 0.0,
+    "ten": 0.0,
+    "chi": 0.0,
+    "auxD": 3.552713678800501e-15
+  },
+  "hand_product_rule_checks": {
+    "DDY": "exact zero coefficient residual",
+    "DDT": "exact zero coefficient residual",
+    "Dchi": "exact zero coefficient residual",
+    "DDscalar": "exact zero coefficient residual"
+  },
+  "sampled_canonical_algebra": {
+    "L": {
+      "sampled_terms": 26,
+      "max_relative_residual": 0
+    },
+    "phi": {
+      "sampled_terms": 27,
+      "max_relative_residual": 7.683032111314583e-15
+    },
+    "N": {
+      "sampled_terms": 27,
+      "max_relative_residual": 2.1731655385128885e-15
+    },
+    "E": {
+      "sampled_terms": 27,
+      "max_relative_residual": 1.841082392252891e-16
+    }
+  },
+  "triplet_symmetry": "exact zero coefficient residual"
+}

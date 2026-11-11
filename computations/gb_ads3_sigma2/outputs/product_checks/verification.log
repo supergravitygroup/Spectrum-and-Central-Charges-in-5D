@@ -1,0 +1,9 @@
+PASS current local action and numerical-solver fingerprints
+PASS W_a: all six sectors, 88 raw roots, complete matching
+PASS W_b: all six sectors, 88 raw roots, complete matching
+PASS LOG_a: all six sectors, 88 raw roots, complete matching
+PASS LOG_b: all six sectors, 88 raw roots, complete matching
+PASS R2_a: all six sectors, 40 raw roots, complete matching
+PASS R2_b: all six sectors, 40 raw roots, complete matching
+PASS E deletion: quoted complex pair and all bosonic-primary partner losses
+PASS missing-root, wrong-energy, wrong-charge and 42-digit gauge-breaking controls

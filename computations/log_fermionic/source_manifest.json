@@ -1,0 +1,24 @@
+{
+  "scope": "Current component inputs and exact algebra for the final paper. Literature equations are listed in SOURCE_MAP.md.",
+  "current_inputs": {
+    "computations/log_fermionic/expected/E_gauged.json": "ef6608ec93ef81e508ada5200a16c8f79edcfa631cadea0f5d9a6957d21bd26d",
+    "computations/log_fermionic/expected/E_standard.json": "8a50afe6c5b167514c68852a031538e8d466e6655fa4fdb3106449f396cb4234",
+    "computations/log_fermionic/expected/L_gauged.json": "98ce48ea8e320e01319ebcc469be5caa665b15e5cc6da3a207aa7d29d25bc1f0",
+    "computations/log_fermionic/expected/L_standard.json": "fbbd880d962d33fefa0290f579d43625e14ba8e471ea6cd0aac3da94262aa8d9",
+    "computations/log_fermionic/expected/N_gauged.json": "66c6335c5580c4b11f4125ce618484f067e06eb47b69f6319c5707a728f62734",
+    "computations/log_fermionic/expected/N_standard.json": "5178c3a10ddbdd0e22ec64f2d144e9bfe2c08a7931022bfc52b574a12ba657e6",
+    "computations/log_fermionic/expected/phi_gauged.json": "ad486bbcc34d15c156b0606146db6e6cb65bb6a68bea76da82dde34d0a8291cc",
+    "computations/log_fermionic/expected/phi_standard.json": "ccc0ae98d1546528443e6ec912eb681b2def9f9745ed2f345a54da26ebf088e4",
+    "computations/log_fermionic/inputs/README.md": "d03e463593faafe458a15676a3047d9ac7eea371aa1db3bdd063f3ecb8f9848d",
+    "computations/log_fermionic/src/kernels/README.md": "4099b19874c58b1f774a0c7b8482f567cb027c9ed8608aca7d18632548051abd",
+    "computations/log_fermionic/src/kernels/canonicalize_log_two_fermi.py": "397edfb58e45da9efd9e2494367017757e0fc9e651c8f29633aa2e3d48196170",
+    "computations/log_fermionic/src/kernels/common_conventions_check_frozen.py": "7158113433c190df64c0169b6c1d18e4eab25d57627e201f5122b7d78594e71d",
+    "computations/log_fermionic/src/kernels/log_step3_covariant_rules.py": "a37e937ce86decf5638b3104d83006c83db41a646e66191ac10c81577442a79b",
+    "computations/log_fermionic/src/kernels/log_step4_covariant_rules.py": "791aa9f1ffddb51a73776a17c91fc2f7eb06ec2c175f532306bd1e0013cd3a9d",
+    "computations/log_fermionic/src/kernels/log_step6_projection.py": "d6dada108ad44887085ff89e0fe8e82ed8d6406d7c2d4641c491fdf45ad340aa",
+    "computations/log_fermionic/src/kernels/log_step7_constraints.py": "60a66720904a2e225a9caa6b273038402f78e97f8807d96eff4bbecbeee0d114",
+    "computations/log_fermionic/src/kernels/log_step7_gauge.py": "64d662c3f8d7a6026edd4eb52c5fb1a7f21c1c6a8243c01f8bd51395ca9fdc5f",
+    "computations/log_fermionic/src/kernels/log_step7_supercovariant.py": "3904862cf79fcbb2ee2df65284dc8eff62d2597182b464c468ef6918ea3d3f6f",
+    "computations/log_fermionic/src/kernels/verify_log_two_fermi_canonical.py": "bcfbfa0ffab0bffbe5ba835041ad08a6568ad55bb26bc1fe72228359ab4c01a2"
+  }
+}

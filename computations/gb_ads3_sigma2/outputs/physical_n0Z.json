@@ -1,0 +1,612 @@
+{
+  "rank": 3,
+  "shape": [
+    3,
+    3
+  ],
+  "rows": [
+    0,
+    1,
+    2
+  ],
+  "cols": [
+    0,
+    2,
+    1
+  ],
+  "row_scales": [
+    "-1/(2*L**2*k - 4*L)",
+    "(L**3*k**3 - 8*L**2*k**2 - 4*L*k**2 + 24*L*k + 16*k - 32)/(L**4*k - 3*L**3*k - 2*L**3 + 8*L**2)",
+    "(L**3*k**3 - 8*L**2*k**2 - 4*L*k**2 + 24*L*k + 16*k - 32)/(L**4*k - 3*L**3*k - 2*L**3 + 8*L**2)"
+  ],
+  "physical_divisor": {
+    "coefficient": "1",
+    "factors": []
+  },
+  "chart_denominators": {
+    "coefficient": "1",
+    "factors": []
+  },
+  "minor_witnesses": [
+    {
+      "rows": [
+        0,
+        1,
+        2
+      ],
+      "cols": [
+        0,
+        2,
+        1
+      ]
+    }
+  ],
+  "rank_factorization_verified": true,
+  "denominators_coprime_to_divisor_in_D": true,
+  "proof_method": "coprime chart",
+  "gauge_right": [
+    [
+      {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    ],
+    [
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    ],
+    [
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    ]
+  ],
+  "gauge_left": [
+    [
+      {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    ],
+    [
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    ],
+    [
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    ]
+  ],
+  "probes": {
+    "Z_2": {
+      "numerator": {
+        "coefficient": "-1/2",
+        "factors": []
+      },
+      "denominator": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "L",
+            1
+          ],
+          [
+            "L*k - 2",
+            1
+          ]
+        ]
+      }
+    },
+    "Z_3": {
+      "numerator": {
+        "coefficient": "-1/8",
+        "factors": [
+          [
+            "L*k - 2",
+            1
+          ],
+          [
+            "L*k - 4",
+            2
+          ]
+        ]
+      },
+      "denominator": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "L^2*k - 3*L*k - 2*L + 8",
+            1
+          ],
+          [
+            "L^2*k^2 - 8*L*k + 4*k + 8",
+            1
+          ],
+          [
+            "L",
+            2
+          ]
+        ]
+      }
+    },
+    "Z_4": {
+      "numerator": {
+        "coefficient": "-1/8",
+        "factors": [
+          [
+            "L*k - 2",
+            1
+          ],
+          [
+            "L*k - 4",
+            2
+          ]
+        ]
+      },
+      "denominator": {
+        "coefficient": "1",
+        "factors": [
+          [
+            "L^2*k - 3*L*k - 2*L + 8",
+            1
+          ],
+          [
+            "L^2*k^2 - 8*L*k + 4*k + 8",
+            1
+          ],
+          [
+            "L",
+            2
+          ]
+        ]
+      }
+    }
+  },
+  "probe_names": [
+    "Z_2",
+    "Z_3",
+    "Z_4"
+  ],
+  "propagator": [
+    [
+      {
+        "numerator": {
+          "coefficient": "-1/2",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": [
+            [
+              "L",
+              1
+            ],
+            [
+              "L*k - 2",
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    ],
+    [
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "-1/8",
+          "factors": [
+            [
+              "L*k - 2",
+              1
+            ],
+            [
+              "L*k - 4",
+              2
+            ]
+          ]
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": [
+            [
+              "L^2*k - 3*L*k - 2*L + 8",
+              1
+            ],
+            [
+              "L^2*k^2 - 8*L*k + 4*k + 8",
+              1
+            ],
+            [
+              "L",
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "-1/4",
+          "factors": [
+            [
+              "k",
+              1
+            ],
+            [
+              "L - 2",
+              1
+            ],
+            [
+              "L*k - 4",
+              1
+            ]
+          ]
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": [
+            [
+              "L^2*k - 3*L*k - 2*L + 8",
+              1
+            ],
+            [
+              "L^2*k^2 - 8*L*k + 4*k + 8",
+              1
+            ],
+            [
+              "L",
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "numerator": {
+          "coefficient": "0",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "-1/4",
+          "factors": [
+            [
+              "k",
+              1
+            ],
+            [
+              "L - 2",
+              1
+            ],
+            [
+              "L*k - 4",
+              1
+            ]
+          ]
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": [
+            [
+              "L^2*k - 3*L*k - 2*L + 8",
+              1
+            ],
+            [
+              "L^2*k^2 - 8*L*k + 4*k + 8",
+              1
+            ],
+            [
+              "L",
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "numerator": {
+          "coefficient": "-1/8",
+          "factors": [
+            [
+              "L*k - 2",
+              1
+            ],
+            [
+              "L*k - 4",
+              2
+            ]
+          ]
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": [
+            [
+              "L^2*k - 3*L*k - 2*L + 8",
+              1
+            ],
+            [
+              "L^2*k^2 - 8*L*k + 4*k + 8",
+              1
+            ],
+            [
+              "L",
+              2
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "observables_a": {
+    "Z_2": {
+      "0": {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    },
+    "Z_3": {
+      "1": {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    },
+    "Z_4": {
+      "2": {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    }
+  },
+  "observables_b": {
+    "Z_2": {
+      "0": {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    },
+    "Z_3": {
+      "1": {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    },
+    "Z_4": {
+      "2": {
+        "numerator": {
+          "coefficient": "1",
+          "factors": []
+        },
+        "denominator": {
+          "coefficient": "1",
+          "factors": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "L": {
+    "terms_checked": 71,
+    "max_relative_residual": 0
+  },
+  "phi": {
+    "terms_checked": 108,
+    "max_relative_residual": 3.1853725791843694e-15
+  },
+  "N": {
+    "terms_checked": 108,
+    "max_relative_residual": 4.29880358457862e-15
+  },
+  "E": {
+    "terms_checked": 108,
+    "max_relative_residual": 3.0612312671053114e-14
+  }
+}

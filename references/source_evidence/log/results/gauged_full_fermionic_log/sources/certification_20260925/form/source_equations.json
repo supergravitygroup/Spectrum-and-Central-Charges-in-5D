@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/html/1410.8682v2",
+  "sha256": "7d59ad6e972849db040802aecdd9ed3c9fc5cb4426ce743df9dceda793c7f64d",
+  "reason": "C24 ref30 supplies lower superfour-form components and exact BF pullback absent from local extracted C24/S23 formulas",
+  "equations": {
+    "8.3": [
+      "\\Phi=\\mathrm{d}{\\cal B}=\\frac{1}{4!}E^{{\\hat{D}}}\\wedge E^{\\hat{C}}\\wedge E^{\\hat{B}}\\wedge E^{\\hat{A}}\\Phi_{{\\hat{A}}{\\hat{B}}{\\hat{C}}{\\hat{D}}}\\ ,"
+    ],
+    "8.4": [
+      "\\Phi_{{\\hat{A}}{\\hat{B}}{\\hat{C}}{\\hat{D}}}=4\\nabla_{[{\\hat{A}}}{\\cal B}_{{\\hat{B}}{\\hat{C}}{\\hat{D}}\\}}+6{\\mathscr{T}}_{[{\\hat{A}}{\\hat{B}}}{}^{{\\hat{E}}}{\\cal B}_{|{\\hat{E}}|{\\hat{C}}{\\hat{D}}\\}}\\ ."
+    ],
+    "8.5": [
+      "\\nabla_{[{\\hat{A}}}\\Phi_{{\\hat{B}}{\\hat{C}}{\\hat{D}}{\\hat{E}}\\}}+2{\\mathscr{T}}_{[{\\hat{A}}{\\hat{B}}}{}^{\\hat{F}}\\Phi_{|\\hat{F}|{\\hat{C}}{\\hat{D}}{\\hat{E}}\\}}=0\\ ."
+    ],
+    "8.6a": [
+      "\\displaystyle\\Phi_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}{}_{\\hat{\\gamma}}^{k}{}_{\\hat{\\delta}}^{l}=\\Phi_{{\\hat{a}}}{}_{\\hat{\\beta}}^{j}{}_{\\hat{\\gamma}}^{k}{}_{\\hat{\\delta}}^{l}=0\\ ,\\quad\\Phi_{\\hat{a}\\hat{b}}{}_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}=8{\\rm i}(\\Sigma_{\\hat{a}\\hat{b}})_{\\hat{\\alpha}\\hat{\\beta}}G^{ij}\\ ,",
+      "G^{ij}=G^{ji}",
+      "\\Phi",
+      "G^{ij}",
+      "\\displaystyle\\Phi_{\\hat{a}\\hat{b}\\hat{c}}{}_{\\hat{\\alpha}}^{i}",
+      "\\displaystyle=-\\frac{2}{3}{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Sigma^{\\hat{d}\\hat{e}})_{\\hat{\\alpha}}{}^{\\hat{\\beta}}\\nabla_{\\hat{\\beta}j}G^{ji}=-2{\\varepsilon}_{{\\hat{a}}{\\hat{b}}{\\hat{c}}{\\hat{d}}{\\hat{e}}}(\\Sigma^{{\\hat{d}}{\\hat{e}}})_{\\hat{\\alpha}}{}^{\\hat{\\beta}}\\varphi_{\\hat{\\beta}}^{i}\\ ,",
+      "\\displaystyle\\Phi_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}}",
+      "\\displaystyle=\\frac{{\\rm i}}{12}{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Gamma^{\\hat{e}})^{\\hat{\\alpha}\\hat{\\beta}}\\nabla_{\\hat{\\alpha}}^{i}\\nabla_{\\hat{\\beta}}^{j}G_{ij}\\equiv{\\varepsilon}_{{\\hat{a}}{\\hat{b}}{\\hat{c}}{\\hat{d}}{\\hat{e}}}\\Phi^{\\hat{e}}\\ ,"
+    ],
+    "8.6b": [
+      "\\displaystyle\\Phi_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}{}_{\\hat{\\gamma}}^{k}{}_{\\hat{\\delta}}^{l}=\\Phi_{{\\hat{a}}}{}_{\\hat{\\beta}}^{j}{}_{\\hat{\\gamma}}^{k}{}_{\\hat{\\delta}}^{l}=0\\ ,\\quad\\Phi_{\\hat{a}\\hat{b}}{}_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}=8{\\rm i}(\\Sigma_{\\hat{a}\\hat{b}})_{\\hat{\\alpha}\\hat{\\beta}}G^{ij}\\ ,",
+      "G^{ij}=G^{ji}",
+      "\\Phi",
+      "G^{ij}",
+      "\\displaystyle\\Phi_{\\hat{a}\\hat{b}\\hat{c}}{}_{\\hat{\\alpha}}^{i}",
+      "\\displaystyle=-\\frac{2}{3}{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Sigma^{\\hat{d}\\hat{e}})_{\\hat{\\alpha}}{}^{\\hat{\\beta}}\\nabla_{\\hat{\\beta}j}G^{ji}=-2{\\varepsilon}_{{\\hat{a}}{\\hat{b}}{\\hat{c}}{\\hat{d}}{\\hat{e}}}(\\Sigma^{{\\hat{d}}{\\hat{e}}})_{\\hat{\\alpha}}{}^{\\hat{\\beta}}\\varphi_{\\hat{\\beta}}^{i}\\ ,",
+      "\\displaystyle\\Phi_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}}",
+      "\\displaystyle=\\frac{{\\rm i}}{12}{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Gamma^{\\hat{e}})^{\\hat{\\alpha}\\hat{\\beta}}\\nabla_{\\hat{\\alpha}}^{i}\\nabla_{\\hat{\\beta}}^{j}G_{ij}\\equiv{\\varepsilon}_{{\\hat{a}}{\\hat{b}}{\\hat{c}}{\\hat{d}}{\\hat{e}}}\\Phi^{\\hat{e}}\\ ,"
+    ],
+    "8.6c": [
+      "\\displaystyle\\Phi_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}{}_{\\hat{\\gamma}}^{k}{}_{\\hat{\\delta}}^{l}=\\Phi_{{\\hat{a}}}{}_{\\hat{\\beta}}^{j}{}_{\\hat{\\gamma}}^{k}{}_{\\hat{\\delta}}^{l}=0\\ ,\\quad\\Phi_{\\hat{a}\\hat{b}}{}_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}=8{\\rm i}(\\Sigma_{\\hat{a}\\hat{b}})_{\\hat{\\alpha}\\hat{\\beta}}G^{ij}\\ ,",
+      "G^{ij}=G^{ji}",
+      "\\Phi",
+      "G^{ij}",
+      "\\displaystyle\\Phi_{\\hat{a}\\hat{b}\\hat{c}}{}_{\\hat{\\alpha}}^{i}",
+      "\\displaystyle=-\\frac{2}{3}{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Sigma^{\\hat{d}\\hat{e}})_{\\hat{\\alpha}}{}^{\\hat{\\beta}}\\nabla_{\\hat{\\beta}j}G^{ji}=-2{\\varepsilon}_{{\\hat{a}}{\\hat{b}}{\\hat{c}}{\\hat{d}}{\\hat{e}}}(\\Sigma^{{\\hat{d}}{\\hat{e}}})_{\\hat{\\alpha}}{}^{\\hat{\\beta}}\\varphi_{\\hat{\\beta}}^{i}\\ ,",
+      "\\displaystyle\\Phi_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}}",
+      "\\displaystyle=\\frac{{\\rm i}}{12}{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Gamma^{\\hat{e}})^{\\hat{\\alpha}\\hat{\\beta}}\\nabla_{\\hat{\\alpha}}^{i}\\nabla_{\\hat{\\beta}}^{j}G_{ij}\\equiv{\\varepsilon}_{{\\hat{a}}{\\hat{b}}{\\hat{c}}{\\hat{d}}{\\hat{e}}}\\Phi^{\\hat{e}}\\ ,"
+    ],
+    "8.7": [
+      "\\nabla_{\\hat{\\alpha}}^{(i}G^{jk)}=0"
+    ],
+    "8.8a": [
+      "\\displaystyle\\varphi_{\\hat{\\alpha}}^{i}",
+      "\\displaystyle:=\\frac{1}{3}\\nabla_{{\\hat{\\alpha}}j}G^{ij}\\ ,",
+      "\\displaystyle F",
+      "\\displaystyle:=\\frac{{\\rm i}}{12}\\nabla^{{\\hat{\\gamma}}i}\\nabla_{\\hat{\\gamma}}^{j}G_{ij}=-\\frac{{\\rm i}}{4}\\nabla^{{\\hat{\\gamma}}k}\\varphi_{{\\hat{\\gamma}}k}\\ ."
+    ],
+    "8.8b": [
+      "\\displaystyle\\varphi_{\\hat{\\alpha}}^{i}",
+      "\\displaystyle:=\\frac{1}{3}\\nabla_{{\\hat{\\alpha}}j}G^{ij}\\ ,",
+      "\\displaystyle F",
+      "\\displaystyle:=\\frac{{\\rm i}}{12}\\nabla^{{\\hat{\\gamma}}i}\\nabla_{\\hat{\\gamma}}^{j}G_{ij}=-\\frac{{\\rm i}}{4}\\nabla^{{\\hat{\\gamma}}k}\\varphi_{{\\hat{\\gamma}}k}\\ ."
+    ],
+    "8.9": [
+      "\\nabla^{\\hat{a}}\\Phi_{\\hat{a}}+5{\\rm i}X^{{\\hat{\\gamma}}k}\\varphi_{{\\hat{\\gamma}}k}=\\hat{\\nabla}^{\\hat{a}}\\Phi_{\\hat{a}}=0\\ ."
+    ],
+    "8.10": [
+      "\\mathfrak{J}=\\frac{1}{5!}E^{\\hat{E}}\\wedge E^{\\hat{D}}\\wedge E^{\\hat{C}}\\wedge E^{\\hat{B}}\\wedge E^{\\hat{A}}\\ \\mathfrak{J}_{{\\hat{A}}{\\hat{B}}{\\hat{C}}\\hat{D}\\hat{E}}\\ ,\\qquad\\mathrm{d}\\mathfrak{J}=0~."
+    ],
+    "8.12": [
+      "\\delta_{\\xi}\\mathfrak{J}={\\cal L}_{\\xi}\\mathfrak{J}\\equiv i_{\\xi}\\mathrm{d}\\mathfrak{J}+\\mathrm{d}i_{\\xi}\\mathfrak{J}=\\mathrm{d}i_{\\xi}\\mathfrak{J}\\ ."
+    ],
+    "8.19": [
+      "\\mathrm{d}\\Sigma=F\\wedge\\Phi\\ ,"
+    ],
+    "8.22a": [
+      "\\displaystyle\\Sigma_{\\hat{a}\\hat{b}\\hat{c}}{}_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}",
+      "\\displaystyle=-4{\\rm i}{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Sigma^{\\hat{d}\\hat{e}})_{\\hat{\\alpha}\\hat{\\beta}}WG^{ij}\\ ,",
+      "\\displaystyle\\Sigma_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}}{}_{\\hat{\\alpha}}^{i}",
+      "\\displaystyle=2{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Gamma^{\\hat{e}})_{\\hat{\\alpha}}{}^{\\hat{\\beta}}(W\\varphi_{\\hat{\\beta}}^{i}+{\\rm i}\\lambda_{{\\hat{\\beta}}j}G^{ji})\\ ,",
+      "\\displaystyle\\Sigma_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}",
+      "\\displaystyle=-{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(WF+X^{ij}G_{ij}+2\\lambda^{{\\hat{\\gamma}}k}\\varphi_{{\\hat{\\gamma}}k})"
+    ],
+    "8.22b": [
+      "\\displaystyle\\Sigma_{\\hat{a}\\hat{b}\\hat{c}}{}_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}",
+      "\\displaystyle=-4{\\rm i}{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Sigma^{\\hat{d}\\hat{e}})_{\\hat{\\alpha}\\hat{\\beta}}WG^{ij}\\ ,",
+      "\\displaystyle\\Sigma_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}}{}_{\\hat{\\alpha}}^{i}",
+      "\\displaystyle=2{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Gamma^{\\hat{e}})_{\\hat{\\alpha}}{}^{\\hat{\\beta}}(W\\varphi_{\\hat{\\beta}}^{i}+{\\rm i}\\lambda_{{\\hat{\\beta}}j}G^{ji})\\ ,",
+      "\\displaystyle\\Sigma_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}",
+      "\\displaystyle=-{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(WF+X^{ij}G_{ij}+2\\lambda^{{\\hat{\\gamma}}k}\\varphi_{{\\hat{\\gamma}}k})"
+    ],
+    "8.22c": [
+      "\\displaystyle\\Sigma_{\\hat{a}\\hat{b}\\hat{c}}{}_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}",
+      "\\displaystyle=-4{\\rm i}{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Sigma^{\\hat{d}\\hat{e}})_{\\hat{\\alpha}\\hat{\\beta}}WG^{ij}\\ ,",
+      "\\displaystyle\\Sigma_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}}{}_{\\hat{\\alpha}}^{i}",
+      "\\displaystyle=2{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(\\Gamma^{\\hat{e}})_{\\hat{\\alpha}}{}^{\\hat{\\beta}}(W\\varphi_{\\hat{\\beta}}^{i}+{\\rm i}\\lambda_{{\\hat{\\beta}}j}G^{ji})\\ ,",
+      "\\displaystyle\\Sigma_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}",
+      "\\displaystyle=-{\\varepsilon}_{\\hat{a}\\hat{b}\\hat{c}\\hat{d}\\hat{e}}(WF+X^{ij}G_{ij}+2\\lambda^{{\\hat{\\gamma}}k}\\varphi_{{\\hat{\\gamma}}k})"
+    ],
+    "8.25": [
+      "\\mathfrak{J}=\\Sigma_{V}-\\Sigma_{G}=V\\wedge\\Phi-\\Sigma_{G}\\ ."
+    ],
+    "8.27": [
+      "\\displaystyle\\frac{1}{5!}{\\varepsilon}^{\\hat{m}\\hat{n}\\hat{p}\\hat{q}\\hat{r}}\\Sigma_{\\hat{m}\\hat{n}\\hat{p}\\hat{q}\\hat{r}}|",
+      "\\displaystyle=\\frac{1}{5!}{\\varepsilon}^{\\hat{m}\\hat{n}\\hat{p}\\hat{q}\\hat{r}}E_{\\hat{r}}{}^{\\hat{E}}E_{\\hat{q}}{}^{\\hat{D}}E_{\\hat{p}}{}^{{\\hat{C}}}E_{\\hat{n}}{}^{{\\hat{B}}}E_{\\hat{m}}{}^{{\\hat{A}}}\\Sigma_{{\\hat{A}}{\\hat{B}}{\\hat{C}}\\hat{D}\\hat{E}}|",
+      "\\displaystyle=\\frac{1}{5!}{\\varepsilon}^{{\\hat{a}}{\\hat{b}}{\\hat{c}}{\\hat{d}}{\\hat{e}}}\\Big(\\Sigma_{{\\hat{a}}{\\hat{b}}{\\hat{c}}{\\hat{d}}{\\hat{e}}}|+\\frac{5}{2}\\psi_{\\hat{a}}{}^{\\hat{\\alpha}}_{i}\\Sigma_{{\\hat{b}}{\\hat{c}}{\\hat{d}}{\\hat{e}}}{}_{\\hat{\\alpha}}^{i}|-\\frac{5}{2}\\psi_{\\hat{a}}{}^{\\hat{\\alpha}}_{i}\\psi_{\\hat{b}}{}^{\\hat{\\beta}}_{j}\\Sigma_{{\\hat{c}}{\\hat{d}}{\\hat{e}}}{}_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}|",
+      "\\displaystyle\\qquad-\\frac{5}{4}\\psi_{\\hat{a}}{}^{\\hat{\\alpha}}_{i}\\psi_{\\hat{b}}{}^{\\hat{\\beta}}_{j}\\psi_{\\hat{c}}{}^{\\hat{\\gamma}}_{k}\\Sigma_{{\\hat{d}}{\\hat{e}}}{}_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}{}_{\\hat{\\gamma}}^{k}|+\\frac{5}{16}\\psi_{\\hat{a}}{}^{\\hat{\\alpha}}_{i}\\psi_{\\hat{b}}{}^{\\hat{\\beta}}_{j}\\psi_{\\hat{c}}{}^{\\hat{\\gamma}}_{k}\\psi_{\\hat{d}}{}^{\\hat{\\delta}}_{l}\\Sigma_{{\\hat{e}}}{}_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}{}_{\\hat{\\gamma}}^{k}{}_{\\hat{\\delta}}^{l}|",
+      "\\displaystyle\\qquad+\\frac{1}{32}\\psi_{\\hat{a}}{}^{\\hat{\\alpha}}_{i}\\psi_{\\hat{b}}{}^{\\hat{\\beta}}_{j}\\psi_{\\hat{c}}{}^{\\hat{\\gamma}}_{k}\\psi_{\\hat{d}}{}^{\\hat{\\delta}}_{l}\\psi_{\\hat{e}}{}^{\\hat{\\rho}}_{p}\\Sigma_{\\hat{\\alpha}}^{i}{}_{\\hat{\\beta}}^{j}{}_{\\hat{\\gamma}}^{k}{}_{\\hat{\\delta}}^{l}{}_{\\hat{\\rho}}^{p}|\\Big)\\ ."
+    ],
+    "8.28": [
+      "\\displaystyle S",
+      "\\displaystyle=\\int\\mathrm{d}^{5}x\\,e\\,\\Big(\\frac{1}{4!}\\varepsilon^{{\\hat{m}}{\\hat{n}}{\\hat{p}}{\\hat{q}}\\hat{r}}v_{\\hat{m}}\\phi_{{\\hat{n}}{\\hat{p}}{\\hat{q}}\\hat{r}}-WF-X^{ij}G_{ij}-2\\lambda^{k}\\varphi_{k}",
+      "\\displaystyle\\quad+\\psi_{{\\hat{m}}i}\\Gamma^{\\hat{m}}\\varphi^{i}W+{\\rm i}\\psi_{{\\hat{m}}i}\\Gamma^{\\hat{m}}\\lambda_{j}G^{ij}-{\\rm i}\\psi_{{\\hat{m}}i}\\Sigma^{{\\hat{m}}{\\hat{n}}}\\psi_{{\\hat{n}}j}WG^{ij}\\Big)",
+      "\\displaystyle=-\\int\\mathrm{d}^{5}x\\,e\\,\\Big(v^{\\hat{a}}\\phi_{\\hat{a}}+WF+X^{ij}G_{ij}+2\\lambda^{k}\\varphi_{k}",
+      "\\displaystyle\\quad-\\psi_{{\\hat{a}}i}\\Gamma^{\\hat{a}}\\varphi^{i}W-{\\rm i}\\psi_{{\\hat{a}}i}\\Gamma^{\\hat{a}}\\lambda_{j}G^{ij}+{\\rm i}\\psi_{{\\hat{a}}i}\\Sigma^{{\\hat{a}}{\\hat{b}}}\\psi_{{\\hat{b}}j}WG^{ij}\\Big)\\ ,"
+    ],
+    "8.29a": [
+      "\\displaystyle v_{\\hat{a}}",
+      "\\displaystyle:=e_{\\hat{a}}{}^{\\hat{m}}v_{\\hat{m}}=e_{\\hat{a}}{}^{\\hat{m}}V_{\\hat{m}}|\\ ,\\quad\\phi^{\\hat{a}}:=-\\frac{1}{4!}e_{\\hat{r}}{}^{\\hat{a}}{\\varepsilon}^{{\\hat{m}}{\\hat{n}}\\hat{p}\\hat{q}\\hat{r}}\\phi_{{\\hat{m}}{\\hat{n}}\\hat{p}\\hat{q}}\\ ,",
+      "\\displaystyle\\phi_{{\\hat{m}}{\\hat{n}}{\\hat{p}}{\\hat{q}}}",
+      "\\displaystyle:=\\Phi_{{\\hat{m}}{\\hat{n}}{\\hat{p}}{\\hat{q}}}|=4\\partial_{[{\\hat{m}}}b_{{\\hat{m}}{\\hat{n}}{\\hat{p}}]}~,\\qquad b_{{\\hat{m}}{\\hat{n}}\\hat{p}}={\\cal B}_{{\\hat{m}}{\\hat{n}}\\hat{p}}|\\ ."
+    ],
+    "8.29b": [
+      "\\displaystyle v_{\\hat{a}}",
+      "\\displaystyle:=e_{\\hat{a}}{}^{\\hat{m}}v_{\\hat{m}}=e_{\\hat{a}}{}^{\\hat{m}}V_{\\hat{m}}|\\ ,\\quad\\phi^{\\hat{a}}:=-\\frac{1}{4!}e_{\\hat{r}}{}^{\\hat{a}}{\\varepsilon}^{{\\hat{m}}{\\hat{n}}\\hat{p}\\hat{q}\\hat{r}}\\phi_{{\\hat{m}}{\\hat{n}}\\hat{p}\\hat{q}}\\ ,",
+      "\\displaystyle\\phi_{{\\hat{m}}{\\hat{n}}{\\hat{p}}{\\hat{q}}}",
+      "\\displaystyle:=\\Phi_{{\\hat{m}}{\\hat{n}}{\\hat{p}}{\\hat{q}}}|=4\\partial_{[{\\hat{m}}}b_{{\\hat{m}}{\\hat{n}}{\\hat{p}}]}~,\\qquad b_{{\\hat{m}}{\\hat{n}}\\hat{p}}={\\cal B}_{{\\hat{m}}{\\hat{n}}\\hat{p}}|\\ ."
+    ],
+    "8.30": [
+      "\\displaystyle S",
+      "\\displaystyle=\\int\\mathrm{d}^{5}x\\,e\\,\\Big(\\frac{1}{12}\\varepsilon^{{\\hat{a}}{\\hat{b}}{\\hat{c}}{\\hat{d}}{\\hat{e}}}f_{{\\hat{a}}{\\hat{b}}}b_{{\\hat{c}}{\\hat{d}}{\\hat{e}}}-WF-X^{ij}G_{ij}-2\\lambda^{k}\\varphi_{k}",
+      "\\displaystyle\\quad+\\psi_{{\\hat{a}}i}\\Gamma^{\\hat{a}}\\varphi^{i}W+{\\rm i}\\psi_{{\\hat{a}}i}\\Gamma^{\\hat{a}}\\lambda_{j}G^{ij}-{\\rm i}\\psi_{{\\hat{a}}i}\\Sigma^{{\\hat{a}}{\\hat{b}}}\\psi_{{\\hat{b}}j}WG^{ij}\\Big)\\ ,"
+    ],
+    "A.3": [
+      "(\\Gamma_{a})_{\\hat{\\alpha}}{}^{\\hat{\\beta}}=\\left(\\begin{array}[]{cc}0&(\\sigma_{a})_{\\alpha{\\dot{\\beta}}}\\\\\n(\\tilde{\\sigma}_{a})^{{\\dot{\\alpha}}\\beta}&0\\end{array}\\right)~,\\quad(\\Gamma_{5})_{\\hat{\\alpha}}{}^{\\hat{\\beta}}=\\left(\\begin{array}[]{cc}-{\\rm i}\\delta_{\\alpha}^{\\beta}&0\\\\\n0&{\\rm i}\\delta^{\\dot{\\alpha}}_{\\dot{\\beta}}\\end{array}\\right)"
+    ]
+  }
+}

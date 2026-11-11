@@ -1,0 +1,1122 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.80in,headheight=15pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{booktabs,longtable,array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\allowdisplaybreaks[3]
+
+\definecolor{navy}{HTML}{17365D}
+\definecolor{teal}{HTML}{176B68}
+\definecolor{softblue}{HTML}{EDF3F8}
+\definecolor{softgold}{HTML}{FFF7E6}
+\hypersetup{colorlinks=true,linkcolor=navy,citecolor=teal,urlcolor=teal,
+ pdfauthor={Codex research report},
+ pdftitle={Fully expanded bosonic Weyl and Log superinvariants from Gold's definitions}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5.2pt}
+\setlist[itemize]{leftmargin=1.5em,itemsep=2pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.7em,itemsep=2pt,topsep=3pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Bosonic Weyl and Log invariants}
+\rhead{Fully expanded Gold-field form}
+\cfoot{\thepage}
+\newcommand{\cL}{\mathcal L}
+\newcommand{\cD}{\mathcal D}
+\newcommand{\cR}{\mathcal R}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\simeqbd}{\mathrel{\simeq}_{\partial}}
+\newcommand{\Weyl}{\mathrm W}
+\newcommand{\Log}{\log}
+\newcommand{\std}{\mathrm S}
+\newcommand{\Gold}{\mathrm G}
+\newcommand{\Boxed}[1]{\begin{center}\fcolorbox{navy}{softblue}{\begin{minipage}{0.93\linewidth}#1\end{minipage}}\end{center}}
+\newcommand{\Caution}[1]{\begin{center}\fcolorbox{teal}{softgold}{\begin{minipage}{0.93\linewidth}#1\end{minipage}}\end{center}}
+
+\begin{document}
+\pagenumbering{roman}
+
+\begin{titlepage}
+\centering
+\vspace*{0.9cm}
+{\color{navy}\rule{\textwidth}{1.2pt}}\\[0.60cm]
+{\Huge\bfseries Bosonic Weyl and Log Superinvariants\\[0.22cm]
+from Gold's Definitions}\par
+\vspace{0.45cm}
+{\Large Fully expanded in the original gauged dilaton--Weyl fields}\par
+\vspace{0.55cm}
+{\color{navy}\rule{\textwidth}{1.2pt}}\\[0.8cm]
+
+\begin{minipage}{0.91\textwidth}
+\large
+This report constructs the two invariants from the BF action, the Weyl and
+Log composite multiplets, their defining descent algebra, and Gold's
+standard-to-dilaton--Weyl map.  The final densities contain only the original
+bosonic fields and their explicit contractions.  In particular, no newly
+defined two-form, composite scalar, divergence vector, or epsilon-current
+symbol occurs in either final invariant.
+
+The printed expanded Weyl and Log actions of Gold et al. are not used as
+inputs or canonicalization targets.  Post-derivation comparison is used only
+to document discrepancies; no printed target coefficient is imported.
+\end{minipage}
+
+\vfill
+\begin{tabular}{rl}
+Sector: & fermion number zero,\\
+Status: & off shell and exact in $g$,\\
+Gauge: & $\sigma=1$, $b_\mu=0$, compensator gaugino $=0$,\\
+Representative: & boundary-equivalent; primitive currents listed below,\\
+Revision: & raw Log Riemann--$w^2$ canonicalization corrected,\\
+Date: & 20 August 2026.
+\end{tabular}
+\vspace{0.65cm}
+\end{titlepage}
+\setcounter{page}{2}
+
+\begingroup
+\small
+\setlength{\parskip}{0pt}
+\tableofcontents
+\endgroup
+\newpage
+\pagenumbering{arabic}
+
+\section{Problem and Target}
+
+\subsection{Quantity being constructed}
+
+The target is the complete fermion-number-zero part of the Weyl and Log
+four-derivative superinvariants in the gauged dilaton--Weyl multiplet.  The
+retained Gold fields are
+\[
+e_\mu{}^a,\ C_a,\ B_{ab},\ E_{abc},\ G_{ab},\ H_{ab},\
+N,\ L^{ij},\ V_a{}^{ij},
+\]
+where $G=\mathrm dC$ and $H_{ab}$ is the dual of the gauged three-form field
+strength.  All bosonic auxiliaries remain independent.  No auxiliary or
+physical equation of motion, background equation, dualization, or expansion
+in the gauging $g$ is permitted.
+
+The final Weyl and Log densities are Eqs.~\eqref{eq:W-final-expanded} and
+\eqref{eq:L-final-expanded}.  Every occurrence of $G$ and $H$ is displayed
+with its indices or as an explicitly written scalar contraction.  There is
+no definition of an auxiliary two-form such as $G-2H$, and the composite
+standard-Weyl scalar $D$ has been substituted completely.
+
+\subsection{Source provenance and quarantine}
+
+\begin{center}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.22\linewidth}>{\raggedright\arraybackslash}p{0.69\linewidth}}
+\toprule
+Status & Material\\
+\midrule
+Used & Gold et al. (2025): the BF principle, standard-to-gauged-dilaton--Weyl
+map, vector identification, composite-primary definitions, three-form
+definition, and gauge choice.\\
+Used & Gold et al. (2023, 2024): conformal-superspace algebra, component
+projections, descendant towers, degauging identities, and convention tables
+needed to evaluate the defining primaries.\\
+Used & The exact gauged three-form Bianchi identity derived directly in
+Sec.~\ref{sec:Bianchi}.\\
+Quarantined & The printed expanded Weyl and Log densities in Gold et al.
+(2025), all Riemann/Gauss--Bonnet linear-combination identities, and all
+scripts or notes containing those target coefficients.  They may be inspected
+only after a coefficient has been fixed from the descendants.\\
+Quarantined & Bosonic field equations, auxiliary elimination, background
+specialization, and on-shell field redefinitions.\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Gold's 2025 review prints the primaries but not the complete component
+descendant algebra needed by the BF density.  The 2024 component companion is
+therefore indispensable definition-level input.  It supplies descendants,
+not a target action used for reverse engineering.
+
+\section{Convention Ledger}
+
+\subsection{Geometry and indices}
+
+Tangent indices are $a,b,\ldots=0,\ldots,4$ and $i,j=1,2$ are $SU(2)$
+indices.  The tangent metric is mostly plus.  Antisymmetrization has unit
+weight.  The curvature convention is
+\begin{equation}
+[\nabla_a,\nabla_b]X_c=R_{ab c}{}^{d}X_d,
+\qquad R_{ab}=R_{ca}{}^{c}{}_{b}.
+\label{eq:Rconv}
+\end{equation}
+The orientation is fixed by
+\begin{equation}
+H^{ab}=-\frac1{12}\eps^{abcde}\mathcal H_{cde}.
+\label{eq:Hdual}
+\end{equation}
+Scalar contractions used only in intermediate arithmetic are
+\[
+G^2=G_{ab}G^{ab},\qquad H^2=H_{ab}H^{ab},\qquad
+G\!\cdot H=G_{ab}H^{ab},\qquad L^2=L^{ij}L_{ij}.
+\]
+The final two equations spell these contractions out explicitly.
+
+\subsection{Standard-component to Gold-component bridge}
+
+Standard-superspace component fields carry a superscript $\std$; final Gold
+fields carry no superscript.  The bosonic bridge is
+\begin{equation}
+\begin{aligned}
+W^{\std}&=\sigma,&v_a^{\std}&=-C_a,&F_{ab}^{\std}&=-G_{ab},\\
+X_{\std}^{ij}&=2Y^{ij}=-gL^{ij},&
+w_{ab}^{\std}&=\frac{16}{3}T_{ab},&D_{\std}&=D,\\
+\Phi_{ab}^{ij\,\std}&=-V_{ab}^{ij},&
+\eps_{\std}^{abcde}&=-\eps^{abcde},&
+\cR_{abcd}^{\std}&=-R_{abcd}.
+\end{aligned}
+\label{eq:bridge}
+\end{equation}
+For a linear multiplet,
+\begin{equation}
+L_{\Gold}^{ij}=-2h_{\std}^{ij},\qquad
+N_{\Gold}=-F_{\std},\qquad
+E_{\Gold}^a=\mathcal H_{\std}^a.
+\label{eq:linearbridge}
+\end{equation}
+The sign $v^{\std}=-C$ follows independently by mapping the two vector
+supersymmetry transformations with
+$\epsilon_{\Gold}=2\xi_{\std}$,
+$\Gamma_{\std}=i\gamma_{\Gold}$, and
+$\lambda_{\std}=-\psi_{\Gold}$.
+
+\subsection{Equality status and dimensions}
+
+The notation $\cL_1\simeqbd\cL_2$ means equality after adding an explicitly
+tracked covariant divergence.  Equality of actions requires a compact
+manifold without boundary or boundary data for which the stated current has
+vanishing normal flux.
+
+With a four-derivative density assigned dimension four,
+\begin{equation}
+[\nabla]=[g]=[N]=[G]=[H]=[E]=1,
+\qquad [R]=[V_{ab}]=2,\qquad [L]=[C]=0.
+\label{eq:dimensions}
+\end{equation}
+
+\section{Definitions and Required Identities}
+
+\subsection{BF principle and the two primaries}
+
+For a vector multiplet $(\rho,A_a,Y^{ij})$ and a linear multiplet
+$(L^{ij},N,E^a)$, Gold's bosonic BF density is
+\begin{equation}
+e^{-1}\cL_{\rm BF}=A_aE^a+\rho N+Y_{ij}L^{ij},
+\qquad \nabla_aE^a=0.
+\label{eq:BF-Gold}
+\end{equation}
+Using Eq.~\eqref{eq:linearbridge}, its standard-frame form is
+\begin{equation}
+e^{-1}\cL_{\rm BF}^{\std}\big|_{\rm bos}
+=-\left(v_a\mathcal H^a+WF+X_{ij}h^{ij}\right)_{\std}.
+\label{eq:BF-standard}
+\end{equation}
+This fixes the overall normalization and relative signs.
+
+The Weyl and Log primaries are
+\begin{align}
+H_{\Weyl}^{ij}&=-\frac{i}{2}W^{\alpha\beta\gamma i}
+W_{\alpha\beta\gamma}{}^j
++\frac{3i}{2}W^{\alpha\beta}X_{\alpha\beta}^{ij}
+-\frac{3i}{4}X^{\alpha i}X_{\alpha}{}^j,
+\label{eq:W-primary}\\
+H_{\Log}^{ij}&=\frac{3i}{1280}
+\nabla^{(ij}\nabla^{kl)}\nabla_{kl}\log W.
+\label{eq:L-primary}
+\end{align}
+They obey the defining linearity constraint
+$\nabla_\alpha^{(i}H^{jk)}=0$.
+
+\subsection{The bosonic map, without a new two-form}
+
+Gold's gauged three-form and standard-Weyl composites are
+\begin{align}
+\mathcal H_{abc}&=3\partial_{[a}B_{bc]}
++\frac32C_{[a}G_{bc]}+\frac g2E_{abc},
+\label{eq:H3def}\\
+T_{ab}&=\frac18G_{ab}+\frac1{48}\eps_{abcde}\mathcal H^{cde},
+\label{eq:Tmap0}\\
+D&=-\frac{R}{32}-\frac{G_{ab}G^{ab}}{16}
+-\left(\frac{26}{3}T^{ab}-2G^{ab}\right)T_{ab}
++\frac g4N+\frac{g^2}{16}L^{ij}L_{ij}.
+\label{eq:Dmap0}
+\end{align}
+Equation~\eqref{eq:Hdual} is substituted immediately:
+\begin{equation}
+T_{ab}=\frac18G_{ab}-\frac14H_{ab},
+\qquad
+w_{ab}^{\std}=\frac23G_{ab}-\frac43H_{ab}.
+\label{eq:wmap-expanded}
+\end{equation}
+The scalar map follows term by term from
+\begin{align}
+T_{ab}T^{ab}&=\frac1{64}G_{ab}G^{ab}
+-\frac1{16}G_{ab}H^{ab}+\frac1{16}H_{ab}H^{ab},\\
+G^{ab}T_{ab}&=\frac18G_{ab}G^{ab}-\frac14G_{ab}H^{ab}.
+\end{align}
+Consequently,
+\begin{equation}
+\boxed{
+D=-\frac{R}{32}+\frac5{96}G_{ab}G^{ab}
++\frac1{24}G_{ab}H^{ab}-\frac{13}{24}H_{ab}H^{ab}
++\frac g4N+\frac{g^2}{16}L^{ij}L_{ij}.}
+\label{eq:Dmap-expanded}
+\end{equation}
+The right-hand side, rather than a newly named scalar, is used in every final
+coefficient.
+
+\subsection{Exact gauged three-form Bianchi identity}
+\label{sec:Bianchi}
+
+Starting with Eq.~\eqref{eq:Hdual},
+\begin{equation}
+\nabla_bH^{ab}=-\frac1{12}\eps^{abcde}\nabla_b\mathcal H_{cde}.
+\end{equation}
+The $\mathrm dB$ part vanishes by $\mathrm d^2=0$.  The three cyclic terms
+in $C_{[c}G_{de]}$ are equal under the epsilon tensor, and $\mathrm dG=0$;
+therefore
+\begin{align}
+-\frac1{12}\eps^{abcde}\nabla_b
+\left(\frac32C_{[c}G_{de]}\right)
+&=-\frac18\eps^{abcde}\nabla_b(C_cG_{de})\\
+&=-\frac1{16}\eps^{abcde}G_{bc}G_{de}.
+\end{align}
+With the original constrained vector
+\begin{equation}
+E^a=-\frac1{12}\eps^{abcde}\nabla_bE_{cde},
+\end{equation}
+the exact off-shell identity is
+\begin{equation}
+\boxed{
+\nabla_bH^{ab}=-\frac1{16}\eps^{abcde}G_{bc}G_{de}
++\frac g2E^a.}
+\label{eq:Bianchi-expanded}
+\end{equation}
+
+\section{Detailed Derivation}
+
+\subsection{Weyl invariant}
+
+\subsubsection{Descendants and BF assembly}
+
+At fermion number zero, descending Eq.~\eqref{eq:W-primary} gives
+\begin{equation}
+h_{\Weyl}^{ij}=-w^{ab}\Phi_{ab}^{ij},
+\label{eq:W-lowest}
+\end{equation}
+and
+\begin{align}
+F_{\Weyl}={}&\frac{128}{3}D^2+8w^2D
+-\frac23\Phi_{ab}^{ij}\Phi^{ab}_{ij}
++\frac14C_{abcd}C^{abcd}
++\frac{15}{8}C_{abcd}w^{ab}w^{cd}
+\nonumber\\
+&+\frac{81}{32}w_a{}^bw_b{}^cw_c{}^dw_d{}^a
+-3w_{cd}\nabla_b\nabla^cw^{bd}
+-\frac{33}{128}(w^2)^2
+\nonumber\\
+&+\frac32(\nabla^aw^{ce})(\nabla_cw_{ae})
+-\frac32(\nabla^aw^{ce})(\nabla_aw_{ce})
++\frac9{16}\eps^{abcde}w_{ab}w_{cd}\nabla^fw_{ef}.
+\label{eq:W-Fdesc}
+\end{align}
+The constrained-vector descendant is
+\begin{align}
+\mathcal H_{\Weyl}^a={}&\frac18\eps^{abcde}C_{bc}{}^{fg}C_{de fg}
+-\frac16\eps^{abcde}\Phi_{bc}^{ij}\Phi_{de\,ij}
++\nabla_b\widetilde{\mathcal H}_{\Weyl}^{ab},
+\label{eq:W-Hdesc}\\
+\widetilde{\mathcal H}_{\Weyl}^{ab}={}&
+8w^{ab}D+\frac32C^{abcd}w_{cd}+\frac3{16}w^{ab}w^2
+-\frac94w^{ac}w_{cd}w^{db}
+\nonumber\\
+&-\frac94\eps^{abcde}w_{cf}\nabla_dw_e{}^f
+-\frac32\eps^{abcde}w_{cf}\nabla^fw_{de}.
+\label{eq:W-Htilde}
+\end{align}
+The divergence term is integrated once:
+\begin{equation}
+-v_a\nabla_b\widetilde{\mathcal H}^{ab}
+=-\nabla_b(v_a\widetilde{\mathcal H}^{ab})
+-\frac12F_{ab}\widetilde{\mathcal H}^{ab}.
+\label{eq:BF-ibp}
+\end{equation}
+No field equation has entered.
+
+\subsubsection{Algebraic expansion}
+
+The two scalar binomials needed in the map are
+\begin{align}
+G^{ab}(G_{ab}-2H_{ab})&=G_{ab}G^{ab}-2G_{ab}H^{ab},\\
+(G_{ab}-2H_{ab})(G^{ab}-2H^{ab})
+&=G_{ab}G^{ab}-4G_{ab}H^{ab}+4H_{ab}H^{ab}.
+\end{align}
+For the ordered cyclic contractions, direct multiplication gives
+\begin{align}
+\operatorname{tr}(G-2H)^4={}&\operatorname{tr}G^4
+-8\operatorname{tr}(G^3H)+16\operatorname{tr}(G^2H^2)
++8\operatorname{tr}(GHGH)
+\nonumber\\
+&-32\operatorname{tr}(H^3G)+16\operatorname{tr}H^4,\\
+\operatorname{tr}\big((G-2H)^3G\big)={}&\operatorname{tr}G^4
+-6\operatorname{tr}(G^3H)+8\operatorname{tr}(G^2H^2)
+\nonumber\\
+&+4\operatorname{tr}(GHGH)-8\operatorname{tr}(H^3G).
+\end{align}
+Here each trace is merely an intermediate matrix mnemonic.  Every chain is
+written with indices in Eq.~\eqref{eq:W-final-expanded}.
+
+The complete scalar-coefficient addition is illustrated by
+\begin{align}
+\cL_{\Weyl}^{R\text{-scalar}}={}&
+-\frac1{12}R^2+\frac13R\,G_{ab}H^{ab}
+-\frac43R\,H_{ab}H^{ab}
++\frac23gRN+\frac16g^2R L^{ij}L_{ij},
+\label{eq:W-Rscalar}\\
+\cL_{\Weyl}^{\text{scalar }4}={}&
+-\frac1{12}(G_{ab}G^{ab})^2
+-\frac13(G_{ab}G^{ab})(G_{cd}H^{cd})
++\frac83(G_{ab}G^{ab})(H_{cd}H^{cd})
+\nonumber\\
+&+\frac43(G_{ab}H^{ab})^2
+-\frac{16}{3}(G_{ab}H^{ab})(H_{cd}H^{cd})
+-4(H_{ab}H^{ab})^2,
+\label{eq:W-scalar4-raw}
+\end{align}
+before the epsilon-square terms generated by the Bianchi reduction are
+included.
+
+\subsubsection{Canonical derivative and Bianchi reduction}
+
+The degauged second derivatives in Eq.~\eqref{eq:W-Fdesc} are commuted only
+after their displayed order is retained.  Covariant integrations by parts
+and $\nabla_{[a}G_{bc]}=0$ reduce the even and parity-odd sectors.  Applying
+Eq.~\eqref{eq:Bianchi-expanded} generates
+\begin{align}
+\cL_{\Weyl}\big|_{E}={}&-2g^2E_aE^a
++\frac{4g}{3}E_a\nabla_bG^{ab}
++\frac{5g}{12}\eps^{abcde}E_aG_{bc}G_{de}
+\nonumber\\
+&-\frac{2g}{3}\eps^{abcde}E_aH_{bc}H_{de}.
+\label{eq:W-E-expanded}
+\end{align}
+Two pointwise epsilon contractions account for the associated quartic shift:
+\begin{align}
+&(\eps^{abcde}G_{bc}G_{de})
+(\eps_{afghi}G^{fg}G^{hi})
+\nonumber\\[-1mm]
+&\hspace{20mm}=-8(G_{ab}G^{ab})^2
++16G_{ab}G^{bc}G_{cd}G^{da},
+\label{eq:epsGGGG}\\
+&(\eps^{abcde}H_{bc}H_{de})
+(\eps_{afghi}G^{fg}G^{hi})
+\nonumber\\[-1mm]
+&\hspace{20mm}=-8(G_{ab}H^{ab})^2
++16H_{ab}H_{cd}G^{ac}G^{bd}.
+\label{eq:epsHHGG}
+\end{align}
+Equations~\eqref{eq:W-scalar4-raw}--\eqref{eq:epsHHGG}, together with the
+curvature commutators, give the one-piece Weyl density displayed in
+Sec.~\ref{sec:FinalResult}.
+
+\subsection{Log invariant}
+
+\subsubsection{Lowest component and the corrected scalar descendant}
+
+The bosonic lowest component of Eq.~\eqref{eq:L-primary} at $W=1$ is
+\begin{align}
+h_{\Log}^{ij}={}&\frac12(w^{ab}+F^{ab})\Phi_{ab}^{ij}
+-\frac12\cD^a\cD_aX^{ij}
+\nonumber\\
+&+X^{ij}\left(-6D-\frac1{16}\cR
+-\frac9{64}w^2+\frac18F^2-\frac18X^2\right).
+\label{eq:L-lowest}
+\end{align}
+The unprojected scalar descendant contains
+\begin{equation}
+F_{\Log}\big|_{Y,w}=\frac3{2048}Y^2
++\frac{69}{1024}w^{ab}w_{ab}Y+\cdots,
+\qquad D=-\frac3{128}Y\big|.
+\label{eq:L-Yraw}
+\end{equation}
+Therefore $Y|=-128D/3$ and
+\begin{equation}
+\frac3{2048}Y^2=\frac83D^2,
+\qquad
+\frac{69}{1024}w^2Y=-\frac{23}{8}w^2D.
+\label{eq:L-YD}
+\end{equation}
+The main-text value $+368w^2D/3$ applies the $Y\to D$ conversion a second
+time and is not used.  The BF minus sign then contributes
+$+23w^2D/8$ to the action.  This correction is fixed before, and without,
+any expanded Log target density.
+
+\subsubsection{BF assembly and raw Riemann--two-form audit}
+
+The standard-frame BF assembly is
+\begin{equation}
+e^{-1}\cL_{\Log}^{\std}\big|_{\rm bos}
+=-\left(v_a\mathcal H_{\Log}^a+WF_{\Log}+X_{ij}h_{\Log}^{ij}\right).
+\end{equation}
+
+The coefficient of \(\cR_{abcd}w^{ab}w^{cd}\) must be fixed before using a
+canonicalized action.  We therefore start from the unsimplified bosonic
+descendant/BF output of the 2024 component supplement, Sec.~3.1.  Define
+\begin{equation*}
+I_1:=\cR_{abcd}w^{ab}w^{cd},\qquad
+I_2:=\cR_{acbd}w^{ab}w^{cd}.
+\tag{L1}\label{eq:L-I12}
+\end{equation*}
+Contracting the first Bianchi identity
+\(\cR_{abcd}+\cR_{acdb}+\cR_{adbc}=0\) with
+\(w^{ab}w^{cd}\) gives
+\begin{align*}
+0&=I_1-I_2-I_2,
+\nonumber\\
+I_2&=\frac12 I_1.
+\tag{L2}\label{eq:L-I2identity}
+\end{align*}
+In the first line, the second Bianchi term uses antisymmetry in its last
+index pair, while the third uses the dummy relabeling \(c\leftrightarrow d\)
+followed by \(w^{dc}=-w^{cd}\).
+Let \(K:=\cR_{ab}w^{ac}w^b{}_c\).  The raw curvature block is
+\begin{align*}
+\cL_{w,\rm curv}^{\rm raw}
+&=\frac13I_1+\frac13I_2-\frac23K-\frac13K
+-\frac{27}{256}\cR\,w^{ab}w_{ab}
+\nonumber\\
+&=\frac12I_1-K-\frac{27}{256}\cR\,w^{ab}w_{ab}.
+\tag{L3}\label{eq:L-explicit-Rww}
+\end{align*}
+
+For the derivative block define
+\begin{equation*}
+\mathcal N:=(\cD_aw_{bc})(\cD^aw^{bc}),\qquad
+P:=(\cD^cw^a{}_b)(\cD^bw_{ac}),\qquad
+Q:=(\cD^bw^a{}_b)(\cD^cw_{ac}).
+\tag{L4}\label{eq:L-PQ}
+\end{equation*}
+Integrating the raw second derivatives once gives
+\begin{align*}
+\cL_{w,\rm der}^{\rm raw}
+&\simeqbd
+\left(\frac{39}{16}-\frac{33}{16}\right)\mathcal N
++\left(-\frac12+\frac34\right)P
++\left(2-\frac94\right)Q
+\nonumber\\
+&=\frac38\mathcal N+\frac14P-\frac14Q.
+\tag{L5}\label{eq:L-raw-derivative-collection}
+\end{align*}
+Integrating one derivative at a time and using the source commutator
+\(
+[\cD_a,\cD_b]=-\cR_{ab}{}^{cd}M_{cd}/2+\cdots
+\)
+gives, with no field equation,
+\begin{align*}
+P&\simeqbd-w^a{}_b\cD^c\cD^bw_{ac}
+\nonumber\\
+&=-w^a{}_b\cD^b\cD^cw_{ac}
+-w^a{}_b[\cD^c,\cD^b]w_{ac}
+\nonumber\\
+&\simeqbd
+Q+\cR_{ab}w^{ac}w^b{}_c-\frac12I_1.
+\tag{L6}\label{eq:L-PQcomm}
+\end{align*}
+Hence
+\begin{align*}
+\frac14(P-Q)
+&\simeqbd
++\frac14\cR_{ab}w^{ac}w^b{}_c-\frac18I_1,
+\tag{L7}\label{eq:L-PQshift}
+\end{align*}
+Adding Eqs.~\eqref{eq:L-explicit-Rww},
+\eqref{eq:L-raw-derivative-collection}, and \eqref{eq:L-PQshift}, and then
+using \(\mathcal N\simeqbd-w_{ab}\cD^2w^{ab}\), gives
+\begin{equation*}
+\cL_{\Log}^{\std}\big|_{w,\rm curv+kin}
+=\frac38\cR_{abcd}w^{ab}w^{cd}
+-\frac34\cR_{ab}w^{ac}w^b{}_c
+-\frac{27}{256}\cR\,w^{ab}w_{ab}
+-\frac38w^{ab}\cD^2w_{ab}.
+\tag{L8}\label{eq:L-w-corrected-sector}
+\end{equation*}
+The same raw reduction leaves the independent \(F^{ab}F^{cd}\) coefficient
+equal to \(1/4\):
+\begin{equation*}
+\frac13\cR_{abcd}F^{ab}F^{cd}
+-\frac16\cR_{acbd}F^{ab}F^{cd}
+=\left(\frac13-\frac1{12}\right)
+\cR_{abcd}F^{ab}F^{cd}
+=\frac14\cR_{abcd}F^{ab}F^{cd}.
+\tag{L9}\label{eq:L-RFF-quarter}
+\end{equation*}
+
+Thus the complete canonicalized bosonic ledger, before the Gold map, is
+\begin{align}
+e^{-1}\cL_{\Log}^{\std}={}&
+-\frac1{12}\eps_{\std}^{abcde}v_a\Phi_{bc}^{ij}\Phi_{de\,ij}
++\frac14\cR_{abcd}F^{ab}F^{cd}
++\frac38\cR_{abcd}w^{ab}w^{cd}
+\nonumber\\
+&+\frac14\cR_{ab}(4w^{ac}F^b{}_c-3w^{ac}w^b{}_c)
+-\frac1{256}\cR(24F^2+80w\!\cdot F+27w^2+128D-8X^2)
+\nonumber\\
+&-\frac16\cR_{ab}\cR^{ab}+\frac{23}{384}\cR^2-\frac83D^2
+-\frac12X^{ij}(w^{ab}\Phi_{ab\,ij}+F^{ab}\Phi_{ab\,ij})
+\nonumber\\
+&+\frac1{128}X^2(9w^2-8F^2+4X^2)
++\frac18D(16w\!\cdot F-8F^2+23w^2+24X^2)
+\nonumber\\
+&+w^{ab}F^{cd}\left(\frac3{64}w_{ab}w_{cd}
++\frac94w_{ac}w_{bd}-\frac{75}{128}w_{ab}F_{cd}
++\frac94w_{ac}F_{bd}\right.
+\nonumber\\[-2mm]
+&\hspace{37mm}\left.-\frac38F_{ab}F_{cd}
++\frac34F_{ac}F_{bd}\right)
+\nonumber\\
+&-\frac1{32}F^{ab}F^{cd}(F_{ab}F_{cd}-4F_{ac}F_{bd})
++\frac{1005}{2048}(w^2)^2+\frac16\Phi_{ab}^{ij}\Phi^{ab}_{ij}
+\nonumber\\
+&-\frac3{16}\eps_{\std}^{abcde}(\nabla^fw_{af})
+(4w_{bc}F_{de}+F_{bc}F_{de}+3w_{bc}w_{de})
+\nonumber\\
+&-\frac1{16}\eps_{\std}^{abcde}(\nabla^fF_{af})
+(6w_{bc}F_{de}+F_{bc}F_{de}+3w_{bc}w_{de})
+\nonumber\\
+&-\frac38w^{cd}\cD^a\cD_aw_{cd}
+-\frac32F^{ac}\cD_c\cD^dw_{ad}
+-\frac14(\cD_aX^{ij})(\cD^aX_{ij})
++\frac14(\cD_aF_{bc})(\cD^aF^{bc}).
+\label{eq:L-standard-ledger}
+\end{align}
+This ledger is generated by the primary and derivative algebra, not read from
+an expanded dilaton--Weyl invariant.
+
+\Caution{The common coefficient \(1/4\) multiplying both \(F^{ab}F^{cd}\)
+and \(w^{ab}w^{cd}\) in the printed main-text canonical form is inconsistent
+with the raw descendant reduction above.  The corrected coefficients are
+\(1/4\) and \(3/8\), respectively.}
+
+\subsubsection{Direct expansion and canonicalization}
+
+First map the corrected standard-frame Riemann terms without introducing a
+new two-form.  Equations~\eqref{eq:bridge} and
+\eqref{eq:wmap-expanded} give
+\begin{align*}
+&\frac14\cR_{abcd}^{\std}F_{\std}^{ab}F_{\std}^{cd}
++\frac38\cR_{abcd}^{\std}w_{\std}^{ab}w_{\std}^{cd}
+\nonumber\\
+&\quad=-\frac14R_{abcd}G^{ab}G^{cd}
+-\frac16R_{abcd}(G^{ab}-2H^{ab})(G^{cd}-2H^{cd})
+\nonumber\\
+&\quad=-\frac5{12}R_{abcd}G^{ab}G^{cd}
++\frac23R_{abcd}G^{ab}H^{cd}
+-\frac23R_{abcd}H^{ab}H^{cd}.
+\tag{L10}\label{eq:L-corrected-explicit-Riemann}
+\end{align*}
+The two mixed products combine because
+\(R_{abcd}=R_{cdab}\).  Applying the commutator identity
+\eqref{eq:twoform-boundary-id} to the remaining mapped derivative terms gives
+the curvature shift
+\begin{equation*}
++\frac5{12}R_{abcd}G^{ab}G^{cd}
+-\frac23R_{abcd}G^{ab}H^{cd}
++\frac23R_{abcd}H^{ab}H^{cd}.
+\tag{L11}\label{eq:L-derivative-Riemann-shift}
+\end{equation*}
+The complete definition-led Riemann--two-form ledger is consequently
+\begin{equation*}
+\begin{array}{c|rrr}
+&R_{abcd}G^{ab}G^{cd}&R_{abcd}G^{ab}H^{cd}
+&R_{abcd}H^{ab}H^{cd}\\
+\midrule
+\text{explicit corrected Riemann terms}
+&-\frac5{12}&\frac23&-\frac23\\
+\text{derivative commutator shift}
+&\frac5{12}&-\frac23&\frac23\\
+\midrule
+\text{corrected total}&0&0&0
+\end{array}
+\tag{L12}\label{eq:L-Riemann-cancellation-ledger}
+\end{equation*}
+For comparison only after this derivation, the change relative to the earlier
+\(1/4\)-\(1/4\) intermediate ledger is
+\begin{align*}
+\delta\cL_{\Log}
+&=\frac18\cR_{abcd}^{\std}w_{\std}^{ab}w_{\std}^{cd}
+\nonumber\\
+&=-\frac1{18}R_{abcd}G^{ab}G^{cd}
++\frac29R_{abcd}G^{ab}H^{cd}
+-\frac29R_{abcd}H^{ab}H^{cd}.
+\tag{L13}\label{eq:L-Riemann-correction-map}
+\end{align*}
+This is a pointwise algebraic correction; it introduces no additional
+boundary current.
+
+Substituting Eqs.~\eqref{eq:bridge}, \eqref{eq:wmap-expanded}, and
+\eqref{eq:Dmap-expanded} first gives the derivative representative
+\begin{align}
+\cL_{\Log}^{\nabla,\rm raw}={}&
+\frac5{12}(\nabla_aG_{bc})(\nabla^aG^{bc})
+-\frac23(\nabla_aG_{bc})(\nabla^aH^{bc})
++\frac23(\nabla_aH_{bc})(\nabla^aH^{bc})
+\nonumber\\
+&-(\nabla_bG^{ab})(\nabla^cG_{ac})
++2(\nabla_bG^{ab})(\nabla^cH_{ac})
+-\frac{g^2}{4}(\nabla_aL^{ij})(\nabla^aL_{ij}),
+\label{eq:L-der-raw}
+\end{align}
+and the parity-odd representative
+\begin{align}
+\cL_{\Log}^{\rm odd,raw}={}&
++\frac1{16}(\nabla^bG_{ab})\eps^{acdef}G_{cd}G_{ef}
++\frac1{12}(\nabla^bH_{ab})\eps^{acdef}G_{cd}G_{ef}
+\nonumber\\
+&+\frac13(\nabla^bG_{ab})\eps^{acdef}H_{cd}H_{ef}
+-\frac43(\nabla^bH_{ab})\eps^{acdef}H_{cd}H_{ef}
+\nonumber\\
+&-\frac16(\nabla^bG_{ab})\eps^{acdef}H_{cd}G_{ef}.
+\label{eq:L-odd-raw}
+\end{align}
+Using the two-form commutator identity, $\nabla_{[a}G_{bc]}=0$, and then
+Eq.~\eqref{eq:Bianchi-expanded}, Eqs.~\eqref{eq:L-der-raw} and
+\eqref{eq:L-odd-raw} become the derivative, curvature-shift, double-epsilon,
+and explicit $E_a$ terms in Eq.~\eqref{eq:L-final-expanded}.
+
+For transparency, the scalar quartic coefficients arise from the exact sums
+\begin{equation}
+\begin{array}{c|rrrrrr}
+\text{monomial}&(G^2)^2&G^2(G\cdot H)&G^2H^2&(G\cdot H)^2&(G\cdot H)H^2&(H^2)^2\\
+\midrule
+\text{coefficient}&-\frac1{48}&-\frac13&\frac23&\frac43&-\frac43&-2
+\end{array}
+\label{eq:L-scalar-ledger}
+\end{equation}
+and the ordered cyclic-chain coefficients are
+\begin{equation}
+\begin{array}{c|rrrrr}
+\text{chain}&GGGG&GGGH&GGHH&GHGH&GHHH\\
+\midrule
+\text{coefficient}&-\frac1{24}&1&-\frac43&-\frac83&\frac{16}{3}.
+\end{array}
+\label{eq:L-trace-ledger}
+\end{equation}
+All chains are displayed with indices in the final result.
+
+\section{Consistency Checks}
+
+\subsection{Exact-rational and indexed-tensor audit}
+
+The independent script
+\begin{center}
+\texttt{scripts/verify\_weyl\_log\_definition\_map.py}
+\end{center}
+contains no coefficients from the quarantined final actions.  It performs:
+\begin{enumerate}
+\item exact reconstruction of the complete $D$ composite;
+\item the unprojected Log $Y\to D$ conversion;
+\item exact raw-supplement canonicalization of the quadratic Log $w$ sector,
+including the $1/4\to3/8$ Riemann coefficient and its fully mapped
+cancellation;
+\item complete polynomial equality, including absence of unlisted monomials,
+for both scalar sectors;
+\item exact indexed five-dimensional tests of all noncommuting quartic chains;
+\item exact flat/local derivative-order and epsilon-monomial expansions;
+\item the two epsilon-square identities;
+\item the full gauged Bianchi substitutions and both $E_3$ sectors;
+\item mass-dimension and limiting-case checks; and
+\item a lexical gate forbidding newly defined shorthand in the two final
+densities.
+\end{enumerate}
+
+\subsection{Dimensional, index, and limiting checks}
+
+Every free index in Eqs.~\eqref{eq:W-final-expanded} and
+\eqref{eq:L-final-expanded} is saturated.  Using Eq.~\eqref{eq:dimensions},
+representative dimensions are
+\[
+[R_{abcd}R^{abcd}]=4,\quad[gRN]=4,\quad
+[g^2(\nabla L)^2]=4,\quad[g^2E^2]=4,
+\quad[g\eps EGG]=4.
+\]
+The following substitutions were tested directly:
+\begin{enumerate}
+\item $G=H=N=L=V=E=0$ gives
+$\cL_{\Weyl^2}=-R_{abcd}^2/4+R_{ab}^2/3-R^2/12$ and
+$\cL_{\Log}=-R_{ab}^2/6+R^2/24$;
+\item $g=0$ removes every explicit $E_3$ term while leaving the off-shell
+$G,H$ sectors;
+\item for the correction in Eq.~\eqref{eq:L-Riemann-correction-map}, $H=0$ gives
+$-R_{abcd}G^{ab}G^{cd}/18$, $G=0$ gives
+$-2R_{abcd}H^{ab}H^{cd}/9$, and $G=2H$ gives zero; adding these to the
+earlier intermediate block gives zero identically;
+\item flat space with constant forms removes every derivative and curvature
+monomial; and
+\item setting all fields to zero makes both densities vanish.
+\end{enumerate}
+
+\subsection{Boundary ledger}
+
+The Weyl density uses the BF integration by parts
+Eq.~\eqref{eq:BF-ibp}, derivative canonicalization, and the explicitly
+expanded current in Appendix~\ref{app:Wcurrent}.  The Log density additionally
+uses $-w\Box w\simeqbd(\nabla w)^2$ and the closed-$G$ two-form commutator.
+The primitive Log currents are as follows.
+
+First, if the constrained-vector descendant is written as
+$\mathcal H_{\Log}^a=\mathcal H_{\Log,0}^a+\nabla_bQ_{\Log}^{ab}$ with
+$Q_{\Log}^{ab}=-Q_{\Log}^{ba}$, the BF integration is
+\begin{equation}
+-v_a\nabla_bQ_{\Log}^{ab}
+=-\nabla_b(v_aQ_{\Log}^{ab})-\frac12F_{ab}Q_{\Log}^{ab},
+\qquad \mathcal J_{\rm BF}^b=-v_aQ_{\Log}^{ab}.
+\end{equation}
+Here $Q_{\Log}^{ab}$ is the defining antisymmetric descendant potential, not
+a new physical field.
+
+Second, the mapped $-w\Box w$ operation has current
+\begin{align}
+\mathcal J_w^a={}&-\frac16G^{cd}\nabla^aG_{cd}
++\frac13G^{cd}\nabla^aH_{cd}
++\frac13H^{cd}\nabla^aG_{cd}
+-\frac23H^{cd}\nabla^aH_{cd}.
+\end{align}
+Third, the ordered mixed second derivative is treated by
+\begin{align}
+&G^{ac}\nabla_c\nabla^d(G_{ad}-2H_{ad})
+\nonumber\\
+&\quad=-(\nabla_cG^{ac})\nabla^d(G_{ad}-2H_{ad})
++\nabla_c\!\left[G^{ac}\nabla^d(G_{ad}-2H_{ad})\right],
+\label{eq:Log-mixed-current}
+\end{align}
+so its current is the expression inside the square brackets.
+
+Finally, the two-form canonicalization follows from the general identity
+\begin{align}
+(\nabla^aX^{ce})(\nabla_cY_{ae})\simeqbd{}&
+(\nabla_bX^{ab})(\nabla^cY_{ac})
+-R_{ab}X^{ac}Y^b{}_c
++\frac12R_{abcd}X^{ab}Y^{cd},
+\label{eq:twoform-boundary-id}
+\end{align}
+whose primitive current is
+\begin{equation}
+\mathcal J_{X,Y}^m=(\nabla^aX^{me})Y_{ae}
++Y^m{}_e\nabla_bX^{eb}.
+\end{equation}
+Equation~\eqref{eq:twoform-boundary-id} is applied only to the explicitly
+listed pairs $X,Y\in\{G,H\}$; $X,Y$ are placeholders in the identity, not
+additional fields.
+
+The ordinary Levi--Civita divergence descending from $-4\Box D$ is dropped as
+a whole:
+\begin{equation}
+\nabla^2\!\left[
+\frac18R-\frac5{24}G_{ab}G^{ab}-\frac16G_{ab}H^{ab}
++\frac{13}{6}H_{ab}H^{ab}-gN
+-\frac{g^2}{4}L^{ij}L_{ij}\right].
+\label{eq:Log-D-boundary}
+\end{equation}
+The corresponding primitive current is $\nabla^a$ of the square bracket in
+Eq.~\eqref{eq:Log-D-boundary}.
+Its conformal curvature-weight contribution is retained.  In particular, one
+must not keep only the $-g\nabla^2N$ piece while discarding the rest of
+Eq.~\eqref{eq:Log-D-boundary}.
+
+\section{Final Result}
+\label{sec:FinalResult}
+
+\subsection{Fully expanded Weyl invariant}
+
+After the full gauged Bianchi identity, curvature commutators, and the
+boundary operations listed above, the one-piece Gold-field representative is
+\begingroup
+\small
+\begin{align}
+e^{-1}\cL_{\Weyl^2}^{\rm bos}\simeqbd{}&
+-\frac18\eps^{abcde}C_aR_{bc}{}^{fg}R_{de fg}
++\frac16\eps^{abcde}C_aV_{bc}^{ij}V_{de\,ij}
++\frac23V_{ab}^{ij}V^{ab}_{ij}
+\nonumber\\
+&-\frac14R_{abcd}R^{abcd}+\frac13R_{ab}R^{ab}-\frac1{12}R^2
+\nonumber\\
+&+\frac13R_{abcd}G^{ab}G^{cd}
+-R_{abcd}H^{ab}G^{cd}
+-\frac23R_{abcd}H^{ab}H^{cd}
+\nonumber\\
+&-\frac43R_{ab}H^{ac}G^b{}_c
++\frac{16}{3}R_{ab}H^{ac}H^b{}_c
++\frac13R\,H_{ab}G^{ab}-\frac43R\,H_{ab}H^{ab}
+\nonumber\\
+&+\frac23gRN+\frac16g^2R L^{ij}L_{ij}
+\nonumber\\
+&+\frac1{12}(G_{ab}G^{ab})^2
+-\frac13(G_{ab}G^{ab})(G_{cd}H^{cd})
++\frac83(G_{ab}G^{ab})(H_{cd}H^{cd})
+\nonumber\\
+&+\frac23(G_{ab}H^{ab})^2
+-\frac{16}{3}(G_{ab}H^{ab})(H_{cd}H^{cd})
+-4(H_{ab}H^{ab})^2
+\nonumber\\
+&-\frac12G_{ab}G^{bc}G_{cd}G^{da}
++2G_{ab}G^{bc}G_{cd}H^{da}
+-\frac{16}{3}G_{ab}G^{bc}H_{cd}H^{da}
+\nonumber\\
+&-\frac43G_{ab}H^{bc}G_{cd}H^{da}
++\frac{40}{3}G_{ab}H^{bc}H_{cd}H^{da}
+-8H_{ab}H^{bc}H_{cd}H^{da}
+\nonumber\\
+&-\frac43gN\,G_{ab}G^{ab}
++\frac43gN\,G_{ab}H^{ab}
++8gN\,H_{ab}H^{ab}
+\nonumber\\
+&-\frac13g^2L^{ij}L_{ij}\,G_{ab}G^{ab}
++\frac13g^2L^{ij}L_{ij}\,G_{ab}H^{ab}
++2g^2L^{ij}L_{ij}\,H_{ab}H^{ab}
+\nonumber\\
+&-\frac83g^2N^2-\frac43g^3N L^{ij}L_{ij}
+-\frac16g^4(L^{ij}L_{ij})^2
+\nonumber\\
+&-\frac13(\nabla_aG_{bc})(\nabla^aG^{bc})
++\frac83(\nabla_aH_{bc})(\nabla^aH^{bc})
+\nonumber\\
+&+\frac43\eps^{abcde}H_{ab}H_{cd}\nabla^fG_{ef}
+-2\eps^{abcde}H_b{}^f(\nabla_aH_{cf})G_{de}
+\nonumber\\
+&-\frac23\eps^{abcde}H_{ab}(\nabla^fG_{cf})G_{de}
+-\frac1{24}\eps^{abcde}(\nabla^fG_{af})G_{bc}G_{de}
+\nonumber\\
+&-2g^2E_aE^a+\frac{4g}{3}E_a\nabla_bG^{ab}
++\frac{5g}{12}\eps^{abcde}E_aG_{bc}G_{de}
+-\frac{2g}{3}\eps^{abcde}E_aH_{bc}H_{de}
+\nonumber\\
+&+\frac23gV_{ab}^{ij}L_{ij}G^{ab}
+-\frac43gV_{ab}^{ij}L_{ij}H^{ab}.
+\label{eq:W-final-expanded}
+\end{align}
+\endgroup
+
+\subsection{Fully expanded Log invariant}
+
+In the same original field basis and Bianchi-resolved representative,
+\begingroup
+\small
+\begin{align}
+e^{-1}\cL_{\Log}^{\rm bos}\simeqbd{}&
+-\frac1{12}\eps^{abcde}C_aV_{bc}^{ij}V_{de\,ij}
++\frac16V_{ab}^{ij}V^{ab}_{ij}
++\frac g6V_{ab}^{ij}L_{ij}G^{ab}
++\frac{2g}{3}V_{ab}^{ij}L_{ij}H^{ab}
+\nonumber\\
+&-\frac16R_{ab}R^{ab}+\frac1{24}R^2
++\frac16R_{ab}G^{ac}G^b{}_c
+-\frac43R_{ab}G^{ac}H^b{}_c
+\nonumber\\
+&+R\left(\frac g6N-\frac{g^2}{12}L^{ij}L_{ij}
++\frac13G_{ab}H^{ab}-\frac13H_{ab}H^{ab}\right)
+\nonumber\\
+&-\frac{g^2}{6}N^2+\frac{2g^3}{3}N L^{ij}L_{ij}
++\frac{5g^4}{24}(L^{ij}L_{ij})^2
+\nonumber\\
+&+gN\left(-\frac13G_{ab}G^{ab}-\frac23G_{ab}H^{ab}
++2H_{ab}H^{ab}\right)
+\nonumber\\
+&+g^2L^{ij}L_{ij}\left(\frac1{24}G_{ab}G^{ab}
+-\frac16G_{ab}H^{ab}-H_{ab}H^{ab}\right)
+\nonumber\\
+&-\frac1{48}(G_{ab}G^{ab})^2
+-\frac13(G_{ab}G^{ab})(G_{cd}H^{cd})
++\frac23(G_{ab}G^{ab})(H_{cd}H^{cd})
+\nonumber\\
+&+\frac43(G_{ab}H^{ab})^2
+-\frac43(G_{ab}H^{ab})(H_{cd}H^{cd})
+-2(H_{ab}H^{ab})^2
+\nonumber\\
+&-\frac1{24}G_{ab}G^{bc}G_{cd}G^{da}
++G_{ab}G^{bc}G_{cd}H^{da}
+-\frac43G_{ab}G^{bc}H_{cd}H^{da}
+\nonumber\\
+&-\frac83G_{ab}H^{bc}G_{cd}H^{da}
++\frac{16}{3}G_{ab}H^{bc}H_{cd}H^{da}
+\nonumber\\
+&-\frac16(\nabla_bG^{ab})(\nabla^cG_{ac})
++\frac23(\nabla_aH_{bc})
+\left(\nabla^aH^{bc}+\nabla^bH^{ca}+\nabla^cH^{ab}\right)
+\nonumber\\
+&-\frac{g^2}{4}(\nabla_aL^{ij})(\nabla^aL_{ij})
+\nonumber\\
+&+\frac1{48}(\nabla^bG_{ab})\eps^{acdef}G_{cd}G_{ef}
++\frac13(\nabla^bG_{ab})\eps^{acdef}H_{cd}H_{ef}
+\nonumber\\
+&-\frac16(\nabla^bG_{ab})\eps^{acdef}H_{cd}G_{ef}
+\nonumber\\
+&+\frac1{12}(\eps^{abcde}G_{bc}G_{de})
+(\eps_{a}{}^{fghi}H_{fg}H_{hi})
+\nonumber\\
+&+\frac g3E_a\nabla_bG^{ab}
+-\frac g{24}E_a\eps^{abcde}G_{bc}G_{de}
+-\frac{2g}{3}E_a\eps^{abcde}H_{bc}H_{de}
++\frac{g^2}{3}E_aE^a.
+\label{eq:L-final-expanded}
+\end{align}
+\endgroup
+
+The absence of explicit
+\(R_{abcd}G^{ab}G^{cd}\),
+\(R_{abcd}G^{ab}H^{cd}\), and
+\(R_{abcd}H^{ab}H^{cd}\) terms in
+Eq.~\eqref{eq:L-final-expanded} is the exact cancellation displayed in
+Eq.~\eqref{eq:L-Riemann-cancellation-ledger}, not a truncation.
+
+\Boxed{Equations \eqref{eq:W-final-expanded} and
+\eqref{eq:L-final-expanded} are the requested complete bosonic invariants.
+They contain only Gold's original fields and explicit contractions.  Their
+$E_3$ terms are already included through the exact identity
+\eqref{eq:Bianchi-expanded}; they must not be added a second time.  In the
+corrected Log density, the definition-level $3/8$ coefficient removes the
+entire explicit Riemann--$G,H$ block.}
+
+\section{Convention Dependence and Remaining Uncertainties}
+
+\begin{enumerate}
+\item \textbf{Bosonic scope.}  The result is complete only at fermion number
+zero.  No all-fermion claim is made.
+\item \textbf{Source closure.}  Gold's 2025 review alone does not print the
+full descendants needed by the BF action.  The 2023/2024 derivative algebra
+and component projections are necessary definition-level inputs.
+\item \textbf{Resolved Log component issues.}  The unprojected descendant
+and the defining $D=-3Y/128$ projection fix
+$F_{\Log}\supset-23w^2D/8$.  Independently, canonicalizing the raw quadratic
+$w$ sector fixes
+$\cR_{abcd}F^{ab}F^{cd}/4+3\cR_{abcd}w^{ab}w^{cd}/8$ and gives
+Eq.~\eqref{eq:L-Riemann-correction-map}.  Confidence: certain.
+\item \textbf{Boundary representative.}  Both displayed densities are
+boundary-equivalent to their BF representatives.  A physical boundary
+requires restoration of the listed currents and a boundary-condition or
+counterterm analysis.
+\item \textbf{Orientation and curvature signs.}  Reversing the epsilon
+orientation or Riemann convention changes the parity-odd or curvature bridge.
+Equations \eqref{eq:Rconv}, \eqref{eq:Hdual}, and \eqref{eq:bridge} are part
+of the result.
+\item \textbf{No target fitting.}  The expanded final equations of Gold
+et al. were not used as derivation inputs or canonicalization targets.
+Post-derivation comparison is used only to document the two component-level
+discrepancies above.  The formulas remain a direct definition-led
+representative, not a coefficient fit to a published boundary basis.
+\end{enumerate}
+
+\appendix
+\section{Expanded Weyl Boundary Current}
+\label{app:Wcurrent}
+
+The local BF density and Eq.~\eqref{eq:W-final-expanded} satisfy
+\begin{equation}
+e^{-1}\cL_{\rm local}=e^{-1}\cL_{\Weyl^2}^{\rm bos}
++\nabla_m\mathcal J^m,
+\qquad
+\mathcal J^m=C_a\Theta^{am}+\mathcal J_{\rm even}^m
++\mathcal J_{\rm odd}^m.
+\end{equation}
+All pieces are written in the original fields:
+\begin{align}
+\Theta^{ab}={}&-R^{abcd}G_{cd}+2R^{abcd}H_{cd}
+-\frac43R^{[a}{}_cG^{b]c}+\frac83R^{[a}{}_cH^{b]c}
+-\frac13RG^{ab}+\frac23RH^{ab}
+\nonumber\\
+&+\frac13G^{ab}G_{cd}G^{cd}-\frac83G^{ab}H_{cd}H^{cd}
+-\frac23H^{ab}G_{cd}G^{cd}+\frac{16}{3}H^{ab}H_{cd}H^{cd}
+\nonumber\\
+&+\frac43gNG^{ab}-\frac83gNH^{ab}
++\frac13g^2L^{ij}L_{ij}G^{ab}
+-\frac23g^2L^{ij}L_{ij}H^{ab}
+\nonumber\\
+&-\frac23G^{ac}G_{cd}G^{db}
++\frac43\left(G^{ac}G_{cd}H^{db}+G^{ac}H_{cd}G^{db}
++H^{ac}G_{cd}G^{db}\right)
+\nonumber\\
+&-\frac83\left(G^{ac}H_{cd}H^{db}+H^{ac}G_{cd}H^{db}
++H^{ac}H_{cd}G^{db}\right)
++\frac{16}{3}H^{ac}H_{cd}H^{db}
+\nonumber\\
+&+\eps^{abcde}\left(G_{cf}\nabla_dG_e{}^f
+-2G_{cf}\nabla_dH_e{}^f-2H_{cf}\nabla_dG_e{}^f
++4H_{cf}\nabla_dH_e{}^f\right)
+\nonumber\\
+&+\frac23\eps^{abcde}\left(G_{cf}\nabla^fG_{de}
+-2G_{cf}\nabla^fH_{de}-2H_{cf}\nabla^fG_{de}
++4H_{cf}\nabla^fH_{de}\right),
+\end{align}
+\begin{align}
+\mathcal J_{\rm even}^m={}&
+\frac43G^m{}_d\nabla_bG^{bd}-\frac83G^m{}_d\nabla_bH^{bd}
+-\frac83H^m{}_d\nabla_bG^{bd}
++\frac{16}{3}H^m{}_d\nabla_bH^{bd}
+\nonumber\\
+&+\frac43\left(G^{ce}\nabla_cG^m{}_e+G^{me}\nabla_bG_e{}^b\right)
+\nonumber\\
+&-\frac83\left(G^{ce}\nabla_cH^m{}_e+G^{me}\nabla_bH_e{}^b\right)
+\nonumber\\
+&-\frac83\left(H^{ce}\nabla_cH^m{}_e+H^{me}\nabla_bH_e{}^b\right),\\
+\mathcal J_{\rm odd}^m={}&
+\frac13\eps^{abcme}G_{ab}H_{cf}G_e{}^f
++\frac43\eps^{abcde}G_{ab}H_{cd}H_e{}^m.
+\end{align}
+Thus the action equality assumes $n_m\mathcal J^m=0$ at the boundary.
+
+\section{Source Anchors}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.27\linewidth}>{\raggedright\arraybackslash}p{0.65\linewidth}}
+\toprule
+Source & Exact role\\
+\midrule
+\endfirsthead
+\toprule Source & Exact role\\ \midrule
+\endhead
+Gold et al., \emph{On five-dimensional curvature squared supergravity and
+holography}, arXiv:2504.10856, Secs.~2.2--2.3 & Gauged composite map,
+$\mathcal H_3$, BF principle, vector identification, primaries, and gauge.
+Its printed expanded final invariant equations are quarantined.\\
+Gold et al., \emph{On curvature-squared invariants of minimal
+five-dimensional supergravity from superspace}, arXiv:2302.14295, Secs.~3--4
+& Superspace definitions of the Weyl and Log composites and BF construction.\\
+Gold et al., \emph{Components of curvature-squared invariants of minimal
+supergravity in five dimensions}, arXiv:2311.00679, Secs.~2, 4 and
+Apps.~A--C & Component projections, full derivative algebra, descendant
+towers, degauging identities, and convention bridge.\\
+Gold et al. component supplement, Secs.~2.2.2 and 3.1 & Unprojected Log
+scalar descendant $3Y^2/2048+69w^2Y/1024+\cdots$; raw quadratic $w$ block
+and ordered-derivative canonicalization fixing
+$3\cR_{abcd}w^{ab}w^{cd}/8$.\\
+Coomans--Ozkan, arXiv:1210.4704, Sec.~5 & Independent definition anchor for
+the gauged dilaton--Weyl map and exact three-form Bianchi chain.\\
+\bottomrule
+\end{longtable}
+
+\section{Reproduction Commands}
+
+From the project root, the definition-map audit is reproduced with
+\begin{verbatim}
+python3 scripts/verify_weyl_log_definition_map.py
+\end{verbatim}
+The editable report source is
+\begin{verbatim}
+results/latex/weyl_log_from_definitions/weyl_log_from_definitions.tex
+\end{verbatim}
+and TeX build artifacts are stored only under
+\begin{verbatim}
+results/build/weyl_log_from_definitions/
+\end{verbatim}
+
+\end{document}

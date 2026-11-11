@@ -1,0 +1,39 @@
+{
+  "claim": "Final-paper citation 24",
+  "repository_inputs": {
+    "generic_combination/action.md": "0a6b33770892f0292de7eb6aab7f86e62bd772dc45d8da4437edb85c4b13d614",
+    "generic_combination/action_inputs.md": "b36220239675944aea723f611c29fb79a9940f40187d4a409f97274b3f77f62d",
+    "common/generic_action.md": "c644a25849bdb03fca838fd6a5d51d4d22999e87aa5bf984cdf86cb73ea23be3",
+    "common/fields_and_derivatives.md": "4a3669f3fd882c434dc41068a72441929c1558920b923054d6262449419b0b63",
+    "gauss_bonnet/action/gb_splus_action.md": "1502262baee0235b7eca6e9aa99cdaf0aed81f51158311ffd7566efe8dd40e63"
+  },
+  "manuscript": {
+    "origin": "draft_v110_source/draft_v109.tex",
+    "sha256": "25be4ea0ef4c3d84032b9990945be1fc017a48de3c80c0f16c2bf4877091b06b",
+    "sections": [
+      "sec:GBprodfluc",
+      "sec:GBprodgeneric",
+      "sec:GBprodspecial",
+      "sec:GBprodnorms",
+      "app:quintic"
+    ],
+    "note": "Final supplied paper; external manuscript files are not runtime dependencies."
+  },
+  "citation_map": {
+    "origin": "references/paper_citation_map.md",
+    "item": 24,
+    "sha256": "8ac0f75480e0a7e255ea947e595463112cb39be1ccaba9ff4ea8a6b23e2d398f"
+  },
+  "scope": "Item 24 bosons only. External files identify provenance and are not runtime dependencies. Current repository inputs are verified by checks.py. No saved pickle outputs are imported.",
+  "product_check_inputs": {
+    "generic_combination/action.md": "0a6b33770892f0292de7eb6aab7f86e62bd772dc45d8da4437edb85c4b13d614",
+    "common/fields_and_derivatives.md": "4a3669f3fd882c434dc41068a72441929c1558920b923054d6262449419b0b63",
+    "computations/gb_ads3_sigma2/algebra.py": "47ccf4d62e901d36c85a4d064b35620022ed9bf89ed85e6077ff20fe2907504f",
+    "computations/gb_ads3_sigma2/action.py": "a18b4e06f624490f9b3b7974a83f6596bae045235e0943479ca48021cf55ee26",
+    "computations/gb_ads3_sigma2/sectors.py": "eecaa3679d34acc2c398604c89c77450345b2fa6b61dc4896812544a8c470e33",
+    "computations/gb_ads3_sigma2/r2_density.py": "eb3f920c6e1e0878fca86744a3c83f0291233c973a910e299618b74595483c47",
+    "computations/gb_ads3_sigma2/model.py": "881d6df7e3480e1dcf4f9a03f144d4bc7e6bde6354f1a72257179212bd9142ec",
+    "computations/gb_ads3_sigma2/product_checks.py": "eb2a062dfc48d718793a1eb2b5438226f2216b7cd948dcbbb45cb8624a9d360e",
+    "computations/gb_ads3_sigma2_fermionic_spectrum/polynomial.py": "932bcac0988be24b74280ade8bd80fa715567037ccd50d9e48339735acf94b3e"
+  }
+}

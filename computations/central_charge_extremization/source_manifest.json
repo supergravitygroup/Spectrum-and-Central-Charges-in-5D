@@ -1,0 +1,24 @@
+{
+  "scope": "Final-paper central-charge calculations missing from the prior citation coverage; main text only, not historical draft notes.",
+  "repository_inputs": {
+    "generic_combination/action.md": "0a6b33770892f0292de7eb6aab7f86e62bd772dc45d8da4437edb85c4b13d614",
+    "common/generic_action.md": "c644a25849bdb03fca838fd6a5d51d4d22999e87aa5bf984cdf86cb73ea23be3",
+    "computations/generic_ads5_massless/action_inputs.py": "37b1a7bbffe7210f25d74ea9226e036018c0cf48a69dc71ec095d32fac6ca52c",
+    "computations/generic_ads5_massless/derive.py": "e49d02fb313a3a7e0289af82ec3b4e2b7c3b812a001e338d74f748c5784b32e9",
+    "computations/gb_ads3_sigma2/model.py": "881d6df7e3480e1dcf4f9a03f144d4bc7e6bde6354f1a72257179212bd9142ec",
+    "computations/gb_ads3_sigma2/closed_forms.py": "1a81026c6e4622dee4dd81d63f03ba732e290cd8afa0242aec19576042cfee93",
+    "computations/gb_ads3_sigma2/outputs/constant.json": "54be7f3089ca46e75c4a1e4d140d4d6a8a931a542b2f7345e7f823f43baa0c72"
+  },
+  "external_source_records": {
+    "draft_v109.pdf": {
+      "sha256": "7a9cc9d5a727c9e9b96723ca2eee90e20acaea6b29a3400de25f4f98730f47ed",
+      "source_directory": "draft_v110_source",
+      "status": "final user-supplied paper; provenance only, not a runtime dependency"
+    },
+    "draft_v109.tex": {
+      "sha256": "25be4ea0ef4c3d84032b9990945be1fc017a48de3c80c0f16c2bf4877091b06b",
+      "source_directory": "draft_v110_source",
+      "status": "final user-supplied paper; provenance only, not a runtime dependency"
+    }
+  }
+}

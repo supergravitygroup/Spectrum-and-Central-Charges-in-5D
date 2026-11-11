@@ -1,0 +1,41 @@
+{
+  "status": "REPRESENTATION_COMPATIBILITY_ONLY",
+  "source_spectrum_counts": {
+    "bosons": 12,
+    "fermions": 12
+  },
+  "energies": {
+    "scalar": 2,
+    "vectors": 3,
+    "graviton": 4,
+    "spinor": "5/2",
+    "gravitino": "7/2"
+  },
+  "multiplets": {
+    "gravity": "A1 Abar1 [1;1]_3^(0), 8+8",
+    "vector": "A2 Abar2 [0;0]_2^(0), 4+4"
+  },
+  "vector_assignments": {
+    "gravity": "A-2Q",
+    "matter": "A+4Q"
+  },
+  "vector_kinetic_weights": {
+    "matter": "4/3 - 2*x/3",
+    "gravity": "8/3 - 4*x/3"
+  },
+  "domain": "0<x<2; positive-energy representation comparison; global boundary conditions and full SUSY intertwining not certified",
+  "residuals": {
+    "spinor energy from calculated mass": "0",
+    "gravitino energy from calculated gauge mass": "0",
+    "left shortening at E=2": "0",
+    "right shortening at E=2": "0",
+    "left shortening at E=3": "0",
+    "right shortening at E=3": "0",
+    "matter spinor flux selects A+4Q": "0",
+    "shift flux coefficient": "0",
+    "gravitino rank-three flux selects A-2Q": "0",
+    "gravitino remaining gamma flux": "0",
+    "vector rotation removes mixed kinetic term": "0",
+    "R connection selects gravity vector": "0"
+  }
+}
