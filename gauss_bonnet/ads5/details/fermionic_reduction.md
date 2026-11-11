@@ -69,6 +69,13 @@ L_{ij}[\Box^cL^{ij}]_2&\doteq-\frac{3ix^2}{8}\bar\phi_a\gamma^{ab}\Psi_b-\frac{i
 
 Their divergences are explicitly retained before integration in SF7, SF12–SF15. At the constant coefficients in this quadratic block they contribute only local boundary currents. None of (FC5)–(FC6) symmetrizes the fermionic $`f_{ab}`$.
 
+The LOG input used at the next step is fixed by the
+[component conventions](../code/references/LOG_MASTER.md#log-conventions),
+[gauged composite derivation](../code/references/LOG_MASTER.md#gauged-composite-derivation)
+and [descendant-to-density insertion](../code/references/LOG_MASTER.md#log-descendants-density).
+These sections specify the inherited coefficients before the AdS reduction;
+the calculation below evaluates them without changing their normalization.
+
 ## F.3 Explicit LOG terms: collection before eliminating the dependent spinors
 
 The [source-order ledger](../code/derivations/spectrum/SOURCE_TERM_LEDGER.md) lists all 1184 outer entries and their sector routes. There are 53 potentially surviving explicit LOG bilinears. The gamma-trace and duality reductions used on them are

@@ -11,7 +11,7 @@
     "common/details/superconformal_definitions.md": "c7158d85e3db305093c2a307cb8b309c81d9f00f6c5e261f9927cf6273e95aa7",
     "common/two_derivative_action/details/construction.md": "bb85beaa33a8c06d26011af81cb8485d91cfc7a78260bc0d70e20694312f8c94",
     "r2/action/details/construction.md": "d509f49a5b588e72d165ac826d9bc07b1cb818c963dea205fc1bb746aafcef91",
-    "common/details/composite_vector_paper_correspondence.md": "6577404cb765cc4ac7e210e867be4918477a4080bb12be26bc79db9c309fc47a"
+    "common/details/composite_vector_paper_correspondence.md": "d6666414ecd1e3c7c4bc3d4fef08146c26687529f45656f19b5ff0e9eee5b534"
   },
   "implementation_hashes": {
     "checks.py": "6df7c846b4cfa1374bd244f3992c5bee001f9942a7fab54864087d5254b714f7",

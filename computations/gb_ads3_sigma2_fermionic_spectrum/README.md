@@ -33,6 +33,23 @@ python3 -B computations/gb_ads3_sigma2_fermionic_spectrum/checks.py --workers 3 
 
 `derive.py --sample H2_3_2_s13 --workers 3` restricts generation to one background and its eight sectors. `--resume` reuses existing sector JSON files and computes missing ones; it does **not** itself establish that reused records match current inputs. Run the fingerprint-aware verifier after resuming. Generation also uses an interpolation cache in the system temporary directory, keyed by action source bytes, adapter/interpolation code, numerical-library versions and input parameters. The default verifier neither creates nor consumes that disk cache. The `--stored-only --write-log` combination is rejected.
 
+### Certificate completeness and portable replay
+
+Every root must have one correctly associated certificate, with a matching
+multiplicity and finite required fields. Empty, truncated and misaligned
+certificate lists are errors even if another root-extraction check passes.
+The comparator in [certificates.py](certificates.py) keeps supplied root
+coordinates, direct-action singular values and discrete nullities exact.
+Derived floating diagnostics are compared with a `1024*float64_epsilon`
+allowance in the coefficient scale `B=sum_j ||C_j||_F |D|^j`; scaled residuals
+use the corresponding dimensionless allowance. The inverse-budget gap is
+compared through the retained singular value it reconstructs, not a universal
+relative tolerance on the ratio. This is a replay comparison policy, not a
+change to the physical residual limits or the required gap of twenty.
+Freshly recomputed certificates must still satisfy all original rank,
+localization and error-budget tests. Run the passing and deliberately failing
+controls with `python -B computations/gb_ads3_sigma2_fermionic_spectrum/test_reproduction.py`.
+
 ## Operators and output records
 
 The action uses paired modes $`z^Dy^S`$ and $`z^{2-D}y^{1-S}`$, with
@@ -116,3 +133,17 @@ The full recorded verification passed: 18 polynomial regressions, six rejected i
 The package supports the recorded finite numerical census and its independently specified multiplet prediction. Exact checks of the constant-$`T^2`$ LR ranks and the bosonic heavy-scale limit are labelled separately. It does not compute fermion norms, global harmonic multiplicities or boundary conditions, resolve the excluded critical loci, or analyze $`k\ne0`$ on $`T^2`$. The two SUSY directions are sampled polynomial-in-$`D`$ gauge directions; rank tests at finitely many generic probes do not establish a symbolic generic-rank theorem for all couplings.
 
 The [source manifest](source_manifest.json) identifies the current repository inputs and implementation. The shared action machinery supplies the matrices; root extraction and final matching provide the spectrum checks.
+
+## Provenance of the Table 12 residual column
+
+The current `outputs/table.json` and per-sample records identify the repository
+extraction by its parameters, interpolation and projection settings. The
+saved `verification.json` identifies its checking environment and reports
+positive- and negative-boost matches separately. At `(L,k)=(3,1/1000)`, the
+retained positive-boost maximum is about `1.11e-8` and the all-boost maximum
+about `1.63e-8`; these satisfy the unchanged `1e-6` matching criterion but
+are not the paper's printed `5.2e-10`. The exact run producing that printed
+column is not identified here. Alignment of the manuscript column remains
+an author decision; a fresh verifier PASS does not establish reproduction
+of the literal printed residuals. New run logs must retain their measured
+values and environment rather than replace the historical records.

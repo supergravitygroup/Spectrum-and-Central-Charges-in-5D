@@ -108,6 +108,8 @@ refer here to the same eight-real-supercharge theory; no doubling of fields is i
    representative and relation IDs. A source-page cache is an exact reference,
    not a machine-parsed algebra expression or a completed substitution.
 
+<a id="log-conventions"></a>
+
 ## Convention ledger: project component frame
 
 The following common geometric/component relations are frozen from the already
@@ -137,6 +139,8 @@ and $`[01234]=+1`$; the square-bracket symbol is a density. Frame conversion
 is by one vielbein for each index, with no additional determinant.
 This removes the tensor/density ambiguity in the typography of W(A.12).
 
+<a id="eq-c01"></a>
+
 ```math
 \epsilon_{a_1\ldots a_n b_1\ldots b_p}
 \epsilon^{a_1\ldots a_n c_1\ldots c_p}
@@ -145,6 +149,8 @@ This removes the tensor/density ambiguity in the typography of W(A.12).
 ```
 
 ### C02 — SU(2) and names
+
+<a id="eq-c02"></a>
 
 ```math
 X^i=\varepsilon^{ij}X_j,\quad X_i=X^j\varepsilon_{ji},\quad
@@ -171,6 +177,8 @@ a full superconformal derivative.
 
 ### C03 — Majorana bar and Grassmann rules
 
+<a id="eq-c03a"></a>
+
 ```math
 \bar\zeta^{\,i}=(\zeta^i)^T\mathsf C,\qquad
 \mathsf C^T=-\mathsf C,\quad
@@ -182,6 +190,8 @@ a full superconformal derivative.
 $`\gamma_0`$ is anti-Hermitian and the spatial gamma matrices are Hermitian.
 Use W(A.5) symplectic Majorana reality, with the permitted choice
 $`\alpha=1`$ and complex conjugation **not reversing the order of odd factors**:
+
+<a id="eq-c03b"></a>
 
 ```math
 (\zeta^i)^C=B^{-1}\varepsilon^{ij}(\zeta^j)^*,\quad
@@ -198,6 +208,8 @@ An explicitly odd operator $`Q`$ would have a graded Leibniz rule.
 Suppressed SU(2) indices mean $`\bar\psi\Gamma\chi=\bar\psi^i\Gamma\chi_i`$.
 For the OP(A.4) index pattern,
 
+<a id="eq-c03c"></a>
+
 ```math
 \bar\psi^i\gamma_{(n)}\chi^j=t_n\bar\chi^j\gamma_{(n)}\psi^i,
 \qquad (t_0,t_1,t_2,t_3)=(1,1,-1,-1).
@@ -210,12 +222,16 @@ Never apply the fixed-index flip unchanged to a contracted bilinear.
 
 ### C04 — Clifford algebra and full contractions
 
+<a id="eq-c04a"></a>
+
 ```math
 \{\gamma^a,\gamma^b\}=2\eta^{ab},\quad
 \gamma^{a_1\ldots a_n}=\gamma^{[a_1}\cdots\gamma^{a_n]},\quad
 \gamma^{abcde}=i\epsilon^{abcde},\quad \gamma^\mu=e_a{}^\mu\gamma^a.
 \tag{C04a}
 ```
+
+<a id="eq-c04b"></a>
 
 ```math
 \gamma\!\cdot\!T=\gamma^{ab}T_{ab},\quad
@@ -229,6 +245,8 @@ W(A.14) prints $`(A^{a_1\ldots a_n}B_{a_1\ldots a_n})/n!=(A\cdot B)/n!`$;
 its first factorial must not be misread as a definition of the dot itself.
 $`\gamma^{ab}\gamma^c`$ is a product, not $`\gamma^{abc}`$.
 $`\gamma_{ab}{}^{cd}`$ in R05 is a single fully antisymmetric rank-four gamma.
+
+<a id="eq-c04c"></a>
 
 ```math
 \gamma^a\gamma^{b_1\ldots b_n}
@@ -253,6 +271,8 @@ Useful full-index contractions from W Table7:
 
 OP(A.5), W(A.10)–(A.11), for odd spinors:
 
+<a id="eq-c05a"></a>
+
 ```math
 \psi_j\bar\lambda^i=-\frac14(\bar\lambda^i\psi_j)\mathbf1
 -\frac14(\bar\lambda^i\gamma^a\psi_j)\gamma_a
@@ -260,6 +280,8 @@ OP(A.5), W(A.10)–(A.11), for odd spinors:
 \bar\psi^{[i}\lambda^{j]}=-\frac12\bar\psi\lambda\,\varepsilon^{ij}.
 \tag{C05a}
 ```
+
+<a id="eq-c05b"></a>
 
 ```math
 \xi_j\bar\xi^j\xi^i
@@ -299,6 +321,8 @@ connections, hats and composites as well as explicitly written factors.
 
 W(3.17) fixes the algorithm, including derivatives of composites:
 
+<a id="eq-g01"></a>
+
 ```math
 \mathcal D_\mu\Phi=\partial_\mu\Phi
 -\delta_D(b_\mu)\Phi-\delta_M(\omega_\mu)\Phi
@@ -329,6 +353,8 @@ $`\delta(\mathcal D\Phi)=\mathcal D\delta\Phi`$.
 
 Define the ordinary connection curvature by
 
+<a id="eq-g02a"></a>
+
 ```math
 R_{\mu\nu}{}^{ab}(\omega)=2\partial_{[\mu}\omega_{\nu]}{}^{ab}
 +2\omega_{[\mu}{}^{ac}\omega_{\nu]c}{}^b,
@@ -348,6 +374,8 @@ A constant-curvature tensor $`R_{\mu\nu\rho\sigma} =k(g_{\mu\rho}g_{\nu\sigma}-g
 has $`R_{\mu\nu}=4kg_{\mu\nu}`$ and $`R=20k`$.
 For the bosonic curvature,
 
+<a id="eq-g02b"></a>
+
 ```math
 \begin{aligned}
 C_{\mu\nu\rho\sigma}={}&R_{\mu\nu\rho\sigma}
@@ -362,6 +390,8 @@ These bosonic Riemann symmetries must not be assumed for an arbitrary
 unconstrained hatted curvature. The full $`\widehat C`$ is R03 below.
 
 ### G03 — Conventional constraints and supercovariantization
+
+<a id="eq-g03a"></a>
 
 ```math
 R_{\mu\nu}{}^a(P)=2\partial_{[\mu}e_{\nu]}{}^a
@@ -380,6 +410,8 @@ $`\gamma_{[\mu\nu}\widehat R_{\rho\sigma]}(Q)=0`$ [W footnote5].
 For a connection $`h_\mu{}^I`$ whose transformation is
 $`\delta h_\mu{}^I=\partial_\mu\epsilon^I+ \epsilon^J h_\mu{}^A f_{AJ}{}^I+\epsilon^J M_{\mu J}{}^I`$,
 
+<a id="eq-g03b"></a>
+
 ```math
 \widehat R_{\mu\nu}{}^I=2\partial_{[\mu}h_{\nu]}{}^I
 +h_\nu{}^B h_\mu{}^A f_{AB}{}^I
@@ -392,6 +424,8 @@ not blind replacement by hats, fixes the connection completions and X01.
 
 ### G04 — Frames, gamma matrices and scalar density variations
 
+<a id="eq-g04a"></a>
+
 ```math
 \delta e_a{}^\mu=-e_a{}^\nu\delta e_\nu{}^b e_b{}^\mu,
 \quad \delta e=e\,e_a{}^\mu\delta e_\mu{}^a,
@@ -401,6 +435,8 @@ not blind replacement by hats, fixes the connection completions and X01.
 ```
 
 For example,
+
+<a id="eq-g04b"></a>
 
 ```math
 \delta X_{ab}=e_a{}^\mu e_b{}^\nu\delta X_{\mu\nu}
@@ -417,6 +453,8 @@ $`\delta\epsilon_{abcde}=0`$, whereas world epsilon tensors vary with $`e`$.
 ## 3. Weyl transformations and component derivatives
 
 ### W01 — Common Weyl gauge fields; OP(2.1), W(4.1)
+
+<a id="eq-w01"></a>
 
 ```math
 \begin{aligned}
@@ -438,6 +476,8 @@ weight transformations follow the displayed index/connection conventions.
 
 ### W02 — DW fields; OP(2.1)
 
+<a id="eq-w02"></a>
+
 ```math
 \begin{aligned}
 \delta C_\mu&=-\tfrac i2\sigma\bar\epsilon\psi_\mu+\tfrac12\bar\epsilon\gamma_\mu\psi,\\
@@ -452,6 +492,8 @@ weight transformations follow the displayed index/connection conventions.
 ```
 
 ### W03 — Standard-Weyl matter; OP(2.11), W(3.16)
+
+<a id="eq-w03"></a>
 
 ```math
 \begin{aligned}
@@ -472,6 +514,8 @@ $`T,\chi,D`$ may be treated as Standard-Weyl covariants in the Standard-Weyl LOG
 construction; in the gauged DW theory use GG03–GG05, not new fields.
 
 ### W04 — Explicit derivatives; OP(2.2),(2.12), with X02/X09
+
+<a id="eq-w04"></a>
 
 ```math
 \begin{aligned}
@@ -505,6 +549,8 @@ In the first DW-spinor derivative $`D_\mu^{(0)}`$ uses $`w=3/2`$.
 
 ### R01 — Spin connection and gravitino curvature; OP(2.5),(2.6)
 
+<a id="eq-r01"></a>
+
 ```math
 \begin{aligned}
 \omega_\mu{}^{ab}={}&2e^{\nu[a}\partial_{[\mu}e_{\nu]}{}^{b]}
@@ -525,6 +571,8 @@ $`\phi`$ term here, and the $`f`$ term in R03 below.
 
 ### R02 — R-symmetry curvature; OP(2.7)
 
+<a id="eq-r02"></a>
+
 ```math
 \begin{aligned}
 V_{\mu\nu}{}^{ij}&=2\partial_{[\mu}V_{\nu]}{}^{ij}
@@ -540,6 +588,8 @@ V_{\mu\nu}{}^{ij}&=2\partial_{[\mu}V_{\nu]}{}^{ij}
 
 The following is reconstructed from W(3.4),(3.6),(3.20), with the source
 errors of OP(2.7) isolated in X01. It is **not a literal quotation** of OP:
+
+<a id="eq-r03"></a>
 
 ```math
 \begin{aligned}
@@ -566,6 +616,8 @@ is exactly the same connection. There is no additional Riemann-sign change.
 
 ### R04 — Dependent connection variations; W(3.2),(3.20),(3.21)
 
+<a id="eq-r04a"></a>
+
 ```math
 \begin{aligned}
 \delta\omega_\mu{}^{ab}={}&\tfrac i2\bar\epsilon\gamma^{ab}\phi_\mu
@@ -581,6 +633,8 @@ is exactly the same connection. There is no additional Riemann-sign change.
 The all-order S-connection variation is fixed by R01, not by filling the
 ellipsis in W(3.21) with the bare algebra alone:
 
+<a id="eq-r04b"></a>
+
 ```math
 \delta\phi_\mu^i=\frac i3\gamma^a\delta\widehat R'_{\mu a}{}^i(Q)
 -\frac i{24}(\delta\gamma_\mu)\gamma^{ab}\widehat R'_{ab}{}^i(Q)
@@ -594,6 +648,8 @@ This defines a finite exact variation: $`\widehat R'(Q)`$ contains no $`\phi`$;
 $`\delta\omega`$ contains $`\phi`$ but not $`\delta\phi`$.
 
 For reference, the **M-dependent additions only** printed in W(3.21) are
+
+<a id="eq-r04c"></a>
 
 ```math
 \begin{aligned}
@@ -615,6 +671,8 @@ terms is **not** our definition of the full variation; R04b is.
 
 W does not print the full $`\delta f`$. Use its **exact defining variation**:
 
+<a id="eq-r04d"></a>
+
 ```math
 \begin{aligned}
 \delta f_\mu{}^a&=-\tfrac16\delta(\mathcal R_{\mu\nu}e^{\nu a})
@@ -630,6 +688,8 @@ undefined new curvature variation. W(3.22), $`-5i\bar\eta\chi`$, is only the
 **M-dependent correction** to $`\delta_S f_a{}^a`$, not its entire variation.
 
 ### R05 — Tangent gravitino-curvature variation; W(3.23)
+
+<a id="eq-r05"></a>
 
 ```math
 \begin{aligned}
@@ -653,6 +713,8 @@ it must not be set to zero by differentiating only $`\gamma_b`$.
 
 ### R06 — Tangent SU(2)-curvature variation and eliminated S curvature
 
+<a id="eq-r06a"></a>
+
 ```math
 \begin{aligned}
 \delta\widehat R_{ab}{}^{ij}(V)={}&
@@ -666,6 +728,8 @@ it must not be set to zero by differentiating only $`\gamma_b`$.
 ```
 
 W(3.19), with spinor index suppressed and full contractions C04:
+
+<a id="eq-r06b"></a>
 
 ```math
 \begin{aligned}
@@ -696,6 +760,8 @@ A shortened independent formula for $`\delta\widehat C`$ is not printed in
 these passages. Define $`\mathcal B_{\mu\nu}{}^{ab}`$ to be the five fermionic
 terms in R03, so $`\widehat R'=R(\omega)+\mathcal B`$. Then
 
+<a id="eq-r07"></a>
+
 ```math
 \begin{aligned}
 \delta\widehat R'_{\mu\nu}{}^{ab}
@@ -721,6 +787,8 @@ This is a derived Leibniz rule, not a claimed new source formula.
 
 ### H01 — Strengths and form gauges; OP(2.3),(2.4)
 
+<a id="eq-h01"></a>
+
 ```math
 \begin{aligned}
 G_{\mu\nu}&=2\partial_{[\mu}C_{\nu]},\qquad
@@ -738,6 +806,8 @@ H_{\mu\nu\rho}=3\partial_{[\mu}B_{\nu\rho]}+\tfrac32 C_{[\mu}G_{\nu\rho]},\\
 With forms normalized $`B=B_{\mu\nu}dx^\mu\wedge dx^\nu/2`$,
 $`G=dC`$, $`H=dB+C\wedge G/2`$, hence $`dG=0`$, $`dH=G\wedge G/2`$.
 
+<a id="eq-h02"></a>
+
 ### H02 — Tangent strength variations
 
 Use H02 in the [component dictionary](COMPONENT_CONVENTIONS.md).
@@ -745,6 +815,8 @@ It contains the final $`G\psi`$ sign and the gauged linear-compensator
 contribution; the ungauged restriction sets $`g=0`$.
 
 ### H03 — Supercovariant Bianchi identities; W(3.28)
+
+<a id="eq-h03"></a>
 
 ```math
 \mathcal D_{[a}\widehat G_{bc]}=\tfrac12\bar\psi\gamma_{[a}\widehat R_{bc]}(Q),
@@ -757,6 +829,8 @@ The spinor on the first right-hand side is the dilatino, not $`\psi_a`$.
 The bosonic limit of the second identity agrees with $`dH=G\wedge G/2`$.
 
 ### D01 — Complete auxiliary composites; OP(2.9)
+
+<a id="eq-d01"></a>
 
 ```math
 \begin{aligned}
@@ -786,6 +860,8 @@ change is needed.
 
 ### D02 — Superconformal Laplacian; OP(2.10)
 
+<a id="eq-d02"></a>
+
 ```math
 \Box^c\sigma=(\partial^a-2b^a+\omega_b{}^{ba})\mathcal D_a\sigma
 -\tfrac i2\bar\psi_a\mathcal D^a\psi
@@ -802,6 +878,8 @@ scalar Laplacian before the full substitution and chosen gauge.
 
 ### L01 — Matching laws; OP(2.18)
 
+<a id="eq-l01"></a>
+
 ```math
 \begin{aligned}
 \delta L^{ij}&=i\bar\epsilon^{(i}\varphi^{j)},\\
@@ -817,6 +895,8 @@ scalar Laplacian before the full substitution and chosen gauge.
 ```
 
 ### L02 — Full derivatives; OP(2.19), G01
+
+<a id="eq-l02"></a>
 
 ```math
 \begin{aligned}
@@ -843,6 +923,8 @@ $`\mathcal D^aE_a=0`$, not $`\partial^aE_a=0`$.
 
 ### L03 — Constrained form; OP(2.20)–(2.23)
 
+<a id="eq-l03a"></a>
+
 ```math
 \mathcal D^aE_a=0,\qquad
 E^\mu=-\tfrac1{12}\epsilon^{\mu\nu\rho\sigma\lambda}
@@ -852,6 +934,8 @@ E^\mu=-\tfrac1{12}\epsilon^{\mu\nu\rho\sigma\lambda}
 ```
 
 OP also introduces the dual two-form representation
+
+<a id="eq-l03b"></a>
 
 ```math
 E_{\mu\nu\rho}=\epsilon_{\mu\nu\rho\sigma\lambda}E^{\sigma\lambda},
@@ -864,6 +948,8 @@ not an extra independent Maxwell field. $`\mathcal D E_3`$ includes its
 supercovariant completions; it is not just $`dE_3`$ when fermions are retained.
 
 ### L04 — Literal potential transformations; OP(2.24), NOT an operational pair
+
+<a id="eq-l04"></a>
 
 ```math
 \delta E^{\mu\nu}=-\tfrac i2\bar\epsilon\gamma^{\mu\nu}\varphi
@@ -882,6 +968,8 @@ on the inconsistent potential laws.
 
 ### V01 — Abelian vector laws; OP(2.13) with g=0
 
+<a id="eq-v01"></a>
+
 ```math
 \begin{aligned}
 \delta A_\mu&=-\tfrac i2\rho\bar\epsilon\psi_\mu+\tfrac12\bar\epsilon\gamma_\mu\lambda,
@@ -896,6 +984,8 @@ on the inconsistent potential laws.
 ```
 
 ### V02 — Vector derivatives and curvature; OP(2.14)–(2.16)
+
+<a id="eq-v02"></a>
 
 ```math
 \begin{aligned}
@@ -915,6 +1005,8 @@ without a further source lookup.
 
 ### V03 — Defining vector; OP(5.16),(5.17)
 
+<a id="eq-v03"></a>
+
 ```math
 (\rho,A_\mu,\lambda^i,Y^{ij})
 =\left(\sigma,C_\mu,\psi^i,\tfrac i4\sigma^{-1}\bar\psi^{(i}\psi^{j)}\right).
@@ -927,6 +1019,8 @@ At nonzero g replace this ungauged Y slot by LOG-B02. It is distinct from
 the LOG linear composite and from a linear-to-vector compensator construction. Use V01/W02 rather than the misprinted restatement (5.14)–(5.15).
 
 ### A01 — Full vector–linear density; OP(3.1)
+
+<a id="eq-a01"></a>
 
 ```math
 \begin{aligned}
@@ -949,6 +1043,8 @@ unintegrated densities.
 
 The companion local paper supplies the required explicit bridge:
 
+<a id="eq-a02a"></a>
+
 ```math
 P^a=E^a+\frac i2\bar\psi_b\gamma^{ba}\varphi
 +\frac14\bar\psi_b^i\gamma^{abc}\psi_c^jL_{ij},
@@ -961,6 +1057,8 @@ P^a=-\frac1{12}e_\mu{}^a\epsilon^{\mu\nu\rho\sigma\lambda}
 The first identity is OPall(3.2); the second identifies the ordinary
 three-form part in the A01 density. The first is sufficient for the
 **operational** density formula, with no E3 potential variation needed:
+
+<a id="eq-a02b"></a>
 
 ```math
 \begin{aligned}
@@ -1074,6 +1172,8 @@ With the locked Lorentz connection, a covector has
 $`\nabla_\mu X_a=\partial_\mu X_a+\omega_{\mu a}{}^bX_b`$.
 The tensor-product rule therefore gives
 
+<a id="eq-x09"></a>
+
 ```math
 \nabla_\mu T_{ab}=\partial_\mu T_{ab}
 +\omega_{\mu a}{}^cT_{cb}+\omega_{\mu b}{}^cT_{ac}
@@ -1123,6 +1223,8 @@ W(5.10)–(5.14), printed27/PDF28, in the source linked by the [bibliography](..
 are not new independent fields. Unlike truncated CO formulas, these are
 full supercovariant expressions.
 
+<a id="eq-gg01"></a>
+
 ```math
 \begin{aligned}
 S^{ij}&=2\sigma Y^{ij}-\frac i2\bar\psi^i\psi^j,\\
@@ -1146,6 +1248,8 @@ S^{ij}&=2\sigma Y^{ij}-\frac i2\bar\psi^i\psi^j,\\
 
 CO(5.2) and W(5.11),(5.13), with the compensator laws L01, give
 
+<a id="eq-gg02"></a>
+
 ```math
 S^{ij}+gL_c^{ij}=0,\qquad \Gamma^i+g\varphi_c^i=0,\qquad
 \mathcal C+gN_c=0,\qquad \mathcal H_a+gE_{ca}=0.
@@ -1163,6 +1267,8 @@ GC07–GC11 solve GG02, expand Y² and restore the cubic/quartic terms
 missing from earlier truncated gauged calculations. T and every derivative
 on the right use the same gauged realization.
 
+<a id="eq-gg03a"></a>
+
 ```math
 2\sigma Y^{ij}-\frac i2\bar\psi^i\psi^j+gL_c^{ij}=0
 \quad\Longrightarrow\quad
@@ -1170,6 +1276,8 @@ Y^{ij}=\frac{i}{4\sigma}\bar\psi^{(i}\psi^{j)}
 -\frac{g}{2\sigma}L_c^{ij}.
 \tag{GG03a}
 ```
+
+<a id="eq-gg03b"></a>
 
 ```math
 \begin{aligned}
@@ -1182,6 +1290,8 @@ Y^{ij}=\frac{i}{4\sigma}\bar\psi^{(i}\psi^{j)}
 +\frac g{8\sigma^2}\varphi_c^i.
 \end{aligned}\tag{GG03b}
 ```
+
+<a id="eq-gg03c"></a>
 
 ```math
 \begin{aligned}
@@ -1204,6 +1314,8 @@ D={}&\frac1{4\sigma}\Box^c\sigma
 CO(5.5)–(5.8); the ordinary form gauge check is GC13. Supersymmetry
 potential-law issues X10 remain separate from this bosonic form check.
 
+<a id="eq-gg04a"></a>
+
 ```math
 \begin{aligned}
 G_{\mu\nu}&=2\partial_{[\mu}C_{\nu]},\qquad
@@ -1220,6 +1332,8 @@ G_{\mu\nu}&=2\partial_{[\mu}C_{\nu]},\qquad
 \end{aligned}\tag{GG04a}
 ```
 
+<a id="eq-gg04b"></a>
+
 ```math
 T_{ab}=\frac1{8\sigma^2}\left(\sigma\widehat G_{ab}
 +\frac16\varepsilon_{abcde}\widehat H^{cde}
@@ -1231,6 +1345,8 @@ T_{ab}\big|_{\text{explicit }gE_c}=\frac g{96\sigma^2}
 ```
 
 ### GG05 — Full gauged defining-vector derivative and inherited connections
+
+<a id="eq-gg05"></a>
 
 ```math
 \begin{aligned}
@@ -1252,6 +1368,8 @@ all terms of chi after inserting GG05; GC16–GC24 print the box, matter
 and curvature derivatives, dependent connections and compensator derivatives.
 Do not use an ungauged chi or T inside a hatted curvature.
 
+<a id="gauged-composite-derivation"></a>
+
 ## Full gauged composite derivation and derivative closure
 
 Frozen from the project gauged Weyl note; only shared realization formulas GC01–GC24 and GA01–GA03 are reused. No Weyl-specific multiplet component or completed-action claim is imported. `master` references below mean the shared equations already displayed in this file.
@@ -1263,6 +1381,8 @@ gives the following **full supercovariant** improved-vector constraints.
 We write its scalar constraint as $`\mathcal C`$ to distinguish it from
 $`C_\mu`$; $`S^{ij},\Gamma^i,\mathcal C,\mathcal H_a`$ below are temporary
 source constraint names, not additional physical fields:
+
+<a id="eq-gc01"></a>
 
 ```math
 \begin{aligned}
@@ -1285,6 +1405,8 @@ S^{ij}&=2\sigma Y^{ij}-\frac i2\bar\psi^i\psi^j,\\
 
 Their Q laws, W(5.11),(5.13), are
 
+<a id="eq-gc02"></a>
+
 ```math
 \begin{aligned}
 \delta_Q S^{ij}&=i\bar\epsilon^{(i}\Gamma^{j)},\\
@@ -1301,6 +1423,8 @@ without importing the cubic/quartic omissions of the truncated CO formulas.
 The source locator is W(5.10)–(5.14), printed27/PDF28; see the [bibliography](../../../../references/bibliography.md).
 
 CO(5.5)–(5.8), PDF/printed pp.16–17, fixes the form sector:
+
+<a id="eq-gc03"></a>
 
 ```math
 \begin{aligned}
@@ -1325,6 +1449,8 @@ adoption of the quarantined literal SUSY potential laws in master L04.
 
 Master A01–A02 gives
 
+<a id="eq-ga01"></a>
+
 ```math
 \begin{aligned}
 e^{-1}\mathcal L_{VL}={}&Y^{ij}L_{ij}+i\bar\lambda\varphi
@@ -1333,6 +1459,8 @@ e^{-1}\mathcal L_{VL}={}&Y^{ij}L_{ij}+i\bar\lambda\varphi
 +\frac{i\rho}{4}\bar\psi_m^i\gamma^{mn}\psi_n^jL_{ij}.
 \end{aligned}\tag{GA01}
 ```
+
+<a id="eq-ga02"></a>
 
 ```math
 P^a=E^a+\frac i2\bar\psi_b\gamma^{ba}\varphi
@@ -1354,6 +1482,8 @@ composite vector and background fields.
 
 From CO(5.2) and GC01,
 
+<a id="eq-ga03"></a>
+
 ```math
 2\sigma Y^{ij}-\frac i2\bar\psi^i\psi^j+gL_c^{ij}=0
 \quad\Longrightarrow\quad
@@ -1367,6 +1497,8 @@ first equation. The scalar fixed-index flip makes the spinor bilinear
 symmetric, so its written symmetrization changes no coefficient.
 Since g is constant, GC02 and L01 give
 
+<a id="eq-gc04"></a>
+
 ```math
 \delta_Q(S^{ij}+gL_c^{ij})
 =i\bar\epsilon^{(i}\Gamma^{j)}+ig\bar\epsilon^{(i}\varphi_c^{j)}
@@ -1376,6 +1508,8 @@ Since g is constant, GC02 and L01 give
 
 The next constraint is therefore $`\Gamma^i+g\varphi_c^i=0`$.
 Vary it and display every compensator term:
+
+<a id="eq-gc05"></a>
 
 ```math
 \begin{aligned}
@@ -1400,6 +1534,8 @@ it does not discard higher fermions when adding the compensator multiplet.
 It also checks the defining-vector Y law. Applying the chain rule to GA03
 and comparing with the independent-vector transformation gives
 
+<a id="eq-gc06"></a>
+
 ```math
 \begin{aligned}
 2\sigma(\delta_QY^{ij}_{\rm composite}-\delta_QY^{ij}_{\rm vector})
@@ -1421,6 +1557,8 @@ $`i(\bar\eta^{(i}\psi^{j)}+\bar\psi^{(i}\eta^{j)})/4 =i\bar\eta^{(i}\psi^{j)}/2`
 Move $`-8\sigma^2\chi^i`$ to the other side of
 $`\Gamma^i+g\varphi_c^i=0`$ and divide each term by $`8\sigma^2`$:
 
+<a id="eq-gc07"></a>
+
 ```math
 \begin{aligned}
 \chi^i={}&\frac i{8\sigma}\not{\mathcal D}\psi^i
@@ -1437,6 +1575,8 @@ $`\Gamma^i+g\varphi_c^i=0`$ and divide each term by $`8\sigma^2`$:
 
 The bilinear in the last line is even, so it commutes through $`\psi_j`$.
 The full spinor composite, with no cubic remainder, is consequently
+
+<a id="eq-gc08"></a>
 
 ```math
 \begin{aligned}
@@ -1461,6 +1601,8 @@ by $`4\sigma^2`$. The source coefficients become
 $`-1/16,-1/8,1/4,1/8,1/4, i/4,-4i,-26/3,2,g/4`$, with the displayed
 powers of sigma:
 
+<a id="eq-gc09"></a>
+
 ```math
 \begin{aligned}
 D={}&\frac1{4\sigma}\Box^c\sigma
@@ -1476,6 +1618,8 @@ D={}&\frac1{4\sigma}\Box^c\sigma
 
 Lower Y with the two epsilon tensors before multiplying. Both terms in
 Y are even, and the lower triplet contraction is symmetric. Hence
+
+<a id="eq-gc10"></a>
 
 ```math
 \begin{aligned}
@@ -1496,6 +1640,8 @@ The first sign is $`i^2=-1`$. The two mixed terms have the same sign:
 $`L_c^{ij}\bar\psi_i\psi_j=L_{c\,ij}\bar\psi^i\psi^j`$, since lowering
 both indices contributes two epsilon tensors. No odd spinors are swapped.
 Multiplying GC10 by $`1/(4\sigma^2)`$ and inserting it into GC09 gives
+
+<a id="eq-gc11"></a>
 
 ```math
 \begin{aligned}
@@ -1522,6 +1668,8 @@ are themselves the full gauged quantities; their fermions are not omitted.
 CO(5.6) is $`\varepsilon_{abcde}\widehat H^{cde}/6 =8\sigma^2T_{ab}-\sigma\widehat G_{ab}-i\bar\psi\gamma_{ab}\psi/4`$.
 Move its last two terms across and divide by $`8\sigma^2`$:
 
+<a id="eq-gc12"></a>
+
 ```math
 T_{ab}=\frac1{8\sigma^2}\left(\sigma\widehat G_{ab}
 +\frac16\varepsilon_{abcde}\widehat H^{cde}
@@ -1537,6 +1685,8 @@ the superscript letters are its three tangent indices. The coefficient
 is $`(1/8)(1/6)(1/2)=1/96`$, from GC03. Write the bosonic form definitions
 with $`B=B_{\mu\nu}dx^\mu\wedge dx^\nu/2`$ and
 $`E_c=E_{c\,\mu\nu\rho}dx^\mu\wedge dx^\nu\wedge dx^\rho/3!`$:
+
+<a id="eq-gc13"></a>
 
 ```math
 \begin{aligned}
@@ -1562,6 +1712,8 @@ No SUSY potential-law repair is assumed in this bosonic gauge check.
 
 Start with the full vector derivative, CO(2.16)/master V02, and insert GA03:
 
+<a id="eq-gc14"></a>
+
 ```math
 \begin{aligned}
 \mathcal D_\mu\sigma&=(\partial_\mu-b_\mu)\sigma-\frac i2\bar\psi_\mu\psi,\\
@@ -1578,6 +1730,8 @@ Start with the full vector derivative, CO(2.16)/master V02, and insert GA03:
 The connection term $`-gL_c^{ij}\psi_{\mu j}/(2\sigma)`$ is necessary
 even if a later gauge sets the dilatino to zero. For clarity, insert all
 terms of GC14 into the first term of GC08, not just its ordinary derivative:
+
+<a id="eq-gc15"></a>
 
 ```math
 \begin{aligned}
@@ -1606,6 +1760,8 @@ Every T, chi and D on their right means GC12, GC08 and GC11, respectively.
 This is where gauging enters hatted quantities whose formula has no
 explicit g. No curvature is evaluated using ungauged chi or T.
 
+<a id="eq-gc16"></a>
+
 ```math
 \Box^c\sigma=(\partial^a-2b^a+\omega_b{}^{ba})\mathcal D_a\sigma
 -\tfrac i2\bar\psi_a\mathcal D^a\psi
@@ -1614,6 +1770,8 @@ explicit g. No curvature is evaluated using ungauged chi or T.
 +\tfrac12\bar\phi_a\gamma^a\psi+2f_a{}^a\sigma.
 \tag{GC16}
 ```
+
+<a id="eq-gc17"></a>
 
 ```math
 \begin{aligned}
@@ -1633,6 +1791,8 @@ explicit g. No curvature is evaluated using ungauged chi or T.
 \end{aligned}\tag{GC17}
 ```
 
+<a id="eq-gc18"></a>
+
 ```math
 \begin{aligned}
 \omega_\mu{}^{ab}={}&2e^{\nu[a}\partial_{[\mu}e_{\nu]}{}^{b]}
@@ -1648,6 +1808,8 @@ explicit g. No curvature is evaluated using ungauged chi or T.
 \end{aligned}\tag{GC18}
 ```
 
+<a id="eq-gc19"></a>
+
 ```math
 \begin{aligned}
 V_{\mu\nu}{}^{ij}&=2\partial_{[\mu}V_{\nu]}{}^{ij}
@@ -1658,6 +1820,8 @@ V_{\mu\nu}{}^{ij}&=2\partial_{[\mu}V_{\nu]}{}^{ij}
 -i\bar\psi_{[\mu}^{(i}\gamma\!\cdot\!T\psi_{\nu]}^{j)}.
 \end{aligned}\tag{GC19}
 ```
+
+<a id="eq-gc20"></a>
 
 ```math
 \begin{aligned}
@@ -1675,6 +1839,8 @@ f_\mu{}^a&=-\tfrac16\mathcal R_\mu{}^a+\tfrac1{48}e_\mu{}^a\mathcal R,\\
 \widehat C_{abcd}=e_a{}^\mu e_b{}^\nu\widehat R_{\mu\nu cd}(M).
 \end{aligned}\tag{GC20}
 ```
+
+<a id="eq-gc21"></a>
 
 ```math
 \mathcal D_\mu\Phi=\partial_\mu\Phi
@@ -1694,6 +1860,8 @@ It cannot be replaced by a bosonic second derivative.
 For the gravitino curvature, the full first derivative appearing in the
 final result is explicitly the bosonic derivative (weight 3/2, both lower
 Lorentz indices and the SU(2) doublet connection) plus these terms:
+
+<a id="eq-gc22"></a>
 
 ```math
 \begin{aligned}
@@ -1720,6 +1888,8 @@ reversed relative to R05. There is no K term for this primary curvature.
 For example, the derivative of the two explicit compensator terms in
 GC08 is not zero and contains five contributions:
 
+<a id="eq-gc23"></a>
+
 ```math
 \begin{aligned}
 \mathcal D_\mu\left(-\frac g{16\sigma^3}L_c^{ij}\psi_j
@@ -1735,6 +1905,8 @@ GC08 is not zero and contains five contributions:
 Here $`\mathcal D_\mu\sigma^{-n}=-n\sigma^{-n-1}\mathcal D_\mu\sigma`$;
 there is no Grassmann minus from the even derivative. The required
 compensator derivatives are
+
+<a id="eq-gc24"></a>
 
 ```math
 \begin{aligned}
@@ -1843,6 +2015,8 @@ M_{\alpha\beta}=\tfrac12(\Sigma^{ab})_{\alpha\beta}M_{ab},\qquad
 ```
 
 **Derived source repair (2026-09-25).** The preceding display preserves literal C24 (A.1l). Its last two K coefficients fail the SDD super-Jacobi identity. With all other locked C24 relations unchanged, the identity requires
+
+<a id="eq-g-c24-a1l-repair"></a>
 
 ```math
 [S_{\beta i},\nabla_a]_{\rm consistent}=i(\Gamma_a)_\beta{}^\alpha\nabla_{\alpha i}-\frac14W_a{}^b(\Gamma_b)_\beta{}^\alpha S_{\alpha i}+\frac{i}{8}(\Gamma_a\Gamma^b)_\beta{}^\gamma X_{\gamma i}K_b-\frac{i}{4}W_{ab\beta i}K^b.
@@ -2119,6 +2293,8 @@ P_6^{ij}={}&\frac{3i}{32}\lambda^{\alpha i}\lambda_\alpha^j\lambda^{\beta k}\lam
 
 This is the full primary (including quartic and sextic fermions); it is not the fully expanded action. A useful transcription fingerprint is the term count by power: `(2,7,12,18,14,3,2)`, totaling 58 summands before any identities or integrations by parts. Gold 2025's shorter primary does not replace it for full fermionic work.
 
+<a id="log-descendants-density"></a>
+
 ## LOG descendants and the full BF density
 
 Source [S23 (3.26a–c), PDF22 / printed21]:
@@ -2189,6 +2365,8 @@ W_{c\hat a}W_{\hat b d}:=W_{c[a}W_{b]d}
 
 The source projections (1.2a–b), and the immediately following curvature identification, are
 
+<a id="eq-c24-supp-1.2"></a>
+
 ```math
 \chi_\alpha^i=\frac{3i}{32}X_\alpha^i|,
 \qquad D=-\frac3{128}Y|,
@@ -2203,6 +2381,8 @@ The last relation corresponds to `R(J)_{ab}^{ij}` in the superspace notation. So
 The following uses the **Bergshoeff et al. column**. C24 also provides other convention systems; mixing a de Wit entry into this column is not permitted. Source: Tables4–5, PDF91 / printed90; Table6, PDF92 / printed91. The paragraph immediately before Table4 (PDF90 / printed89) explicitly explains the field-dependent S/K shifts and cancellation in the fully covariant vector derivative.
 
 ### Algebra and Weyl multiplet
+
+<a id="eq-c24-table4-fields"></a>
 
 ```math
 \begin{gathered}
@@ -2223,6 +2403,8 @@ w_G^{ab}=\tfrac{16}{3}T_B^{ab},\qquad\chi_G^i=\chi_B^i,\qquad D_G=D_B.
 
 The corresponding curvatures satisfy
 
+<a id="eq-c24-table4-curvatures"></a>
+
 ```math
 \begin{aligned}
 R_G(Q)_{ab}{}^i&=\tfrac12R_B(Q)_{ab}{}^i,\\
@@ -2241,6 +2423,8 @@ The minus in `R(M)` is a frame-convention map. It does not license flipping a pr
 
 A Gold `delta_Q(xi_G)+delta_S(eta_G)+delta_K(Lambda_G)` becomes a Bergshoeff transformation with
 
+<a id="eq-c24-table5"></a>
+
 ```math
 \epsilon_B^i=2\xi_G^i,\qquad
 \eta_B^{\prime i}=-2i\eta_G^i+\tfrac23T_{ab}^B\gamma_B^{ab}\xi_G^i,\qquad
@@ -2251,6 +2435,8 @@ A Gold `delta_Q(xi_G)+delta_S(eta_G)+delta_K(Lambda_G)` becomes a Bergshoeff tra
 Therefore the conversion of a Q rule includes induced S and K rules. Converting only the gamma matrices, the fields, or `epsilon=2xi` does not convert a complete transformation. The source states that these shifts cancel the corresponding gravitino terms in the S/K connections, leaving the same fully covariant vector derivative after generator-normalization conversion. This statement concerns the **whole derivative**, not a termwise equality of the named connections.
 
 ### Vector multiplet [C24 Table6]
+
+<a id="eq-c24-table6"></a>
 
 ```math
 W_G=\sigma_B,\qquad\lambda_G^i=-\psi_B^i,\qquad X_G^{ij}=2Y_B^{ij}.
@@ -2345,6 +2531,8 @@ print('PASS: 58 primary weights; 2x25 Clifford checks; 25 bivectors; 2 inverses'
 
 G25 (7), (25), (27), PDF6,14; OP (4.1)–(4.2), PDF13:
 
+<a id="eq-log-g01"></a>
+
 ```math
 \sigma=1,\quad b_\mu=0,\quad\psi^i=0,\qquad
 L_c^{ij}=\frac{\delta^{ij}}{\sqrt2}L,\qquad
@@ -2364,6 +2552,8 @@ $`E_c=0`$, $`V'=0`$ or $`\varphi_c=0`$ as part of this construction.
 This is a local algebraic consequence of V01/W01 and GG03–GG05, not a quotation
 of truncated OP (4.3). On LOG-G01, $`\mathcal D_\mu\sigma=0`$ but
 
+<a id="eq-log-g02a"></a>
+
 ```math
 \mathcal D_\mu\psi^i\big|_{\rm gauge}
 =\frac14\gamma\!\cdot\!\widehat G\,\psi_\mu^i
@@ -2375,6 +2565,8 @@ of truncated OP (4.3). On LOG-G01, $`\mathcal D_\mu\sigma=0`$ but
 The first compensating parameter follows by setting the full defining-vector
 spinor variation to zero, without setting its covariant derivative to zero:
 
+<a id="eq-log-g02b"></a>
+
 ```math
 0=\delta\psi^i\big|_{\rm gauge}
 =-\frac14\gamma\!\cdot\!\widehat G\epsilon^i
@@ -2382,6 +2574,8 @@ spinor variation to zero, without setting its covariant derivative to zero:
 \qquad Y^{ij}\big|_{\rm gauge}=-\frac g2L_c^{ij},
 \tag{LOG-G02b}
 ```
+<a id="eq-log-g02c"></a>
+
 ```math
 \eta^i=\left(\frac14\gamma\!\cdot\!\widehat G-\gamma\!\cdot\!T\right)\epsilon^i
 -\frac g2L_c^{ij}\epsilon_j.
@@ -2390,6 +2584,8 @@ spinor variation to zero, without setting its covariant derivative to zero:
 
 $`\delta\sigma=\Lambda_D\sigma+i\bar\epsilon\psi/2=0`$ fixes
 $`\Lambda_D=0`$ on this gauge. Consequently the $`b_\mu`$ equation is
+
+<a id="eq-log-g02d"></a>
 
 ```math
 0=\frac i2\bar\epsilon\phi_\mu-2\bar\epsilon\gamma_\mu\chi
@@ -2402,6 +2598,8 @@ $`\Lambda_D=0`$ on this gauge. Consequently the $`b_\mu`$ equation is
 For the compensator orientation set $`n^{ij}=\delta^{ij}/\sqrt2`$,
 $`n_{ij}n^{ij}=1`$. The exact defining equation for the broken R-symmetry
 compensators is
+
+<a id="eq-log-g02e"></a>
 
 ```math
 0=(\delta^{(i}_k\delta^{j)}_l-n^{ij}n_{kl})
@@ -2418,6 +2616,8 @@ closure is still a construction/verification task; it is not certified here.
 ### LOG-G03 — Couplings, weights and the action convention
 
 The definition for this branch is
+
+<a id="eq-log-g03"></a>
 
 ```math
 S=\frac1{2\kappa_5^2}\int d^5x\,e\,
@@ -2449,6 +2649,8 @@ they must not be interchanged inside a pre-gauge formula.
 
 G25 notation immediately below (8), PDF7; CO (5.5)–(5.8), PDF17:
 
+<a id="eq-log-g04"></a>
+
 ```math
 \begin{gathered}
 G=dC,\qquad H=dB+\tfrac12C\wedge G+\tfrac g2E_c,\qquad
@@ -2473,6 +2675,8 @@ $`L`$ in LOG-G01, since $`\delta^{ij}\delta_{ij}=2`$.
 
 G25 (2), PDF5, and notation following (8), PDF7:
 
+<a id="eq-log-g05"></a>
+
 ```math
 \nabla_a=e_a{}^\mu(\partial_\mu-\omega_\mu{}^{bc}M_{bc}
 -b_\mu\mathbb D-V_\mu^{ij}U_{ij}),\qquad
@@ -2493,6 +2697,8 @@ Source: G25 PDF4–5. These are the **bosonic restriction** of the map; no
 omitted fermions are set to zero inside the full action. GG03–GG05 supply the
 scoped full project realization to be transported through the Gold bridge.
 
+<a id="eq-log-b01"></a>
+
 ```math
 \begin{aligned}
 Y^{ij}_{\rm bos}&=-\frac g{2\sigma}L_c^{ij},\\
@@ -2512,6 +2718,8 @@ $`f_a{}^a=-R/16`$. Keep the full superconformal box in the fermionic realization
 ### LOG-B02 — Defining vector, G25 (4)
 
 G25 PDF5–6 supplies the fourth slot including its explicit fermions:
+
+<a id="eq-log-b02"></a>
 
 ```math
 (\rho,A_\mu,\lambda^i,Y^{ij})=

@@ -15,42 +15,44 @@ manuscript files are not runtime dependencies.
 
 ## All repository citations
 
-Evidence identifiers link to the calculation, command guide and saved
-record in the next table. Each calculation states its mathematical scope.
+The derivation column enters the relevant step in the same model/background
+chapters used on the front page. Evidence letters are secondary pointers to
+commands and saved records; they are not a separate reading sequence.
+Each calculation states its mathematical scope.
 
 | Citation | Paper statement / locator | Repository derivation | Evidence |
 |---|---|---|---|
 | 1 | Section 1: complete actions, AdS5 Hessians and spectra | [Action-to-spectrum map](source_map.md) | [C](#c), sector records below |
 | 2 | Section 2 (`sec:theory`): nonlinear bosons through two fermions | [Component action](../common/details/component_action.md), [fermion order](../common/fermion_order.md) | [C](#c) |
-| 3 | Equation (2.16), `eq:general`: complete general action | [Action basis](../common/generic_action.md), [four blocks](../generic_combination/action.md) | [C](#c) |
-| 4 | Section 3.1.2: fermionic quadratic action from two-fermion terms | [Component-to-Hessian correspondence](fermionic_input_correspondence.md) | [C](#c), sector records below |
-| 5 | Equations (3.20)–(3.22), `eq:R2vec2`, `eq:R2vec3`, `eq:R2MV` | [R² vector reduction](../r2/ads5/details/kinetic_norms.md) | [R](#r) |
-| 6 | Equation (3.24), `eq:R2fermop`: R² fermionic gauge-invariant action | [Fermionic reduction](../r2/ads5/details/fermionic_operator_reduction.md) | [R](#r) |
-| 7 | Table 3 (`tab:R2`): all kinetic coefficients | [R² norms](../r2/ads5/details/kinetic_norms.md), [spectrum](../r2/ads5/spectrum.md) | [R](#r) |
-| 8 | Section 3.2.3, Table 4: fermionic norm signs, including A<0 | [R² norms](../r2/ads5/details/kinetic_norms.md) | [R](#r) |
-| 9 | Section 3.2.3: tau=3/2 degenerate action and zero-source multiplet | [Critical action](../r2/ads5/details/critical_branches.md) | [R](#r) |
-| 10 | Section 3.2.3: tau=2 vector/spinor Jordan pairs and independent BF scalars | [Undivided endpoint analysis](../r2/ads5/details/critical_branches.md) | [R](#r) |
-| 11 | Equation (3.29), `eq:Wquad`: vanishing background covariants | [Weyl quadratic action](../weyl2/ads5/quadratic_action.md) | [W](#w) |
-| 12 | Equation (3.42), `eq:WV`: full two-form equation removes a spurious root | [Weyl constraints](../weyl2/ads5/details/gauge_constraints.md) | [W](#w) |
-| 13 | Section 3.3.1: W± vector kinetic coefficients | [Weyl norms](../weyl2/ads5/details/kinetic_norms.md) | [W](#w) |
-| 14 | Section 3.3.2: gauge-invariant Q and X; fermionic action | [Weyl quadratic action](../weyl2/ads5/quadratic_action.md) | [W](#w) |
-| 15 | Equation (3.47), `eq:Wgravitino`: spin-3/2 and spin-1/2 separation | [Weyl coupled constraints](../weyl2/ads5/details/gauge_constraints.md) | [W](#w) |
-| 16 | Section 3.3.2: gravitino and spinor kinetic coefficients | [Norm pullback and reality convention](../weyl2/ads5/details/kinetic_norms.md) | [W](#w) |
-| 17 | Section 3.3.3: longitudinal/helicity norm factors and sign counts | [Weyl kinetic norms](../weyl2/ads5/details/kinetic_norms.md) | [W](#w) |
-| 18 | Section 3.3.3: alpha g²=6 repeated quadratic factors | [Weyl critical branches](../weyl2/ads5/details/critical_branches.md) | [W](#w) |
-| 19 | Section 3.3.3: alpha g²=-2 logarithmic gravitino and vector Jordan block | [Weyl critical branches](../weyl2/ads5/details/critical_branches.md) | [W](#w) |
-| 20 | Equation (3.52), `eq:GBresult`: complete ungauge-fixed fermionic calculation | [GB fermionic reduction](../gauss_bonnet/ads5/details/fermionic_reduction.md), [normalization](../gauss_bonnet/ads5/action_inputs.md) | [G](#g) |
-| 21 | Equations (3.57), (3.59), `eq:LOGundivided`, `eq:LOGmap`: direct fermionic action | [LOG quadratic action](../log/ads5/quadratic_action.md) | [W](#w) |
-| 22 | Section 3.5: third-order LOG fermion operators and roots | [LOG physical operators](../log/ads5/details/physical_operators.md) | [W](#w) |
-| 23 | Equations (3.63)–(3.64), `eq:acgen`, `eq:uvgen`: all three couplings | [Central charges and massless vectors](../generic_combination/ads5/central_charges_and_massless_vectors.md) | [M](#m) |
-| 24 | Section 4.2, equation (4.9), `eq:Kform`: bosonic matrices, polynomials and norms | [Product spectrum](../gauss_bonnet/product_backgrounds/supersymmetric_ads3_sigma2/README.md) | [B](#b), [P](#p) |
+| 3 | Equation (2.16), `eq:general`: complete general action | [Action basis](../common/generic_action.md#definition-and-action-through-two-fermions), [four blocks](../generic_combination/action.md) | [C](#c) |
+| 4 | Section 3.1.2: fermionic quadratic action from two-fermion terms | [Component-to-Hessian correspondence](fermionic_input_correspondence.md#component-to-hessian-correspondence) | [C](#c), sector records below |
+| 5 | Equations (3.20)–(3.22), `eq:R2vec2`, `eq:R2vec3`, `eq:R2MV` | [R² vector reduction](../r2/ads5/details/kinetic_norms.md#formvector-norms) | [R](#r) |
+| 6 | Equation (3.24), `eq:R2fermop`: R² fermionic gauge-invariant action | [Fermionic reduction](../r2/ads5/details/fermionic_operator_reduction.md#from-the-component-density-to-the-hessian) | [R](#r) |
+| 7 | Table 3 (`tab:R2`): all kinetic coefficients | [R² norms](../r2/ads5/details/kinetic_norms.md#combined-norm-table), [spectrum](../r2/ads5/spectrum.md) | [R](#r) |
+| 8 | Section 3.2.3, Table 4: fermionic norm signs, including A<0 | [R² norms](../r2/ads5/details/kinetic_norms.md#fermionic-norms) | [R](#r) |
+| 9 | Section 3.2.3: tau=3/2 degenerate action and zero-source multiplet | [Critical action](../r2/ads5/details/critical_branches.md#tau-three-halves) | [R](#r) |
+| 10 | Section 3.2.3: tau=2 vector/spinor Jordan pairs and independent BF scalars | [Undivided endpoint analysis](../r2/ads5/details/critical_branches.md#tau-2-endpoint) | [R](#r) |
+| 11 | Equation (3.29), `eq:Wquad`: vanishing background covariants | [Weyl quadratic action](../weyl2/ads5/quadratic_action.md#forms-and-dependent-bosonic-objects) | [W](#w) |
+| 12 | Equation (3.42), `eq:WV`: full two-form equation removes a spurious root | [Weyl constraints](../weyl2/ads5/details/gauge_constraints.md#coupled-analysis-of-the-formvector-sector) | [W](#w) |
+| 13 | Section 3.3.1: W± vector kinetic coefficients | [Weyl norms](../weyl2/ads5/details/kinetic_norms.md#bosonic-coefficients) | [W](#w) |
+| 14 | Section 3.3.2: gauge-invariant Q and X; fermionic action | [Weyl quadratic action](../weyl2/ads5/quadratic_action.md#dependent-fermionic-objects-and-connections) | [W](#w) |
+| 15 | Equation (3.47), `eq:Wgravitino`: spin-3/2 and spin-1/2 separation | [Weyl coupled constraints](../weyl2/ads5/details/gauge_constraints.md#fermionic-constraints-and-dynamical-modes) | [W](#w) |
+| 16 | Section 3.3.2: gravitino and spinor kinetic coefficients | [Norm pullback and reality convention](../weyl2/ads5/details/kinetic_norms.md#fermionic-coefficients) | [W](#w) |
+| 17 | Section 3.3.3: longitudinal/helicity norm factors and sign counts | [Weyl kinetic norms](../weyl2/ads5/details/kinetic_norms.md#longitudinal-norms-and-counting-negative-directions) | [W](#w) |
+| 18 | Section 3.3.3: alpha g²=6 repeated quadratic factors | [Weyl critical branches](../weyl2/ads5/details/critical_branches.md#alpha-six) | [W](#w) |
+| 19 | Section 3.3.3: alpha g²=-2 logarithmic gravitino and vector Jordan block | [Weyl critical branches](../weyl2/ads5/details/critical_branches.md#alpha-minus-two) | [W](#w) |
+| 20 | Equation (3.52), `eq:GBresult`: complete ungauge-fixed fermionic calculation | [GB fermionic reduction](../gauss_bonnet/ads5/details/fermionic_reduction.md#f4-explicit-component-reduction-and-its-domain), [normalization](../gauss_bonnet/ads5/action_inputs.md) | [G](#g) |
+| 21 | Equations (3.57), (3.59), `eq:LOGundivided`, `eq:LOGmap`: direct fermionic action | [LOG quadratic action](../log/ads5/quadratic_action.md#fermionic-quadratic-density) | [W](#w) |
+| 22 | Section 3.5: third-order LOG fermion operators and roots | [LOG physical operators](../log/ads5/details/physical_operators.md#gravitino-and-spinor-mixing) | [W](#w) |
+| 23 | Equations (3.63)–(3.64), `eq:acgen`, `eq:uvgen`: all three couplings | [Central charges and massless vectors](../generic_combination/ads5/central_charges_and_massless_vectors.md#central-charges) | [M](#m) |
+| 24 | Section 4.2, equation (4.9), `eq:Kform`: bosonic matrices, polynomials and norms | [Matrices and divisor certificate](../gauss_bonnet/product_backgrounds/supersymmetric_ads3_sigma2/quadratic_actions.md#exact-divisor-certificate), [norms](../gauss_bonnet/product_backgrounds/supersymmetric_ads3_sigma2/norms_and_multiplets.md) | [B](#b), [P](#p) |
 | 25 | Section 4.6: full product fermionic action and supercovariant derivatives | [Coupled fermionic action](../gauss_bonnet/product_backgrounds/supersymmetric_ads3_sigma2/fermionic_quadratic_action.md), [inputs](../gauss_bonnet/product_backgrounds/supersymmetric_ads3_sigma2/fermionic_action_inputs.md) | [F](#f) |
-| 26 | Section 4.6, Table 12 (`tab:GBferm`): fermionic operators, roots and matching | [Fermionic spectrum](../gauss_bonnet/product_backgrounds/supersymmetric_ads3_sigma2/fermionic_spectrum.md) | [S](#s) |
+| 26 | Section 4.6, Table 12 (`tab:GBferm`): fermionic operators, roots and matching | [Fermionic spectrum](../gauss_bonnet/product_backgrounds/supersymmetric_ads3_sigma2/fermionic_spectrum.md#records-and-scope-of-the-conclusion) | [S](#s) |
 | 27 | Section 5: finite couplings, retained fields and vacuum | [Scope and vacuum](paper_scope_and_provenance.md), [action map](source_map.md) | [V](#v), sector records |
 | 28 | Acknowledgments: contents, provenance and quoted checks | [Provenance statement](paper_scope_and_provenance.md#item-28-calculation-support), this index | [A](#a), other records here |
 | 29 | Appendix A: gravitino contorsion | [Connection conventions](paper_scope_and_provenance.md#item-29-the-connection-retained-in-the-component-action) | [V](#v) |
-| 30 | Appendix B: fermionic composites and current | [Composite-vector correspondence](../common/details/composite_vector_paper_correspondence.md) | [D](#d) |
-| 31 | Equations (B.3)–(B.5), `eq:compl`–`eq:compF`: corrected map in fermionic actions | [Composite map](../common/details/composite_vector_paper_correspondence.md), [input correspondence](fermionic_input_correspondence.md) | [D](#d) |
+| 30 | Appendix B: fermionic composites and current | [Composite-vector correspondence](../common/details/composite_vector_paper_correspondence.md#30-component-map-and-action-use) | [D](#d) |
+| 31 | Equations (B.3)–(B.5), `eq:compl`–`eq:compF`: corrected map in fermionic actions | [Composite map](../common/details/composite_vector_paper_correspondence.md#composite-field-strength), [input correspondence](fermionic_input_correspondence.md) | [D](#d) |
 
 ## Calculations and saved records
 

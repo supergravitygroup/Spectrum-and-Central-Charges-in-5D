@@ -70,6 +70,8 @@ For the kinetic matrix, $`\det\mathsf K=-8A\lambda/L^4\neq0`$ remains. Thus ther
 
 <a id="134-lambda_r2g214-original-critical-action"></a>
 
+<a id="tau-three-halves"></a>
+
 ### $`\lambda_{R^2}g^2=1/4`$: original critical action
 
 ```math

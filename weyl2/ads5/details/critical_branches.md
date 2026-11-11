@@ -73,6 +73,8 @@ $`2\Box-5g^2`$ or $`\mathord{\not{\nabla}}-5m`$ in trace/gamma-trace projections
 
 <a id="152-alpha-g2-2-merger-with-the-massless-root"></a>
 
+<a id="alpha-minus-two"></a>
+
 ### $`\alpha g^2=-2`$: merger with the massless root
 
 ```math
@@ -196,6 +198,8 @@ Counting check:
 ```
 
 <a id="154-alpha-g26-a-different-critical-structure"></a>
+
+<a id="alpha-six"></a>
 
 ### $`\alpha g^2=6`$: a different critical structure
 

@@ -3,7 +3,6 @@ import argparse
 from concurrent.futures import ProcessPoolExecutor
 import hashlib
 import json
-import math
 import platform
 import time
 import numpy as np
@@ -14,6 +13,7 @@ from backend import HERE,ROOT,unpack,total,prediction,mode,lr_polynomial,gauge_a
 from polynomial import value,scaled_error,extract,distance_multiset,action_rank_certificate
 from matching import match,negative_controls
 from test_polynomial import run as polynomial_regressions
+from certificates import assert_certificate_close, validate_root_certificates
 
 OUT=HERE/"outputs"
 
@@ -23,46 +23,15 @@ def read(path):
 def roots_list(records):
     return [complex(*x["root"]) for x in records for _ in range(x["multiplicity"])]
 
-def assert_certificate_close(actual, expected, path="certificate"):
-    """Compare numerical diagnostics without weakening the rank acceptance tests.
 
-    Float diagnostics may differ by 1e-8 relatively, with a 1e-12 absolute
-    floor for round-off near zero. Structure, discrete ranks, multiplicities,
-    nullities, booleans and nonnumeric values must agree exactly. This only
-    compares records; action_rank_certificate and fresh_sector retain their
-    separate hard residual and singular-value-gap thresholds.
-    """
-    if isinstance(expected, float):
-        # NumPy calculations may return a floating scalar before JSON encoding
-        # converts it to a Python float. Integral and boolean values are not
-        # floating diagnostics, even when their numerical values coincide.
-        if not isinstance(actual, (float, np.floating)):
-            raise AssertionError(("certificate type changed", path,
-                                  type(actual).__name__, type(expected).__name__))
-        if (not math.isfinite(actual) or not math.isfinite(expected)
-                or not math.isclose(actual, expected, rel_tol=1e-8, abs_tol=1e-12)):
-            raise AssertionError(("certificate float changed", path, actual, expected))
-        return
-    if type(actual) is not type(expected):
-        raise AssertionError(("certificate type changed", path,
-                              type(actual).__name__, type(expected).__name__))
-    if isinstance(expected, dict):
-        if actual.keys() != expected.keys():
-            raise AssertionError(("certificate keys changed", path))
-        for key in expected:
-            assert_certificate_close(actual[key], expected[key], f"{path}.{key}")
-    elif isinstance(expected, list):
-        if len(actual) != len(expected):
-            raise AssertionError(("certificate length changed", path,
-                                  len(actual), len(expected)))
-        for index, (value, reference) in enumerate(zip(actual, expected)):
-            assert_certificate_close(value, reference, f"{path}[{index}]")
-    elif actual != expected:
-        raise AssertionError(("certificate value changed", path, actual, expected))
+def load_sector(path):
+    d=read(path);C=np.asarray([unpack(x) for x in d["coefficients"]])
+    validate_root_certificates(d, path.name, C.shape[1])
+    return d,C
 
 
 def fresh_sector(path):
-    d=read(path);C=np.asarray([unpack(x) for x in d["coefficients"]])
+    d,C=load_sector(path)
     k=float(sp.Rational(d["k"]))
     scale=max(1.,min(2000.,1/max(abs(k),1e-3))) if k else 1.
     fresh,info=extract(C,seed=2030,projections=4,scale=max(1.,scale*.73))
@@ -90,6 +59,7 @@ def fresh_sector(path):
         recalculated=action_rank_certificate(C,complex(*root["root"]),expected,root["multiplicity"],
                                             check["singular_values"],check["action_interpolant_disagreement"])
         assert_certificate_close(recalculated, check, f"{path.name}.root[{root['root']}]")
+        check=recalculated
         if check["resolved_extra_nullity"]!=root["multiplicity"]:
             raise AssertionError(("direct action multiplicity",path.name))
         if check["coefficient_scaled_disagreement"]>2e-9:
@@ -190,6 +160,9 @@ def main():
     print("PASS exact constant-T2 rank/multiplicity checks and direct small-k comparison",flush=True)
     sector_paths=[p for p in sorted(OUT.glob("*.json")) if "coefficients" in read(p)]
     if len(sector_paths)!=144:raise AssertionError(("expected 144 sector records",len(sector_paths)))
+    for path in sector_paths:
+        load_sector(path)
+    print("PASS complete per-root certificate evidence",flush=True)
     fresh=[]
     if not args.stored_only:
         with ProcessPoolExecutor(max_workers=args.workers) as pool:
